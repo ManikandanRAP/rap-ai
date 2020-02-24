@@ -13,26 +13,28 @@ import { DrawerProvider } from 'common/src/contexts/DrawerContext';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import SEO from '../components/seo';
 
-import BannerServicessSection from '../containers/Hosting/BannerService';
+import BannerSolutionsSection from '../containers/Hosting/BannerSolution';
 
 import InfoSolutionSection from '../containers/Hosting/InfoSolutions';
 import Ctasection from '../containers/Hosting/Ctasection';
 
 
-const CloudInfrastructurePage = () => {
+
+const UniversalCommercePage = () => {
     return (
         <ThemeProvider theme={hostingTheme}>
             <ParallaxProvider>
             <SEO title="Cnetric Global Inc" />
                 <ResetCSS />
                 <GlobalStyle />
-                <ContentWrapper className="Cloud_infrastructure_page">
+                <ContentWrapper className="B2b_page">
                     <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
                         <DrawerProvider>
                             <Navbar />
                         </DrawerProvider>
                     </Sticky>
-                    <BannerServicessSection />
+                    <BannerSolutionsSection />
+                    <InfoSolutionSection />
                     <Ctasection />
                     <Footer />
                 </ContentWrapper>
@@ -44,4 +46,4 @@ const CloudInfrastructurePage = () => {
     );
 }
 
-export default CloudInfrastructurePage
+export default UniversalCommercePage

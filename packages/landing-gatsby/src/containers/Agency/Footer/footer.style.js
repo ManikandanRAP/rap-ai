@@ -3,7 +3,7 @@ import { themeGet } from 'styled-system';
 import FooterIamge from 'common/src/assets/image/agency/footer-bg.png';
 
 const FooterWrapper = styled.section`
-  padding: 80px 0;
+  padding: 40px 0;
   margin-top: 40px;
   background-image: url(${FooterIamge});
   background-repeat: no-repeat;

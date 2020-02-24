@@ -99,7 +99,7 @@ BannerSolutionsSection.defaultProps = {
     width: ['100%', '100%', '90%', '100%', '55%'],
   },
   title: {
-    fontSize: ['26px', '32px', '42px', '46px', '55px'],
+    fontSize: ['26px', '32px', '42px', '46px', '45px'],
     fontWeight: '400',
     color: '#0f2137',
     letterSpacing: '-0.025em',

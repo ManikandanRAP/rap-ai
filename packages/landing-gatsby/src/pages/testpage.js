@@ -32,6 +32,7 @@ import SEO from '../components/seo';
 import Fullslider1 from '../containers/Hosting/Fullslider1';
 import GlideSlider1 from "../containers/Hosting/GlideSlider1/index";
 
+// var FontAwesome = require('react-fontawesome');
 
 export default () => {
   return (
@@ -50,12 +51,35 @@ export default () => {
 
           <Fullslider1 />
           <InfoHomeSection />
+          <FeatureSection />
+          {/* <ServicesSection2 /> */}
+          {/* <BannerSection />
+          
+          
+          <PricingSection />
+          <DomainSection />
+          <ServicesSection />
+          <PaymentSection /> */}
+          {/* <TestimonialSection /> */}
           <GlideSlider1 />
+          {/* <GlideSlider2 /> */}
+          {/* <TestimonialSection2 /> */}
           <ContactMap />
-         <Footer />
+          {/* <GuaranteeSection />
+          <FaqSection />
+          <ContactSection /> */}
+          <Footer />
         </ContentWrapper>
         <div id="footerWrapper" className="copyright">
           <p style={{textAlign: 'center'}}>Copyright 2020 @Cnetric Global. All Rights Reserved.</p>
+          <i class="fa fa-facebook"></i>
+          {/* <FontAwesome
+            className="super-crazy-colors"
+            name="rocket"
+            size="2x"
+            spin
+            style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+          /> */}
         </div>
       </ParallaxProvider>
     </ThemeProvider>

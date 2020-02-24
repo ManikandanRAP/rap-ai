@@ -1,11 +1,17 @@
 #info_home {
-    padding-top: 55px;
+    padding-top: 30px;
 }
 #info_home .Home_Image_container {
     /* background-color: #ececec; */
-    padding: 45px;
     background-color: transparent;
-    padding: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#info_home .Home_Image_container img {
+    /* background-color: #ececec; */
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
 }
 
 @media only screen and (min-width: 992px) {

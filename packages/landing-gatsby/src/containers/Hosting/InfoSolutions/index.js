@@ -489,16 +489,16 @@ InfoSolutionSection.defaultProps = {
     mb: '-60px',
   },
   title: {
-    fontSize: ['30px', '38px', '38px', '48px', '48px'],
+    fontSize: ['22px', '24px', '24px', '28px', '28px'],
     fontWeight: '300',
     color: '#0f2137',
     letterSpacing: '-0.025em',
     mb: '20px',
   },
   description: {
-    fontSize: ['15px', '16px', '16px', '16px', '16px'],
+    fontSize: ['14px', '14px', '14px', '14px', '14px'],
     color: '#343d48cc',
-    lineHeight: '1.75',
+    lineHeight: '1.5',
     mb: '33px',
   },
   button: {

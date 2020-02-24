@@ -37,16 +37,6 @@ const InfoHomeSection = ({
   return (
     <Box {...sectionWrapper} id="info_home">
 
-      {/* <Box {...secTitleWrapper}>
-        <Fade bottom cascade>
-          <Text {...secText} content="Lorem" />
-          <Heading
-            {...secHeading}
-            content="Lorem ipsum"
-          />
-        </Fade>
-      </Box> */}
-
       <Container>
         <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
           <Box {...col} {...textArea}>
@@ -74,50 +64,7 @@ const InfoHomeSection = ({
               </Box> */}
             </Fade>
           </Box>
-          <Box {...col} {...textArea} className="Home_Image_container">
-            <Fade bottom cascade>
-              <Image src={drcimg} alt="Info Image One" />
-              {/* <h4>Irvine, California</h4>
-              <Text
-                {...description}
-                content="Based out of Irvine, California, Cnetric Global Inc., has 15 offices in as many countries. Our global presence and commitment towards localization, ensures that clients get consistent, market appropriate solutions, in the shortest turnaround time. "
-              /> */}
-            </Fade>
-          </Box>
-        </Box>
-      </Container>
-      {/* <Box {...secTitleWrapper}>
-        <Fade bottom cascade>
-          <Text {...secText} content="Lorem" />
-          <Heading
-            {...secHeading}
-            content="Lorem ipsum"
-          />
-        </Fade>
-      </Box> */}
-      <Container>
-        <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
-          <Box {...col} {...textArea} className="info_order_change">
-            <Fade bottom cascade>
-              <Heading
-                {...title}
-                content="Dr. Commerce"
-              />
-              <Text
-                {...description}
-                content="A personal touch to heal your eCommerce woes"
-              />
-              <Text
-                {...description}
-                content="You want to be at the top of the eCommerce game, but maybe your platform isn’t up to speed. Count on Dr. Commerce to heal your e-commerce woes and prescribe the latest digital innovation that supercharges your eCommerce technology increasing engagement, reducing churn and uncovering hidden insights. Our personalized expertise is tailored to optimize, modernize and maximize your eCommerce ecosystem."
-              />
-              <Box>
-                <Link to="/contact">
-                  <Button {...button} title="Learn More" />
-                </Link>
-              </Box>
-            </Fade>
-          </Box>
+
           <Box {...col} {...textArea} className="Home_Image_container">
             <Fade bottom cascade>
               <Image src={drcimg} alt="Info Image One" />
@@ -131,6 +78,53 @@ const InfoHomeSection = ({
         </Box>
       </Container>
 
+      {/* <Box {...secTitleWrapper}>
+        <Fade bottom cascade>
+          <Text {...secText} content="Lorem" />
+          <Heading
+            {...secHeading}
+            content="Lorem ipsum"
+          />
+        </Fade>
+      </Box> */}
+
+      <Box className="section_background_color">
+        <Container>
+          <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <Box {...col} {...textArea} className="info_order_change">
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="Dr. Commerce"
+                />
+                <Text
+                  {...description}
+                  content="A personal touch to heal your eCommerce woes"
+                />
+                <Text
+                  {...description}
+                  content="You want to be at the top of the eCommerce game, but maybe your platform isn’t up to speed. Count on Dr. Commerce to heal your e-commerce woes and prescribe the latest digital innovation that supercharges your eCommerce technology increasing engagement, reducing churn and uncovering hidden insights. Our personalized expertise is tailored to optimize, modernize and maximize your eCommerce ecosystem."
+                />
+                <Link to="/contact">
+                  <Button {...button} title="Learn More" />
+                </Link>
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="Home_Image_container">
+              <Fade bottom cascade>
+                <Image src={drcimg} alt="Info Image One" />
+                {/* <h4>Irvine, California</h4>
+              <Text
+                {...description}
+                content="Based out of Irvine, California, Cnetric Global Inc., has 15 offices in as many countries. Our global presence and commitment towards localization, ensures that clients get consistent, market appropriate solutions, in the shortest turnaround time. "
+              /> */}
+              </Fade>
+            </Box>
+          </Box>
+        </Container>
+      </Box>
+
+
       <Container>
         <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
           <Box {...col} {...textArea} className="info_home_order">
@@ -141,17 +135,15 @@ const InfoHomeSection = ({
               />
               <Text
                 {...description}
-                content="Best of Breed Innovation and Disruption on a Single Platform"
+                content="Best of Breed Innovation and Disruption \n on a Single Platform"
               />
               <Text
                 {...description}
                 content="Rule your eCommerce empire with ease and confidence through a single platform. That’s right, a single window to your entire eCommerce ecosystem, no matter how big. No more silos that slow things down. Jump to light speed with the sophisticated power of Universal Commerce that unifies all your eCommerce operations."
               />
-              <Box style={{ marginBottom: '33px' }}>
-                <Link to="/contact">
-                  <Button {...button} title="Learn More" />
-                </Link>
-              </Box>
+              <Link to="/contact">
+                <Button {...button} title="Learn More" />
+              </Link>
             </Fade>
           </Box>
           <Box {...col} {...textArea} className="Home_Image_container">
@@ -187,8 +179,8 @@ InfoHomeSection.propTypes = {
 InfoHomeSection.defaultProps = {
   sectionWrapper: {
     as: 'section',
-    pt: ['0px', '0px', '0px', '0px', '80px'],
-    pb: ['60px', '80px', '40px', '80px', '80px'],
+    pt: ['0px', '0px', '0px', '0px', '30px'],
+    pb: ['0px', '0px', '0px', '0px', '0px'],
     id: 'info_section',
   },
   secTitleWrapper: {
@@ -244,17 +236,17 @@ InfoHomeSection.defaultProps = {
     mb: '-60px',
   },
   title: {
-    fontSize: ['30px', '38px', '38px', '48px', '48px'],
-    fontWeight: '300',
-    color: '#0f2137',
+    fontSize: ['22px', '24px', '24px', '28px', '28px'],
+    fontWeight: '400',
+    color: '#252525',
     letterSpacing: '-0.025em',
     mb: '20px',
   },
   description: {
-    fontSize: ['15px', '16px', '16px', '16px', '16px'],
+    fontSize: ['14px', '14px', '14px', '14px', '14px'],
     color: '#343d48cc',
-    lineHeight: '1.75',
-    mb: '33px',
+    lineHeight: '1.5',
+    mb: '14px',
   },
   button: {
     type: 'button',
@@ -266,6 +258,7 @@ InfoHomeSection.defaultProps = {
     pr: '22px',
     colors: 'primaryWithBg',
     height: `{5}`,
+    marginTop: '14px'
   },
 };
 

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const FaqSectionWrapper = styled.section`
-  padding: 80px 0;
+  padding: 30px 0;
   background: #fafbff;
 
   .reusecore__accordion {

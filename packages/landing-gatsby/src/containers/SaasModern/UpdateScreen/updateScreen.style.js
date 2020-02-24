@@ -8,7 +8,7 @@ const SectionWrapper = styled.section`
     rgb(29, 151, 108) 100%
   );
   @media (max-width: 990px) {
-    padding: 80px 0 0 0;
+    padding: 30px 0 0 0;
   }
   @media (max-width: 575px) {
     padding: 60px 0 0 0;

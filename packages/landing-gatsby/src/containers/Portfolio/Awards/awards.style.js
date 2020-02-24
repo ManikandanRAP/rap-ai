@@ -10,7 +10,7 @@ export const AwardSectionWrapper = styled.section`
     padding: 100px 0;
   }
   @media (max-width: 767px) {
-    padding: 80px 0;
+    padding: 30px 0;
   }
   @media (max-width: 575px) {
     padding: 60px 0;

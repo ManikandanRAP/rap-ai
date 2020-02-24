@@ -22,8 +22,8 @@ const Maindeskmenu1 = () => (
         <MainNavbarUl className="scrollspy__menu main_menu">
             <MainNavbarLi>
                 <span>Solutions <span class="desk_arrow_down">&#9660;</span></span>
-                <MainNavbarDropBox>
-                    <MainNavFlexbox className="Desktop_menu_shadow">
+                <MainNavbarDropBox className="desktop_menu_drop_effect">
+                    <MainNavFlexbox className="Desktop_menu_shadow" style={{paddingLeft: '15px'}}>
                         <MainNavbarDropUl>
                             <MainNavbarDropMainLi>Business Model</MainNavbarDropMainLi>
                             <br />
@@ -98,8 +98,8 @@ const Maindeskmenu1 = () => (
             {/* HEREGORES */}
             <MainNavbarLi>
                 <span>Services <span class="desk_arrow_down">&#9660;</span></span>
-                <MainNavbarDropBox>
-                    <MainNavFlexbox className="Desktop_menu_shadow">
+                <MainNavbarDropBox className="desktop_menu_drop_effect">
+                    <MainNavFlexbox className="Desktop_menu_shadow" style={{paddingLeft: '15px'}}>
                         <MainNavbarDropUl>
                             <MainNavbarDropMainLi>Strategy</MainNavbarDropMainLi>
                             <br />
@@ -238,7 +238,7 @@ const Maindeskmenu1 = () => (
             {/* HEREGORES */}
             <MainNavbarLi className="Menu_position_rel">
                 <span>Product <span class="desk_arrow_down">&#9660;</span></span>
-                <MainNavbarDropBox className="Menu_desktop_set">
+                <MainNavbarDropBox className="Menu_desktop_set desktop_menu_drop_effect">
                     <MainNavFlexbox className="Menu_desktop_box Desktop_menu_shadow">
                         <MainNavbarDropUl className="Desktop_Menu_stepped2">
                             <MainNavbarDropLi>
@@ -296,7 +296,7 @@ const Maindeskmenu1 = () => (
                 {/* <Link to="/about">
                     <span>About</span>
                 </Link> */}
-                <MainNavbarDropBox className="Menu_desktop_set">
+                <MainNavbarDropBox className="Menu_desktop_set desktop_menu_drop_effect">
                     <MainNavFlexbox className="Menu_desktop_box Desktop_menu_shadow">
                         <MainNavbarDropUl className="Desktop_Menu_stepped2">
                             <MainNavbarDropLi>

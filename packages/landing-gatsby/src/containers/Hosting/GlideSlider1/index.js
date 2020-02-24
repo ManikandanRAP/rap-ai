@@ -101,7 +101,7 @@ const GlideSlider1 = ({
     };
     return (
         <>
-            <GliderSlider1Wrapper>
+            <GliderSlider1Wrapper className="section_background_color">
                 <Container fullWidth noGutter>
                     <Box {...secTitleWrapper}>
                         <Text {...secText} content="Our Partners" />
@@ -182,16 +182,16 @@ GlideSlider1.propTypes = {
 };
 GlideSlider1.defaultProps = {
     secTitleWrapper: {
-        mb: ['40px', '40px', '50px', '75px'],
+        mb: ['10px', '15px', '15px', '15px'],
     },
     secText: {
         as: 'span',
         display: 'block',
         textAlign: 'center',
-        fontSize: '14px',
+        fontSize: '22px',
         letterSpacing: '0.15em',
-        fontWeight: '700',
-        color: '#eb4d4b',
+        fontWeight: '600',
+        color: '#06324e',
         mb: '10px',
     },
     secHeading: {

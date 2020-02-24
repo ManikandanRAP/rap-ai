@@ -107,7 +107,7 @@ const SectionMainWrapper = styled.div`
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 0px 94px 6px rgba(107, 83, 254, 0.1);
-    padding: 80px 0;
+    padding: 30px 0;
 
     .contactdes {
       text-align: center;

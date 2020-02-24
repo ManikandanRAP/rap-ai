@@ -69,7 +69,7 @@ export const MainNavbarDropUl = styled.ul`
             border-bottom: none;
         }
         li:hover {
-            background-color: #f9ece6;
+            background-color: #f9fbfd;
         }
     }
 `;
@@ -113,7 +113,7 @@ export const MainNavbarDropBox = styled.div`
     width: 85%;
     max-width: 1170px;
     margin: 0 auto;
-    transition: all 0.3s ease-in-out;
+    transition: top 0.4s ease-in-out;
     
     &.Desktop_Menu_sized {
         width: 60%;
@@ -138,7 +138,7 @@ export const MainNavFlexbox = styled.div`
     border-top: 2px solid #1B24C1;
 
     .featured_Menu {
-        background-color: #ececec;
+        background-color: #f9fbfd;
         margin-top: -14px;
         margin-bottom: -15px;
         align-items: center;
@@ -222,13 +222,13 @@ export const MainNavFlexbox = styled.div`
 
 export const MainNavbarLi = styled.li`
     padding: 30px 15px;
-    div {
+    .desktop_menu_drop_effect {
         opacity: 0;
         visibility: hidden;
         z-index: -999;
         top: 75px;
     }
-    &:hover div {
+    &:hover .desktop_menu_drop_effect {
         opacity: 1;
         top: 79px;
         visibility: visible;

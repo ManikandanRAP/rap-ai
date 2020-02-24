@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 const GliderSlider1Wrapper = styled.section`
-  padding: 80px 0;
+  padding: 15px 0;
+  padding-top: 30px;
   img {
       max-width: 100px;
       display: block;

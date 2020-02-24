@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
 const BlogSectionWrapper = styled.section`
-  padding: 80px 0;
+  padding: 30px 0;
   overflow: hidden;
   @media (max-width: 990px) {
     padding: 60px 0;
   }
   @media (max-width: 767px) {
-    padding: 40px 0;
+    padding: 20px 0;
   }
 
   .feature__block {

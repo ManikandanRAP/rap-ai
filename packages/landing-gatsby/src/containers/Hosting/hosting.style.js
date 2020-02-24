@@ -117,6 +117,11 @@ export const GlobalStyle = createGlobalStyle`
       box-shadow: 0px 9px 20px -5px rgba(82, 104, 219, 0.57) !important;
     }
   }
+
+  // owncss
+  .section_background_color {
+    background-color: #f9fbfd;
+  }
 `;
 
 export const ContentWrapper = styled.div`
@@ -322,6 +327,11 @@ export const ContentWrapper = styled.div`
   }
   &.automation_ai_page {
     .container.banner_container.automation_ai_banner {
+      display: block;
+    }
+  }
+  &.Cloud_infrastructure_page {
+    .container.banner_container.Cloud_infrastructure_banner {
       display: block;
     }
   }

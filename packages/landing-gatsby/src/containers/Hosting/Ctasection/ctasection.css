@@ -1,7 +1,17 @@
 .container.cta_size_container {
     background-color: #0d70b6;
-    background-image: linear-gradient(to right, #4a90e2 , #0d70b6);
+    background-image: linear-gradient(to right, #06324e , #0d70b6);
 }
+
+.container.cta_size_container button {
+    background-color: #fff;
+    color: #000;
+}
+.container.cta_size_container button:hover {
+    background-color: #73c2c2;
+    color: #fff;
+}
+
 .Cta_container {
     color: #fff;
     justify-content: center;

@@ -17,7 +17,7 @@ import BannerWrapper1, {
   DiscountLabel,
 } from './bannerservice.style';
 
-const BannerServiceSection = ({
+const BannerServicesSection = ({
   row,
   title,
   description,
@@ -31,53 +31,25 @@ const BannerServiceSection = ({
   return (
     <BannerWrapper1 id="banner_section3">
       <ParticlesComponent />
-      <Container className="banner_container B2c_banner">
+      <Container className="banner_container Cloud_infrastructure_banner">
         <Box {...row}>
           <Box {...textArea}>
             <Heading
               {...title}
-              content="B2C"
+              content="Cloud Transformation"
             />
             <Text
               {...description}
-              content="Greater Sales with Seamless, Omnichannel eCommerce"
+              content="Seamless, Connected eCommerce Drives Sales"
             />
           </Box>
         </Box>
       </Container>
-      <Container className="banner_container B2b_banner">
-        <Box {...row}>
-          <Box {...textArea}>
-            <Heading
-              {...title}
-              content="B2B"
-            />
-            <Text
-              {...description}
-              content="Greater Sales with Seamless, Omnichannel eCommerce"
-            />
-          </Box>
-        </Box>
-      </Container>
-      <Container className="banner_container automation_ai_banner">
-        <Box {...row}>
-          <Box {...textArea}>
-            <Heading
-              {...title}
-              content="AI/ML"
-            />
-            <Text
-              {...description}
-              content="Enhance Your eCommerce Ecosystem with Disruptive AI/ML"
-            />
-          </Box>
-        </Box>
-      </Container>
-    </BannerWrapper1>
+     </BannerWrapper1>
   );
 };
 
-BannerServiceSection.propTypes = {
+BannerServicesSection.propTypes = {
   row: PropTypes.object,
   col: PropTypes.object,
   title: PropTypes.object,
@@ -88,7 +60,7 @@ BannerServiceSection.propTypes = {
   discountText: PropTypes.object,
 };
 
-BannerServiceSection.defaultProps = {
+BannerServicesSection.defaultProps = {
   row: {
     flexBox: true,
     flexWrap: 'wrap',
@@ -147,4 +119,4 @@ BannerServiceSection.defaultProps = {
   },
 };
 
-export default BannerServiceSection;
+export default BannerServicesSection;

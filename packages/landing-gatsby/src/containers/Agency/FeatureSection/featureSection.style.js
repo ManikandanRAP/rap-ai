@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { themeGet } from 'styled-system';
 
 const FeatureSectionWrapper = styled.section`
-  padding: 80px 0;
+  padding: 30px 0;
   overflow: hidden;
   @media (max-width: 990px) {
     padding: 60px 0 30px 0;

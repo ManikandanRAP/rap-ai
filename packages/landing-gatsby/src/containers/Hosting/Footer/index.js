@@ -96,7 +96,7 @@ Footer.defaultProps = {
   // Footer col one style
   colOne: {
     width: [1, '35%', '35%', '23%'],
-    mt: [0, '13px'],
+    mt: [0, '0px'],
     mb: ['30px', 0],
     pl: ['15px', 0],
     pr: ['15px', '15px', 0],

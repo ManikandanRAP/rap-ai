@@ -3,9 +3,13 @@
 }
 #info_solutions .Solutions_Image_container {
     /* background-color: #ececec; */
-    padding: 45px;
     background-color: transparent;
-    padding: 45px;
+}
+#info_solutions .Solutions_Image_container img {
+    /* background-color: #ececec; */
+    padding: 15px;
+    max-width: 400px;
+    margin: 0 auto;
 }
 #info_solutions .multi_sections_container {
     display: none;

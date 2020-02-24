@@ -2,13 +2,14 @@ import styled from 'styled-components';
 import BannerBG from 'common/src/assets/image/hosting/banner-bg.jpg';
 
 const BannerWrapper3 = styled.section`
-  padding-top: 210px;
-  padding-bottom: 160px;
+  padding-top: 190px;
+  padding-bottom: 140px;
   background-image: url(${BannerBG});
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 //   min-height: 100vh;
+  max-height: 150px;
   display: flex;
   align-items: center;
   @media (max-width: 990px) {

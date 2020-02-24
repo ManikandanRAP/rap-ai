@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const SectionWrapper = styled.section`
   padding: 100px 0 40px 0;
   @media (max-width: 990px) {
-    padding: 80px 0 40px 0;
+    padding: 40px 0 40px 0;
   }
   @media (max-width: 575px) {
     padding: 60px 0 20px 0;

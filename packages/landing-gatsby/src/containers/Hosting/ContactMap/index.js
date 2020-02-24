@@ -11,7 +11,8 @@ import Container from 'common/src/components/UI/Container';
 
 // import ReportsPage from "../ContactReactMap"
 
-import "./contactmap.css"
+import "./contactmap.css";
+import { Link } from "gatsby";
 
 const ContactMap = ({
   sectionWrapper,
@@ -36,7 +37,7 @@ const ContactMap = ({
   `);
 
   return (
-    <Box {...sectionWrapper} className="Contactmap_section">
+    <Box {...sectionWrapper} className="Contactmap_section section_background_color">
       <Text className="ContactHeading1" content="Contact Us" />
       <Container className="Contactmap_container1">
         <Box {...row} className="ContactMap_container_row">
@@ -48,14 +49,14 @@ const ContactMap = ({
           <Box {...col} {...textArea} className="ContactMap_container_col2">
             <Fade bottom cascade>
               <div id="contactLocations">
-                <h3>Cnetric Global Inc.</h3>
-                <p>300 Spectrum Center Dr., Suite 400, Irvine, CA 92618</p>
-                <p>P: +1 (415) 806-2739‬</p>
-                <p>E: info@cnetric.com</p>
-                <p>(Dennis Menendez, SVP - Client Success, Americas)</p>
-
+                <p className="contact_addressBlock">Cnetric Global Inc.<br />
+                300 Spectrum Center Dr., Suite 400, Irvine, CA 92618<br />
+                P: +1 (415) 806-2739‬<br />
+                E: info@cnetric.com<br />
+                (Dennis Menendez, SVP - Client Success, Americas)
+                </p>
                 <p>We are also located at:</p>
-                <ul className="Contact_locations">
+                <ul className="Contact_locations" style={{marginBottom: '15px'}}>
                   <li>Irvine, CA, USA<br/>
                     (800) 555-1212
                   </li>
@@ -78,16 +79,10 @@ const ContactMap = ({
                     +91 98451 64517
                   </li>
                 </ul>
+                <Link to="/contact">
+                  <Button {...button} title="Contact Us" />
+                </Link>
               </div>
-              <Text
-                {...description}
-                content=""
-              />
-              <Box>
-                <a href="#1">
-                  <Button {...button} title="EXPLORE MORE" />
-                </a>
-              </Box>
             </Fade>
           </Box>
         </Box>
@@ -110,8 +105,8 @@ ContactMap.propTypes = {
 ContactMap.defaultProps = {
   sectionWrapper: {
     as: 'section',
-    pt: ['0', '0', '40px', '80px'],
-    pb: ['40px', '40px', '80px', '80px'],
+    pt: ['0', '0', '29px', '30px'],
+    pb: ['20px', '20px', '30px', '30px'],
   },
   row: {
     flexBox: true,
