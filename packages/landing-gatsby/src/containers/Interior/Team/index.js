@@ -72,7 +72,6 @@ const Team = () => {
         <Fade bottom>
           <SectionHeader>
             <Heading as="h5" content={title} />
-            <Heading content={slogan} />
           </SectionHeader>
         </Fade>
         <Fade bottom delay={30}>

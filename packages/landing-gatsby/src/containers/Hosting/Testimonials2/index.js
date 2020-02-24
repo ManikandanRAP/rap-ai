@@ -44,52 +44,53 @@ const TestimonialSection2 = ({
   //Carousel Options
   const carouselOptions2 = {
     type: 'carousel',
-    autoplay: false,
+    autoplay: 2000,
     perView: 2,
     gap: 30,
     animationDuration: 800,
+    focus: 'center',
     peek: {
-      before: 390,
-      after: 390,
+      before: 100,
+      after: 100,
     },
     breakpoints: {
       1800: {
         perView: 2,
         peek: {
-          before: 220,
-          after: 220,
+          before: 100,
+          after: 100,
         },
       },
       1400: {
         perView: 2,
         peek: {
-          before: 160,
-          after: 160,
+          before: 100,
+          after: 100,
         },
       },
       1200: {
         perView: 2,
         peek: {
-          before: 100,
-          after: 100,
+          before: 80,
+          after: 80,
         },
       },
       990: {
         perView: 2,
         peek: {
-          before: 100,
-          after: 100,
+          before: 0,
+          after: 0,
         },
       },
       800: {
-        perView: 1,
+        perView: 2,
         peek: {
-          before: 120,
-          after: 120,
+          before: 0,
+          after: 0,
         },
       },
       575: {
-        perView: 1,
+        perView: 2,
         peek: {
           before: 0,
           after: 0,

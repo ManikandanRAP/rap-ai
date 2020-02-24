@@ -24,7 +24,7 @@ const TestimonialSecWrapper2 = styled.section`
     padding-bottom: 30px;
 
     .glide__slide {
-      opacity: 0.5;
+      // opacity: 0.5;
       pointer-events: none;
       transition: 0.25s ease;
       &.glide__slide--active {

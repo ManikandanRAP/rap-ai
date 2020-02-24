@@ -23,7 +23,7 @@ const ContactSection = ({
     <Box {...sectionWrapper}>
       <Container>
         <Box {...secTitleWrapper}>
-          <Text {...secText} content="CONTACT US" />
+          <Text {...secText} content="CONTACT US"/>
           <Heading
             {...secHeading}
             content="Are you Interested to meet with us?"

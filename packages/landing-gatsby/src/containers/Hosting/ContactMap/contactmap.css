@@ -1,0 +1,44 @@
+.ContactHeading1 {
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #eb4d4b;
+    display: block;
+    font-weight: 700;
+    text-align: center;
+    -webkit-letter-spacing: 0.15em;
+    -moz-letter-spacing: 0.15em;
+    -ms-letter-spacing: 0.15em;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+#contactLocations h3 {
+    box-sizing: border-box;
+    /* margin-top: 0; */
+}
+#contactLocations ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#contactLocations li {
+    width: 46%;
+    margin: 2%;
+    padding: 15px;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.1);
+    transform: scale(1);
+    transition: all 0.5s ease;
+}
+
+#contactLocations li:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 575px) {
+    .home_page #contactLocations .Contact_locations li {
+        width: 100%;
+    }
+}

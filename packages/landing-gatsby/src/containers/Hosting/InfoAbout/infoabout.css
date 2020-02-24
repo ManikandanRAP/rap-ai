@@ -1,0 +1,13 @@
+#info_about {
+    padding-top: 55px;
+}
+#info_about .About_Image_container {
+    background-color: #ececec;
+    padding: 45px;
+}
+
+@media only screen and (max-width: 575px) {
+    #info_about .About_Image_container {
+        padding: 15px;
+    }   
+}

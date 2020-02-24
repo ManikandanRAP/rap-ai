@@ -135,7 +135,7 @@ export const ContentWrapper = styled.div`
     left: 0;
     width: 100%;
     transition: 0.35s ease-in-out;
-    padding: 15px 0;
+    padding: 5px 0;
     .main_menu {
       margin-right: 40px;
       li {
@@ -271,6 +271,58 @@ export const ContentWrapper = styled.div`
           height: 70px;
         }
       }
+    }
+  }
+  .container.banner_container,
+  #OurTeam .BoxItemsContainer {
+    display: none;
+  }
+  &.home_page {
+    .someclass {
+      display: block;
+    }
+  }
+  &.aboutUs_page {
+    .container.banner_container.aboutUs_banner {
+      display: block;
+    }
+  }
+  &.ContantUs_page {
+    .container.banner_container.ContactUs_banner {
+      display: block;
+    }
+  }
+  &.company_page {
+    .container.banner_container.company_banner {
+      display: block;
+    }
+  }
+  &.ourTeam_page {
+    .container.banner_container.ourTeam_banner,
+    #OurTeam .BoxItemsContainer.ourTeamPage_content {
+      display: block;
+    }
+  }
+  &.Partners_page {
+    .container.banner_container.Partner_banner,
+    #OurTeam .BoxItemsContainer.ourPartnerPage_content,
+    #OurTeam .BoxItemsContainer.ourCustomerPage_content {
+      display: block;
+    }
+  }
+  &.B2c_page {
+    .container.banner_container.B2c_banner{
+      display: block;
+    }
+  }
+  &.B2b_page {
+    .container.banner_container.B2b_banner{
+      display: block;
+    }
+  }
+  &.automation_ai_page {
+    .container.banner_container.automation_ai_banner {
+      display: block;
     }
   }
 

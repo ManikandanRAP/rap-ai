@@ -1,0 +1,21 @@
+#info_home {
+    padding-top: 55px;
+}
+#info_home .Home_Image_container {
+    /* background-color: #ececec; */
+    padding: 45px;
+    background-color: transparent;
+    padding: 45px;
+}
+
+@media only screen and (min-width: 992px) {
+    #info_home .info_order_change {
+        order: 2;
+    }   
+}
+
+@media only screen and (max-width: 575px) {
+    #info_home .Home_Image_container {
+        padding: 15px;
+    }   
+}

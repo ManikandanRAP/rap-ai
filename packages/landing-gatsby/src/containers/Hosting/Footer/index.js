@@ -44,8 +44,10 @@ const Footer = ({
               title="Hosting"
               logoStyle={logoStyle}
             />
-            <Text content="hello@redq.io" {...textStyle} />
-            <Text content="+479-443-9334" {...textStyle} />
+            <Text content="300 Spectrum Center Dr." {...textStyle} />
+            <Text content="Suite 400, Irvine, CA 92618" {...textStyle} />
+            <Text content="info@cnetric.com" {...textStyle} />
+            <Text content="+1 (415) 806-2739‬" {...textStyle} />
           </Box>
           {/* End of footer logo column */}
           <Box {...colTwo}>

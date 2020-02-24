@@ -9,6 +9,10 @@ import Heading from 'common/src/components/Heading';
 import Button from 'common/src/components/Button';
 import Container from 'common/src/components/UI/Container';
 
+// import ReportsPage from "../ContactReactMap"
+
+import "./contactmap.css"
+
 const ContactMap = ({
   sectionWrapper,
   row,
@@ -32,28 +36,52 @@ const ContactMap = ({
   `);
 
   return (
-    <Box {...sectionWrapper}>
-      <Container>
-        <Box {...row}>
-          <Box {...col} {...imageArea}>
-            <Image
-              fluid={
-                (Data.domains !== null) | undefined
-                  ? Data.domains.childImageSharp.fluid
-                  : {}
-              }
-              alt="Domain Image"
-            />
+    <Box {...sectionWrapper} className="Contactmap_section">
+      <Text className="ContactHeading1" content="Contact Us" />
+      <Container className="Contactmap_container1">
+        <Box {...row} className="ContactMap_container_row">
+          <Box {...col} {...imageArea} className="ContactMap_container_col">
+            {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.1316523115825!2d-117.74961718494642!3d33.65375048071613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dce7aab2704683%3A0x38d7352f3c8d081d!2sCnetric%20Global%20Inc.!5e0!3m2!1sen!2sin!4v1581419686076!5m2!1sen!2sin" width="600" height="450" frameborder="0" allowfullscreen=""></iframe> */}
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1GX4_Dd7WeEzYZwSVuUOW0LPJVm8wA7eL" width="100%" height="400" id="mymap1"></iframe>
+            {/* <ReportsPage /> */}
           </Box>
-          <Box {...col} {...textArea}>
+          <Box {...col} {...textArea} className="ContactMap_container_col2">
             <Fade bottom cascade>
-              <Heading
-                {...title}
-                content="Available domain extension with your custom name"
-              />
+              <div id="contactLocations">
+                <h3>Cnetric Global Inc.</h3>
+                <p>300 Spectrum Center Dr., Suite 400, Irvine, CA 92618</p>
+                <p>P: +1 (415) 806-2739‬</p>
+                <p>E: info@cnetric.com</p>
+                <p>(Dennis Menendez, SVP - Client Success, Americas)</p>
+
+                <p>We are also located at:</p>
+                <ul className="Contact_locations">
+                  <li>Irvine, CA, USA<br/>
+                    (800) 555-1212
+                  </li>
+                  <li>Austin, TX, USA<br/>
+                    (415) 806-2739
+                  </li>
+                  <li>Toronto, ON, Canada<br/>
+                    (416) 705-5128
+                  </li>
+                  <li>Buenos Aires, Argentina<br/>
+                    +54 9 11 6941 8155
+                  </li>
+                  <li>Bogota, Colombia<br/>
+                    +54 9 11 6941 8155
+                  </li>
+                  <li>Sydney, Australia<br/>
+                    +61 4 3852 8176
+                  </li>
+                  <li>Bangalore, India<br/>
+                    +91 98451 64517
+                  </li>
+                </ul>
+              </div>
               <Text
                 {...description}
-                content="You can check the domain avaibility by our domain tool and choose your desired domain without any hagitation if available."
+                content=""
               />
               <Box>
                 <a href="#1">

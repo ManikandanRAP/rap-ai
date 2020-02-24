@@ -11,6 +11,8 @@ import Container from 'common/src/components/UI/Container';
 import { DrawerContext } from 'common/src/contexts/DrawerContext';
 import ScrollSpyMenu from 'common/src/components/ScrollSpyMenu';
 
+import { Link } from "gatsby"
+
 import LogoImage from 'common/src/assets/image/hosting/logo.png';
 
 import Mainsubmenu1 from "../MainPrimaryMenu/MainSubMenu"
@@ -43,12 +45,15 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
     <NavbarWrapper {...navbarStyle}>
       <Container>
         <Box {...row}>
-          <Logo
-            href="/hosting"
+          <Link to="/">
+            <img src={LogoImage} className="Image__ImageWrapper LogoImageSize" style={{maxWidth: '150px'}}/>
+          </Link>
+          {/* <Logo
+            href="/"
             logoSrc={LogoImage}
-            title="Agency"
+            title="Home"
             logoStyle={logoStyle}
-          />
+          /> */}
           <Box {...menuWrapper}>
             {/* <ScrollSpyMenu
               className="main_menu"
@@ -66,6 +71,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
               drawerHandler={<HamburgMenu barColor="#eb4d4b" />}
               open={state.isOpen}
               toggleHandler={toggleHandler}
+              className="Mobile_menu_drawer"
             >
               {/* <ScrollSpyMenu
                 className="mobile_menu"
@@ -99,6 +105,7 @@ Navbar.defaultProps = {
     minHeight: '70px',
     display: 'block',
     position: 'relative',
+    backgroundColor: 'rgba(255, 255, 255, 0.95)',
   },
   row: {
     flexBox: true,

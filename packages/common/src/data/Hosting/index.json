@@ -4,18 +4,21 @@
       "title": "Domain Registration & Web Hosting",
       "description": "We have support team for 24/7 operation. They provide help and ongoing assistance at any time.",
       "icon": "flaticon-trophy violate",
+      "avatar": "../../assets/image/hosting/Home/Features/Accelerate-Processes.svg",
       "animation": true
     },
     {
       "title": "Website Design & Development",
       "description": "Transferring from another host? Our expert support team is standing by to transfer your site.",
       "icon": "flaticon-startup yellow",
+      "avatar": "../../assets/image/hosting/Home/Features/Reduce-Operating-costs.svg",
       "animation": true
     },
     {
       "title": "Dedicated Server & Cloud Hosting",
       "description": "LiteSpeed Web Server is a high-performance HTTP server and known for its high performance.",
       "icon": "flaticon-creative green",
+      "avatar": "../../assets/image/hosting/Home/Features/Scale-up-with-ease.svg",
       "animation": true
     }
   ],
@@ -70,6 +73,85 @@
       "icon": "../../assets/image/hosting/icon6.svg"
     }
   ],
+  "SERVICESS_DATA": [
+    {
+      "title": "Dr. Commerce",
+      "description": "You want to be at the forefront of Digital Innovation, but your eCommerce platform is not keeping up. Engage Dr. Commerce to uncover insights, reduce churn and increase engagement!",
+      "icon": "../../assets/image/hosting/Home/drc.png"
+    },
+    {
+      "title": "UNIVERSAL COMMERCE",
+      "description": "Confidently manage your entire eCommerce ecosystem under one simple contract. Use Universal Commerce to unify and simplify your Commerce operations!",
+      "icon": "../../assets/image/hosting/Home/uccover.png"
+    }
+  ],
+  "OURTEAM_DATA": [
+    {
+      "title": "Manohar Durai",
+      "description": "Founder & CEO",
+      "icon": "../../assets/image/hosting/Team/manohar.png"
+    },
+    {
+      "title": "Ross Collins",
+      "description": "Chief Digital Officer",
+      "icon": "../../assets/image/hosting/Team/ross.png"
+    },
+    {
+      "title": "Santhosh Kumar",
+      "description": "Chief Technology Officer",
+      "icon": "../../assets/image/hosting/Team/santhosh.png"
+    },
+    {
+      "title": "Arul Mony",
+      "description": "SVP – Presales and Alliances",
+      "icon": "../../assets/image/hosting/Team/arul.png"
+    },
+    {
+      "title": "Thomas John",
+      "description": "Chief Marketing Officer",
+      "icon": "../../assets/image/hosting/Team/TJ.png"
+    },
+    {
+      "title": "Dennis Menéndez",
+      "description": "SVP - Client Success (Americas)",
+      "icon": "../../assets/image/hosting/Team/dennis.png"
+    },
+    {
+      "title": "Raja Ganguly",
+      "description": "GM - LATAM",
+      "icon": "../../assets/image/hosting/Team/raja.png"
+    },
+    {
+      "title": "James Fong",
+      "description": "VP - Digital Experience & Commerce",
+      "icon": "../../assets/image/hosting/Team/james.png"
+    },
+    {
+      "title": "Augustin Gohil",
+      "description": "VP - Digital Marketing Solutions",
+      "icon": "../../assets/image/hosting/Team/augustin.png"
+    },
+    {
+      "title": "Ashwin Anand",
+      "description": "Director - Digital Commerce Solutions",
+      "icon": "../../assets/image/hosting/Team/ashwin.png"
+    },
+    {
+      "title": "Laura Wainberg",
+      "description": "General Manager (LATAM)",
+      "icon": "../../assets/image/hosting/Team/laura.png"
+    },
+    {
+      "title": "Andrew Burgess",
+      "description": "GM - Client Success (APAC)",
+      "icon": "../../assets/image/hosting/Team/andrew.png"
+    },
+    {
+      "title": "Jorge Antunez",
+      "description": "Regional VP - Sales (Americas)",
+      "icon": "../../assets/image/hosting/Team/jorge.png"
+    }
+  ],
   "MENU_ITEMS": [
     {
       "label": "Solutions",
@@ -105,98 +187,90 @@
   ],
   "FOOTER_WIDGET": [
     {
-      "title": "About Us",
+      "title": "Business Model",
       "menuItems": [
         {
-          "url": "#",
-          "text": "Support Center"
+          "url": "/B2c",
+          "text": "B2c"
         },
         {
-          "url": "#",
-          "text": "Customer Support"
-        },
-        {
-          "url": "#",
-          "text": "About Us"
-        },
-        {
-          "url": "#",
-          "text": "Copyright"
-        },
-        {
-          "url": "#",
-          "text": "Popular Campaign"
+          "url": "B2b",
+          "text": "B2B"
         }
       ]
     },
     {
-      "title": "Our Information",
+      "title": "Industry",
       "menuItems": [
         {
           "url": "#",
-          "text": "Return Policy"
+          "text": "Retail"
         },
         {
           "url": "#",
-          "text": "Privacy Policy"
+          "text": "Banking"
         },
         {
           "url": "#",
-          "text": "Terms & Conditions"
+          "text": "Telecom"
         },
         {
           "url": "#",
-          "text": "Site Map"
+          "text": "Food & Grocery"
         },
         {
           "url": "#",
-          "text": "Store Hours"
+          "text": "Government & Education"
         }
       ]
     },
     {
-      "title": "My Account",
+      "title": "Expertise",
       "menuItems": [
         {
           "url": "#",
-          "text": "Press inquiries"
+          "text": "Commerce"
         },
         {
           "url": "#",
-          "text": "Social media directories"
+          "text": "Digital Experience & CX"
         },
         {
           "url": "#",
-          "text": "Images & B-roll"
+          "text": "Order Management"
         },
         {
           "url": "#",
-          "text": "Permissions"
+          "text": "Analytics"
         },
         {
           "url": "#",
-          "text": "Speaker requests"
+          "text": "Marketing"
+        },
+        {
+          "url": "#",
+          "text": "Automation & AI"
+        },
+        {
+          "url": "#",
+          "text": "IOT & BlockChain"
         }
       ]
     },
     {
-      "title": "Policy",
+      "title": "Products",
       "menuItems": [
         {
           "url": "#",
-          "text": "Application security"
+          "text": "Dr.Commerce"
         },
         {
           "url": "#",
-          "text": "Software principles"
+          "text": "Universal Commerce"
         },
         {
           "url": "#",
-          "text": "Unwanted software policy"
-        },
-        {
-          "url": "#",
-          "text": "Responsible supply chain"
+          "text": "Store Fronts"
         }
       ]
     }
@@ -457,6 +531,184 @@
     {
       "content": "& much more",
       "url": "#"
+    }
+  ],
+  "PARTNERS": [
+    {
+      "avatar": "../../assets/image/hosting/Partners/Acquia_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Partners/coremedia_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Partners/drupal_commerce_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Partners/dynamicweb-logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Partners/easy_ask_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Partners/ElastiPath_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Partners/google_analytics_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Partners/HCL_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Partners/ibm_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Partners/JDA_Software_Logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Partners/Logo_akeneo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Partners/Logo-Mirakl.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Partners/magento_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Partners/Moodle-Logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Partners/Order-Dynamics-Logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Partners/partner_bloomreach_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Partners/perfion_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Partners/pros_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Partners/Red_Hat_logo_RedHat.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Partners/Riversand-logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Partners/salesforce_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Partners/shippo_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Partners/Shopify_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Partners/Tata_Consultancy_Services_Logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Partners/Temando-Logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Partners/tradegecko_logo.png"
+    }
+  ],
+  "CUSTOMERS_S": [
+    {
+      "avatar": "../../assets/image/hosting/Customers/aditya-birla-group-logo.jpg"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Customers/Bharti_Airtel_Limited_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Customers/canon-inc-logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Customers/Cencosud_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Customers/claro-logo-png.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Customers/Coles_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Customers/costco-png-logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Customers/DHL_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Customers/DKSH_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Customers/GencoMarketplace_Logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Customers/hhgregg_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Customers/Hobbyhall_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Customers/Honeywell_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Customers/hutchison-telecom-logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Customers/iie_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Customers/Just_Group_plc_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Customers/king-power-logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Customers/kmart-logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Customers/kroger_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Customers/lkh_electric_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Customers/Mahindra-logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Customers/Myer_Logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Customers/new-vodafone-logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Customers/officeworks_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Customers/ray-ban-logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Customers/retailer-david-jones_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Customers/standard_chartered_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Customers/sunglass_hut_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Customers/Telefonica-o2-logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Customers/telstra_logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Customers/verifone-logo.png"
+    },
+    {
+      "avatar": "../../assets/image/hosting/Customers/yamaha-logo.png"
     }
   ]
 }

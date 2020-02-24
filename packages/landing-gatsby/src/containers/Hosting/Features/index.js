@@ -12,6 +12,9 @@ import ShapeTwo from 'common/src/assets/image/hosting/shape-2.svg';
 import ShapeThree from 'common/src/assets/image/hosting/shape-3.svg';
 import ShapeFour from 'common/src/assets/image/hosting/shape-4.svg';
 import ShapeFive from 'common/src/assets/image/hosting/shape-5.svg';
+import Image from 'common/src/components/Image';
+
+import "./features.css";
 
 const FeatureSection = ({
   sectionWrapper,
@@ -31,6 +34,9 @@ const FeatureSection = ({
           icon
           description
           animation
+          avatar {
+            publicURL
+          }
         }
       }
     }
@@ -49,12 +55,13 @@ const FeatureSection = ({
           </Fade>
         </Box>
 
-        <Box {...row}>
+        <Box {...row} className="home_feature_section">
           {Data.hostingJson.FEATURES_DATA.map((featureItem, index) => (
             <Box {...col} key={`feature-${index}`}>
               {featureItem.animation ? (
                 <Fade bottom delay={index * 120}>
                   <FeatureItem
+                    className="home_FeatureItem_container"
                     title={
                       <Heading
                         {...featureItemHeading}
@@ -67,7 +74,14 @@ const FeatureSection = ({
                         content={featureItem.description}
                       />
                     }
-                    icon={<i className={featureItem.icon} />}
+                    // icon={<i className={featureItem.icon} />}
+                    icon={
+                      <Image
+                        src={featureItem.avatar.publicURL}
+                        alt={`icon-${index}`}
+                        className="home_features_icon"
+                      />
+                    }
                     additionalContent={
                       <>
                         <img
@@ -106,6 +120,7 @@ const FeatureSection = ({
                 </Fade>
               ) : (
                 <FeatureItem
+                  className="home_FeatureItem_container"
                   title={
                     <Heading
                       {...featureItemHeading}
@@ -118,7 +133,14 @@ const FeatureSection = ({
                       content={featureItem.description}
                     />
                   }
-                  icon={<i className={featureItem.icon} />}
+                  // icon={<i className={featureItem.icon} />}
+                  icon={
+                    <Image
+                      src={featureItem.avatar.publicURL}
+                      alt={`icon-${index}`}
+                      className="home_features_icon"
+                    />
+                  }
                   additionalContent={
                     <>
                       <img

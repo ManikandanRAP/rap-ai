@@ -1,0 +1,33 @@
+#info_solutions {
+    padding-top: 55px;
+}
+#info_solutions .Solutions_Image_container {
+    /* background-color: #ececec; */
+    padding: 45px;
+    background-color: transparent;
+    padding: 45px;
+}
+#info_solutions .multi_sections_container {
+    display: none;
+}
+.B2c_page #info_solutions .multi_sections_container.B2c_info_container {
+    display: block;
+}
+.B2b_page #info_solutions .multi_sections_container.B2b_info_container {
+    display: block;
+}
+.automation_ai_page #info_solutions .multi_sections_container.automation_ai_info_container {
+    display: block;
+}
+
+@media only screen and (min-width: 992px) {
+    #info_solutions .info_order_change {
+        order: 2;
+    }   
+}
+
+@media only screen and (max-width: 575px) {
+    #info_solutions .Solutions_Image_container {
+        padding: 15px;
+    }   
+}

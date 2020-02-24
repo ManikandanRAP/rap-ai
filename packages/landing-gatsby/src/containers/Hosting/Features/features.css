@@ -1,0 +1,13 @@
+.home_feature_section .home_FeatureItem_container:hover .home_features_icon {
+    filter: brightness(0) invert(1);
+}
+
+/* center elem
+.home_feature_section .home_features_icon {
+    margin: 0 auto;
+}
+.home_feature_section h2,
+.home_feature_section p {
+    text-align: center;
+}
+center elem */

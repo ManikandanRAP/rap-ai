@@ -1,0 +1,21 @@
+.container.cta_size_container {
+    background-color: #0d70b6;
+    background-image: linear-gradient(to right, #4a90e2 , #0d70b6);
+}
+.Cta_container {
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 8px;
+    display: none;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.Cta_container div{
+    text-align: center;
+}
+.B2b_page .Cta_container.cta_B2b_page,
+.B2c_page .Cta_container.cta_B2c_page,
+.automation_ai_page .cta_automation_ai_page {
+    display: flex;
+}

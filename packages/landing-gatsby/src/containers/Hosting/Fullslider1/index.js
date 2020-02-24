@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "gatsby"
 import Slider from "react-slick";
-import sampleimg from "./sample.jpg"
+import SliderImg1 from "./sliderimage1.jpg"
+import SliderImg2 from "./sliderimage2.jpg"
 import "./fullslider1.css"
 
 var settings = {
@@ -19,7 +20,7 @@ const Fullslider1 = () => (
         <Slider {...settings}>
             <div className="item">
                 <div className="site-Banner">
-                <img src={sampleimg} alt="test" className="sliderImage" />
+                <img src={SliderImg1} alt="slideimage1" className="sliderImage" />
                     <div className="Banner-details">
                         <div>
                             <h1>Learn Our Products</h1>
@@ -30,7 +31,7 @@ const Fullslider1 = () => (
             </div>
             <div className="item">
                 <div className="site-Banner">
-                    <img src={sampleimg} alt="test" className="sliderImage" />
+                    <img src={SliderImg2} alt="slideimage2" className="sliderImage" />
                     <div className="Banner-details">
                         <div>
                             <h1>Learn Our Products</h1>
