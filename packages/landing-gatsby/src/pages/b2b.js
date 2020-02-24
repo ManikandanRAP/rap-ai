@@ -13,7 +13,7 @@ import { DrawerProvider } from 'common/src/contexts/DrawerContext';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import SEO from '../components/seo';
 
-import BannerSection4 from '../containers/Hosting/Banner4';
+import BannerSolutionsSection from '../containers/Hosting/Banner3';
 
 import InfoSolutionSection from '../containers/Hosting/InfoSolutions';
 import Ctasection from '../containers/Hosting/Ctasection';
@@ -33,7 +33,7 @@ const B2bPage = () => {
                             <Navbar />
                         </DrawerProvider>
                     </Sticky>
-                    <BannerSection4 />
+                    <BannerSolutionsSection />
                     <InfoSolutionSection />
                     <Ctasection />
                     <Footer />

@@ -10,16 +10,14 @@ import Input from 'common/src/components/Input';
 import Select from 'common/src/components/Select';
 import Container from 'common/src/components/UI/Container';
 import ParticlesComponent from '../../Hosting/Particle';
-import BannerWrapper4, {
+import BannerWrapper3, {
   SearchWrapper,
   List,
   DiscountWrapper,
   DiscountLabel,
-} from './banner4.style';
+} from './banner3.style';
 
-import { search } from 'react-icons-kit/feather/search';
-
-const BannerOtherSection = ({
+const BannerSolutionsSection = ({
   row,
   title,
   description,
@@ -31,78 +29,8 @@ const BannerOtherSection = ({
 }) => {
 
   return (
-    <BannerWrapper4 id="banner_section4">
+    <BannerWrapper3 id="banner_section3">
       <ParticlesComponent />
-      <Container className="banner_container aboutUs_banner">
-        <Box {...row}>
-          <Box {...textArea}>
-            <Heading
-              {...title}
-              content="The future of e-commerce is unified and universal"
-            />
-            <Text
-              {...description}
-              content='Unified commerce goes beyond omni-channel, putting the customer experience first, breaking down the walls between internal channel silos and leveraging a common commerce platform"- Boston Retail Partners'
-            />
-          </Box>
-        </Box>
-      </Container>
-      <Container className="banner_container ContactUs_banner">
-        <Box {...row}>
-          <Box {...textArea}>
-            <Heading
-              {...title}
-              content="Contact us"
-            />
-            <Text
-              {...description}
-              content=" Give us a call, drop us an email, or fill out the form below to get in touch. We endeavour to answer all enquiries within 24 hours on business days."
-            />
-          </Box>
-        </Box>
-      </Container>
-      <Container className="banner_container company_banner">
-        <Box {...row}>
-          <Box {...textArea}>
-            <Heading
-              {...title}
-              content="The future of e-commerce is unified and universal"
-            />
-            <Text
-              {...description}
-              content='Unified commerce goes beyond omni-channel, putting the customer experience first, breaking down the walls between internal channel silos and leveraging a common commerce platform"- Boston Retail Partners'
-            />
-          </Box>
-        </Box>
-      </Container>
-      <Container className="banner_container ourTeam_banner">
-        <Box {...row}>
-          <Box {...textArea}>
-            <Heading
-              {...title}
-              content="Our Team"
-            />
-            <Text
-              {...description}
-              content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-            />
-          </Box>
-        </Box>
-      </Container>
-      <Container className="banner_container Partner_banner">
-        <Box {...row}>
-          <Box {...textArea}>
-            <Heading
-              {...title}
-              content="Partners"
-            />
-            <Text
-              {...description}
-              content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-            />
-          </Box>
-        </Box>
-      </Container>
       <Container className="banner_container B2c_banner">
         <Box {...row}>
           <Box {...textArea}>
@@ -145,11 +73,11 @@ const BannerOtherSection = ({
           </Box>
         </Box>
       </Container>
-    </BannerWrapper4>
+    </BannerWrapper3>
   );
 };
 
-BannerOtherSection.propTypes = {
+BannerSolutionsSection.propTypes = {
   row: PropTypes.object,
   col: PropTypes.object,
   title: PropTypes.object,
@@ -160,7 +88,7 @@ BannerOtherSection.propTypes = {
   discountText: PropTypes.object,
 };
 
-BannerOtherSection.defaultProps = {
+BannerSolutionsSection.defaultProps = {
   row: {
     flexBox: true,
     flexWrap: 'wrap',
@@ -219,4 +147,4 @@ BannerOtherSection.defaultProps = {
   },
 };
 
-export default BannerOtherSection;
+export default BannerSolutionsSection;

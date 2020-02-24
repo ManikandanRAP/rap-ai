@@ -14,7 +14,7 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 import SEO from '../components/seo';
 
 import ContactSection2 from "../containers/Hosting/Contact2";
-import BannerSection4 from '../containers/Hosting/Banner4';
+import BannerOtherSection from '../containers/Hosting/Banner4';
 // import SimpleMap from '../containers/Hosting/Contacttest';
 
 const ContactPage = () => {
@@ -30,7 +30,7 @@ const ContactPage = () => {
                             <Navbar />
                         </DrawerProvider>
                     </Sticky>
-                <BannerSection4 />
+                <BannerOtherSection />
                 <ContactSection2 />
                 {/* <SimpleMap /> */}
                 <Footer />

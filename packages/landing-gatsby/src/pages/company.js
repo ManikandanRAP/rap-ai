@@ -13,7 +13,7 @@ import { DrawerProvider } from 'common/src/contexts/DrawerContext';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import SEO from '../components/seo';
 
-import BannerSection4 from '../containers/Hosting/Banner4';
+import BannerOtherSection from '../containers/Hosting/Banner4';
 
 import InfoAboutSection from '../containers/Hosting/InfoAbout';
 
@@ -31,7 +31,7 @@ const Companypage = () => {
                             <Navbar />
                         </DrawerProvider>
                     </Sticky>
-                    <BannerSection4 />
+                    <BannerOtherSection />
                     <InfoAboutSection />
                     <Footer />
                 </ContentWrapper>
