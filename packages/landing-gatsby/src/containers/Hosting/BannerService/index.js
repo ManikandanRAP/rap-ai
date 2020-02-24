@@ -10,14 +10,14 @@ import Input from 'common/src/components/Input';
 import Select from 'common/src/components/Select';
 import Container from 'common/src/components/UI/Container';
 import ParticlesComponent from '../../Hosting/Particle';
-import BannerWrapper3, {
+import BannerWrapper1, {
   SearchWrapper,
   List,
   DiscountWrapper,
   DiscountLabel,
-} from './banner3.style';
+} from './bannerservice.style';
 
-const BannerSolutionsSection = ({
+const BannerServiceSection = ({
   row,
   title,
   description,
@@ -29,7 +29,7 @@ const BannerSolutionsSection = ({
 }) => {
 
   return (
-    <BannerWrapper3 id="banner_section3">
+    <BannerWrapper1 id="banner_section3">
       <ParticlesComponent />
       <Container className="banner_container B2c_banner">
         <Box {...row}>
@@ -73,11 +73,11 @@ const BannerSolutionsSection = ({
           </Box>
         </Box>
       </Container>
-    </BannerWrapper3>
+    </BannerWrapper1>
   );
 };
 
-BannerSolutionsSection.propTypes = {
+BannerServiceSection.propTypes = {
   row: PropTypes.object,
   col: PropTypes.object,
   title: PropTypes.object,
@@ -88,7 +88,7 @@ BannerSolutionsSection.propTypes = {
   discountText: PropTypes.object,
 };
 
-BannerSolutionsSection.defaultProps = {
+BannerServiceSection.defaultProps = {
   row: {
     flexBox: true,
     flexWrap: 'wrap',
@@ -147,4 +147,4 @@ BannerSolutionsSection.defaultProps = {
   },
 };
 
-export default BannerSolutionsSection;
+export default BannerServiceSection;

@@ -15,7 +15,7 @@ import BannerWrapper4, {
   List,
   DiscountWrapper,
   DiscountLabel,
-} from './banner4.style';
+} from './bannerother.style';
 
 import { search } from 'react-icons-kit/feather/search';
 

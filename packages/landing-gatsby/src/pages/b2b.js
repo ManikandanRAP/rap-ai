@@ -13,7 +13,7 @@ import { DrawerProvider } from 'common/src/contexts/DrawerContext';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import SEO from '../components/seo';
 
-import BannerSolutionsSection from '../containers/Hosting/Banner3';
+import BannerSolutionsSection from '../containers/Hosting/BannerSolution';
 
 import InfoSolutionSection from '../containers/Hosting/InfoSolutions';
 import Ctasection from '../containers/Hosting/Ctasection';
