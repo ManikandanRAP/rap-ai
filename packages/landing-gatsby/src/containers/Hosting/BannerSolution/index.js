@@ -73,6 +73,48 @@ const BannerSolutionsSection = ({
           </Box>
         </Box>
       </Container>
+      <Container className="banner_container omnichannel_banner">
+        <Box {...row}>
+          <Box {...textArea}>
+            <Heading
+              {...title}
+              content="Omnichannel"
+            />
+            <Text
+              {...description}
+              content="Seamless Experience Delights Customers"
+            />
+          </Box>
+        </Box>
+      </Container>
+      <Container className="banner_container social_commerce_banner">
+        <Box {...row}>
+          <Box {...textArea}>
+            <Heading
+              {...title}
+              content="Social Commerce"
+            />
+            <Text
+              {...description}
+              content="Maximize Sales through Social Commerce"
+            />
+          </Box>
+        </Box>
+      </Container>
+      <Container className="banner_container headless_commerce_banner">
+        <Box {...row}>
+          <Box {...textArea}>
+            <Heading
+              {...title}
+              content="Headless eCommerce"
+            />
+            <Text
+              {...description}
+              content="Maximize Sales with Headless eCommerce"
+            />
+          </Box>
+        </Box>
+      </Container>
     </BannerWrapper3>
   );
 };

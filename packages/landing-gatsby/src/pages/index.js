@@ -31,7 +31,7 @@ import SEO from '../components/seo';
 
 import Fullslider1 from '../containers/Hosting/Fullslider1';
 import GlideSlider1 from "../containers/Hosting/GlideSlider1/index";
-
+import Ctasection from '../containers/Hosting/Ctasection';
 
 export default () => {
   return (
@@ -41,7 +41,7 @@ export default () => {
         <ResetCSS />
         <GlobalStyle />
 
-        <ContentWrapper className="home_page">
+        <ContentWrapper className="Home_page">
           <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
             <DrawerProvider>
               <Navbar />
@@ -52,6 +52,7 @@ export default () => {
           <InfoHomeSection />
           <GlideSlider1 />
           <ContactMap />
+          <Ctasection />
          <Footer />
         </ContentWrapper>
         <div id="footerWrapper" className="copyright">

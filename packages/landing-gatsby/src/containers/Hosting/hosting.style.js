@@ -290,7 +290,7 @@ export const ContentWrapper = styled.div`
   #OurTeam .BoxItemsContainer {
     display: none;
   }
-  &.home_page {
+  &.Home_page {
     .someclass {
       display: block;
     }
@@ -339,7 +339,7 @@ export const ContentWrapper = styled.div`
       background-image: url(${b2cbanner_image});
     } 
   }
-  &.automation_ai_page {
+  &.Automation_ai_page {
     .container.banner_container.automation_ai_banner {
       display: block;
     }
@@ -353,6 +353,30 @@ export const ContentWrapper = styled.div`
     }
     #banner_section {
       background-image: url(${cloudtransformationbanner_image});
+    } 
+  }
+  &.Omnichannel_page {
+    .container.banner_container.omnichannel_banner {
+      display: block;
+    }
+    #banner_section {
+      background-image: url(${omnichannelbanner_image});
+    } 
+  }
+  &.Headless_commerce_page {
+    .container.banner_container.headless_commerce_banner {
+      display: block;
+    }
+    #banner_section {
+      background-image: url(${headlesscommercebanner_image});
+    } 
+  }
+  &.Social_commerce_page {
+    .container.banner_container.social_commerce_banner {
+      display: block;
+    }
+    #banner_section {
+      background-image: url(${socialcommercebanner_image});
     } 
   }
 

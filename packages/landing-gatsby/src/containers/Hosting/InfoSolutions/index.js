@@ -430,6 +430,279 @@ const InfoSolutionSection = ({
 
       </div>
       {/* end of automation and ai */}
+      <div className="multi_sections_container omnichannel_info_container">
+
+        <Container>
+          <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <Box {...col} {...textArea} >
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="A Good Omnichannel Strategy Is Essential To Good Commerce"
+                />
+                <Text
+                  {...description}
+                  content="An omnichannel eCommerce strategy is one of the most powerful ways to drive brand loyalty and turn loyal customers into advocates.  Cnetric, with several years of expertise, can provide seamless integration of innumerable customer touch points to drive a smooth customer journey across all channels. This includes both brick and mortar and eCommerce sores with a seamless experience across email, social media, smartwatches, voice search, etc."
+                />
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="Solutions_Image_container">
+              <Fade bottom cascade>
+                <Image src={drcimg} alt="Info Image One" />
+              </Fade>
+            </Box>
+          </Box>
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Groundbreaking Possibilities with AI"
+                  />
+                  <Text
+                    {...description}
+                    content="With an emphasis on customer-centricity, businesses are leveraging the power of Artificial Intelligence (AI) to win over customers with highly personalized services. Consumers, particularly younger demographics and millennials, don’t just want fast websites they want quality information, they want you to know their preference, give them relevant recommendations and all of it in milliseconds. That is why AI is so important to your omnichannel strategy and Cnetric has unparalleled expertise to deliver. We can access all your siloed data and set up an AI engine that can power your personalization and omnichannel strategy."
+                  />
+
+                </Fade>
+              </Box>
+              <Box {...col} {...textArea} className="Solutions_Image_container">
+                <Fade bottom cascade>
+                  <Image src={drcimg} alt="Info Image One" />
+                </Fade>
+              </Box>
+            </Box>
+          </Container>
+        </Box>
+
+
+        <Container>
+          <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="Driving Emotional Connection"
+                />
+                <Text
+                  {...description}
+                  content="Creating a positive emotional connection with your customers helps brands drive sales, loyalty, and advocacy. With the power of Artificial Intelligence (AI) and Machine Learning (ML), businesses are serving customers in an emotionally intelligent way to achieve these goals. Cnetric’s experts can replace your legacy technology and empower your business with integrated, hyper-personalized, lean, AI-enabled machine learning with cutting-edge integrations. This reduces the friction between your brand and customers for a unique, seamless omnichannel experience built around your brand.  "
+                />
+
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="Solutions_Image_container">
+              <Fade bottom cascade>
+                <Image src={univcoming} alt="Info Image One" />
+              </Fade>
+            </Box>
+          </Box>
+        </Container>
+
+
+        <Box className="section_background_color">
+          <Container>
+            <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Seamless Online-Offline Transitions"
+                  />
+                  <Text
+                    {...description}
+                    content="Today’s customers expect a seamless transition between online and offline shopping. Offering accurate and on-the-spot product information and placing orders on online or offline channels, even when products are out-of-stock in either channel, requires efficient technologies to drive a seamless omnichannel experience. Cnetric has the expertise to integrate your online and offline channels to bestow a superior, omnichannel customer experience."
+                  />
+
+                </Fade>
+              </Box>
+              <Box {...col} {...textArea} className="Solutions_Image_container">
+                <Fade bottom cascade>
+                  <Image src={univcoming} alt="Info Image One" />
+                </Fade>
+              </Box>
+            </Box>
+          </Container>
+        </Box>
+
+        <Container>
+          <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="Decoupled Architecture "
+                />
+                <Text
+                  {...description}
+                  content="With continuous explosion of channels, businesses need to tap this opportunity to effortlessly manage all the available customers’ touchpoints. This entails various devices and platforms such as desktop, mobile, tablet, Facebook, Instagram, Snapchat, TikTok, Twitter, wearables, voice search, kiosk, IOT, AI-driven bots, and so on. With monolithic architecture in place this is practically impossible. The Cnetric team can decouple your backend from your presentation layer, for a headless system, allowing your marketing team tackle each platform and device separately without any restraints."
+                />
+
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="Solutions_Image_container">
+              <Fade bottom cascade>
+                <Image src={univcoming} alt="Info Image One" />
+              </Fade>
+            </Box>
+          </Box>
+        </Container>
+
+      </div>
+      {/* end of omnichannel */}
+      <div className="multi_sections_container headless_commerce_info_container">
+
+        <Container>
+          <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <Box {...col} {...textArea} >
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="What is Headless eCommerce?"
+                />
+                <Text
+                  {...description}
+                  content="A headless ecommerce system is the decoupling of your presentation layer (the website) from your backend (the technology that drives your website). Whereas a traditional system is monolithic meaning the body and head are attached. The shift to headless is a powerful catalyst for a nimble business that can drive greater sales."
+                />
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="Solutions_Image_container">
+              <Fade bottom cascade>
+                <Image src={drcimg} alt="Info Image One" />
+              </Fade>
+            </Box>
+          </Box>
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Faster Time to Market"
+                  />
+                  <Text
+                    {...description}
+                    content="Since the monolithic approach has multiple constraints any modification requires developers to edit the code, database, business logic, and the frontend as well. This is stressful, time-consuming and places your business at risk for mistakes. Decoupling reduces complexity, and both your frontend and backend teams can work simultaneously while independent of each other."
+                  />
+
+                </Fade>
+              </Box>
+              <Box {...col} {...textArea} className="Solutions_Image_container">
+                <Fade bottom cascade>
+                  <Image src={drcimg} alt="Info Image One" />
+                </Fade>
+              </Box>
+            </Box>
+          </Container>
+        </Box>
+
+
+        <Container>
+          <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="Omnichannel Reach"
+                />
+                <Text
+                  {...description}
+                  content="When you remove the restraints from your developers and marketers you are empowering your team to deliver extraordinary digital experience. For an omnichannel experience, you need a seamless presentation on multiple screen sizes (smartwatch, mobile, tablet, laptop, desktop, and kiosk). Not to mention all the new channels like IOT, voice assistants, wearables, AR/VR, AI Bots, Social Commerce and any new channels that tomorrow brings."
+                />
+
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="Solutions_Image_container">
+              <Fade bottom cascade>
+                <Image src={univcoming} alt="Info Image One" />
+              </Fade>
+            </Box>
+          </Box>
+        </Container>
+
+
+        <Box className="section_background_color">
+          <Container>
+            <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Customization, Personalization & Flexibility"
+                  />
+                  <Text
+                    {...description}
+                    content="Going headless allows brands to experiment and create custom experiences for different personas or A/B tests with variants in typography and design. You can have endless flexibility and customization options only limited by your imagination. Besides, being API-driven the headless commerce platform is able to quickly adjust to the latest innovations in technologies."
+                  />
+
+                </Fade>
+              </Box>
+              <Box {...col} {...textArea} className="Solutions_Image_container">
+                <Fade bottom cascade>
+                  <Image src={univcoming} alt="Info Image One" />
+                </Fade>
+              </Box>
+            </Box>
+          </Container>
+        </Box>
+
+        <Container>
+          <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="An Eye on 5G"
+                />
+                <Text
+                  {...description}
+                  content="Have you considered how 5G will impact your eCommerce business? 5G will be 100x faster than 4G and this will have a massive effect on how mobile devices consume data. Many modern shoppers love to shop from their mobile devices, so your business must adapt to 5G. With exponentially higher speed, increased capacity, and low latency new channels will emerge or grow like with AR/VR and IOT. Cnetric has the expertise to help you transform your eCommerce business to a headless system, so you can thrive in the era of 5G."
+                />
+
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="Solutions_Image_container">
+              <Fade bottom cascade>
+                <Image src={univcoming} alt="Info Image One" />
+              </Fade>
+            </Box>
+          </Box>
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Social Commerce"
+                  />
+                  <Text
+                    {...description}
+                    content="Social commerce is your company's ability to sell its products directly within social media platforms. This is a hot trend and growing by leaps and bounds. But there are a large number of social platforms and each one has its unique difficulty to present your products there. The headless commerce architecture will support your enterprise’s efforts to sell directly within social sites."
+                  />
+
+                </Fade>
+              </Box>
+              <Box {...col} {...textArea} className="Solutions_Image_container">
+                <Fade bottom cascade>
+                  <Image src={univcoming} alt="Info Image One" />
+                </Fade>
+              </Box>
+            </Box>
+          </Container>
+        </Box>
+
+      </div>
+      {/* end of headless Commerce */}
     </Box>
   );
 };

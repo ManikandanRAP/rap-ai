@@ -24,9 +24,13 @@
 .Cta_container div {
     text-align: center;
 }
+.Home_page .Cta_container.cta_Home_page,
 .B2b_page .Cta_container.cta_B2b_page,
 .B2c_page .Cta_container.cta_B2c_page,
-.automation_ai_page .cta_automation_ai_page,
-.Cloud_infrastructure_page .cta_cloudTransform_page {
+.Automation_ai_page .cta_automation_ai_page,
+.Cloud_infrastructure_page .cta_cloudTransform_page,
+.Omnichannel_page .cta_omnichannel_page,
+.Headless_commerce_page .cta_headless_commerce_page,
+.Social_commerce_page .cta_social_commerce_page {
     display: flex;
 }

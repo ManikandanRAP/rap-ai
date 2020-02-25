@@ -15,13 +15,11 @@
 #info_solutions .multi_sections_container {
     display: none;
 }
-.B2c_page #info_solutions .multi_sections_container.B2c_info_container {
-    display: block;
-}
-.B2b_page #info_solutions .multi_sections_container.B2b_info_container {
-    display: block;
-}
-.automation_ai_page #info_solutions .multi_sections_container.automation_ai_info_container {
+.B2c_page #info_solutions .multi_sections_container.B2c_info_container,
+.B2b_page #info_solutions .multi_sections_container.B2b_info_container,
+.Automation_ai_page #info_solutions .multi_sections_container.automation_ai_info_container,
+.Omnichannel_page #info_solutions .multi_sections_container.omnichannel_info_container,
+.Headless_commerce_page #info_solutions .multi_sections_container.headless_commerce_info_container {
     display: block;
 }
 

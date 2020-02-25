@@ -67,7 +67,8 @@ const MainMobilemenu1 = () => {
                 <li>
                     <span onClick={ExprtDropMenu}>Expertise <span className="Mobile_caret"> &#9660;</span></span>
                     <ul className="mobile_drop_menu" id="ExprtDrop">
-                        <li>Commerce</li>
+                        <li>Headless Commerce</li>
+                        <li>Omnichannel</li>
                         <li>Digital Experience & CX</li>
                         <li>Order Management</li>
                         <li>Analytics</li>

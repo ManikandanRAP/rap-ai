@@ -16,6 +16,16 @@ const Ctasection = ({
     return (
         <>
             <Container fullWidth noGutter className="cta_size_container">
+                <Box className="Cta_container cta_Home_page">
+                    <Box {...box_size}>
+                        <p>Disrupt eCommerce and drive greater sales.</p>
+                    </Box>
+                    <Box {...box_size}>
+                        <Link to="/contact">
+                            <Button {...button} title="Work with Us" />
+                        </Link>
+                    </Box>
+                </Box>
                 <Box className="Cta_container cta_B2b_page">
                     <Box {...box_size}>
                         <p>Disrupt B2B Commerce with Cnetric’s expertise.</p>
@@ -49,6 +59,36 @@ const Ctasection = ({
                 <Box className="Cta_container cta_cloudTransform_page">
                     <Box {...box_size}>
                         <p>Disrupt eCommerce with Innovative Cloud Technology.</p>
+                    </Box>
+                    <Box {...box_size}>
+                        <Link to="/contact">
+                            <Button {...button} title="Work with Us" />
+                        </Link>
+                    </Box>
+                </Box>
+                <Box className="Cta_container cta_omnichannel_page">
+                    <Box {...box_size}>
+                        <p>Disrupt eCommerce with Seamless Omnichannel Systems.</p>
+                    </Box>
+                    <Box {...box_size}>
+                        <Link to="/contact">
+                            <Button {...button} title="Work with Us" />
+                        </Link>
+                    </Box>
+                </Box>
+                <Box className="Cta_container cta_headless_commerce_page">
+                    <Box {...box_size}>
+                        <p>Disrupt eCommerce with a Headless System.</p>
+                    </Box>
+                    <Box {...box_size}>
+                        <Link to="/contact">
+                            <Button {...button} title="Work with Us" />
+                        </Link>
+                    </Box>
+                </Box>
+                <Box className="Cta_container cta_social_commerce_page">
+                    <Box {...box_size}>
+                        <p>Maximize Sales with Social Commerce.</p>
                     </Box>
                     <Box {...box_size}>
                         <Link to="/contact">

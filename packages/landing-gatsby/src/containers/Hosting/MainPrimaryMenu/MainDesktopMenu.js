@@ -66,7 +66,11 @@ const Maindeskmenu1 = () => (
                             <MainNavbarDropMainLi>Expertise</MainNavbarDropMainLi>
                             <br />
                             <MainNavbarDropLi>
-                                <span>Commerce</span></MainNavbarDropLi>
+                                <Link to="headless-commerce">Headless Commerce</Link>
+                            </MainNavbarDropLi>
+                            <MainNavbarDropLi>
+                                <Link to="omnichannel">Omnichannel</Link>
+                            </MainNavbarDropLi>
                             <MainNavbarDropLi>
                                 <span>Digital Experience & CX</span></MainNavbarDropLi>
                             <MainNavbarDropLi>
@@ -144,7 +148,7 @@ const Maindeskmenu1 = () => (
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="/Consulting">
+                                <Link to="/social-commerce">
                                     <span>Social Commerce</span>
                                 </Link>
                             </MainNavbarDropLi>

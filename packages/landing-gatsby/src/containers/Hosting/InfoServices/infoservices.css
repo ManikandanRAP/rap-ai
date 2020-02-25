@@ -12,7 +12,9 @@
 #info_services .multi_sections_container {
     display: none;
 }
-.Cloud_infrastructure_page #info_services .multi_sections_container.CloudTransformation__info_container {
+.Cloud_infrastructure_page #info_services .multi_sections_container.CloudTransformation_info_container,
+.Social_commerce_page #info_services .multi_sections_container.social_commerce_info_container
+{
     display: block;
 }
 

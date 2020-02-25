@@ -45,7 +45,7 @@
 }
 
 @media only screen and (max-width: 575px) {
-    .home_page #contactLocations .Contact_locations li {
+    .Home_page #contactLocations .Contact_locations li {
         width: 100%;
     }
 }

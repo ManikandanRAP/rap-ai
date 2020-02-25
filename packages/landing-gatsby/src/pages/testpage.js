@@ -42,7 +42,7 @@ export default () => {
         <ResetCSS />
         <GlobalStyle />
 
-        <ContentWrapper className="home_page">
+        <ContentWrapper className="Home_page">
           <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
             <DrawerProvider>
               <Navbar />

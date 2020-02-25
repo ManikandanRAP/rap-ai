@@ -15,25 +15,26 @@ import SEO from '../components/seo';
 
 import BannerSolutionsSection from '../containers/Hosting/BannerSolution';
 
-import InfoSolutionSection from '../containers/Hosting/InfoSolutions';
+import InfoServiceSection from '../containers/Hosting/InfoServices';
 import Ctasection from '../containers/Hosting/Ctasection';
 
 
-const AutomationaiPage = () => {
+
+const OmnichannelPage = () => {
     return (
         <ThemeProvider theme={hostingTheme}>
             <ParallaxProvider>
             <SEO title="Cnetric Global Inc" />
                 <ResetCSS />
                 <GlobalStyle />
-                <ContentWrapper className="Automation_ai_page">
+                <ContentWrapper className="Social_commerce_page">
                     <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
                         <DrawerProvider>
                             <Navbar />
                         </DrawerProvider>
                     </Sticky>
                     <BannerSolutionsSection />
-                    <InfoSolutionSection />
+                    <InfoServiceSection />
                     <Ctasection />
                     <Footer />
                 </ContentWrapper>
@@ -45,4 +46,4 @@ const AutomationaiPage = () => {
     );
 }
 
-export default AutomationaiPage
+export default OmnichannelPage

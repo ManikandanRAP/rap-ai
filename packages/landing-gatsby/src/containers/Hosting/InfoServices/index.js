@@ -37,7 +37,7 @@ const InfoServiceSection = ({
   return (
     <Box {...sectionWrapper} id="info_services">
 
-      <div className="multi_sections_container CloudTransformation__info_container">
+      <div className="multi_sections_container CloudTransformation_info_container">
 
         <Container>
           <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
@@ -160,6 +160,83 @@ const InfoServiceSection = ({
 
       </div>
       {/* end of Cloud Transformation */}
+
+      
+      <div className="multi_sections_container social_commerce_info_container">
+
+        <Container>
+          <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <Box {...col} {...textArea} >
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="Rising Sales from Social Commerce"
+                />
+                <Text
+                  {...description}
+                  content="With AI/ML integrated social commerce technology, businesses are revolutionizing social shopping experience, enhancing customer engagement with your brand within social networks such as Instagram, Facebook, TikTok, etc.  Cnetric can help you leverage the right tools and technology to drive greater sales through social commerce."
+                />
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="InfoBanner_Image_container">
+              <Fade bottom cascade>
+                <Image src={drcimg} alt="Info Image One" />
+              </Fade>
+            </Box>
+          </Box>
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Frictionless Shopping"
+                  />
+                  <Text
+                    {...description}
+                    content="Businesses should embrace the fact that simplicity is the Holy Grail to achieving greater sales and revenue. With innumerable options available today, customers have the power to switch brands easily. Too many steps are often a factor in this decision. With social commerce businesses can reduce the steps in the funnel and provide a seamless, hassle-free experience that entices customers."
+                  />
+
+                </Fade>
+              </Box>
+              <Box {...col} {...textArea} className="InfoBanner_Image_container">
+                <Fade bottom cascade>
+                  <Image src={drcimg} alt="Info Image One" />
+                </Fade>
+              </Box>
+            </Box>
+          </Container>
+        </Box>
+
+
+        <Container>
+          <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="Chatbots are Driving Social Commerce"
+                />
+                <Text
+                  {...description}
+                  content="You need the right tools to drive sales via social commerce and chatbots AI-powered chatbots are perfect for the job. Many customers prefer to communicate with your brand via chat. Potential shoppers are inspired when they see the latest fashion or a cool new gadget and with the social proof of user-generated content they are typically ready to move to purchase. Cnetric can help your brand create bots that have defined the purpose of helping the shopper complete the sale within their social platform."
+                />
+
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="InfoBanner_Image_container">
+              <Fade bottom cascade>
+                <Image src={univcoming} alt="Info Image One" />
+              </Fade>
+            </Box>
+          </Box>
+        </Container>
+
+      </div>
+      {/* end of Social Commerce */}
     </Box>
   );
 };
