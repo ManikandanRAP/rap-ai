@@ -93,8 +93,8 @@ InfoAboutSection.propTypes = {
 InfoAboutSection.defaultProps = {
   sectionWrapper: {
     as: 'section',
-    pt: ['0px', '0px', '0px', '0px', '80px'],
-    pb: ['60px', '80px', '40px', '80px', '80px'],
+    pt: ['25px', '25px', '25px', '30px', '30px'],
+    // pb: ['60px', '80px', '40px', '80px', '80px'],
     id: 'info_section',
   },
   row: {

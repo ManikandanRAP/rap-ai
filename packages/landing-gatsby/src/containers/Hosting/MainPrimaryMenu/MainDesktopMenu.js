@@ -3,9 +3,14 @@ import React from "react"
 import { Link } from "gatsby";
 
 import Box from 'common/src/components/Box';
-import imageFeatureMenu from "../../../../../common/src/assets/image/hosting/Menu_featured_1.gif"
-import DRCIcon from "../../../../../common/src/assets/image/hosting/Menu/Drc.gif"
-import UCIcon from "../../../../../common/src/assets/image/hosting/Menu/UC.gif"
+import imageFeatureMenu from "../../../../../common/src/assets/image/hosting/Menu_featured_1.gif";
+import DRCIcon from "../../../../../common/src/assets/image/hosting/Menu/Drc.svg";
+import UCIcon from "../../../../../common/src/assets/image/hosting/Menu/UC.svg";
+import StoreIcon from "../../../../../common/src/assets/image/hosting/Menu/storefront.svg";
+import CompanyIcon from "../../../../../common/src/assets/image/hosting/Menu/company.svg";
+import TeamIcon from "../../../../../common/src/assets/image/hosting/Menu/team.svg";
+import PartnersIcon from "../../../../../common/src/assets/image/hosting/Menu/partners.svg";
+import MediaIcon from "../../../../../common/src/assets/image/hosting/Menu/media.svg";
 
 import MainDesktopNav, {
     MainNavbarUl,
@@ -254,7 +259,7 @@ const Maindeskmenu1 = () => (
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <img src={UCIcon}/>
+                                <img src={StoreIcon}/>
                                 <Link to="/store-fronts">
                                     <span>Store Fronts</span>
                                 </Link>
@@ -300,26 +305,26 @@ const Maindeskmenu1 = () => (
                     <MainNavFlexbox className="Menu_desktop_box Desktop_menu_shadow">
                         <MainNavbarDropUl className="Desktop_Menu_stepped2">
                             <MainNavbarDropLi>
-                                <img src={UCIcon}/>
+                                <img src={CompanyIcon}/>
                                 <Link to="/company">
                                     <span>Company</span>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <img src={DRCIcon}/>
+                                <img src={TeamIcon}/>
                                 <Link to="/team">
                                     <span>Team</span>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <img src={UCIcon}/>
+                                <img src={PartnersIcon}/>
                                 <Link to="/partners">
                                     <span>Partners</span>
                                 </Link>
                                 <div></div>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <img src={UCIcon}/>
+                                <img src={MediaIcon}/>
                                 <Link to="/media&whitepapers">
                                     <span>Media & White Papers</span>
                                 </Link>

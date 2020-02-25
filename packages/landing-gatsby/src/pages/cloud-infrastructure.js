@@ -15,7 +15,7 @@ import SEO from '../components/seo';
 
 import BannerServicessSection from '../containers/Hosting/BannerService';
 
-import InfoSolutionSection from '../containers/Hosting/InfoSolutions';
+import InfoServiceSection from '../containers/Hosting/InfoServices';
 import Ctasection from '../containers/Hosting/Ctasection';
 
 
@@ -33,6 +33,7 @@ const CloudInfrastructurePage = () => {
                         </DrawerProvider>
                     </Sticky>
                     <BannerServicessSection />
+                    <InfoServiceSection />
                     <Ctasection />
                     <Footer />
                 </ContentWrapper>

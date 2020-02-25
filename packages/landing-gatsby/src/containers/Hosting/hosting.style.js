@@ -1,6 +1,13 @@
 import styled, { createGlobalStyle } from 'styled-components';
 import { themeGet } from 'styled-system';
 import FeatureBlock from 'common/src/components/FeatureBlock';
+import b2bbanner_image from 'common/src/assets/image/hosting/Banner/B2B.jpg';
+import b2cbanner_image from 'common/src/assets/image/hosting/Banner/B2C.jpg';
+import aimlbanner_image from 'common/src/assets/image/hosting/Banner/AIML.jpg';
+import cloudtransformationbanner_image from 'common/src/assets/image/hosting/Banner/CloudTransformation.jpg';
+import headlesscommercebanner_image from 'common/src/assets/image/hosting/Banner/HeadlessCommerce.jpg';
+import omnichannelbanner_image from 'common/src/assets/image/hosting/Banner/Omnichannel.jpg';
+import socialcommercebanner_image from 'common/src/assets/image/hosting/Banner/SocialCommerce.jpg';
 
 export const GlobalStyle = createGlobalStyle`
   body{
@@ -273,7 +280,8 @@ export const ContentWrapper = styled.div`
 
         img {
           width: 80px;
-          height: 70px;
+          height: 80px;
+          object-fit: contain;
         }
       }
     }
@@ -319,21 +327,33 @@ export const ContentWrapper = styled.div`
     .container.banner_container.B2c_banner{
       display: block;
     }
+    #banner_section {
+      background-image: url(${b2bbanner_image});
+    } 
   }
   &.B2b_page {
     .container.banner_container.B2b_banner{
       display: block;
     }
+    #banner_section {
+      background-image: url(${b2cbanner_image});
+    } 
   }
   &.automation_ai_page {
     .container.banner_container.automation_ai_banner {
       display: block;
     }
+    #banner_section {
+      background-image: url(${aimlbanner_image});
+    } 
   }
   &.Cloud_infrastructure_page {
     .container.banner_container.Cloud_infrastructure_banner {
       display: block;
     }
+    #banner_section {
+      background-image: url(${cloudtransformationbanner_image});
+    } 
   }
 
   @media (max-width: 990px) {

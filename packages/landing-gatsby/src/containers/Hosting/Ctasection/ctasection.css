@@ -21,11 +21,12 @@
     max-width: 1170px;
     margin: 0 auto;
 }
-.Cta_container div{
+.Cta_container div {
     text-align: center;
 }
 .B2b_page .Cta_container.cta_B2b_page,
 .B2c_page .Cta_container.cta_B2c_page,
-.automation_ai_page .cta_automation_ai_page {
+.automation_ai_page .cta_automation_ai_page,
+.Cloud_infrastructure_page .cta_cloudTransform_page {
     display: flex;
 }

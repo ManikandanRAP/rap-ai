@@ -29,7 +29,7 @@ const BannerSolutionsSection = ({
 }) => {
 
   return (
-    <BannerWrapper3 id="banner_section3">
+    <BannerWrapper3 id="banner_section">
       <ParticlesComponent />
       <Container className="banner_container B2c_banner">
         <Box {...row}>

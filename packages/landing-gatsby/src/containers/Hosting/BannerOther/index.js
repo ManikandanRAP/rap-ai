@@ -31,7 +31,7 @@ const BannerOtherSection = ({
 }) => {
 
   return (
-    <BannerWrapper4 id="banner_section4">
+    <BannerWrapper4 id="banner_section">
       <ParticlesComponent />
       <Container className="banner_container aboutUs_banner">
         <Box {...row}>

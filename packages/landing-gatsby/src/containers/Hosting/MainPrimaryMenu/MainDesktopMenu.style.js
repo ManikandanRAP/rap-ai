@@ -47,7 +47,7 @@ export const MainNavbarDropUl = styled.ul`
         li {
             img {
                 width: 100%;
-                max-width: 45px;
+                max-width: 30px;
                 object-fit: contain;
                 margin-right: 25px;
             }

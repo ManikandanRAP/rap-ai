@@ -17,6 +17,7 @@ const ServicesSection2 = ({
   secHeading,
   secText,
   featureItemHeading,
+  featureItemImage,
   featureItemDes,
   featureBlockStyle,
   iconStyle,
@@ -49,7 +50,7 @@ const ServicesSection2 = ({
               />
             </Fade>
           </Box>
-          <Box {...row}>
+          <Box {...row} style={{justifyContent: 'center'}}>
             {Data.hostingJson.SERVICESS_DATA.map((featureItem, index) => (
               <Box {...col} key={`service-${index}`}>
                 <FeatureBlock
@@ -70,6 +71,7 @@ const ServicesSection2 = ({
                   }
                   icon={
                     <Image
+                      {...featureItemImage}
                       src={featureItem.icon.publicURL}
                       alt={`icon-${index}`}
                     />
@@ -92,6 +94,7 @@ ServicesSection2.propTypes = {
   secHeading: PropTypes.object,
   secText: PropTypes.object,
   featureItemHeading: PropTypes.object,
+  featureItemImage: PropTypes.object,
   featureItemDes: PropTypes.object,
   featureBlockStyle: PropTypes.object,
   iconStyle: PropTypes.object,
@@ -103,8 +106,8 @@ ServicesSection2.defaultProps = {
     as: 'section',
     id: 'service_section',
     className: 'service_section',
-    pt: ['60px', '80px', '80px', '80px'],
-    pb: ['60px', '80px', '80px', '100px'],
+    pt: ['20px', '20px', '30px', '40px'],
+    // pb: ['60px', '80px', '80px', '100px'],
   },
   secTitleWrapper: {
     mb: ['50px', '60px', '60px', '75px'],
@@ -121,7 +124,7 @@ ServicesSection2.defaultProps = {
   },
   secHeading: {
     textAlign: 'center',
-    fontSize: ['20px', '24px'],
+    fontSize: ['16px', '16px'],
     fontWeight: '400',
     color: '#0f2137',
     letterSpacing: '-0.025em',
@@ -132,36 +135,41 @@ ServicesSection2.defaultProps = {
     flexWrap: 'wrap',
   },
   col: {
-    width: [1, 1 / 2, 1 / 2, 1 / 3],
+    width: [1, 1 / 2, 1 / 2, 0.3],
     className: 'service_col',
     bg: '#fff',
+    margin: '1%',
   },
   featureBlockStyle: {
-    p: '45px 55px',
+    p: '20px 20px',
     className: 'service_item',
   },
   iconStyle: {
     textAlign: 'center',
     display: 'flex',
     justifyContent: 'center',
-    mb: '45px',
+    mb: '10px',
   },
   contentStyle: {
     textAlign: 'center',
   },
   featureItemHeading: {
-    fontSize: ['18px', '20px'],
+    fontSize: ['16px', '18px'],
     fontWeight: '400',
     color: '#0f2137',
     lineHeight: '1.5',
     mb: '20px',
     letterSpacing: '-0.020em',
   },
+  featureItemImage: {
+    width: '120px !important',
+    height: '120px !important',
+  },
   featureItemDes: {
     fontSize: '15px',
     lineHeight: '1.84',
     color: '#343d48cc',
-    mb: '0',
+    mb: '10px',
   },
 };
 

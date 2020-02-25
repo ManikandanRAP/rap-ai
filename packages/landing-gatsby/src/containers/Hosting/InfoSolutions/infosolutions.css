@@ -1,5 +1,5 @@
 #info_solutions {
-    padding-top: 55px;
+    /* padding-top: 55px; */
 }
 #info_solutions .Solutions_Image_container {
     /* background-color: #ececec; */
@@ -8,7 +8,8 @@
 #info_solutions .Solutions_Image_container img {
     /* background-color: #ececec; */
     padding: 15px;
-    max-width: 400px;
+    width: 100%;;
+    max-width: 350px;
     margin: 0 auto;
 }
 #info_solutions .multi_sections_container {

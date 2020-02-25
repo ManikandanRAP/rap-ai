@@ -52,7 +52,7 @@ export default () => {
           <Fullslider1 />
           <InfoHomeSection />
           <FeatureSection />
-          {/* <ServicesSection2 /> */}
+          <ServicesSection2 />
           {/* <BannerSection />
           
           

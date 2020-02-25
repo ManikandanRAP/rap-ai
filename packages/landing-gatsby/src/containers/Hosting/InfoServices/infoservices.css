@@ -1,0 +1,30 @@
+#info_services .InfoBanner_Image_container {
+    /* background-color: #ececec; */
+    background-color: transparent;
+}
+#info_services .InfoBanner_Image_container img {
+    /* background-color: #ececec; */
+    padding: 15px;
+    width: 100%;;
+    max-width: 350px;
+    margin: 0 auto;
+}
+#info_services .multi_sections_container {
+    display: none;
+}
+.Cloud_infrastructure_page #info_services .multi_sections_container.CloudTransformation__info_container {
+    display: block;
+}
+
+
+@media only screen and (min-width: 992px) {
+    #info_services .info_order_change {
+        order: 2;
+    }   
+}
+
+@media only screen and (max-width: 575px) {
+    #info_services .InfoBanner_Image_container {
+        padding: 15px;
+    }   
+}

@@ -135,7 +135,7 @@ const InfoHomeSection = ({
               />
               <Text
                 {...description}
-                content="Best of Breed Innovation and Disruption \n on a Single Platform"
+                content="Best of Breed Innovation and Disruption on a Single Platform"
               />
               <Text
                 {...description}
@@ -179,8 +179,8 @@ InfoHomeSection.propTypes = {
 InfoHomeSection.defaultProps = {
   sectionWrapper: {
     as: 'section',
-    pt: ['0px', '0px', '0px', '0px', '30px'],
-    pb: ['0px', '0px', '0px', '0px', '0px'],
+    pt: ['25px', '25px', '25px', '30px', '30px'],
+    // pb: ['0px', '0px', '0px', '0px', '0px'],
     id: 'info_section',
   },
   secTitleWrapper: {
@@ -243,7 +243,7 @@ InfoHomeSection.defaultProps = {
     mb: '20px',
   },
   description: {
-    fontSize: ['14px', '14px', '14px', '14px', '14px'],
+    fontSize: ['16px', '16px', '16px', '16px', '16px'],
     color: '#343d48cc',
     lineHeight: '1.5',
     mb: '14px',
