@@ -8,11 +8,11 @@ node_modules
 /coverage
 
 # production
-/build
-/dist
-.next
-next
-out
+# /build
+# /dist
+#.next
+# next
+# out
 # misc
 .DS_Store
 .env
