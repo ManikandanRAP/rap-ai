@@ -134,9 +134,6 @@ export const MainNavbarDropBox = styled.div`
     }
     @media only screen and (min-width: 992px) and (max-width: 1240px) {
         width: 100%;
-        &.featured_Menu {
-
-        }
     }
 `;
 export const MainNavFlexbox = styled.div`
@@ -156,6 +153,7 @@ export const MainNavFlexbox = styled.div`
         padding: 0;
         width: 100%;
         position: relative;
+        border: none;
     }
     .featured_Menu_container {
         position: static; 

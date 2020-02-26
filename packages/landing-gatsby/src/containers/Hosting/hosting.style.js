@@ -139,8 +139,14 @@ export const ContentWrapper = styled.div`
       box-shadow: 0px 3px 8px 0px rgba(43, 83, 135, 0.08);
       padding: 0;
     }
+    .hosting_navbar .main_menu .main_menu_head {
+      color: #000;
+    }
   }
-
+  // hosting navbar own code
+  .hosting_navbar .main_menu .main_menu_head {
+    color: #fff;
+  }
   .hosting_navbar {
     position: fixed;
     top: 0;
@@ -287,6 +293,8 @@ export const ContentWrapper = styled.div`
     }
   }
 
+  // our code
+  // banner
   #banner_section:before {
     content: '';
     width: 100%;
@@ -306,9 +314,14 @@ export const ContentWrapper = styled.div`
   #OurTeam .BoxItemsContainer {
     display: none;
   }
+  //Banner other pages visibility
+  // Pages setting
   &.Home_page {
-    .someclass {
-      display: block;
+    .hosting_navbar {
+      background-color: rgba(255, 255, 255, 0.95);
+      .main_menu .main_menu_head {
+        color: #000;
+      }
     }
   }
   &.aboutUs_page {

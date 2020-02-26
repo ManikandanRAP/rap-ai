@@ -26,7 +26,7 @@ const Maindeskmenu1 = () => (
     <MainDesktopNav>
         <MainNavbarUl className="scrollspy__menu main_menu">
             <MainNavbarLi>
-                <span>Solutions <span class="desk_arrow_down">&#9660;</span></span>
+                <span className="main_menu_head">Solutions <span class="desk_arrow_down">&#9660;</span></span>
                 <MainNavbarDropBox className="desktop_menu_drop_effect">
                     <MainNavFlexbox className="Desktop_menu_shadow">
                         <MainNavbarDropUl>
@@ -104,9 +104,8 @@ const Maindeskmenu1 = () => (
                     </MainNavFlexbox>
                 </MainNavbarDropBox>
             </MainNavbarLi>
-            {/* HEREGORES */}
             <MainNavbarLi>
-                <span>Services <span class="desk_arrow_down">&#9660;</span></span>
+                <span className="main_menu_head">Services <span class="desk_arrow_down">&#9660;</span></span>
                 <MainNavbarDropBox className="desktop_menu_drop_effect">
                     <MainNavFlexbox className="Desktop_menu_shadow">
                         <MainNavbarDropUl>
@@ -239,9 +238,8 @@ const Maindeskmenu1 = () => (
                     </MainNavFlexbox>
                 </MainNavbarDropBox>
             </MainNavbarLi>
-            {/* HEREGORES */}
             <MainNavbarLi className="Menu_position_rel">
-                <span>Product <span class="desk_arrow_down">&#9660;</span></span>
+                <span className="main_menu_head">Product <span class="desk_arrow_down">&#9660;</span></span>
                 <MainNavbarDropBox className="Menu_desktop_set desktop_menu_drop_effect">
                     <MainNavFlexbox className="Menu_desktop_box Desktop_menu_shadow">
                         <MainNavbarDropUl className="Desktop_Menu_stepped2">
@@ -296,7 +294,7 @@ const Maindeskmenu1 = () => (
                 <p>Horizontal structure</p> */}
             </MainNavbarLi>
             <MainNavbarLi className="Menu_position_rel">
-                <span>About <span class="desk_arrow_down">&#9660;</span></span>
+                <span className="main_menu_head">About <span class="desk_arrow_down">&#9660;</span></span>
                 {/* <Link to="/about">
                     <span>About</span>
                 </Link> */}
@@ -335,12 +333,12 @@ const Maindeskmenu1 = () => (
             </MainNavbarLi>
             <MainNavbarLi>
                 <Link to="/blog">
-                    <span>Blog</span>
+                    <span className="main_menu_head">Blog</span>
                 </Link>
             </MainNavbarLi>
             <MainNavbarLi>
                 <Link to="/contact">
-                    <span>Contact</span>
+                    <span className="main_menu_head">Contact</span>
                 </Link>
             </MainNavbarLi>
         </MainNavbarUl>

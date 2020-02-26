@@ -105,7 +105,9 @@ Navbar.defaultProps = {
     minHeight: '70px',
     display: 'block',
     position: 'relative',
-    backgroundColor: 'rgba(255, 255, 255, 0.95)',
+    backgroundColor: 'transparent',
+    
+    // backgroundColor: 'rgba(255, 255, 255, 0.95)',
   },
   row: {
     flexBox: true,
