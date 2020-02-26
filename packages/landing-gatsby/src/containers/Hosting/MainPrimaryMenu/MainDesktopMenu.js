@@ -123,11 +123,6 @@ const Maindeskmenu1 = () => (
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="/Consulting">
-                                    <span>Automation & AI</span>
-                                </Link>
-                            </MainNavbarDropLi>
-                            <MainNavbarDropLi>
                                 <Link to="/cloud-infrastructure">
                                     <span>Cloud Infrastructure</span>
                                 </Link>
