@@ -175,7 +175,7 @@ BannerOtherSection.defaultProps = {
     fontWeight: '400',
     color: '#0f2137',
     letterSpacing: '-0.025em',
-    mb: ['20px', '25px', '25px', '25px', '25px'],
+    mb: ['5px', '8px', '8px', '8px', '8px'],
     lineHeight: '1.31',
     textAlign: 'center',
   },

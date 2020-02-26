@@ -1,6 +1,7 @@
 import styled, { createGlobalStyle } from 'styled-components';
 import { themeGet } from 'styled-system';
 import FeatureBlock from 'common/src/components/FeatureBlock';
+import logo_black from 'common/src/assets/image/hosting/logo.png';
 import b2bbanner_image from 'common/src/assets/image/hosting/Banner/B2B.jpg';
 import b2cbanner_image from 'common/src/assets/image/hosting/Banner/B2C.jpg';
 import aimlbanner_image from 'common/src/assets/image/hosting/Banner/AIML.jpg';
@@ -141,6 +142,9 @@ export const ContentWrapper = styled.div`
     }
     .hosting_navbar .main_menu .main_menu_head {
       color: #000;
+    }
+    .hosting_navbar .LogoImageSize {
+      content: url(${logo_black});
     }
   }
   // hosting navbar own code
@@ -306,6 +310,14 @@ export const ContentWrapper = styled.div`
     top: 0;
     bottom: 0;
   }
+  .banner_container {
+    // position: relative;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+  }
   #banner_section h2,
   #banner_section p {
     color: #fff;
@@ -317,11 +329,21 @@ export const ContentWrapper = styled.div`
   //Banner other pages visibility
   // Pages setting
   &.Home_page {
-    .hosting_navbar {
-      background-color: rgba(255, 255, 255, 0.95);
-      .main_menu .main_menu_head {
-        color: #000;
-      }
+    // .hosting_navbar {
+    //   background-color: rgba(255, 255, 255, 0.95);
+    //   .main_menu .main_menu_head {
+    //     color: #000;
+    //   }
+    // }
+  }
+  // button style
+  .reusecore__button {
+    padding: 10px 20px;
+    min-height: auto;
+    .btn-text {
+      color: #fff;
+      font-size: 16px;
+      padding: 0;
     }
   }
   &.aboutUs_page {

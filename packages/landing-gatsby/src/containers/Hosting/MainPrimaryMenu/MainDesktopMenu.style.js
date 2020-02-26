@@ -177,48 +177,6 @@ export const MainNavFlexbox = styled.div`
         transform: translateY(-50%);
         right: 10%;
     }
-    .featured_Menu_container .btn-cta-menu {
-        cursor: pointer;
-        display: -webkit-inline-box;
-        display: -webkit-inline-flex;
-        display: -ms-inline-flexbox;
-        display: inline-flex;
-        -webkit-align-items: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        color: #ffffff;
-        min-height: 46px;
-        min-width: 48px;
-        border-radius: 3px;
-        font-family: inherit;
-        font-size: 16px;
-        font-weight: 500;
-        -webkit-text-decoration: none;
-        text-decoration: none;
-        text-transform: capitalize;
-        padding-top: 8px;
-        padding-bottom: 8px;
-        border: 0;
-        -webkit-transition: all 0.3s ease;
-        transition: all 0.3s ease;
-        color: #ffffff;
-        background-color: #4a90e2;
-        border-color: #4a90e2;
-        box-sizing: border-box;
-        padding-left: 22px;
-        padding-right: 22px;
-        font-size: 14px;
-        color: #fff;
-        border-radius: 4px;
-        margin-top: 15px;
-        position: absolute;
-        bottom: 20px;
-    }
     &.Menu_desktop_box {
         padding: 0;
     }
@@ -249,7 +207,7 @@ export const MainNavbarLi = styled.li`
         position: relative;
     }
     .desk_arrow_down {
-        color: #eb4d4b;;
+        color: #73c2c2;
         font-size: 10px;
         vertical-align: middle;
     }

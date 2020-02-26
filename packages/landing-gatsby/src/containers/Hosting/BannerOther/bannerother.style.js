@@ -30,9 +30,6 @@ const BannerWrapper4 = styled.section`
       display: none;
     }
   }
-  .banner_container {
-    position: relative;
-  }
 `;
 
 export const SearchWrapper = styled.div`

@@ -5,10 +5,14 @@
 
 .container.cta_size_container button {
     background-color: #fff;
+}
+.container.cta_size_container button .btn-text {
     color: #000;
 }
 .container.cta_size_container button:hover {
     background-color: #73c2c2;
+}
+.container.cta_size_container button:hover .btn-text {
     color: #fff;
 }
 

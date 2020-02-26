@@ -1,5 +1,7 @@
 import React from "react"
 // import ScrollSpyMenu from 'common/src/components/ScrollSpyMenu';
+import Button from 'common/src/components/Button';
+import PropTypes from 'prop-types';
 import { Link } from "gatsby";
 
 import Box from 'common/src/components/Box';
@@ -19,10 +21,10 @@ import MainDesktopNav, {
     MainNavbarDropLi,
     MainNavbarDropMainLi,
     MainNavbarDropBox,
-    MainNavFlexbox
+    MainNavFlexbox,
 } from './MainDesktopMenu.style';
 
-const Maindeskmenu1 = () => (
+const Maindeskmenu1 = (button) => (
     <MainDesktopNav>
         <MainNavbarUl className="scrollspy__menu main_menu">
             <MainNavbarLi>
@@ -93,7 +95,7 @@ const Maindeskmenu1 = () => (
                                     <h4 style={{marginTop: 0}}>Features</h4>
                                     <p>Our Universal Commerce approach ensures significantly higher rate of success than other system integrators</p>
                                     <Link to="/contact">
-                                        <span className="btn-cta-menu">Learn More</span>
+                                        <Button {...button}title="Learn More" />
                                     </Link>
                                 </Box>
                                 <Box className="featured_Menu_col featured_Menu_col2">
@@ -227,7 +229,7 @@ const Maindeskmenu1 = () => (
                                     <h4 style={{marginTop: 0}}>Features</h4>
                                     <p>Our Universal Commerce approach ensures significantly higher rate of success than other system integrators</p>
                                     <Link to="/contact">
-                                        <span className="btn-cta-menu">Learn More</span>
+                                        <Button {...button} title="Learn More" />
                                     </Link>
                                 </Box>
                                 <Box className="featured_Menu_col featured_Menu_col2">
@@ -345,4 +347,21 @@ const Maindeskmenu1 = () => (
     </MainDesktopNav>
 );
 
+Maindeskmenu1.propTypes = {
+    button: PropTypes.object
+}
+Maindeskmenu1.defaultProps = {
+    button: {
+        type: 'button',
+        fontSize: '13px',
+        fontWeight: '600',
+        color: 'white',
+        borderRadius: '4px',
+        pl: '15px',
+        pr: '15px',
+        colors: 'primaryWithBg',
+        minHeight: 'auto',
+        height: `${1}`,
+    }
+}
 export default Maindeskmenu1

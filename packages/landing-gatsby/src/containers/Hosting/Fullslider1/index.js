@@ -1,12 +1,13 @@
 import React from "react";
-import { Link } from "gatsby"
+import { Link } from "gatsby";
+import Button from 'common/src/components/Button';
 import Slider from "react-slick";
-import SliderImg1 from "./sliderimage1.jpg"
-import SliderImg2 from "./sliderimage2.jpg"
-import SliderImg3 from "./sliderimage3.jpg"
-import SliderImg4 from "./sliderimage4.jpg"
-import SliderImg5 from "./sliderimage5.jpg"
-import "./fullslider1.css"
+import SliderImg1 from "./sliderimage1.jpg";
+import SliderImg2 from "./sliderimage2.jpg";
+import SliderImg3 from "./sliderimage3.jpg";
+import SliderImg4 from "./sliderimage4.jpg";
+import SliderImg5 from "./sliderimage5.jpg";
+import "./fullslider1.css";
 
 var settings = {
     dots: true,
@@ -27,7 +28,9 @@ const Fullslider1 = () => (
                     <div className="Banner-details">
                         <div>
                             <h1>Disrupt eCommerce with a Headless Model</h1>
-                            <Link to="/product">Learn How</Link>
+                            <Link to="/product">
+                                <Button title="Learn How" />
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -38,7 +41,9 @@ const Fullslider1 = () => (
                     <div className="Banner-details">
                         <div>
                             <h1>Innovative, Disruptive Plug n Play with Universal Commerce</h1>
-                            <Link to="/product">Learn How</Link>
+                            <Link to="/product">
+                                <Button title="Learn How" />
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -49,7 +54,9 @@ const Fullslider1 = () => (
                     <div className="Banner-details">
                         <div>
                             <h1>Dr Commerce – Personalized Support & Services</h1>
-                            <Link to="/product">Learn How</Link>
+                            <Link to="/product">
+                                <Button title="Learn How" />
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -60,7 +67,9 @@ const Fullslider1 = () => (
                     <div className="Banner-details">
                         <div>
                             <h1>Seamless Omnichannel Experience to Delight Shoppers</h1>
-                            <Link to="/product">Learn How</Link>
+                            <Link to="/product">
+                                <Button title="Learn How" />
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -71,7 +80,9 @@ const Fullslider1 = () => (
                     <div className="Banner-details">
                         <div>
                             <h1>TBD</h1>
-                            <Link to="/product">Learn How</Link>
+                            <Link to="/product">
+                                <Button title="Learn How" />
+                            </Link>
                         </div>
                     </div>
                 </div>
