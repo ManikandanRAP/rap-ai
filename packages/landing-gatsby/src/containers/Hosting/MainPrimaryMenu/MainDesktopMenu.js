@@ -28,13 +28,13 @@ const Maindeskmenu1 = () => (
             <MainNavbarLi>
                 <span>Solutions <span class="desk_arrow_down">&#9660;</span></span>
                 <MainNavbarDropBox className="desktop_menu_drop_effect">
-                    <MainNavFlexbox className="Desktop_menu_shadow" style={{paddingLeft: '15px'}}>
+                    <MainNavFlexbox className="Desktop_menu_shadow">
                         <MainNavbarDropUl>
                             <MainNavbarDropMainLi>Business Model</MainNavbarDropMainLi>
                             <br />
                             <MainNavbarDropLi>
                                 <Link to="/b2c">
-                                    <span>B2C</span>
+                                    B2C
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
@@ -72,9 +72,9 @@ const Maindeskmenu1 = () => (
                                 <Link to="omnichannel">Omnichannel</Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <span>Digital Experience & CX</span></MainNavbarDropLi>
+                                <Link to="digital-experience">Digital Experience & CX</Link></MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <span>Order Management</span></MainNavbarDropLi>
+                                <Link to="order-management">Order Management</Link></MainNavbarDropLi>
                             <MainNavbarDropLi>
                                 <span>Analytics</span></MainNavbarDropLi>
                             <MainNavbarDropLi>
@@ -108,7 +108,7 @@ const Maindeskmenu1 = () => (
             <MainNavbarLi>
                 <span>Services <span class="desk_arrow_down">&#9660;</span></span>
                 <MainNavbarDropBox className="desktop_menu_drop_effect">
-                    <MainNavFlexbox className="Desktop_menu_shadow" style={{paddingLeft: '15px'}}>
+                    <MainNavFlexbox className="Desktop_menu_shadow">
                         <MainNavbarDropUl>
                             <MainNavbarDropMainLi>Strategy</MainNavbarDropMainLi>
                             <br />

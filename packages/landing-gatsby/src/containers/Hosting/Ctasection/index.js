@@ -96,6 +96,26 @@ const Ctasection = ({
                         </Link>
                     </Box>
                 </Box>
+                <Box className="Cta_container cta_order_management_page">
+                    <Box {...box_size}>
+                        <p>Achieve Best-in-Class Order Management Functionality with Omnichannel Approach.</p>
+                    </Box>
+                    <Box {...box_size}>
+                        <Link to="/contact">
+                            <Button {...button} title="Work with Us" />
+                        </Link>
+                    </Box>
+                </Box>
+                <Box className="Cta_container cta_digital_experience_page">
+                    <Box {...box_size}>
+                        <p>Reinvent Customer Experience with Innovative Digital Technology.</p>
+                    </Box>
+                    <Box {...box_size}>
+                        <Link to="/contact">
+                            <Button {...button} title="Work with Us" />
+                        </Link>
+                    </Box>
+                </Box>
             </Container>
 
         </>

@@ -14,6 +14,13 @@ import univcoming from 'common/src/assets/image/hosting/Home/UniversalCommerce.p
 import illusting from 'common/src/assets/image/hosting/Home/Illustration.png';
 import { Link } from "gatsby"
 
+import headlessCommImg1 from 'common/src/assets/image/hosting/Pages/HeadlessCommerce/An Eye on 5G.svg';
+import headlessCommImg2 from 'common/src/assets/image/hosting/Pages/HeadlessCommerce/Faster Time to Market.svg';
+import headlessCommImg3 from 'common/src/assets/image/hosting/Pages/HeadlessCommerce/Omnichannel Reach.svg';
+import headlessCommImg4 from 'common/src/assets/image/hosting/Pages/HeadlessCommerce/Customization, Personalization & Flexibility.svg';
+import headlessCommImg5 from 'common/src/assets/image/hosting/Pages/HeadlessCommerce/An Eye on 5G.svg';
+import headlessCommImg6 from 'common/src/assets/image/hosting/Pages/HeadlessCommerce/Social Commerce.svg';
+
 
 import "./infosolutions.css";
 
@@ -572,7 +579,7 @@ const InfoSolutionSection = ({
             </Box>
             <Box {...col} {...textArea} className="Solutions_Image_container">
               <Fade bottom cascade>
-                <Image src={drcimg} alt="Info Image One" />
+                <Image src={headlessCommImg1} alt="What is Headless eCommerce?" />
               </Fade>
             </Box>
           </Box>
@@ -596,7 +603,7 @@ const InfoSolutionSection = ({
               </Box>
               <Box {...col} {...textArea} className="Solutions_Image_container">
                 <Fade bottom cascade>
-                  <Image src={drcimg} alt="Info Image One" />
+                  <Image src={headlessCommImg2} alt="Info Image One" />
                 </Fade>
               </Box>
             </Box>
@@ -621,7 +628,7 @@ const InfoSolutionSection = ({
             </Box>
             <Box {...col} {...textArea} className="Solutions_Image_container">
               <Fade bottom cascade>
-                <Image src={univcoming} alt="Info Image One" />
+                <Image src={headlessCommImg3} alt="Info Image One" />
               </Fade>
             </Box>
           </Box>
@@ -646,7 +653,7 @@ const InfoSolutionSection = ({
               </Box>
               <Box {...col} {...textArea} className="Solutions_Image_container">
                 <Fade bottom cascade>
-                  <Image src={univcoming} alt="Info Image One" />
+                  <Image src={headlessCommImg4} alt="Info Image One" />
                 </Fade>
               </Box>
             </Box>
@@ -670,7 +677,7 @@ const InfoSolutionSection = ({
             </Box>
             <Box {...col} {...textArea} className="Solutions_Image_container">
               <Fade bottom cascade>
-                <Image src={univcoming} alt="Info Image One" />
+                <Image src={headlessCommImg5} alt="Info Image One" />
               </Fade>
             </Box>
           </Box>
@@ -694,15 +701,249 @@ const InfoSolutionSection = ({
               </Box>
               <Box {...col} {...textArea} className="Solutions_Image_container">
                 <Fade bottom cascade>
-                  <Image src={univcoming} alt="Info Image One" />
+                  <Image src={headlessCommImg6} alt="Info Image One" />
+                </Fade>
+              </Box>
+            </Box>
+          </Container>
+        </Box>
+      </div>
+      {/* end of headless Commerce */}
+      <div className="multi_sections_container digital_experience_info_container">
+
+        <Container>
+          <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <Box {...col} {...textArea} >
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="Digital Experience (DX)  & Customer Experience (CX)"
+                />
+                <Text
+                  {...description}
+                  content="For Greater Sales"
+                />
+                <Text
+                  {...description}
+                  content="A positive customer experience can make or break an eCommerce business in today’s customer-centric world. Over 53% of customers abandon their shopping if they have to wait 3 seconds or more. As you can see the bar is high for pleasing today’s online customers. This is where a technologically-optimized digital experience (DX) and customer experience (CX) plays a substantial role in delighting customers to build sustained engagement and loyalty."
+                />
+                <Text
+                  {...description}
+                  content="You must bridge the silos of your web site, mobile app, offline and backend systems and you must think of DX strategy as being a significant piece of your customer experience (CX) strategy. Cnetric’s services, solutions and expertise can help your organization truly standout from the pack through seamless, omnichannel, thoughtful customer experience."
+                />
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="Solutions_Image_container">
+              <Fade bottom cascade>
+                <Image src={headlessCommImg1} alt="What is Headless eCommerce?" />
+              </Fade>
+            </Box>
+          </Box>
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box style={{ alignItems: 'center', justifyContent: 'center' }}>
+              <Box {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Full Spectrum of Digital Experience"
+                  />
+                  <Text
+                    {...description}
+                    content=""
+                  />
+
+                </Fade>
+              </Box>
+              <Box {...textArea} className="Solutions_Image_container">
+                <Fade bottom cascade>
+                  <Image src={headlessCommImg2} alt="Info Image One" />
                 </Fade>
               </Box>
             </Box>
           </Container>
         </Box>
 
+
+        <Container>
+          <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="Facets of State-Of-The-Art DX"
+                />
+                <ul>
+                  <li>Harmony among different applications in the area of marketing, commerce, sales and service forms the elementary interface between your customers and your company.</li>
+                  <li>Personalization based on tracking user behavior and interactions with you brand, so you can provide intelligent suggestions that suit their preference.</li>
+                  <li>Your eCommerce platform should have flexible capabilities and APIs to develop and maintain flawless data integration to provide a seamless digital experience.</li>
+                  <li>Ensure that your customers data stays private and protected while they engage with your brand across multiple channels and devices.</li>
+                  <li>eCommerce platforms with great digital experience must also utilize analytical tools with Machine Learning and Artificial Intelligence capabilities to track and measure consumer behavior and parameters of success.</li>
+                </ul>
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="Solutions_Image_container">
+              <Fade bottom cascade>
+                <Image src={headlessCommImg3} alt="Info Image One" />
+              </Fade>
+            </Box>
+          </Box>
+        </Container>
+
+
+        <Box className="section_background_color">
+          <Container>
+            <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Advantages of Great Digital Experience "
+                  />
+                </Fade>
+              </Box>   
+            </Box>
+          </Container>
+        </Box>
+
       </div>
-      {/* end of headless Commerce */}
+      {/* end of Digital Experience */}
+      <div className="multi_sections_container order_management_info_container">
+
+        <Container>
+          <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <Box {...col} {...textArea} >
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="Order Management System Intricacies in Today’s World"
+                />
+                <Text
+                  {...description}
+                  content="Retailers and manufacturers worldwide find it challenging to demystify the complexities in the order management systems and fulfillment processes. It is a system of people, processes, and suppliers where everyone should sync together for a delightful customer experience. To avoid bottlenecks and meet customer demand, a flexible omnichannel order management system is essential. Cnetric’s expertise in order management system solutions can retain customers’ trust and loyalty for long-term success."
+                />
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="Solutions_Image_container">
+              <Fade bottom cascade>
+                <Image src={headlessCommImg1} alt="What is Headless eCommerce?" />
+              </Fade>
+            </Box>
+          </Box>
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Our Solutions: Omnichannel Order Management"
+                  />
+                  <Text
+                    {...description}
+                    content="In an omnichannel world, eCommerce businesses need omnichannel order management to thrive and keep customers coming back for more. Modern customers have a buy-now, buy-fast and buy-from-anywhere & anytime outlook. They expect faster order fulfillment and convenient returns with enhanced flexibility. Cnetric’s solutions and services for omnichannel order management streamlines your processes that initiates with ordering and ends with goods delivery and return, if necessary."
+                  />
+
+                </Fade>
+              </Box>
+              <Box {...col} {...textArea} className="Solutions_Image_container">
+                <Fade bottom cascade>
+                  <Image src={headlessCommImg2} alt="Info Image One" />
+                </Fade>
+              </Box>
+            </Box>
+          </Container>
+        </Box>
+
+
+        <Container>
+          <Box>
+            <Box {...textArea}>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="End-to-End Order Management Solutions"
+                />
+                <Text
+                  {...description}
+                  content="Cnetric provides industry-leading services and solutions for end-to-end order management across omnichannels."
+                />
+
+              </Fade>
+            </Box>
+            <Box {...textArea} className="Solutions_Image_container">
+              <Fade bottom cascade>
+                <Image src={headlessCommImg3} alt="Info Image One" />
+              </Fade>
+            </Box>
+          </Box>
+        </Container>
+
+
+        <Box className="section_background_color">
+          <Container>
+            <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Our Capabilities"
+                  />
+                  <Text
+                    {...description}
+                    content="Experience End-to-End Excellence"
+                  />
+                  <ul>
+                    <li>Distributed Order Management/DOM</li>
+                    <li>Pick/Pack/ Ship Solutions</li>
+                    <li>Real-Time Inventory Management</li>
+                    <li>Order Routing Solutions</li>
+                    <li>Omnichannel Customer Service</li>
+                    <li>Ship from store/Click and collect</li>
+                    <li>Returns Management</li>
+                    <li>Analytics and Reporting</li>
+                  </ul>
+
+                </Fade>
+              </Box>
+              <Box {...col} {...textArea} className="Solutions_Image_container">
+                <Fade bottom cascade>
+                  <Image src={headlessCommImg4} alt="Info Image One" />
+                </Fade>
+              </Box>
+            </Box>
+          </Container>
+        </Box>
+
+        <Container>
+          <Box style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <Box {...textArea}>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="Our Partners"
+                />
+                <Text
+                  {...description}
+                  content="Our technology partnerships with industry-leading order management system vendors like IBM Sterling, Order dynamics etc. offer you the industry’s most comprehensive order management and fulfillment solutions."
+                />
+
+              </Fade>
+            </Box>
+            <Box {...textArea} className="Solutions_Image_container">
+              <Fade bottom cascade>
+                <Image src={headlessCommImg5} alt="Info Image One" />
+              </Fade>
+            </Box>
+          </Box>
+        </Container>
+
+      </div>
+      {/* end of order management */}
     </Box>
   );
 };

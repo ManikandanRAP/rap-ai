@@ -286,6 +286,22 @@ export const ContentWrapper = styled.div`
       }
     }
   }
+
+  #banner_section:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #052f4aab;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  #banner_section h2,
+  #banner_section p {
+    color: #fff;
+  }
   .container.banner_container,
   #OurTeam .BoxItemsContainer {
     display: none;
@@ -373,6 +389,22 @@ export const ContentWrapper = styled.div`
   }
   &.Social_commerce_page {
     .container.banner_container.social_commerce_banner {
+      display: block;
+    }
+    #banner_section {
+      background-image: url(${socialcommercebanner_image});
+    } 
+  }
+  &.Order_Management_page {
+    .container.banner_container.order_management_banner {
+      display: block;
+    }
+    #banner_section {
+      background-image: url(${socialcommercebanner_image});
+    } 
+  }
+  &.Digital_experience_page {
+    .container.banner_container.digital_experience_banner {
       display: block;
     }
     #banner_section {

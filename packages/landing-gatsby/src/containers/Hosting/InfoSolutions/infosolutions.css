@@ -19,7 +19,9 @@
 .B2b_page #info_solutions .multi_sections_container.B2b_info_container,
 .Automation_ai_page #info_solutions .multi_sections_container.automation_ai_info_container,
 .Omnichannel_page #info_solutions .multi_sections_container.omnichannel_info_container,
-.Headless_commerce_page #info_solutions .multi_sections_container.headless_commerce_info_container {
+.Headless_commerce_page #info_solutions .multi_sections_container.headless_commerce_info_container,
+.Digital_experience_page #info_solutions .multi_sections_container.digital_experience_info_container,
+.Order_Management_page #info_solutions .multi_sections_container.order_management_info_container {
     display: block;
 }
 

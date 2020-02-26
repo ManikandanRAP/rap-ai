@@ -14,7 +14,10 @@ export const MainNavbarDropUl = styled.ul`
     width: 45%;
     display: flex;
     flex-direction: column;
-    padding: 0 10px;
+    // padding: 0 10px;
+    padding: 15px 0;
+    border-right: 2px solid rgba(0, 0, 0, 0.1);
+    // background-color: #fff;
 
     &.Desktop_Menu_stepped {
         justify-content: center;
@@ -75,9 +78,10 @@ export const MainNavbarDropUl = styled.ul`
 `;
 
 export const MainNavbarDropLi = styled.li`
-    padding: 5px 0 !important;
+    padding: 5px 15px;
     a {
         padding: 0 !important;
+        display: block;
     }
     span {
         position: relative;
@@ -97,12 +101,17 @@ export const MainNavbarDropLi = styled.li`
         margin-top: 0;
     }
     &:hover span::after {
-        width: 100%;
+        // width: 100%;
         // min-width: 120px;
     }
+    &:hover {
+        background-color: #73c2c238;
+    }
+
 `;
 export const MainNavbarDropMainLi = styled.li`
     font-weight: bold;
+    margin-left: 15px;
 `;
 
 export const MainNavbarDropBox = styled.div`
@@ -133,14 +142,15 @@ export const MainNavbarDropBox = styled.div`
 export const MainNavFlexbox = styled.div`
     display: flex !important;
     background: rgba(255,255,255,1);
-    padding-top: 15px;
-    padding-bottom: 15px;
+    // background-color: rgba(0,0,0,0.1);
+    // padding-top: 15px;
+    // padding-bottom: 15px;
     border-top: 2px solid #1B24C1;
 
     .featured_Menu {
-        background-color: #f9fbfd;
-        margin-top: -14px;
-        margin-bottom: -15px;
+        background-color: #73c2c238;
+        // margin-top: -14px;
+        // margin-bottom: -15px;
         align-items: center;
         justify-content: flex-start;
         padding: 0;

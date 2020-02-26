@@ -115,6 +115,34 @@ const BannerSolutionsSection = ({
           </Box>
         </Box>
       </Container>
+      <Container className="banner_container order_management_banner">
+        <Box {...row}>
+          <Box {...textArea}>
+            <Heading
+              {...title}
+              content="Order Management"
+            />
+            <Text
+              {...description}
+              content="Seamless omnichannel order management system"
+            />
+          </Box>
+        </Box>
+      </Container>
+      <Container className="banner_container digital_experience_banner">
+        <Box {...row}>
+          <Box {...textArea}>
+            <Heading
+              {...title}
+              content="Digital Experience & CX"
+            />
+            <Text
+              {...description}
+              content="Seamless, omnichannel customer experience drives sales"
+            />
+          </Box>
+        </Box>
+      </Container>
     </BannerWrapper3>
   );
 };
