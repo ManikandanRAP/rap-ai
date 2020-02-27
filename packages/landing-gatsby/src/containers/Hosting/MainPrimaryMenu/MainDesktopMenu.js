@@ -95,7 +95,7 @@ const Maindeskmenu1 = (button) => (
                                     <h4 style={{marginTop: 0}}>Features</h4>
                                     <p>Our Universal Commerce approach ensures significantly higher rate of success than other system integrators</p>
                                     <Link to="/contact">
-                                        <Button {...button}title="Learn More" />
+                                        <Button {...button} title="Learn More" />
                                     </Link>
                                 </Box>
                                 <Box className="featured_Menu_col featured_Menu_col2">

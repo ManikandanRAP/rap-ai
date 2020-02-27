@@ -135,7 +135,7 @@ ServicesSection2.defaultProps = {
     flexWrap: 'wrap',
   },
   col: {
-    width: [1, 1 / 2, 1 / 2, 0.3],
+    width: [1, 0.45, 0.45, 0.3],
     className: 'service_col',
     bg: '#fff',
     margin: '1%',

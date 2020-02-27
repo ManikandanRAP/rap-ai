@@ -312,7 +312,7 @@ export const ContentWrapper = styled.div`
   }
   .banner_container {
     // position: relative;
-    position: absolute;
+    position: absolute !important;
     top: 50%;
     transform: translateY(-50%);
     left: 0;
@@ -327,6 +327,63 @@ export const ContentWrapper = styled.div`
     display: none;
   }
   //Banner other pages visibility
+  // button style
+  .reusecore__button {
+    padding: 10px 20px;
+    min-height: auto;
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+    .btn-text {
+      color: #fff;
+      font-size: 16px;
+      padding: 0;
+      z-index: 3;
+    }
+  }
+  .reusecore__button:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    transform: scaleY(0);
+    transform-origin: 50% 100%;
+    transition: transform 0.3s ease-out;
+  }
+  .reusecore__button:hover:after {
+    transform: scaleY(1);
+    z-index: 1;
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    background-color: #73c2c2;
+  }
+  //ul box layout
+  .info_container_list_items   {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+  .info_container_list_items li {
+      width: 46%;
+      margin: 10px;
+      padding: 10px;
+      color: #343d48cc;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 35px;
+      border-radius: 8px;
+    }
+    .info_container_list_items li:hover {
+      box-shadow: rgba(39,79,117,0.2) 0 40px 90px -30px;
+    }
+    @media only screen and (max-width: 575px) {
+      .info_container_list_items {
+        display: block;
+        li {
+          width: 100%;
+        }
+      }
+    }
   // Pages setting
   &.Home_page {
     // .hosting_navbar {
@@ -336,16 +393,7 @@ export const ContentWrapper = styled.div`
     //   }
     // }
   }
-  // button style
-  .reusecore__button {
-    padding: 10px 20px;
-    min-height: auto;
-    .btn-text {
-      color: #fff;
-      font-size: 16px;
-      padding: 0;
-    }
-  }
+
   &.aboutUs_page {
     .container.banner_container.aboutUs_banner {
       display: block;

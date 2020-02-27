@@ -12,7 +12,8 @@ import Container from 'common/src/components/UI/Container';
 import drcimg from 'common/src/assets/image/hosting/Home/DrCommerce.png';
 import univcoming from 'common/src/assets/image/hosting/Home/UniversalCommerce.png';
 import illusting from 'common/src/assets/image/hosting/Home/Illustration.png';
-import { Link } from "gatsby"
+import { Link } from "gatsby";
+import IconTextSection from "../IconText";
 
 import headlessCommImg1 from 'common/src/assets/image/hosting/Pages/HeadlessCommerce/An Eye on 5G.svg';
 import headlessCommImg2 from 'common/src/assets/image/hosting/Pages/HeadlessCommerce/Faster Time to Market.svg';
@@ -20,6 +21,13 @@ import headlessCommImg3 from 'common/src/assets/image/hosting/Pages/HeadlessComm
 import headlessCommImg4 from 'common/src/assets/image/hosting/Pages/HeadlessCommerce/Customization, Personalization & Flexibility.svg';
 import headlessCommImg5 from 'common/src/assets/image/hosting/Pages/HeadlessCommerce/An Eye on 5G.svg';
 import headlessCommImg6 from 'common/src/assets/image/hosting/Pages/HeadlessCommerce/Social Commerce.svg';
+
+import B2BImage1 from 'common/src/assets/image/hosting/FloatingImage/B2B/The Modern B2B Customer.svg';
+import B2BImage2 from 'common/src/assets/image/hosting/FloatingImage/B2B/Headless Commerce.svg';
+import B2BImage3 from 'common/src/assets/image/hosting/FloatingImage/B2B/Influence and Social Proof.svg';
+import B2BImage4 from 'common/src/assets/image/hosting/FloatingImage/B2B/Big Data and AI.svg';
+
+import DigitalExpImg1 from 'common/src/assets/image/hosting/FloatingImage/Digital Experience & CX/Full Spectrum of Digital Experience.svg';
 
 
 import "./infosolutions.css";
@@ -29,6 +37,8 @@ const InfoSolutionSection = ({
   row,
   col,
   title,
+  subtitle,
+  centertext,
   description,
   button,
   textArea,
@@ -206,7 +216,7 @@ const InfoSolutionSection = ({
             </Box>
             <Box {...col} {...textArea} className="Solutions_Image_container">
               <Fade bottom cascade>
-                <Image src={drcimg} alt="Info Image One" />
+                <Image src={B2BImage1} alt="The Modern B2B Customer" />
               </Fade>
             </Box>
           </Box>
@@ -230,7 +240,7 @@ const InfoSolutionSection = ({
               </Box>
               <Box {...col} {...textArea} className="Solutions_Image_container">
                 <Fade bottom cascade>
-                  <Image src={drcimg} alt="Info Image One" />
+                  <Image src={B2BImage2} alt="Headless Commerce" />
                 </Fade>
               </Box>
             </Box>
@@ -255,7 +265,7 @@ const InfoSolutionSection = ({
             </Box>
             <Box {...col} {...textArea} className="Solutions_Image_container">
               <Fade bottom cascade>
-                <Image src={univcoming} alt="Info Image One" />
+                <Image src={B2BImage3} alt="Influence and Social Proof" />
               </Fade>
             </Box>
           </Box>
@@ -279,7 +289,7 @@ const InfoSolutionSection = ({
               </Box>
               <Box {...col} {...textArea} className="Solutions_Image_container">
                 <Fade bottom cascade>
-                  <Image src={univcoming} alt="Info Image One" />
+                  <Image src={B2BImage4} alt="Big Data and AIAutomation, AI & Big Data" />
                 </Fade>
               </Box>
             </Box>
@@ -720,7 +730,7 @@ const InfoSolutionSection = ({
                   content="Digital Experience (DX)  & Customer Experience (CX)"
                 />
                 <Text
-                  {...description}
+                  {...subtitle}
                   content="For Greater Sales"
                 />
                 <Text
@@ -735,7 +745,7 @@ const InfoSolutionSection = ({
             </Box>
             <Box {...col} {...textArea} className="Solutions_Image_container">
               <Fade bottom cascade>
-                <Image src={headlessCommImg1} alt="What is Headless eCommerce?" />
+                <Image src={univcoming} alt="Info Image One" />
               </Fade>
             </Box>
           </Box>
@@ -743,11 +753,12 @@ const InfoSolutionSection = ({
 
         <Box className="section_background_color">
           <Container>
-            <Box style={{ alignItems: 'center', justifyContent: 'center' }}>
-              <Box {...textArea} className="info_order_change">
+            <Box>
+              <Box className="info_order_change">
                 <Fade bottom cascade>
                   <Heading
                     {...title}
+                    {...centertext}
                     content="Full Spectrum of Digital Experience"
                   />
                   <Text
@@ -757,9 +768,9 @@ const InfoSolutionSection = ({
 
                 </Fade>
               </Box>
-              <Box {...textArea} className="Solutions_Image_container">
+              <Box className="Solutions_Image_container">
                 <Fade bottom cascade>
-                  <Image src={headlessCommImg2} alt="Info Image One" />
+                  <Image src={DigitalExpImg1} alt="Full Spectrum of Digital Experience" />
                 </Fade>
               </Box>
             </Box>
@@ -775,7 +786,7 @@ const InfoSolutionSection = ({
                   {...title}
                   content="Facets of State-Of-The-Art DX"
                 />
-                <ul>
+                <ul className="info_container_list_items">
                   <li>Harmony among different applications in the area of marketing, commerce, sales and service forms the elementary interface between your customers and your company.</li>
                   <li>Personalization based on tracking user behavior and interactions with you brand, so you can provide intelligent suggestions that suit their preference.</li>
                   <li>Your eCommerce platform should have flexible capabilities and APIs to develop and maintain flawless data integration to provide a seamless digital experience.</li>
@@ -805,6 +816,7 @@ const InfoSolutionSection = ({
                 </Fade>
               </Box>   
             </Box>
+            <IconTextSection />
           </Container>
         </Box>
 
@@ -953,6 +965,8 @@ InfoSolutionSection.propTypes = {
   row: PropTypes.object,
   col: PropTypes.object,
   title: PropTypes.object,
+  subtitle: PropTypes.object,
+  centertext: PropTypes.object,
   description: PropTypes.object,
   button: PropTypes.object,
   textArea: PropTypes.object,
@@ -1031,6 +1045,17 @@ InfoSolutionSection.defaultProps = {
     color: '#0f2137',
     letterSpacing: '-0.025em',
     mb: '20px',
+    pt: '20px',
+  },
+  subtitle: {
+    fontSize: ['16px', '16px', '16px', '16px', '16px'],
+    color: '#343d48cc',
+    lineHeight: '1.5',
+    mb: '10px',
+    mt: '0px',
+  },
+  centertext: {
+    textAlign: 'center',
   },
   description: {
     fontSize: ['16px', '16px', '16px', '16px', '16px'],

@@ -13,7 +13,7 @@ import ScrollSpyMenu from 'common/src/components/ScrollSpyMenu';
 
 import { Link } from "gatsby"
 
-import LogoImage from 'common/src/assets/image/hosting/logo_white.png';
+import LogoImage from 'common/src/assets/image/hosting/logo_white.svg';
 
 import Mainsubmenu1 from "../MainPrimaryMenu/MainSubMenu"
 import Maindeskmenu1 from "../MainPrimaryMenu/MainDesktopMenu"

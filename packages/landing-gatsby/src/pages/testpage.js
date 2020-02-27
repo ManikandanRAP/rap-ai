@@ -31,6 +31,7 @@ import SEO from '../components/seo';
 
 import Fullslider1 from '../containers/Hosting/Fullslider1';
 import GlideSlider1 from "../containers/Hosting/GlideSlider1/index";
+import IconTextSection from "../containers/Hosting/IconText";
 
 // var FontAwesome = require('react-fontawesome');
 
@@ -53,6 +54,7 @@ export default () => {
           <InfoHomeSection />
           <FeatureSection />
           <ServicesSection2 />
+          <IconTextSection />
           {/* <BannerSection />
           
           

@@ -20,7 +20,7 @@ import Ctasection from '../containers/Hosting/Ctasection';
 
 
 
-const OmnichannelPage = () => {
+const SocialcommercePage = () => {
     return (
         <ThemeProvider theme={hostingTheme}>
             <ParallaxProvider>
@@ -46,4 +46,4 @@ const OmnichannelPage = () => {
     );
 }
 
-export default OmnichannelPage
+export default SocialcommercePage

@@ -14,7 +14,7 @@ var settings = {
     speed: 500,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 7000,
     slidesToShow: 1,
     slidesToScroll: 1
 };

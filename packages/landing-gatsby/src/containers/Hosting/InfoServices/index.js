@@ -12,8 +12,8 @@ import Container from 'common/src/components/UI/Container';
 import drcimg from 'common/src/assets/image/hosting/Home/DrCommerce.png';
 import univcoming from 'common/src/assets/image/hosting/Home/UniversalCommerce.png';
 import illusting from 'common/src/assets/image/hosting/Home/Illustration.png';
-import { Link } from "gatsby"
-
+import { Link } from "gatsby";
+import IconTextSection from "../IconText";
 
 import "./infoservices.css";
 
@@ -59,6 +59,7 @@ const InfoServiceSection = ({
               </Fade>
             </Box>
           </Box>
+          <IconTextSection />
         </Container>
 
         <Box className="section_background_color">
@@ -324,6 +325,7 @@ InfoServiceSection.defaultProps = {
     color: '#0f2137',
     letterSpacing: '-0.025em',
     mb: '20px',
+    mt: '20px',
   },
   description: {
     fontSize: ['16px', '16px', '16px', '16px', '16px'],
