@@ -22,12 +22,21 @@ import headlessCommImg4 from 'common/src/assets/image/hosting/Pages/HeadlessComm
 import headlessCommImg5 from 'common/src/assets/image/hosting/Pages/HeadlessCommerce/An Eye on 5G.svg';
 import headlessCommImg6 from 'common/src/assets/image/hosting/Pages/HeadlessCommerce/Social Commerce.svg';
 
-import B2BImage1 from 'common/src/assets/image/hosting/FloatingImage/B2B/The Modern B2B Customer.svg';
-import B2BImage2 from 'common/src/assets/image/hosting/FloatingImage/B2B/Headless Commerce.svg';
-import B2BImage3 from 'common/src/assets/image/hosting/FloatingImage/B2B/Influence and Social Proof.svg';
-import B2BImage4 from 'common/src/assets/image/hosting/FloatingImage/B2B/Big Data and AI.svg';
+import B2BImage1 from 'common/src/assets/image/hosting/Pages/B2B/The Modern B2B Customer.svg';
+import B2BImage2 from 'common/src/assets/image/hosting/Pages/B2B/Headless Commerce.svg';
+import B2BImage3 from 'common/src/assets/image/hosting/Pages/B2B/Influence and Social Proof.svg';
+import B2BImage4 from 'common/src/assets/image/hosting/Pages/B2B/Big Data and AI.svg';
 
-import DigitalExpImg1 from 'common/src/assets/image/hosting/FloatingImage/Digital Experience & CX/Full Spectrum of Digital Experience.svg';
+import AiMlImg from 'common/src/assets/image/hosting/Pages/AI ML/Personalized Shopping.svg';
+import Personalizedimg from 'common/src/assets/image/hosting/Pages/AI ML/Personalized Shopping.svg';
+import GivevoiceImg from 'common/src/assets/image/hosting/Pages/AI ML/Give a Voice to Your Digital Experience.svg';
+import InventoryImg from 'common/src/assets/image/hosting/Pages/AI ML/Inventory Management and Fulfillment.svg';
+import FraudprevImg from 'common/src/assets/image/hosting/Pages/AI ML/Fraud Prevention.svg';
+import RetargetingImg from 'common/src/assets/image/hosting/Pages/AI ML/Retargeting Potential Customers.svg';
+
+import DigitalExpImg1 from 'common/src/assets/image/hosting/Pages/Digital Experience & CX/Full Spectrum of Digital Experience.png';
+
+import ourpartners from 'common/src/assets/image/hosting/Pages/OrderManagement/partnersimg.png';
 
 
 import "./infosolutions.css";
@@ -301,22 +310,19 @@ const InfoSolutionSection = ({
       <div className="multi_sections_container automation_ai_info_container">
 
         <Container>
-          <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
-            <Box {...col} {...textArea} >
+          <Box>
+            <Box >
               <Fade bottom cascade>
                 <Heading
                   {...title}
+                  className="text_center"
                   content="AI & ML for eCommerce"
                 />
                 <Text
                   {...description}
                   content="eCommerce has been revolutionized by a multitude of technological advancements. AI and Machine Learning can be leveraged across your entire eCommerce ecosystem to improve your inventory, service, personalization and modes of shopping. All of this improves customer experience and increases conversions. Cnetric can help you harness the power of AI and ML to drive greater sales through an improved eCommerce ecosystem."
                 />
-              </Fade>
-            </Box>
-            <Box {...col} {...textArea} className="Solutions_Image_container">
-              <Fade bottom cascade>
-                <Image src={drcimg} alt="Info Image One" />
+                <br/>
               </Fade>
             </Box>
           </Box>
@@ -340,7 +346,7 @@ const InfoSolutionSection = ({
               </Box>
               <Box {...col} {...textArea} className="Solutions_Image_container">
                 <Fade bottom cascade>
-                  <Image src={drcimg} alt="Info Image One" />
+                  <Image src={AiMlImg} alt="Personalized Shopping" />
                 </Fade>
               </Box>
             </Box>
@@ -365,7 +371,7 @@ const InfoSolutionSection = ({
             </Box>
             <Box {...col} {...textArea} className="Solutions_Image_container">
               <Fade bottom cascade>
-                <Image src={univcoming} alt="Info Image One" />
+                <Image src={GivevoiceImg} alt="Give a Voice to Your Digital Experience" />
               </Fade>
             </Box>
           </Box>
@@ -390,7 +396,7 @@ const InfoSolutionSection = ({
               </Box>
               <Box {...col} {...textArea} className="Solutions_Image_container">
                 <Fade bottom cascade>
-                  <Image src={univcoming} alt="Info Image One" />
+                  <Image src={InventoryImg} alt="Inventory Management and Fulfillment" />
                 </Fade>
               </Box>
             </Box>
@@ -414,7 +420,7 @@ const InfoSolutionSection = ({
             </Box>
             <Box {...col} {...textArea} className="Solutions_Image_container">
               <Fade bottom cascade>
-                <Image src={univcoming} alt="Info Image One" />
+                <Image src={FraudprevImg} alt="Fraud Prevention" />
               </Fade>
             </Box>
           </Box>
@@ -438,7 +444,7 @@ const InfoSolutionSection = ({
               </Box>
               <Box {...col} {...textArea} className="Solutions_Image_container">
                 <Fade bottom cascade>
-                  <Image src={univcoming} alt="Info Image One" />
+                  <Image src={RetargetingImg} alt="Retargeting Potential Customers" />
                 </Fade>
               </Box>
             </Box>
@@ -574,22 +580,18 @@ const InfoSolutionSection = ({
       <div className="multi_sections_container headless_commerce_info_container">
 
         <Container>
-          <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
-            <Box {...col} {...textArea} >
+          <Box>
+            <Box>
               <Fade bottom cascade>
                 <Heading
                   {...title}
+                  className="text_center"
                   content="What is Headless eCommerce?"
                 />
                 <Text
                   {...description}
                   content="A headless ecommerce system is the decoupling of your presentation layer (the website) from your backend (the technology that drives your website). Whereas a traditional system is monolithic meaning the body and head are attached. The shift to headless is a powerful catalyst for a nimble business that can drive greater sales."
                 />
-              </Fade>
-            </Box>
-            <Box {...col} {...textArea} className="Solutions_Image_container">
-              <Fade bottom cascade>
-                <Image src={headlessCommImg1} alt="What is Headless eCommerce?" />
               </Fade>
             </Box>
           </Box>
@@ -722,15 +724,17 @@ const InfoSolutionSection = ({
       <div className="multi_sections_container digital_experience_info_container">
 
         <Container>
-          <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
-            <Box {...col} {...textArea} >
+          <Box>
+            <Box >
               <Fade bottom cascade>
                 <Heading
                   {...title}
+                  className="text_center"
                   content="Digital Experience (DX)  & Customer Experience (CX)"
                 />
                 <Text
                   {...subtitle}
+                  className="text_center"
                   content="For Greater Sales"
                 />
                 <Text
@@ -741,11 +745,7 @@ const InfoSolutionSection = ({
                   {...description}
                   content="You must bridge the silos of your web site, mobile app, offline and backend systems and you must think of DX strategy as being a significant piece of your customer experience (CX) strategy. Cnetric’s services, solutions and expertise can help your organization truly standout from the pack through seamless, omnichannel, thoughtful customer experience."
                 />
-              </Fade>
-            </Box>
-            <Box {...col} {...textArea} className="Solutions_Image_container">
-              <Fade bottom cascade>
-                <Image src={univcoming} alt="Info Image One" />
+                <br/>
               </Fade>
             </Box>
           </Box>
@@ -761,17 +761,13 @@ const InfoSolutionSection = ({
                     {...centertext}
                     content="Full Spectrum of Digital Experience"
                   />
-                  <Text
-                    {...description}
-                    content=""
-                  />
-
                 </Fade>
               </Box>
               <Box className="Solutions_Image_container">
                 <Fade bottom cascade>
                   <Image src={DigitalExpImg1} alt="Full Spectrum of Digital Experience" />
                 </Fade>
+                <br/>
               </Box>
             </Box>
           </Container>
@@ -786,7 +782,7 @@ const InfoSolutionSection = ({
                   {...title}
                   content="Facets of State-Of-The-Art DX"
                 />
-                <ul className="info_container_list_items">
+                <ul className="list_style_disc">
                   <li>Harmony among different applications in the area of marketing, commerce, sales and service forms the elementary interface between your customers and your company.</li>
                   <li>Personalization based on tracking user behavior and interactions with you brand, so you can provide intelligent suggestions that suit their preference.</li>
                   <li>Your eCommerce platform should have flexible capabilities and APIs to develop and maintain flawless data integration to provide a seamless digital experience.</li>
@@ -794,6 +790,7 @@ const InfoSolutionSection = ({
                   <li>eCommerce platforms with great digital experience must also utilize analytical tools with Machine Learning and Artificial Intelligence capabilities to track and measure consumer behavior and parameters of success.</li>
                 </ul>
               </Fade>
+              <br />
             </Box>
             <Box {...col} {...textArea} className="Solutions_Image_container">
               <Fade bottom cascade>
@@ -825,22 +822,19 @@ const InfoSolutionSection = ({
       <div className="multi_sections_container order_management_info_container">
 
         <Container>
-          <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
-            <Box {...col} {...textArea} >
+          <Box >
+            <Box>
               <Fade bottom cascade>
                 <Heading
                   {...title}
+                  className="text_center"
                   content="Order Management System Intricacies in Today’s World"
                 />
                 <Text
                   {...description}
                   content="Retailers and manufacturers worldwide find it challenging to demystify the complexities in the order management systems and fulfillment processes. It is a system of people, processes, and suppliers where everyone should sync together for a delightful customer experience. To avoid bottlenecks and meet customer demand, a flexible omnichannel order management system is essential. Cnetric’s expertise in order management system solutions can retain customers’ trust and loyalty for long-term success."
                 />
-              </Fade>
-            </Box>
-            <Box {...col} {...textArea} className="Solutions_Image_container">
-              <Fade bottom cascade>
-                <Image src={headlessCommImg1} alt="What is Headless eCommerce?" />
+                <br/>
               </Fade>
             </Box>
           </Box>
@@ -849,7 +843,7 @@ const InfoSolutionSection = ({
         <Box className="section_background_color">
           <Container>
             <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
-              <Box {...col} {...textArea} className="info_order_change">
+              <Box {...col} {...textArea}>
                 <Fade bottom cascade>
                   <Heading
                     {...title}
@@ -859,7 +853,6 @@ const InfoSolutionSection = ({
                     {...description}
                     content="In an omnichannel world, eCommerce businesses need omnichannel order management to thrive and keep customers coming back for more. Modern customers have a buy-now, buy-fast and buy-from-anywhere & anytime outlook. They expect faster order fulfillment and convenient returns with enhanced flexibility. Cnetric’s solutions and services for omnichannel order management streamlines your processes that initiates with ordering and ends with goods delivery and return, if necessary."
                   />
-
                 </Fade>
               </Box>
               <Box {...col} {...textArea} className="Solutions_Image_container">
@@ -868,26 +861,29 @@ const InfoSolutionSection = ({
                 </Fade>
               </Box>
             </Box>
+            <IconTextSection />
           </Container>
         </Box>
 
 
         <Container>
           <Box>
-            <Box {...textArea}>
+            <Box>
               <Fade bottom cascade>
                 <Heading
                   {...title}
+                  className="text_center"
                   content="End-to-End Order Management Solutions"
                 />
                 <Text
                   {...description}
+                  className="text_center"
                   content="Cnetric provides industry-leading services and solutions for end-to-end order management across omnichannels."
                 />
 
               </Fade>
             </Box>
-            <Box {...textArea} className="Solutions_Image_container">
+            <Box className="Solutions_Image_container">
               <Fade bottom cascade>
                 <Image src={headlessCommImg3} alt="Info Image One" />
               </Fade>
@@ -904,12 +900,14 @@ const InfoSolutionSection = ({
                   <Heading
                     {...title}
                     content="Our Capabilities"
+                    className="padding_bottom_5"
                   />
                   <Text
                     {...description}
+                    className=""
                     content="Experience End-to-End Excellence"
                   />
-                  <ul>
+                  <ul className="list_style_disc">
                     <li>Distributed Order Management/DOM</li>
                     <li>Pick/Pack/ Ship Solutions</li>
                     <li>Real-Time Inventory Management</li>
@@ -919,6 +917,7 @@ const InfoSolutionSection = ({
                     <li>Returns Management</li>
                     <li>Analytics and Reporting</li>
                   </ul>
+                  <br/>
 
                 </Fade>
               </Box>
@@ -932,25 +931,28 @@ const InfoSolutionSection = ({
         </Box>
 
         <Container>
-          <Box style={{ alignItems: 'center', justifyContent: 'center' }}>
-            <Box {...textArea}>
+          <Box>
+            <Box>
               <Fade bottom cascade>
                 <Heading
                   {...title}
+                  className="text_center"
                   content="Our Partners"
                 />
                 <Text
                   {...description}
+                  className="text_center"
                   content="Our technology partnerships with industry-leading order management system vendors like IBM Sterling, Order dynamics etc. offer you the industry’s most comprehensive order management and fulfillment solutions."
                 />
 
               </Fade>
             </Box>
-            <Box {...textArea} className="Solutions_Image_container">
+            <Box>
               <Fade bottom cascade>
-                <Image src={headlessCommImg5} alt="Info Image One" />
+                <Image src={ourpartners} alt="our partners" style={{margin: '0 auto'}}/>
               </Fade>
             </Box>
+            <br/>
           </Box>
         </Container>
 
@@ -1051,8 +1053,9 @@ InfoSolutionSection.defaultProps = {
     fontSize: ['16px', '16px', '16px', '16px', '16px'],
     color: '#343d48cc',
     lineHeight: '1.5',
+    fontWeight: '500',
     mb: '10px',
-    mt: '0px',
+    mt: '-10px',
   },
   centertext: {
     textAlign: 'center',
@@ -1061,7 +1064,7 @@ InfoSolutionSection.defaultProps = {
     fontSize: ['16px', '16px', '16px', '16px', '16px'],
     color: '#343d48cc',
     lineHeight: '1.5',
-    mb: '33px',
+    mb: '15px',
   },
   button: {
     type: 'button',

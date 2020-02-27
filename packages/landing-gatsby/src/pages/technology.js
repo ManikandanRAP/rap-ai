@@ -20,14 +20,14 @@ import Ctasection from '../containers/Hosting/Ctasection';
 
 
 
-const UniversalCommercePage = () => {
+const TechnologyPage = () => {
     return (
         <ThemeProvider theme={hostingTheme}>
             <ParallaxProvider>
             <SEO title="Cnetric Global Inc" />
                 <ResetCSS />
                 <GlobalStyle />
-                <ContentWrapper className="Universal_commerce_page">
+                <ContentWrapper className="Digital_experience_page">
                     <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
                         <DrawerProvider>
                             <Navbar />
@@ -46,4 +46,4 @@ const UniversalCommercePage = () => {
     );
 }
 
-export default UniversalCommercePage
+export default TechnologyPage

@@ -87,20 +87,6 @@ const BannerSolutionsSection = ({
           </Box>
         </Box>
       </Container>
-      <Container className="banner_container social_commerce_banner">
-        <Box {...row}>
-          <Box {...textArea}>
-            <Heading
-              {...title}
-              content="Social Commerce"
-            />
-            <Text
-              {...description}
-              content="Maximize Sales through Social Commerce"
-            />
-          </Box>
-        </Box>
-      </Container>
       <Container className="banner_container headless_commerce_banner">
         <Box {...row}>
           <Box {...textArea}>

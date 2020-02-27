@@ -9,9 +9,9 @@ import Card from 'common/src/components/Card';
 import Image from 'common/src/components/Image';
 import Container from 'common/src/components/UI/Container';
 
-import drcimg from 'common/src/assets/image/hosting/Home/DrCommerce.png';
-import univcoming from 'common/src/assets/image/hosting/Home/UniversalCommerce.png';
-import illusting from 'common/src/assets/image/hosting/Home/Illustration.png';
+import drcimg from 'common/src/assets/image/hosting/Home/drc.svg';
+import univcoming from 'common/src/assets/image/hosting/Home/uc.svg';
+import illusting from 'common/src/assets/image/hosting/Home/Illustration.svg';
 import { Link } from "gatsby"
 
 
@@ -38,11 +38,12 @@ const InfoHomeSection = ({
     <Box {...sectionWrapper} id="info_home">
 
       <Container>
-        <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
-          <Box {...col} {...textArea}>
+        <Box>
+          <Box>
             <Fade bottom cascade>
               <Heading
                 {...title}
+                className="text_center"
                 content="eCommerce is hard but your technology shouldn’t be"
               />
               <Text
@@ -57,22 +58,12 @@ const InfoHomeSection = ({
                 {...description}
                 content="The people at Cnetric are experts in many of the cardinal platforms and have partnered up with the key innovative companies in the eCommerce space. With our collective know-how we can guide your business to prosperity at scale."
               />
-              {/* <Box>
-                <Link to="/contact">
-                  <Button {...button} title="Learn More" />
-                </Link>
-              </Box> */}
             </Fade>
           </Box>
 
-          <Box {...col} {...textArea} className="Home_Image_container">
+          <Box className="Home_Image_container">
             <Fade bottom cascade>
-              <Image src={drcimg} alt="Info Image One" />
-              {/* <h4>Irvine, California</h4>
-              <Text
-                {...description}
-                content="Based out of Irvine, California, Cnetric Global Inc., has 15 offices in as many countries. Our global presence and commitment towards localization, ensures that clients get consistent, market appropriate solutions, in the shortest turnaround time. "
-              /> */}
+              <Image src={illusting} alt="Info Image One" />
             </Fade>
           </Box>
         </Box>
@@ -91,7 +82,7 @@ const InfoHomeSection = ({
       <Box className="section_background_color">
         <Container>
           <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
-            <Box {...col} {...textArea} className="info_order_change">
+            <Box {...col} {...textArea}>
               <Fade bottom cascade>
                 <Heading
                   {...title}
@@ -127,7 +118,7 @@ const InfoHomeSection = ({
 
       <Container>
         <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
-          <Box {...col} {...textArea} className="info_home_order">
+          <Box {...col} {...textArea} className="info_order_change">
             <Fade bottom cascade>
               <Heading
                 {...title}
@@ -246,7 +237,7 @@ InfoHomeSection.defaultProps = {
     fontSize: ['16px', '16px', '16px', '16px', '16px'],
     color: '#343d48cc',
     lineHeight: '1.5',
-    mb: '14px',
+    mb: '15px',
   },
   button: {
     type: 'button',

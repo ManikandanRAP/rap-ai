@@ -298,6 +298,22 @@ export const ContentWrapper = styled.div`
   }
 
   // our code
+  //common css
+  .text_center {
+    text-align: center;
+  }
+  .padding_bottom_5 {
+    padding-bottom: 5px;
+    margin-bottom: 0;
+  }
+  .list_style_disc {
+    margin-left: 30px;
+    & li {
+      list-style-type: disc;
+      color: #343d48cc;
+      padding-bottom: 10px;
+    }
+  }
   // banner
   #banner_section:before {
     content: '';
@@ -351,7 +367,7 @@ export const ContentWrapper = styled.div`
     z-index: -1;
     transform: scaleY(0);
     transform-origin: 50% 100%;
-    transition: transform 0.3s ease-out;
+    transition: all 0.4s ease-out;
   }
   .reusecore__button:hover:after {
     transform: scaleY(1);
@@ -488,6 +504,14 @@ export const ContentWrapper = styled.div`
   }
   &.Digital_experience_page {
     .container.banner_container.digital_experience_banner {
+      display: block;
+    }
+    #banner_section {
+      background-image: url(${socialcommercebanner_image});
+    } 
+  }
+  &.Technology_page {
+    .container.banner_container.technology_banner {
       display: block;
     }
     #banner_section {

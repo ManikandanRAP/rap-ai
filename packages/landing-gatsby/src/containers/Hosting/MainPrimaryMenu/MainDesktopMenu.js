@@ -76,7 +76,7 @@ const Maindeskmenu1 = (button) => (
                             <MainNavbarDropLi>
                                 <Link to="digital-experience">Digital Experience & CX</Link></MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="order-management">Order Management</Link></MainNavbarDropLi>
+                                <Link to="solutions/order-management">Order Management</Link></MainNavbarDropLi>
                             <MainNavbarDropLi>
                                 <span>Analytics</span></MainNavbarDropLi>
                             <MainNavbarDropLi>
@@ -165,17 +165,7 @@ const Maindeskmenu1 = (button) => (
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
                                 <Link to="/Delivery">
-                                    <span>Application Support</span>
-                                </Link>
-                            </MainNavbarDropLi>
-                            <MainNavbarDropLi>
-                                <Link to="/Delivery">
                                     <span>Offshore Dev Center</span>
-                                </Link>
-                            </MainNavbarDropLi>
-                            <MainNavbarDropLi>
-                                <Link to="/Delivery">
-                                    <span>Engineering Dev</span>
                                 </Link>
                             </MainNavbarDropLi>
                         </MainNavbarDropUl>
@@ -183,42 +173,42 @@ const Maindeskmenu1 = (button) => (
                             <MainNavbarDropMainLi>Technology</MainNavbarDropMainLi>
                             <br />
                             <MainNavbarDropLi>
-                                <Link to="/Technology">
-                                    <span>Elastic Path</span>
+                                <Link to="services/technology">
+                                    <a>Elastic Path</a>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="/Technology">
+                                <Link to="services/technology">
                                     <span>HCL Commerce</span>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="/Technology">
+                                <Link to="services/technology">
                                     <span>Core Media</span>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="/Technology">
+                                <Link to="services/technology">
                                     <span>IBM & Red Hat</span>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="/Technology">
+                                <Link to="services/technology">
                                     <span>Drupal Commerce</span>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="/Technology">
+                                <Link to="services/technology">
                                     <span>APIs & GraphQL</span>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="/Technology">
+                                <Link to="services/technology">
                                     <span>JAMStack & Gatsby</span>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="/Technology">
+                                <Link to="services/technology">
                                     <span>Magento</span>
                                 </Link>
                             </MainNavbarDropLi>

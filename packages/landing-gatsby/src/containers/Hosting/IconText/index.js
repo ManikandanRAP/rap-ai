@@ -19,6 +19,10 @@ import DigitalExpIcon2 from 'common/src/assets/image/hosting/IconText/Digital Ex
 import DigitalExpIcon3 from 'common/src/assets/image/hosting/IconText/Digital Experience/Seamless.svg';
 import DigitalExpIcon4 from 'common/src/assets/image/hosting/IconText/Digital Experience/Multi-Language.svg';
 
+import speedIcon from 'common/src/assets/image/hosting/Pages/Cloud Transformation/Speed.svg';
+import costeffectiveIcon from 'common/src/assets/image/hosting/Pages/Cloud Transformation/Cost-Effective.svg';
+import scalabilityIcon from 'common/src/assets/image/hosting/Pages/Cloud Transformation/Scalability.svg';
+import robustIcon from 'common/src/assets/image/hosting/Pages/Cloud Transformation/Robust.svg';
 
 const IconTextSection = ({
   sectionWrapper,
@@ -259,6 +263,117 @@ const IconTextSection = ({
         </>
       </Box>
     {/* end of digital experience DX */}
+      <Box className="icon_text_box OrderManagement_Icontext">
+        <>
+          <Box {...row} style={{justifyContent: 'center'}}>
+              <Box {...col} >
+                <FeatureBlock
+                  wrapperStyle={featureBlockStyle}
+                  iconStyle={iconStyle}
+                  contentStyle={contentStyle}
+                  title={
+                    <Heading
+                      {...featureItemHeading}
+                      content= "Cost-efficacy"
+                    />
+                  }
+                  description={
+                    <Text
+                      {...featureItemDes}
+                      content="Experience multi-fold increase in ROI and enhanced process efficiency."
+                    />
+                  }
+                  icon={
+                    <Image
+                      {...featureItemImage}
+                      src={DigitalExpIcon1}
+                      alt="alt text"
+                    />
+                  }
+                />
+              </Box>
+              <Box {...col} >
+                <FeatureBlock
+                  wrapperStyle={featureBlockStyle}
+                  iconStyle={iconStyle}
+                  contentStyle={contentStyle}
+                  title={
+                    <Heading
+                      {...featureItemHeading}
+                      content= "Flexibility"
+                    />
+                  }
+                  description={
+                    <Text
+                      {...featureItemDes}
+                      content="System can adapt to changes in your operations and business."
+                    />
+                  }
+                  icon={
+                    <Image
+                      {...featureItemImage}
+                      src={DigitalExpIcon2}
+                      alt="alt text"
+                    />
+                  }
+                />
+              </Box>
+              <Box {...col} >
+                <FeatureBlock
+                  wrapperStyle={featureBlockStyle}
+                  iconStyle={iconStyle}
+                  contentStyle={contentStyle}
+                  title={
+                    <Heading
+                      {...featureItemHeading}
+                      content= "Faster Fulfillment"
+                    />
+                  }
+                  description={
+                    <Text
+                      {...featureItemDes}
+                      content="Speedy order fulfillment and return from anywhere, anytime across channels. "
+                    />
+                  }
+                  icon={
+                    <Image
+                      {...featureItemImage}
+                      src={DigitalExpIcon3}
+                      alt="alt text"
+                    />
+                  }
+                />
+              </Box>
+              <Box {...col} >
+                <FeatureBlock
+                  wrapperStyle={featureBlockStyle}
+                  iconStyle={iconStyle}
+                  contentStyle={contentStyle}
+                  title={
+                    <Heading
+                      {...featureItemHeading}
+                      content= "Greater Accuracy"
+                    />
+                  }
+                  description={
+                    <Text
+                      {...featureItemDes}
+                      content="Real-time tracking with an integrated dashboard with order and delivery updates."
+                    />
+                  }
+                  icon={
+                    <Image
+                      {...featureItemImage}
+                      src={DigitalExpIcon4}
+                      alt="alt text"
+                    />
+                  }
+                />
+              </Box>
+          </Box>
+        </>
+      </Box>
+    {/* end of order management */}
     </Box>
   );
 };

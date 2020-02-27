@@ -5,37 +5,34 @@ import { hostingTheme } from 'common/src/theme/hosting';
 import {
     GlobalStyle,
     ContentWrapper,
-} from '../containers/Hosting/hosting.style';
+} from '../../containers/Hosting/hosting.style';
 import { ResetCSS } from 'common/src/assets/css/style';
-import Navbar from '../containers/Hosting/Navbar';
-import Footer from '../containers/Hosting/Footer';
+import Navbar from '../../containers/Hosting/Navbar';
+import Footer from '../../containers/Hosting/Footer';
 import { DrawerProvider } from 'common/src/contexts/DrawerContext';
 import { ParallaxProvider } from 'react-scroll-parallax';
-import SEO from '../components/seo';
+import SEO from '../../components/seo';
 
-import BannerSolutionsSection from '../containers/Hosting/BannerSolution';
+import BannerOtherSection from '../../containers/Hosting/BannerOther';
 
-import InfoSolutionSection from '../containers/Hosting/InfoSolutions';
-import Ctasection from '../containers/Hosting/Ctasection';
-
+import InfoAboutSection from '../../containers/Hosting/InfoAbout';
 
 
-const UniversalCommercePage = () => {
+const Companypage = () => {
     return (
         <ThemeProvider theme={hostingTheme}>
             <ParallaxProvider>
-            <SEO title="Cnetric Global Inc" />
+                <SEO title="Cnetric Global Inc" />
                 <ResetCSS />
                 <GlobalStyle />
-                <ContentWrapper className="Universal_commerce_page">
+                <ContentWrapper className="company_page">
                     <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
                         <DrawerProvider>
                             <Navbar />
                         </DrawerProvider>
                     </Sticky>
-                    <BannerSolutionsSection />
-                    <InfoSolutionSection />
-                    <Ctasection />
+                    <BannerOtherSection />
+                    <InfoAboutSection />
                     <Footer />
                 </ContentWrapper>
                 <div id="footerWrapper" className="copyright">
@@ -46,4 +43,4 @@ const UniversalCommercePage = () => {
     );
 }
 
-export default UniversalCommercePage
+export default Companypage

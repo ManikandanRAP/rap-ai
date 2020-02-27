@@ -37,6 +37,7 @@
 .Headless_commerce_page .cta_headless_commerce_page,
 .Social_commerce_page .cta_social_commerce_page, 
 .Order_Management_page .cta_order_management_page,
+.Technology_page .cta_order_management_page,
 .Digital_experience_page .cta_digital_experience_page {
     display: flex;
 }

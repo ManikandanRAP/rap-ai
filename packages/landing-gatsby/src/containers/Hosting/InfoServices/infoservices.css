@@ -13,6 +13,7 @@
     display: none;
 }
 .Cloud_infrastructure_page #info_services .multi_sections_container.CloudTransformation_info_container,
+.Technology_page #info_services .multi_sections_container.technology_info_container,
 .Social_commerce_page #info_services .multi_sections_container.social_commerce_info_container
 {
     display: block;

@@ -116,6 +116,16 @@ const Ctasection = ({
                         </Link>
                     </Box>
                 </Box>
+                <Box className="Cta_container cta_technology_page">
+                    <Box {...box_size}>
+                        <p>Disrupt eCommerce with Cutting-Edge Technology.</p>
+                    </Box>
+                    <Box {...box_size}>
+                        <Link to="/contact">
+                            <Button {...button} title="Work with Us" />
+                        </Link>
+                    </Box>
+                </Box>
             </Container>
 
         </>

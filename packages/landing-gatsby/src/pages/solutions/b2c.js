@@ -5,29 +5,28 @@ import { hostingTheme } from 'common/src/theme/hosting';
 import {
     GlobalStyle,
     ContentWrapper,
-} from '../containers/Hosting/hosting.style';
+} from '../../containers/Hosting/hosting.style';
 import { ResetCSS } from 'common/src/assets/css/style';
-import Navbar from '../containers/Hosting/Navbar';
-import Footer from '../containers/Hosting/Footer';
+import Navbar from '../../containers/Hosting/Navbar';
+import Footer from '../../containers/Hosting/Footer';
 import { DrawerProvider } from 'common/src/contexts/DrawerContext';
 import { ParallaxProvider } from 'react-scroll-parallax';
-import SEO from '../components/seo';
+import SEO from '../../components/seo';
 
-import BannerSolutionsSection from '../containers/Hosting/BannerSolution';
+import BannerSolutionsSection from '../../containers/Hosting/BannerSolution';
 
-import InfoSolutionSection from '../containers/Hosting/InfoSolutions';
-import Ctasection from '../containers/Hosting/Ctasection';
+import InfoSolutionSection from '../../containers/Hosting/InfoSolutions';
+import Ctasection from '../../containers/Hosting/Ctasection';
 
 
-
-const UniversalCommercePage = () => {
+const B2cPage = () => {
     return (
         <ThemeProvider theme={hostingTheme}>
             <ParallaxProvider>
             <SEO title="Cnetric Global Inc" />
                 <ResetCSS />
                 <GlobalStyle />
-                <ContentWrapper className="Universal_commerce_page">
+                <ContentWrapper className="B2c_page">
                     <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
                         <DrawerProvider>
                             <Navbar />
@@ -46,4 +45,4 @@ const UniversalCommercePage = () => {
     );
 }
 
-export default UniversalCommercePage
+export default B2cPage

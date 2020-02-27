@@ -5,6 +5,7 @@
     display: none;
 }
 .CloudTransformation_info_container .Icon_Text_Container .icon_text_box.CloudTransformation_Icontext, 
+.order_management_info_container .Icon_Text_Container .icon_text_box.OrderManagement_Icontext, 
 .digital_experience_info_container .Icon_Text_Container .icon_text_box.DigitalExperience_Icontext {
     display: block;
 }

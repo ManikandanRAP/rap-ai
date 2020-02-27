@@ -45,6 +45,34 @@ const BannerServicesSection = ({
           </Box>
         </Box>
       </Container>
+      <Container className="banner_container social_commerce_banner">
+        <Box {...row}>
+          <Box {...textArea}>
+            <Heading
+              {...title}
+              content="Social Commerce"
+            />
+            <Text
+              {...description}
+              content="Maximize Sales through Social Commerce"
+            />
+          </Box>
+        </Box>
+      </Container>
+      <Container className="banner_container technology_banner">
+        <Box {...row}>
+          <Box {...textArea}>
+            <Heading
+              {...title}
+              content="Technology"
+            />
+            <Text
+              {...description}
+              content="Leverage innovative technology to disrupt eCommerce"
+            />
+          </Box>
+        </Box>
+      </Container>
      </BannerWrapper1>
   );
 };
