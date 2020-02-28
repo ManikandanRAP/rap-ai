@@ -87,7 +87,8 @@ const Maindeskmenu1 = (button) => (
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <span>IOT & BlockChain</span></MainNavbarDropLi>
+                                <Link to="solutions/iot&blockchain">IOT & Blockchain</Link>
+                            </MainNavbarDropLi>
                         </MainNavbarDropUl>
                         <MainNavbarDropUl className="featured_Menu">
                             <Box className="featured_Menu_container">
@@ -124,8 +125,8 @@ const Maindeskmenu1 = (button) => (
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="services/cloud-infrastructure">
-                                    <span>Cloud Infrastructure</span>
+                                <Link to="services/cloud-transformation">
+                                    <span>Cloud Transformation</span>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>

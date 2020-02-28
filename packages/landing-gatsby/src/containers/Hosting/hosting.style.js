@@ -302,6 +302,21 @@ export const ContentWrapper = styled.div`
   .text_center {
     text-align: center;
   }
+  .mb_0 {
+    margin-bottom: 0;
+  }
+  .mt_0 {
+    margin-top: 0;
+  }
+  .pt_0 {
+    padding-top: 0;
+  }
+  .pb_0 {
+    padding-bottom: 0;
+  }
+  .flex_center {
+    justify-content: center;
+  }
   .padding_bottom_5 {
     padding-bottom: 5px;
     margin-bottom: 0;
@@ -518,6 +533,14 @@ export const ContentWrapper = styled.div`
       background-image: url(${socialcommercebanner_image});
     } 
   }
+  &.IOT_blockchain_page {
+    .container.banner_container.iot_blockchain_banner {
+      display: block;
+    }
+    #banner_section {
+      background-image: url(${socialcommercebanner_image});
+    } 
+  }
 
   @media (max-width: 990px) {
     .glide__slide--active .pricing_table {
@@ -602,7 +625,6 @@ export const FeatureItem = styled(FeatureBlock)`
     left: 0;
     bottom: 30%;
   }
-
   .icon__wrapper {
     margin-bottom: 40px;
     @media (max-width: 768px) and (min-width: 768px) {
@@ -674,7 +696,6 @@ export const FeatureItem = styled(FeatureBlock)`
       transform: rotate(0);
       opacity: 1;
     }
-
     h2,
     p {
       color: #fff;
@@ -692,4 +713,28 @@ export const FeatureItem = styled(FeatureBlock)`
       }
     }
   }
+  //own code for features icon text
+  &.feature_sectionItem_container:hover {
+    .hover-shape-1 {
+      left: -25px;
+      top: 20px;
+    }
+    .hover-shape-2 {
+      right: 29%;
+      top: -30px;
+    }
+    .hover-shape-3 {
+      right: -27px;
+      bottom: 35%;
+    }
+    .hover-shape-4 {
+      right: 30%;
+      bottom: -20px;
+    }
+    .hover-shape-5 {
+      left: -26px;
+      bottom: 30%;
+    }
+  }
+  //own code for features icon text
 `;

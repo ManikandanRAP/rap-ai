@@ -126,6 +126,16 @@ const Ctasection = ({
                         </Link>
                     </Box>
                 </Box>
+                <Box className="Cta_container iot_blockchain_page">
+                    <Box {...box_size}>
+                        <p>Embrace IoT and Block Chain today to fast forward business transformation.</p>
+                    </Box>
+                    <Box {...box_size}>
+                        <Link to="/contact">
+                            <Button {...button} title="Work with Us" />
+                        </Link>
+                    </Box>
+                </Box>
             </Container>
 
         </>

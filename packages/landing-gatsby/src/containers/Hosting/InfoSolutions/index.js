@@ -13,7 +13,8 @@ import drcimg from 'common/src/assets/image/hosting/Home/DrCommerce.png';
 import univcoming from 'common/src/assets/image/hosting/Home/UniversalCommerce.png';
 import illusting from 'common/src/assets/image/hosting/Home/Illustration.png';
 import { Link } from "gatsby";
-import IconTextSection from "../IconText";
+
+import IconParticleSection from "../IconTextParticle";
 
 import headlessCommImg1 from 'common/src/assets/image/hosting/Pages/HeadlessCommerce/An Eye on 5G.svg';
 import headlessCommImg2 from 'common/src/assets/image/hosting/Pages/HeadlessCommerce/Faster Time to Market.svg';
@@ -76,32 +77,25 @@ const InfoSolutionSection = ({
       </Box> */}
 
         <Container>
-          <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
-            <Box {...col} {...textArea} >
+          <Box>
+            <Box >
               <Fade bottom cascade>
                 <Heading
                   {...title}
+                  className="text_center"
                   content="The Modern B2C Customer"
                 />
                 <Text
                   {...description}
+                  className="text_center"
                   content="The convergence of multiple digital platforms and social media has transformed shopping for the modern B2C customer. In order to drive greater sales and win over customers, a seamless experience across multiple channels is necessary. The modern shopper could be shopping from a laptop, an app on a mobile phone, searching for products via Alexa or browsing options at a kiosk.  Cnetric specializes in integrations that connect your multiple systems, driving greater value at every stage and ensuring a delightful, universal customer experience anytime on any device."
                 />
+                <br />
                 {/* <Box>
                 <Link to="/contact">
                   <Button {...button} title="Learn More" />
                 </Link>
               </Box> */}
-              </Fade>
-            </Box>
-            <Box {...col} {...textArea} className="Solutions_Image_container">
-              <Fade bottom cascade>
-                <Image src={drcimg} alt="Info Image One" />
-                {/* <h4>Irvine, California</h4>
-              <Text
-                {...description}
-                content="Based out of Irvine, California, Cnetric Global Inc., has 15 offices in as many countries. Our global presence and commitment towards localization, ensures that clients get consistent, market appropriate solutions, in the shortest turnaround time. "
-              /> */}
               </Fade>
             </Box>
           </Box>
@@ -210,22 +204,20 @@ const InfoSolutionSection = ({
       <div className="multi_sections_container B2b_info_container">
 
         <Container>
-          <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
-            <Box {...col} {...textArea} >
+          <Box>
+            <Box >
               <Fade bottom cascade>
                 <Heading
                   {...title}
+                  className="text_center"
                   content="The Modern B2B Customer"
                 />
                 <Text
                   {...description}
+                  className="text_center"
                   content="The B2B buyer’s journey has also gone through a profound transformation due to technological advances. As a result, B2B shoppers also expect relevant information that is conveniently accessible with smooth user experiences. Search results, content, conversations, and customer service must hit the mark every time across channels. The good news is Cnetric can connect your multiple systems and combine your siloed data to add value at every stage, accelerating integrations for a seamless, omnichannel experience."
                 />
-              </Fade>
-            </Box>
-            <Box {...col} {...textArea} className="Solutions_Image_container">
-              <Fade bottom cascade>
-                <Image src={B2BImage1} alt="The Modern B2B Customer" />
+                <br />
               </Fade>
             </Box>
           </Box>
@@ -322,7 +314,7 @@ const InfoSolutionSection = ({
                   {...description}
                   content="eCommerce has been revolutionized by a multitude of technological advancements. AI and Machine Learning can be leveraged across your entire eCommerce ecosystem to improve your inventory, service, personalization and modes of shopping. All of this improves customer experience and increases conversions. Cnetric can help you harness the power of AI and ML to drive greater sales through an improved eCommerce ecosystem."
                 />
-                <br/>
+                <br />
               </Fade>
             </Box>
           </Box>
@@ -456,22 +448,20 @@ const InfoSolutionSection = ({
       <div className="multi_sections_container omnichannel_info_container">
 
         <Container>
-          <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
-            <Box {...col} {...textArea} >
+          <Box>
+            <Box>
               <Fade bottom cascade>
                 <Heading
                   {...title}
+                  className="text_center"
                   content="A Good Omnichannel Strategy Is Essential To Good Commerce"
                 />
                 <Text
+                  className="text_center"
                   {...description}
                   content="An omnichannel eCommerce strategy is one of the most powerful ways to drive brand loyalty and turn loyal customers into advocates.  Cnetric, with several years of expertise, can provide seamless integration of innumerable customer touch points to drive a smooth customer journey across all channels. This includes both brick and mortar and eCommerce sores with a seamless experience across email, social media, smartwatches, voice search, etc."
                 />
-              </Fade>
-            </Box>
-            <Box {...col} {...textArea} className="Solutions_Image_container">
-              <Fade bottom cascade>
-                <Image src={drcimg} alt="Info Image One" />
+                <br />
               </Fade>
             </Box>
           </Box>
@@ -592,6 +582,7 @@ const InfoSolutionSection = ({
                   {...description}
                   content="A headless ecommerce system is the decoupling of your presentation layer (the website) from your backend (the technology that drives your website). Whereas a traditional system is monolithic meaning the body and head are attached. The shift to headless is a powerful catalyst for a nimble business that can drive greater sales."
                 />
+                <br />
               </Fade>
             </Box>
           </Box>
@@ -745,7 +736,7 @@ const InfoSolutionSection = ({
                   {...description}
                   content="You must bridge the silos of your web site, mobile app, offline and backend systems and you must think of DX strategy as being a significant piece of your customer experience (CX) strategy. Cnetric’s services, solutions and expertise can help your organization truly standout from the pack through seamless, omnichannel, thoughtful customer experience."
                 />
-                <br/>
+                <br />
               </Fade>
             </Box>
           </Box>
@@ -767,7 +758,7 @@ const InfoSolutionSection = ({
                 <Fade bottom cascade>
                   <Image src={DigitalExpImg1} alt="Full Spectrum of Digital Experience" />
                 </Fade>
-                <br/>
+                <br />
               </Box>
             </Box>
           </Container>
@@ -808,17 +799,259 @@ const InfoSolutionSection = ({
                 <Fade bottom cascade>
                   <Heading
                     {...title}
-                    content="Advantages of Great Digital Experience "
+                    className="text_center"
+                    content="Advantages of Great Digital Experience"
                   />
                 </Fade>
-              </Box>   
+              </Box>
             </Box>
-            <IconTextSection />
+            <IconParticleSection />
+            <br />
+
           </Container>
         </Box>
 
       </div>
       {/* end of Digital Experience */}
+      <div className="multi_sections_container iot_blockchain_info_container">
+
+        <Container>
+          <Box>
+            <Box >
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  className="text_center"
+                  content="IoT and Blockchain are Taking World by Storm"
+                />
+                <Text
+                  {...description}
+                  content="Traditionally, transactions in ecommerce have several drawbacks when conducted via electronic payment system, where banks or financial institutions act as a third-party. With disruptive technological breakthroughs, an advanced model of eCommerce is being introduced that bypasses third-parties to conduct peer-to-peer transactions employing Blockchain technology. Blockchain technology was primarily utilized in the financial sector and its gradual entry into the ecommerce sector is going to disrupt the marketplace with decentralization. Cnetric has the expertise to leverage disruptive IoT and Blockchain for a robust, future-proof ecommerce business."
+                />
+                <br />
+              </Fade>
+            </Box>
+          </Box>
+        </Container>
+
+        <Box>
+          <Container>
+            <Box>
+              <Box>
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    {...centertext}
+                    content="Advantages of Blockchain"
+                  />
+                </Fade>
+              </Box>
+            </Box>
+          </Container>
+        </Box>
+
+        <Container>
+          <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="Deregulation"
+                />
+                <Text
+                  {...description}
+                  content="As Blockchain is beyond the control of any central authority, only buyers and sellers are involved its operations. The transactions carried out through Blockchain technology cannot be controlled by government, banks or any other third parties as it is beyond the purview of geopolitics."
+                />
+              </Fade>
+              <br />
+            </Box>
+            <Box {...col} {...textArea} className="Solutions_Image_container">
+              <Fade bottom cascade>
+                <Image src={headlessCommImg3} alt="Info Image One" />
+              </Fade>
+            </Box>
+          </Box>
+        </Container>
+        <Box className="section_background_color">
+          <Container>
+            <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Privacy"
+                  />
+                  <Text
+                    {...description}
+                    content="The security and the identity of the transacting parties are kept absolutely anonymous with regards to blockchain-based crypto currencies. This is one of the safest means of transactions as it is impossible to hack into the system – this prevents any data breaches. Despite its cryptic nature, it is quite transparent as a centralized system that provides better visibility."
+                  />
+                </Fade>
+                <br />
+              </Box>
+              <Box {...col} {...textArea} className="Solutions_Image_container">
+                <Fade bottom cascade>
+                  <Image src={headlessCommImg3} alt="Info Image One" />
+                </Fade>
+              </Box>
+            </Box>
+          </Container>
+        </Box>
+
+        <Container>
+          <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="Efficiency"
+                />
+                <Text
+                  {...description}
+                  content="Blockchain-based currencies are easy to operate without the need to physically present to open an account and can be done at absolutely free of cost. Bitcoin transactions can be accomplished in minutes unlike traditional transfers at any point of time. This is extremely convenient for shoppers who can skip the hassle of account creation."
+                />
+              </Fade>
+              <br />
+            </Box>
+            <Box {...col} {...textArea} className="Solutions_Image_container">
+              <Fade bottom cascade>
+                <Image src={headlessCommImg3} alt="Info Image One" />
+              </Fade>
+            </Box>
+          </Box>
+        </Container>
+        <Box className="section_background_color">
+          <Container>
+            <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Streamlined Operations"
+                  />
+                  <Text
+                    {...description}
+                    content="Implementation of blockchain technology in ecommerce business can solve several problems such as products tracking, recordkeeping, administrative cost reduction and inventory management. Transparency in the ecommerce marketplace achieved through Blockchain technology ensures frictionless transactions."
+                  />
+                </Fade>
+                <br />
+              </Box>
+              <Box {...col} {...textArea} className="Solutions_Image_container">
+                <Fade bottom cascade>
+                  <Image src={headlessCommImg3} alt="Info Image One" />
+                </Fade>
+              </Box>
+            </Box>
+          </Container>
+        </Box>
+
+        <Box>
+          <Container>
+            <Box>
+              <Box>
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    {...centertext}
+                    content="Advantages of IoT"
+                  />
+                </Fade>
+              </Box>
+            </Box>
+          </Container>
+        </Box>
+
+        <Container>
+          <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="Better Inventory Management "
+                />
+                <Text
+                  {...description}
+                  content="Experience improved and error-free monitoring and tracking of inventories with IoT sensors and RFID tags. Smart shelves can be introduced to track the out-of-stock products and replace with stocks automatically. Leverage IoT to build strong inventory management that serves as the foundation for rapid order fulfillment."
+                />
+              </Fade>
+              <br />
+            </Box>
+            <Box {...col} {...textArea} className="Solutions_Image_container">
+              <Fade bottom cascade>
+                <Image src={headlessCommImg3} alt="Info Image One" />
+              </Fade>
+            </Box>
+          </Box>
+        </Container>
+        <Box className="section_background_color">
+          <Container>
+            <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Automation of Warehousing"
+                  />
+                  <Text
+                    {...description}
+                    content="In addition to reporting shortage of products, IoT also helps in tracking over-the-stock warehouse items. Temperature-sensitive sensors are employed to track the optimum temperature for perishable products and eliminate them accordingly, as and when required. A multitude of monitoring tasks can be automated with this technology."
+                  />
+                </Fade>
+                <br />
+              </Box>
+              <Box {...col} {...textArea} className="Solutions_Image_container">
+                <Fade bottom cascade>
+                  <Image src={headlessCommImg3} alt="Info Image One" />
+                </Fade>
+              </Box>
+            </Box>
+          </Container>
+        </Box>
+
+        <Container>
+          <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="Smooth Operations in Supply Chain"
+                />
+                <Text
+                  {...description}
+                  content="With RFID and GPS technology it is easy to track products in transit.  You can also accurately detect location, temperature, arrival timings etc.  The pace and route of the shipped products can be automated to prevent loss of shipments and mitigate any potential delays. This leads to faster fulfillment of customer orders."
+                />
+              </Fade>
+              <br />
+            </Box>
+            <Box {...col} {...textArea} className="Solutions_Image_container">
+              <Fade bottom cascade>
+                <Image src={headlessCommImg3} alt="Info Image One" />
+              </Fade>
+            </Box>
+          </Box>
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    className="text_center"
+                    content="Business Benefits"
+                  />
+                </Fade>
+              </Box>
+            </Box>
+            <IconParticleSection />
+            <br />
+
+          </Container>
+        </Box>
+
+
+      </div>
+      {/* end of iot and blockchain */}
       <div className="multi_sections_container order_management_info_container">
 
         <Container>
@@ -834,7 +1067,7 @@ const InfoSolutionSection = ({
                   {...description}
                   content="Retailers and manufacturers worldwide find it challenging to demystify the complexities in the order management systems and fulfillment processes. It is a system of people, processes, and suppliers where everyone should sync together for a delightful customer experience. To avoid bottlenecks and meet customer demand, a flexible omnichannel order management system is essential. Cnetric’s expertise in order management system solutions can retain customers’ trust and loyalty for long-term success."
                 />
-                <br/>
+                <br />
               </Fade>
             </Box>
           </Box>
@@ -861,10 +1094,10 @@ const InfoSolutionSection = ({
                 </Fade>
               </Box>
             </Box>
-            <IconTextSection />
+            <IconParticleSection />
+            <br />
           </Container>
         </Box>
-
 
         <Container>
           <Box>
@@ -917,7 +1150,7 @@ const InfoSolutionSection = ({
                     <li>Returns Management</li>
                     <li>Analytics and Reporting</li>
                   </ul>
-                  <br/>
+                  <br />
 
                 </Fade>
               </Box>
@@ -949,10 +1182,10 @@ const InfoSolutionSection = ({
             </Box>
             <Box>
               <Fade bottom cascade>
-                <Image src={ourpartners} alt="our partners" style={{margin: '0 auto'}}/>
+                <Image src={ourpartners} alt="our partners" style={{ margin: '0 auto' }} />
               </Fade>
             </Box>
-            <br/>
+            <br />
           </Box>
         </Container>
 

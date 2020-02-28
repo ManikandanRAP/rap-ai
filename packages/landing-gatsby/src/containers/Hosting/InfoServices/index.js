@@ -13,7 +13,7 @@ import drcimg from 'common/src/assets/image/hosting/Home/DrCommerce.png';
 import univcoming from 'common/src/assets/image/hosting/Home/UniversalCommerce.png';
 import illusting from 'common/src/assets/image/hosting/Home/Illustration.png';
 import { Link } from "gatsby";
-import IconTextSection from "../IconText";
+import IconParticleSection from "../IconTextParticle";
 
 import greatervalueImg from 'common/src/assets/image/hosting/Pages/Cloud Transformation/Greater Value at Lower Costs.svg';
 import riseedgeImg from 'common/src/assets/image/hosting/Pages/Cloud Transformation/Rise of Edge Computing.svg';
@@ -61,7 +61,8 @@ const InfoServiceSection = ({
               </Fade>
             </Box>
           </Box>
-          <IconTextSection />
+          <IconParticleSection />
+          <br />
         </Container>
 
         <Box className="section_background_color">
@@ -164,9 +165,8 @@ const InfoServiceSection = ({
       </div>
       {/* end of Cloud Transformation */}
       <div className="multi_sections_container technology_info_container">
-
         <Container>
-          <Box style={{ alignItems: 'center', justifyContent: 'center' }}>
+          <Box>
             <Box >
               <Fade bottom cascade>
                 <Heading
@@ -178,188 +178,34 @@ const InfoServiceSection = ({
                   {...description}
                   content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
                 />
+                <br />
               </Fade>
             </Box>
           </Box>
-          <IconTextSection />
         </Container>
-        
-        <Container id="Technology_Elastic_Path">
-          <Box style={{ alignItems: 'center', justifyContent: 'center' }}>
-            <Box >
-              <Fade bottom cascade>
-                <Heading
-                  {...title}
-                  className="text_center"
-                  content="Elastic Path"
-                />
-                <Text
-                  {...description}
-                  content="Elastic Path has headless in its DNA with an API-first architecture while its eCommerce platform provides secure, enterprise-grade deployment options across SaaS, single-tenant SaaS, multi-tenant SaaS microservices, private cloud, and on-premise. They have intuitive business user tooling, and now ready to use commerce experiences including Alexa Voice Assistant, a Facebook chatbot, self-checkout for retail stores and pop-up events, augmented reality, and IoT. With Elastic Path, you can have a true decoupled frontend and backend or choose a microservices architecture that allows the platform and service-oriented architecture to be fully decoupled."
-                />
-              </Fade>
-            </Box>
-          </Box>
-          <IconTextSection />
-        </Container>
-
-        <Container>
-          <Box style={{ alignItems: 'center', justifyContent: 'center' }}>
-            <Box >
-              <Fade bottom cascade>
-                <Heading
-                  {...title}
-                  className="text_center"
-                  content="HCL Commerce"
-                />
-                <Text
-                  {...description}
-                  content="IBM Websphere is now HCL Commerce which delivers world-class performance at scale, security, and performance. Excelling at omnichannel with best-in-class storefront supporting personalization with a modern and simplified UI/UX for superior customer experience. This platform offers REST APIs to support microservices and commerce anywhere. Cnetric can help you implement V9 on-premise or cloud. V9 new technologies can eliminate installation time. This affords a much faster deployment time from days to hours so you can run your marketing campaigns at a much faster pace with improved scalability during Black Friday and Cyber Monday with self-healing auto-scaling infrastructure. HCL commerce can help your website handle the traffic your brand demands."
-                />
-              </Fade>
-            </Box>
-          </Box>
-          <IconTextSection />
-        </Container>
-
-        <Container>
-          <Box style={{ alignItems: 'center', justifyContent: 'center' }}>
-            <Box >
-              <Fade bottom cascade>
-                <Heading
-                  {...title}
-                  className="text_center"
-                  content="IBM Red Hat"
-                />
-                <Text
-                  {...description}
-                  content="IBM Red Hat is powering businesses at modernizing infrastructure and moving mission-critical workloads across private and multiple hybrid clouds. Red Hat offers flexible secure technology to manage these hybrid multi-cloud environments. IBM's purchase of Red Hat brings major muscle to this open-source platform and its ecosystem will help customers push their cloud strategies forward with accelerated enterprise offerings. Red Hat is stronger than ever an option for enterprise now that it has access to the scale and depth of IBM's innovation and industry expertise."
-                />
-              </Fade>
-            </Box>
-          </Box>
-          <IconTextSection />
-        </Container>
-
-        <Container>
-          <Box style={{ alignItems: 'center', justifyContent: 'center' }}>
-            <Box >
-              <Fade bottom cascade>
-                <Heading
-                  {...title}
-                  className="text_center"
-                  content="Red Hat OpenShift"
-                />
-                <Text
-                  {...description}
-                  content="Red Hat's OpenShift helps manage hybrid and multi-cloud deployments. It is an enterprise-ready Kubernetes container platform with full-stack automated operations to manage hybrid cloud and multi-cloud deployments. OpenShift offers agility, scalability, and quality in containerization in the virtualized environment with the increased use of microservices."
-                />
-              </Fade>
-            </Box>
-          </Box>
-          <IconTextSection />
-        </Container>
-
-        <Container>
-          <Box style={{ alignItems: 'center', justifyContent: 'center' }}>
-            <Box >
-              <Fade bottom cascade>
-                <Heading
-                  {...title}
-                  className="text_center"
-                  content="Drupal Commerce"
-                />
-                <Text
-                  {...description}
-                  content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-                />
-              </Fade>
-            </Box>
-          </Box>
-          <IconTextSection />
-        </Container>
-
-        <Container>
-          <Box style={{ alignItems: 'center', justifyContent: 'center' }}>
-            <Box >
-              <Fade bottom cascade>
-                <Heading
-                  {...title}
-                  className="text_center"
-                  content="APIs & GraphQL"
-                />
-                <Text
-                  {...description}
-                  content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-                />
-              </Fade>
-            </Box>
-          </Box>
-          <IconTextSection />
-        </Container>
-
-        <Container>
-          <Box style={{ alignItems: 'center', justifyContent: 'center' }}>
-            <Box >
-              <Fade bottom cascade>
-                <Heading
-                  {...title}
-                  className="text_center"
-                  content="JAMStack & Gastsby"
-                />
-                <Text
-                  {...description}
-                  content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-                />
-              </Fade>
-            </Box>
-          </Box>
-          <IconTextSection />
-        </Container>
-
-        <Container>
-          <Box style={{ alignItems: 'center', justifyContent: 'center' }}>
-            <Box >
-              <Fade bottom cascade>
-                <Heading
-                  {...title}
-                  className="text_center"
-                  content="Magento"
-                />
-                <Text
-                  {...description}
-                  content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-                />
-              </Fade>
-            </Box>
-          </Box>
-          <IconTextSection />
-        </Container>
-
       </div>
       {/* end of technology */}
       
       <div className="multi_sections_container social_commerce_info_container">
 
         <Container>
-          <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
-            <Box {...col} {...textArea} >
+          <Box>
+            <Box>
               <Fade bottom cascade>
                 <Heading
                   {...title}
+                  className="text_center"
                   content="Rising Sales from Social Commerce"
                 />
                 <Text
                   {...description}
+                  className="text_center"
                   content="With AI/ML integrated social commerce technology, businesses are revolutionizing social shopping experience, enhancing customer engagement with your brand within social networks such as Instagram, Facebook, TikTok, etc.  Cnetric can help you leverage the right tools and technology to drive greater sales through social commerce."
                 />
+                <br />
               </Fade>
             </Box>
-            <Box {...col} {...textArea} className="InfoBanner_Image_container">
-              <Fade bottom cascade>
-                <Image src={drcimg} alt="Info Image One" />
-              </Fade>
-            </Box>
+
           </Box>
         </Container>
 

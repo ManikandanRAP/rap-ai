@@ -1,17 +1,32 @@
-.Icon_Text_Container {
-    padding-bottom: 30px;
+
+.feature_section_container h2 {
+    margin: 0 auto;
+    margin-bottom: 5px;
 }
-.Icon_Text_Container .icon_text_box {
+#feature_particle_section {
+    background: transparent;
+}
+.feature_section_container .feature_sectionItem_container:hover .home_features_icon {
+    filter: brightness(0) invert(1);
+}
+.feature_section_container .icon__wrapper {
+    margin-bottom: 20px !important;
+}
+.feature_section_container .home_features_icon {
+    margin: 0 auto;
+    max-width: 90px;
+    object-fit: contain;
+}
+.feature_sectionItem_container {
+    padding: 20px 10px !important;
+}
+
+.Icon_particle_Container {
     display: none;
 }
-.CloudTransformation_info_container .Icon_Text_Container .icon_text_box.CloudTransformation_Icontext, 
-.order_management_info_container .Icon_Text_Container .icon_text_box.OrderManagement_Icontext, 
-.digital_experience_info_container .Icon_Text_Container .icon_text_box.DigitalExperience_Icontext {
+.CloudTransformation_info_container .Icon_particle_Container.CloudTransformation_Iconparticle, 
+.order_management_info_container .Icon_particle_Container.OrderManagement_Iconparticle, 
+.iot_blockchain_info_container .Icon_particle_Container.iotblockchain_Iconparticle, 
+.digital_experience_info_container .Icon_particle_Container.DigitalExperience_Iconparticle {
     display: block;
-}
-.Icon_Text_Container .service_col {
-    box-shadow: rgba(39,79,117,0.2) 0 40px 90px -30px;
-}
-.Icon_Text_Container .service_col:hover {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 35px;
 }

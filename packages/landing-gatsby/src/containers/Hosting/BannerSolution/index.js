@@ -129,6 +129,20 @@ const BannerSolutionsSection = ({
           </Box>
         </Box>
       </Container>
+      <Container className="banner_container iot_blockchain_banner">
+        <Box {...row}>
+          <Box {...textArea}>
+            <Heading
+              {...title}
+              content="IoT and Block chain"
+            />
+            <Text
+              {...description}
+              content="Fast track eCommerce transactions with IoT and Blockchain"
+            />
+          </Box>
+        </Box>
+      </Container>
     </BannerWrapper3>
   );
 };

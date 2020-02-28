@@ -4,376 +4,692 @@ import Fade from 'react-reveal/Fade';
 import Box from 'common/src/components/Box';
 import Text from 'common/src/components/Text';
 import Heading from 'common/src/components/Heading';
-import Image from 'common/src/components/Image';
 import Container from 'common/src/components/UI/Container';
-import FeatureBlock from 'common/src/components/FeatureBlock';
-import "./icontextparticle.css";
+import { FeatureItem } from '../hosting.style';
+import Image from 'common/src/components/Image';
+import AdditionalContentParticle from './additionalComponent';
 
-import CloudIcon1 from 'common/src/assets/image/hosting/IconText/CloudTransformation/icon1.svg';
-import CloudIcon2 from 'common/src/assets/image/hosting/IconText/CloudTransformation/icon2.svg';
-import CloudIcon3 from 'common/src/assets/image/hosting/IconText/CloudTransformation/icon3.svg';
-import CloudIcon4 from 'common/src/assets/image/hosting/IconText/CloudTransformation/icon4.svg';
+
+import someimage from 'common/src/assets/image/hosting/author-1.jpg';
 
 import DigitalExpIcon1 from 'common/src/assets/image/hosting/IconText/Digital Experience/Personalization.svg';
 import DigitalExpIcon2 from 'common/src/assets/image/hosting/IconText/Digital Experience/Omnichannel.svg';
 import DigitalExpIcon3 from 'common/src/assets/image/hosting/IconText/Digital Experience/Seamless.svg';
 import DigitalExpIcon4 from 'common/src/assets/image/hosting/IconText/Digital Experience/Multi-Language.svg';
 
-import speedIcon from 'common/src/assets/image/hosting/Pages/Cloud Transformation/Speed.svg';
-import costeffectiveIcon from 'common/src/assets/image/hosting/Pages/Cloud Transformation/Cost-Effective.svg';
-import scalabilityIcon from 'common/src/assets/image/hosting/Pages/Cloud Transformation/Scalability.svg';
-import robustIcon from 'common/src/assets/image/hosting/Pages/Cloud Transformation/Robust.svg';
+import CloudTransIcon1 from 'common/src/assets/image/hosting/Pages/Cloud Transformation/Speed.svg';
+import CloudTransIcon2 from 'common/src/assets/image/hosting/Pages/Cloud Transformation/Cost-Effective.svg';
+import CloudTransIcon3 from 'common/src/assets/image/hosting/Pages/Cloud Transformation/Scalability.svg';
+import CloudTransIcon4 from 'common/src/assets/image/hosting/Pages/Cloud Transformation/Robust.svg';
+
+import OrderMangIcon1 from 'common/src/assets/image/hosting/Pages/OrderManagement/Personalization.svg';
+import OrderMangIcon2 from 'common/src/assets/image/hosting/Pages/OrderManagement/Personalization.svg';
+import OrderMangIcon3 from 'common/src/assets/image/hosting/Pages/OrderManagement/Personalization.svg';
+import OrderMangIcon4 from 'common/src/assets/image/hosting/Pages/OrderManagement/Personalization.svg';
+import OrderMangIcon5 from 'common/src/assets/image/hosting/Pages/OrderManagement/Personalization.svg';
+
+
+import "./icontextparticle.css";
 
 const IconParticleSection = ({
   sectionWrapper,
   row,
   col,
+  col1,
+  col2,
   secTitleWrapper,
   secHeading,
   secText,
   featureItemHeading,
-  featureItemImage,
   featureItemDes,
-  featureBlockStyle,
-  iconStyle,
-  contentStyle,
 }) => {
-
   return (
-    <Box {...sectionWrapper} className="Icon_Text_Container">
-      <Box className="icon_text_box CloudTransformation_Icontext">
-        <>
-          <Box {...row} style={{justifyContent: 'center'}}>
-              <Box {...col} >
-                <FeatureBlock
-                  wrapperStyle={featureBlockStyle}
-                  iconStyle={iconStyle}
-                  contentStyle={contentStyle}
+    <Box {...sectionWrapper}>
+      <Container className="Icon_particle_Container DigitalExperience_Iconparticle">
+        <Box {...row} className="feature_section_container">
+          <Box {...col}>
+            {FeatureItem.animation ? (
+              <Fade bottom delay={120}>
+                <FeatureItem className="feature_sectionItem_container" />
+              </Fade>
+            ) : (
+                <FeatureItem
+                  className="feature_sectionItem_container text_center"
                   title={
                     <Heading
                       {...featureItemHeading}
-                      content= "Cost-Effective"
+                      className="text_center"
+                      content="Personalization"
                     />
                   }
                   description={
                     <Text
                       {...featureItemDes}
-                      content="Minimize costs with lower initial IT infrastructure costs and improved manageability with less maintenance."
-                    />
-                  }
-                  icon={
-                    <Image
-                      {...featureItemImage}
-                      src={CloudIcon1}
-                      alt="alt text"
-                    />
-                  }
-                />
-              </Box>
-              <Box {...col} >
-                <FeatureBlock
-                  wrapperStyle={featureBlockStyle}
-                  iconStyle={iconStyle}
-                  contentStyle={contentStyle}
-                  title={
-                    <Heading
-                      {...featureItemHeading}
-                      content= "Speed"
-                    />
-                  }
-                  description={
-                    <Text
-                      {...featureItemDes}
-                      content="Enterprises can get their applications up faster and also use edge computing to faster data across devices."
-                    />
-                  }
-                  icon={
-                    <Image
-                      {...featureItemImage}
-                      src={CloudIcon2}
-                      alt="alt text"
-                    />
-                  }
-                />
-              </Box>
-              <Box {...col} >
-                <FeatureBlock
-                  wrapperStyle={featureBlockStyle}
-                  iconStyle={iconStyle}
-                  contentStyle={contentStyle}
-                  title={
-                    <Heading
-                      {...featureItemHeading}
-                      content= "Scalability"
-                    />
-                  }
-                  description={
-                    <Text
-                      {...featureItemDes}
-                      content="Handle sudden surges in traffic and seasonal heavy loads with ease due to the flexible scalability of cloud technology."
-                    />
-                  }
-                  icon={
-                    <Image
-                      {...featureItemImage}
-                      src={CloudIcon3}
-                      alt="alt text"
-                    />
-                  }
-                />
-              </Box>
-              <Box {...col} >
-                <FeatureBlock
-                  wrapperStyle={featureBlockStyle}
-                  iconStyle={iconStyle}
-                  contentStyle={contentStyle}
-                  title={
-                    <Heading
-                      {...featureItemHeading}
-                      content= "Robust"
-                    />
-                  }
-                  description={
-                    <Text
-                      {...featureItemDes}
-                      content="Cloud-based platforms have built-in measures to cope with any disasters that may occur, so business can continue with minimal down-time."
-                    />
-                  }
-                  icon={
-                    <Image
-                      {...featureItemImage}
-                      src={CloudIcon4}
-                      alt="alt text"
-                    />
-                  }
-                />
-              </Box>
-          </Box>
-        </>
-      </Box>
-    {/* end of cloud transformation */}
-      <Box className="icon_text_box DigitalExperience_Icontext">
-        <>
-          <Box {...row} style={{justifyContent: 'center'}}>
-              <Box {...col} >
-                <FeatureBlock
-                  wrapperStyle={featureBlockStyle}
-                  iconStyle={iconStyle}
-                  contentStyle={contentStyle}
-                  title={
-                    <Heading
-                      {...featureItemHeading}
-                      content= "Personalization"
-                    />
-                  }
-                  description={
-                    <Text
-                      {...featureItemDes}
+                      className="text_center"
                       content="Personalized offers and strategies drive greater customer retention and sales."
                     />
                   }
+
                   icon={
                     <Image
-                      {...featureItemImage}
                       src={DigitalExpIcon1}
-                      alt="alt text"
+                      alt="Personalization"
+                      className="home_features_icon"
                     />
                   }
+                  additionalContent={
+                    <AdditionalContentParticle />
+                  }
+
                 />
-              </Box>
-              <Box {...col} >
-                <FeatureBlock
-                  wrapperStyle={featureBlockStyle}
-                  iconStyle={iconStyle}
-                  contentStyle={contentStyle}
+              )}
+          </Box>
+          <Box {...col}>
+            {FeatureItem.animation ? (
+              <Fade bottom delay={120}>
+                <FeatureItem className="feature_sectionItem_container" />
+              </Fade>
+            ) : (
+                <FeatureItem
+                  className="feature_sectionItem_container text_center"
                   title={
                     <Heading
                       {...featureItemHeading}
-                      content= "Omnichannel"
+                      className="text_center"
+                      content="Omnichannel"
                     />
                   }
                   description={
                     <Text
                       {...featureItemDes}
+                      className="text_center"
                       content="Omnichannel engagement covers all your bases to maximize sales & profits."
                     />
                   }
+
                   icon={
                     <Image
-                      {...featureItemImage}
                       src={DigitalExpIcon2}
-                      alt="alt text"
+                      alt="Omnichannel"
+                      className="home_features_icon"
                     />
                   }
+                  additionalContent={
+                    <AdditionalContentParticle />
+                  }
+
                 />
-              </Box>
-              <Box {...col} >
-                <FeatureBlock
-                  wrapperStyle={featureBlockStyle}
-                  iconStyle={iconStyle}
-                  contentStyle={contentStyle}
+              )}
+          </Box>
+          <Box {...col}>
+            {FeatureItem.animation ? (
+              <Fade bottom delay={120}>
+                <FeatureItem className="feature_sectionItem_container" />
+              </Fade>
+            ) : (
+                <FeatureItem
+                  className="feature_sectionItem_container text_center"
                   title={
                     <Heading
                       {...featureItemHeading}
-                      content= "Seamless"
+                      className="text_center"
+                      content="Seamless"
                     />
                   }
                   description={
                     <Text
                       {...featureItemDes}
+                      className="text_center"
                       content="A truly seamless experience keeps customers delighted and returning for more."
                     />
                   }
+
                   icon={
                     <Image
-                      {...featureItemImage}
                       src={DigitalExpIcon3}
-                      alt="alt text"
+                      alt="Seamless"
+                      className="home_features_icon"
                     />
                   }
+                  additionalContent={
+                    <AdditionalContentParticle />
+                  }
+
                 />
-              </Box>
-              <Box {...col} >
-                <FeatureBlock
-                  wrapperStyle={featureBlockStyle}
-                  iconStyle={iconStyle}
-                  contentStyle={contentStyle}
+              )}
+          </Box>
+          <Box {...col}>
+            {FeatureItem.animation ? (
+              <Fade bottom delay={120}>
+                <FeatureItem className="feature_sectionItem_container" />
+              </Fade>
+            ) : (
+                <FeatureItem
+                  className="feature_sectionItem_container text_center"
                   title={
                     <Heading
                       {...featureItemHeading}
-                      content= "Multi-Language"
+                      className="text_center"
+                      content="Multi-Language"
                     />
                   }
                   description={
                     <Text
                       {...featureItemDes}
+                      className="text_center"
                       content="Translate content into a customer’s preferred language for ease & convenience."
                     />
                   }
+
                   icon={
                     <Image
-                      {...featureItemImage}
                       src={DigitalExpIcon4}
-                      alt="alt text"
+                      alt="Multi-Language"
+                      className="home_features_icon"
                     />
                   }
+                  additionalContent={
+                    <AdditionalContentParticle />
+                  }
+
                 />
-              </Box>
+              )}
           </Box>
-        </>
-      </Box>
-    {/* end of digital experience DX */}
-      <Box className="icon_text_box OrderManagement_Icontext">
-        <>
-          <Box {...row} style={{justifyContent: 'center'}}>
-              <Box {...col} >
-                <FeatureBlock
-                  wrapperStyle={featureBlockStyle}
-                  iconStyle={iconStyle}
-                  contentStyle={contentStyle}
+        </Box>
+      </Container>
+      <Container className="Icon_particle_Container CloudTransformation_Iconparticle">
+        <Box {...row} className="feature_section_container">
+          <Box {...col}>
+            {FeatureItem.animation ? (
+              <Fade bottom delay={120}>
+                <FeatureItem className="feature_sectionItem_container" />
+              </Fade>
+            ) : (
+                <FeatureItem
+                  className="feature_sectionItem_container text_center"
                   title={
                     <Heading
                       {...featureItemHeading}
-                      content= "Cost-efficacy"
+                      className="text_center"
+                      content="Cost-Effective"
                     />
                   }
                   description={
                     <Text
                       {...featureItemDes}
+                      className="text_center"
+                      content="Personalized offers and strategies drive greater customer retention and sales."
+                    />
+                  }
+
+                  icon={
+                    <Image
+                      src={CloudTransIcon1}
+                      alt="Cost-Effective"
+                      className="home_features_icon"
+                    />
+                  }
+                  additionalContent={
+                    <AdditionalContentParticle />
+                  }
+
+                />
+              )}
+          </Box>
+          <Box {...col}>
+            {FeatureItem.animation ? (
+              <Fade bottom delay={120}>
+                <FeatureItem className="feature_sectionItem_container" />
+              </Fade>
+            ) : (
+                <FeatureItem
+                  className="feature_sectionItem_container text_center"
+                  title={
+                    <Heading
+                      {...featureItemHeading}
+                      className="text_center"
+                      content="Speed"
+                    />
+                  }
+                  description={
+                    <Text
+                      {...featureItemDes}
+                      className="text_center"
+                      content="Omnichannel engagement covers all your bases to maximize sales & profits."
+                    />
+                  }
+
+                  icon={
+                    <Image
+                      src={CloudTransIcon2}
+                      alt="Speed"
+                      className="home_features_icon"
+                    />
+                  }
+                  additionalContent={
+                    <AdditionalContentParticle />
+                  }
+
+                />
+              )}
+          </Box>
+          <Box {...col}>
+            {FeatureItem.animation ? (
+              <Fade bottom delay={120}>
+                <FeatureItem className="feature_sectionItem_container" />
+              </Fade>
+            ) : (
+                <FeatureItem
+                  className="feature_sectionItem_container text_center"
+                  title={
+                    <Heading
+                      {...featureItemHeading}
+                      className="text_center"
+                      content="Scalability"
+                    />
+                  }
+                  description={
+                    <Text
+                      {...featureItemDes}
+                      className="text_center"
+                      content="A truly seamless experience keeps customers delighted and returning for more."
+                    />
+                  }
+
+                  icon={
+                    <Image
+                      src={CloudTransIcon3}
+                      alt="Scalability"
+                      className="home_features_icon"
+                    />
+                  }
+                  additionalContent={
+                    <AdditionalContentParticle />
+                  }
+
+                />
+              )}
+          </Box>
+          <Box {...col}>
+            {FeatureItem.animation ? (
+              <Fade bottom delay={120}>
+                <FeatureItem className="feature_sectionItem_container" />
+              </Fade>
+            ) : (
+                <FeatureItem
+                  className="feature_sectionItem_container text_center"
+                  title={
+                    <Heading
+                      {...featureItemHeading}
+                      className="text_center"
+                      content="Robust"
+                    />
+                  }
+                  description={
+                    <Text
+                      {...featureItemDes}
+                      className="text_center"
+                      content="Translate content into a customer’s preferred language for ease & convenience."
+                    />
+                  }
+
+                  icon={
+                    <Image
+                      src={CloudTransIcon4}
+                      alt="Robust"
+                      className="home_features_icon"
+                    />
+                  }
+                  additionalContent={
+                    <AdditionalContentParticle />
+                  }
+
+                />
+              )}
+          </Box>
+        </Box>
+      </Container>
+      <Container className="Icon_particle_Container OrderManagement_Iconparticle">
+        <br />
+        <Box {...row} className="feature_section_container flex_center">
+          <Box {...col1}>
+            {FeatureItem.animation ? (
+              <Fade bottom delay={120}>
+                <FeatureItem className="feature_sectionItem_container" />
+              </Fade>
+            ) : (
+                <FeatureItem
+                  className="feature_sectionItem_container text_center"
+                  title={
+                    <Heading
+                      {...featureItemHeading}
+                      className="text_center"
+                      content="Cost-efficacy"
+                    />
+                  }
+                  description={
+                    <Text
+                      {...featureItemDes}
+                      className="text_center"
                       content="Experience multi-fold increase in ROI and enhanced process efficiency."
                     />
                   }
+
                   icon={
                     <Image
-                      {...featureItemImage}
-                      src={DigitalExpIcon1}
-                      alt="alt text"
+                      src={OrderMangIcon1}
+                      alt="Cost-efficacy"
+                      className="home_features_icon"
                     />
                   }
+                  additionalContent={
+                    <AdditionalContentParticle />
+                  }
+
                 />
-              </Box>
-              <Box {...col} >
-                <FeatureBlock
-                  wrapperStyle={featureBlockStyle}
-                  iconStyle={iconStyle}
-                  contentStyle={contentStyle}
+              )}
+          </Box>
+          <Box {...col1}>
+            {FeatureItem.animation ? (
+              <Fade bottom delay={120}>
+                <FeatureItem className="feature_sectionItem_container" />
+              </Fade>
+            ) : (
+                <FeatureItem
+                  className="feature_sectionItem_container text_center"
                   title={
                     <Heading
                       {...featureItemHeading}
-                      content= "Flexibility"
+                      className="text_center"
+                      content="Flexibility"
                     />
                   }
                   description={
                     <Text
                       {...featureItemDes}
+                      className="text_center"
                       content="System can adapt to changes in your operations and business."
                     />
                   }
+
                   icon={
                     <Image
-                      {...featureItemImage}
-                      src={DigitalExpIcon2}
-                      alt="alt text"
+                      src={OrderMangIcon2}
+                      alt="Flexibility"
+                      className="home_features_icon"
                     />
                   }
+                  additionalContent={
+                    <AdditionalContentParticle />
+                  }
+
                 />
-              </Box>
-              <Box {...col} >
-                <FeatureBlock
-                  wrapperStyle={featureBlockStyle}
-                  iconStyle={iconStyle}
-                  contentStyle={contentStyle}
+              )}
+          </Box>
+          <Box {...col1}>
+            {FeatureItem.animation ? (
+              <Fade bottom delay={120}>
+                <FeatureItem className="feature_sectionItem_container" />
+              </Fade>
+            ) : (
+                <FeatureItem
+                  className="feature_sectionItem_container text_center"
                   title={
                     <Heading
                       {...featureItemHeading}
-                      content= "Faster Fulfillment"
+                      className="text_center"
+                      content="Faster Fulfillment"
                     />
                   }
                   description={
                     <Text
                       {...featureItemDes}
-                      content="Speedy order fulfillment and return from anywhere, anytime across channels. "
+                      className="text_center"
+                      content="Speedy order fulfillment and return from anywhere, anytime across channels."
                     />
                   }
+
                   icon={
                     <Image
-                      {...featureItemImage}
-                      src={DigitalExpIcon3}
-                      alt="alt text"
+                      src={OrderMangIcon3}
+                      alt="Faster Fulfillment"
+                      className="home_features_icon"
                     />
                   }
+                  additionalContent={
+                    <AdditionalContentParticle />
+                  }
+
                 />
-              </Box>
-              <Box {...col} >
-                <FeatureBlock
-                  wrapperStyle={featureBlockStyle}
-                  iconStyle={iconStyle}
-                  contentStyle={contentStyle}
+              )}
+          </Box>
+          <Box {...col2}>
+            {FeatureItem.animation ? (
+              <Fade bottom delay={120}>
+                <FeatureItem className="feature_sectionItem_container" />
+              </Fade>
+            ) : (
+                <FeatureItem
+                  className="feature_sectionItem_container text_center"
                   title={
                     <Heading
                       {...featureItemHeading}
-                      content= "Greater Accuracy"
+                      className="text_center"
+                      content="Greater Accuracy"
                     />
                   }
                   description={
                     <Text
                       {...featureItemDes}
+                      className="text_center"
                       content="Real-time tracking with an integrated dashboard with order and delivery updates."
                     />
                   }
+
                   icon={
                     <Image
-                      {...featureItemImage}
-                      src={DigitalExpIcon4}
-                      alt="alt text"
+                      src={OrderMangIcon4}
+                      alt="Greater Accuracy"
+                      className="home_features_icon"
                     />
                   }
+                  additionalContent={
+                    <AdditionalContentParticle />
+                  }
                 />
-              </Box>
+              )}
           </Box>
-        </>
-      </Box>
-    {/* end of order management */}
+          <Box {...col2}>
+            {FeatureItem.animation ? (
+              <Fade bottom delay={120}>
+                <FeatureItem className="feature_sectionItem_container" />
+              </Fade>
+            ) : (
+                <FeatureItem
+                  className="feature_sectionItem_container text_center"
+                  title={
+                    <Heading
+                      {...featureItemHeading}
+                      className="text_center"
+                      content="Delight Customers"
+                    />
+                  }
+                  description={
+                    <Text
+                      {...featureItemDes}
+                      className="text_center"
+                      content="Faster order processing time, significantly increases brand loyalty and customer retention."
+                    />
+                  }
+
+                  icon={
+                    <Image
+                      src={OrderMangIcon5}
+                      alt="Delight Customers"
+                      className="home_features_icon"
+                    />
+                  }
+                  additionalContent={
+                    <AdditionalContentParticle />
+                  }
+                />
+              )}
+          </Box>
+
+        </Box>
+      </Container>
+      <Container className="Icon_particle_Container iotblockchain_Iconparticle">
+        <Box {...row} className="feature_section_container">
+          <Box {...col}>
+            {FeatureItem.animation ? (
+              <Fade bottom delay={120}>
+                <FeatureItem className="feature_sectionItem_container" />
+              </Fade>
+            ) : (
+                <FeatureItem
+                  className="feature_sectionItem_container text_center"
+                  title={
+                    <Heading
+                      {...featureItemHeading}
+                      className="text_center"
+                      content="Cost Effectiveness"
+                    />
+                  }
+                  description={
+                    <Text
+                      {...featureItemDes}
+                      className="text_center"
+                      content="Thanks to IoT automation and bypassing 3rd parties for transactions expenses are significantly lower."
+                    />
+                  }
+
+                  icon={
+                    <Image
+                      src={CloudTransIcon1}
+                      alt="Cost-Effective"
+                      className="home_features_icon"
+                    />
+                  }
+                  additionalContent={
+                    <AdditionalContentParticle />
+                  }
+
+                />
+              )}
+          </Box>
+          <Box {...col}>
+            {FeatureItem.animation ? (
+              <Fade bottom delay={120}>
+                <FeatureItem className="feature_sectionItem_container" />
+              </Fade>
+            ) : (
+                <FeatureItem
+                  className="feature_sectionItem_container text_center"
+                  title={
+                    <Heading
+                      {...featureItemHeading}
+                      className="text_center"
+                      content="Streamlined Operations"
+                    />
+                  }
+                  description={
+                    <Text
+                      {...featureItemDes}
+                      className="text_center"
+                      content="Supply chain functions and ecommerce transactions can be efficiently managed, with many tasks automated."
+                    />
+                  }
+
+                  icon={
+                    <Image
+                      src={CloudTransIcon2}
+                      alt="Speed"
+                      className="home_features_icon"
+                    />
+                  }
+                  additionalContent={
+                    <AdditionalContentParticle />
+                  }
+
+                />
+              )}
+          </Box>
+          <Box {...col}>
+            {FeatureItem.animation ? (
+              <Fade bottom delay={120}>
+                <FeatureItem className="feature_sectionItem_container" />
+              </Fade>
+            ) : (
+                <FeatureItem
+                  className="feature_sectionItem_container text_center"
+                  title={
+                    <Heading
+                      {...featureItemHeading}
+                      className="text_center"
+                      content="Fraud Detection"
+                    />
+                  }
+                  description={
+                    <Text
+                      {...featureItemDes}
+                      className="text_center"
+                      content="Increased layers of protection & early discovery of potential hacking for online transactions."
+                    />
+                  }
+
+                  icon={
+                    <Image
+                      src={CloudTransIcon3}
+                      alt="Scalability"
+                      className="home_features_icon"
+                    />
+                  }
+                  additionalContent={
+                    <AdditionalContentParticle />
+                  }
+
+                />
+              )}
+          </Box>
+          <Box {...col}>
+            {FeatureItem.animation ? (
+              <Fade bottom delay={120}>
+                <FeatureItem className="feature_sectionItem_container" />
+              </Fade>
+            ) : (
+                <FeatureItem
+                  className="feature_sectionItem_container text_center"
+                  title={
+                    <Heading
+                      {...featureItemHeading}
+                      className="text_center"
+                      content="Enhanced Efficiency"
+                    />
+                  }
+                  description={
+                    <Text
+                      {...featureItemDes}
+                      className="text_center"
+                      content="The results are astonishingly accurate, swift and error-free with IoT and Block Chain."
+                    />
+                  }
+
+                  icon={
+                    <Image
+                      src={CloudTransIcon4}
+                      alt="Robust"
+                      className="home_features_icon"
+                    />
+                  }
+                  additionalContent={
+                    <AdditionalContentParticle />
+                  }
+
+                />
+              )}
+          </Box>
+        </Box>
+      </Container>
     </Box>
   );
 };
@@ -383,26 +699,25 @@ IconParticleSection.propTypes = {
   secTitleWrapper: PropTypes.object,
   row: PropTypes.object,
   col: PropTypes.object,
+  col1: PropTypes.object,
+  col2: PropTypes.object,
   secHeading: PropTypes.object,
   secText: PropTypes.object,
   featureItemHeading: PropTypes.object,
-  featureItemImage: PropTypes.object,
   featureItemDes: PropTypes.object,
-  featureBlockStyle: PropTypes.object,
-  iconStyle: PropTypes.object,
-  contentStyle: PropTypes.object,
 };
 
 IconParticleSection.defaultProps = {
   sectionWrapper: {
     as: 'section',
-    id: 'service_section',
+    id: 'feature_particle_section',
     className: 'service_section',
-    pt: ['20px', '20px', '25px', '30px'],
+    pt: ['15px', '15px', '15px', '15px'],
+    background: 'transparent'
     // pb: ['60px', '80px', '80px', '100px'],
   },
   secTitleWrapper: {
-    mb: ['30px', '30px', '40x', '40px'],
+    mb: ['10px', '10px', '10x', '10px'],
   },
   secText: {
     as: 'span',
@@ -425,46 +740,44 @@ IconParticleSection.defaultProps = {
   row: {
     flexBox: true,
     flexWrap: 'wrap',
+    ml: '-15px',
+    mr: '-15px',
   },
   col: {
-    width: [1, 0.45, 0.45, 0.2],
-    className: 'service_col',
-    bg: '#fff',
-    margin: '1%',
-    border: '1px solid #f1f4f6',
-    borderRadius: '8px',
+    className: 'col',
+    width: [1, 0.5, 0.5, 0.25],
+    pr: '15px',
+    pl: '15px',
+    mb: '20px',
   },
-  featureBlockStyle: {
-    p: '20px 15px',
-    className: 'service_item',
+  col1: {
+    className: 'col1',
+    width: [1, 0.5, 0.5, 0.33],
+    pr: '15px',
+    pl: '15px',
+    mb: '20px',
   },
-  iconStyle: {
-    textAlign: 'center',
-    display: 'flex',
-    justifyContent: 'center',
-    mb: '10px',
-  },
-  contentStyle: {
-    textAlign: 'center',
+  col2: {
+    className: 'col2',
+    width: [1, 0.5, 0.5, 0.33],
+    pr: '15px',
+    pl: '15px',
+    mb: '20px',
   },
   featureItemHeading: {
-    fontSize: ['16px', '18px'],
+    fontSize: ['16px', '16px', '18px', '18px'],
     fontWeight: '400',
     color: '#0f2137',
     lineHeight: '1.5',
-    mb: '15px',
-    mt: '8px',
+    mb: ['5px', '5px', '5px', '5px'],
     letterSpacing: '-0.020em',
-  },
-  featureItemImage: {
-    width: '50px !important',
-    height: '50px !important',
+    maxWidth: ['auto', 'auto', 'auto', '180px'],
   },
   featureItemDes: {
-    fontSize: '15px',
-    lineHeight: '1.84',
+    fontSize: ['14px', '14px', '15px', '15px'],
+    lineHeight: '1.75',
     color: '#343d48cc',
-    mb: '0px',
+    mb: ['10px', '10px', '10px', '10px'],
   },
 };
 
