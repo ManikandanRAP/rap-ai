@@ -35,12 +35,12 @@ const Maindeskmenu1 = (button) => (
                             <MainNavbarDropMainLi>Business Model</MainNavbarDropMainLi>
                             <br />
                             <MainNavbarDropLi>
-                                <Link to="/b2c">
+                                <Link to="solutions/b2c">
                                     B2C
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="/b2b">
+                                <Link to="solutions/b2b">
                                     <span>B2B</span>
                                 </Link>
                             </MainNavbarDropLi>
@@ -68,13 +68,13 @@ const Maindeskmenu1 = (button) => (
                             <MainNavbarDropMainLi>Expertise</MainNavbarDropMainLi>
                             <br />
                             <MainNavbarDropLi>
-                                <Link to="headless-commerce">Headless Commerce</Link>
+                                <Link to="solutions/headless-commerce">Headless Commerce</Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="omnichannel">Omnichannel</Link>
+                                <Link to="solutions/omnichannel">Omnichannel</Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="digital-experience">Digital Experience & CX</Link></MainNavbarDropLi>
+                                <Link to="solutions/digital-experience">Digital Experience & CX</Link></MainNavbarDropLi>
                             <MainNavbarDropLi>
                                 <Link to="solutions/order-management">Order Management</Link></MainNavbarDropLi>
                             <MainNavbarDropLi>
@@ -82,7 +82,7 @@ const Maindeskmenu1 = (button) => (
                             <MainNavbarDropLi>
                                 <span>Marketing</span></MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="/automation-ai">
+                                <Link to="solutions/automation-ai">
                                     <span>Automation & AI</span>
                                 </Link>
                             </MainNavbarDropLi>
@@ -114,37 +114,37 @@ const Maindeskmenu1 = (button) => (
                             <MainNavbarDropMainLi>Strategy</MainNavbarDropMainLi>
                             <br />
                             <MainNavbarDropLi>
-                                <Link to="/Consulting">
+                                <Link to="services/consulting">
                                     <span>Consulting</span>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="/Consulting">
+                                <Link to="services/analytics&insights">
                                     <span>Analytics & Insights</span>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="/cloud-infrastructure">
+                                <Link to="services/cloud-infrastructure">
                                     <span>Cloud Infrastructure</span>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="/Consulting">
+                                <Link to="services/converstationAI">
                                     <span>Conversation AI</span>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="/Consulting">
+                                <Link to="services/5G">
                                     <span>5G</span>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="/Consulting">
+                                <Link to="services/microservices&mesh">
                                     <span>Microservices & Mesh</span>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="/social-commerce">
+                                <Link to="services/social-commerce">
                                     <span>Social Commerce</span>
                                 </Link>
                             </MainNavbarDropLi>
@@ -154,17 +154,17 @@ const Maindeskmenu1 = (button) => (
                             <MainNavbarDropMainLi>Delivery</MainNavbarDropMainLi>
                             <br />
                             <MainNavbarDropLi>
-                                <Link to="/Delivery">
+                                <Link to="services/delivery">
                                     <span>Agile Teams</span>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="/Delivery">
+                                <Link to="services/managedservices">
                                     <span>Managed Services</span>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="/Delivery">
+                                <Link to="services/offshoredevcenter">
                                     <span>Offshore Dev Center</span>
                                 </Link>
                             </MainNavbarDropLi>
@@ -173,42 +173,42 @@ const Maindeskmenu1 = (button) => (
                             <MainNavbarDropMainLi>Technology</MainNavbarDropMainLi>
                             <br />
                             <MainNavbarDropLi>
-                                <Link to="services/technology">
+                                <Link to="services/elasticpath">
                                     <a>Elastic Path</a>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="services/technology">
+                                <Link to="services/hclcommerce">
                                     <span>HCL Commerce</span>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="services/technology">
+                                <Link to="services/coremedia">
                                     <span>Core Media</span>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="services/technology">
+                                <Link to="services/ibm&redhat">
                                     <span>IBM & Red Hat</span>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="services/technology">
+                                <Link to="services/drupalcommerce">
                                     <span>Drupal Commerce</span>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="services/technology">
+                                <Link to="services/apis&graphql">
                                     <span>APIs & GraphQL</span>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="services/technology">
+                                <Link to="services/jamstact&gatsby">
                                     <span>JAMStack & Gatsby</span>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="services/technology">
+                                <Link to="services/magneto">
                                     <span>Magento</span>
                                 </Link>
                             </MainNavbarDropLi>
@@ -237,19 +237,19 @@ const Maindeskmenu1 = (button) => (
                         <MainNavbarDropUl className="Desktop_Menu_stepped2">
                             <MainNavbarDropLi>
                                 <img src={UCIcon}/>
-                                <Link to="/universal-commerce">
+                                <Link to="product/universal-commerce">
                                     <span>Universal Commerce</span>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
                                 <img src={DRCIcon}/>
-                                <Link to="/dr-commerce">
+                                <Link to="product/dr-commerce">
                                     <span>Dr. Commerce</span>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
                                 <img src={StoreIcon}/>
-                                <Link to="/store-fronts">
+                                <Link to="product/store-fronts">
                                     <span>Store Fronts</span>
                                 </Link>
                                 <div></div>
@@ -295,26 +295,26 @@ const Maindeskmenu1 = (button) => (
                         <MainNavbarDropUl className="Desktop_Menu_stepped2">
                             <MainNavbarDropLi>
                                 <img src={CompanyIcon}/>
-                                <Link to="/company">
+                                <Link to="about/company">
                                     <span>Company</span>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
                                 <img src={TeamIcon}/>
-                                <Link to="/team">
+                                <Link to="about/team">
                                     <span>Team</span>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
                                 <img src={PartnersIcon}/>
-                                <Link to="/partners">
+                                <Link to="about/partners">
                                     <span>Partners</span>
                                 </Link>
                                 <div></div>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
                                 <img src={MediaIcon}/>
-                                <Link to="/media&whitepapers">
+                                <Link to="about/media&whitepapers">
                                     <span>Media & White Papers</span>
                                 </Link>
                                 <div></div>

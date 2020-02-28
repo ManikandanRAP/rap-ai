@@ -1,0 +1,17 @@
+.Icon_Text_Container {
+    padding-bottom: 30px;
+}
+.Icon_Text_Container .icon_text_box {
+    display: none;
+}
+.CloudTransformation_info_container .Icon_Text_Container .icon_text_box.CloudTransformation_Icontext, 
+.order_management_info_container .Icon_Text_Container .icon_text_box.OrderManagement_Icontext, 
+.digital_experience_info_container .Icon_Text_Container .icon_text_box.DigitalExperience_Icontext {
+    display: block;
+}
+.Icon_Text_Container .service_col {
+    box-shadow: rgba(39,79,117,0.2) 0 40px 90px -30px;
+}
+.Icon_Text_Container .service_col:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 35px;
+}
