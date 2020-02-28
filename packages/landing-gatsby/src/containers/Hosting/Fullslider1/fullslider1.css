@@ -145,7 +145,7 @@
 /* customcss */
 .sliderImage {
     max-height: 100vh;
-    /* min-height: 400px; */
+    min-height: 400px;
     object-fit: cover;
 }
 .slick-list {
