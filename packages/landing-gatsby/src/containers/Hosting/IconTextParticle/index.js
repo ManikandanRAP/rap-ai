@@ -28,6 +28,8 @@ import OrderMangIcon3 from 'common/src/assets/image/hosting/Pages/OrderManagemen
 import OrderMangIcon4 from 'common/src/assets/image/hosting/Pages/OrderManagement/Personalization.svg';
 import OrderMangIcon5 from 'common/src/assets/image/hosting/Pages/OrderManagement/Personalization.svg';
 
+import testimage from 'common/src/assets/image/hosting/testimage.svg';
+
 
 import "./icontextparticle.css";
 

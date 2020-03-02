@@ -122,7 +122,7 @@ export const MainNavbarDropBox = styled.div`
     width: 85%;
     max-width: 1170px;
     margin: 0 auto;
-    transition: top 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
     
     &.Desktop_Menu_sized {
         width: 60%;
