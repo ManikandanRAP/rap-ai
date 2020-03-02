@@ -232,6 +232,7 @@ InfoHomeSection.defaultProps = {
     color: '#252525',
     letterSpacing: '-0.025em',
     mb: '20px',
+    pt: '20px',
   },
   description: {
     fontSize: ['16px', '16px', '16px', '16px', '16px'],
