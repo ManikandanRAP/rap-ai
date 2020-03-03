@@ -17,6 +17,8 @@ import BannerWrapper4, {
   DiscountLabel,
 } from './bannerother.style';
 
+import "./bannerother.css";
+
 import { search } from 'react-icons-kit/feather/search';
 
 const BannerOtherSection = ({
@@ -84,7 +86,7 @@ const BannerOtherSection = ({
             />
             <Text
               {...description}
-              content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+              content="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
             />
           </Box>
         </Box>
@@ -98,7 +100,7 @@ const BannerOtherSection = ({
             />
             <Text
               {...description}
-              content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+              content="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
             />
           </Box>
         </Box>
@@ -171,7 +173,7 @@ BannerOtherSection.defaultProps = {
     width: ['100%', '100%', '90%', '100%', '55%'],
   },
   title: {
-    fontSize: ['26px', '32px', '42px', '46px', '55px'],
+    fontSize: ['26px', '32px', '42px', '45px', '45px'],
     fontWeight: '400',
     color: '#0f2137',
     letterSpacing: '-0.025em',
@@ -180,7 +182,7 @@ BannerOtherSection.defaultProps = {
     textAlign: 'center',
   },
   description: {
-    fontSize: ['15px', '16px', '16px', '16px', '16px'],
+    fontSize: ['18px', '20px', '20px', '24px', '24px'],
     color: '#343d48cc',
     lineHeight: '1.75',
     mb: '0',

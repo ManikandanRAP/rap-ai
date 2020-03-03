@@ -7,6 +7,7 @@ import Heading from 'common/src/components/Heading';
 import Logo from 'common/src/components/UIElements/Logo';
 import Container from 'common/src/components/UI/Container';
 import FooterWrapper, { List, ListItem } from './footer.style';
+import { Link } from "gatsby";
 
 import LogoImage from 'common/src/assets/image/hosting/logo.png';
 
@@ -57,9 +58,9 @@ const Footer = ({
                 <List>
                   {widget.menuItems.map((item, index) => (
                     <ListItem key={`footer-list-item-${index}`}>
-                      <a href={item.url} className="ListItem">
+                      <Link to={item.url} className="ListItem">
                         {item.text}
-                      </a>
+                      </Link>
                     </ListItem>
                   ))}
                 </List>

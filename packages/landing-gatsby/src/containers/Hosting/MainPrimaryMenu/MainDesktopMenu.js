@@ -78,7 +78,7 @@ const Maindeskmenu1 = (button) => (
                             <MainNavbarDropLi>
                                 <Link to="solutions/order-management">Order Management</Link></MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <span>Analytics</span></MainNavbarDropLi>
+                                <span>Experience Analytics</span></MainNavbarDropLi>
                             <MainNavbarDropLi>
                                 <span>Marketing</span></MainNavbarDropLi>
                             <MainNavbarDropLi>
@@ -237,23 +237,22 @@ const Maindeskmenu1 = (button) => (
                     <MainNavFlexbox className="Menu_desktop_box Desktop_menu_shadow">
                         <MainNavbarDropUl className="Desktop_Menu_stepped2">
                             <MainNavbarDropLi>
-                                <img src={UCIcon}/>
                                 <Link to="product/universal-commerce">
-                                    <span>Universal Commerce</span>
+                                    <img src={UCIcon}/>
+                                    <div>Universal Commerce</div>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <img src={DRCIcon}/>
                                 <Link to="product/dr-commerce">
-                                    <span>Dr. Commerce</span>
+                                    <img src={DRCIcon}/>
+                                    <div>Dr. Commerce</div>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <img src={StoreIcon}/>
                                 <Link to="product/store-fronts">
-                                    <span>Store Fronts</span>
+                                    <img src={StoreIcon}/>
+                                    <div>Store Fronts</div>
                                 </Link>
-                                <div></div>
                             </MainNavbarDropLi>
                         </MainNavbarDropUl>
                     </MainNavFlexbox>
@@ -295,30 +294,28 @@ const Maindeskmenu1 = (button) => (
                     <MainNavFlexbox className="Menu_desktop_box Desktop_menu_shadow">
                         <MainNavbarDropUl className="Desktop_Menu_stepped2">
                             <MainNavbarDropLi>
-                                <img src={CompanyIcon}/>
                                 <Link to="about/company">
-                                    <span>Company</span>
+                                    <img src={CompanyIcon}/>
+                                    <div>Company</div>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <img src={TeamIcon}/>
                                 <Link to="about/team">
-                                    <span>Team</span>
+                                    <img src={TeamIcon}/>
+                                    <div>Team</div>
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <img src={PartnersIcon}/>
                                 <Link to="about/partners">
-                                    <span>Partners</span>
+                                    <img src={PartnersIcon}/>
+                                    <div>Partners</div>
                                 </Link>
-                                <div></div>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <img src={MediaIcon}/>
                                 <Link to="about/media&whitepapers">
-                                    <span>Media & White Papers</span>
+                                    <img src={MediaIcon}/>
+                                    <div>Media & White Papers</div>
                                 </Link>
-                                <div></div>
                             </MainNavbarDropLi>
                         </MainNavbarDropUl>
                     </MainNavFlexbox>

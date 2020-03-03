@@ -329,6 +329,12 @@ export const ContentWrapper = styled.div`
       padding-bottom: 10px;
     }
   }
+  //intro container
+  .intro_text_container {
+    width: 65%;
+    margin: 0 auto;
+    text-align: justify;
+  }
   // banner
   #banner_section:before {
     content: '';
@@ -364,12 +370,14 @@ export const ContentWrapper = styled.div`
     min-height: auto;
     border-radius: 50px;
     overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
     position: relative;
     .btn-text {
       color: #fff;
       font-size: 16px;
       padding: 0;
-      z-index: 3;
+      z-index: 3; 
     }
   }
   .reusecore__button:after {
@@ -546,6 +554,9 @@ export const ContentWrapper = styled.div`
     .glide__slide--active .pricing_table {
       box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
       border: 0;
+    }
+    .intro_text_container {
+      width: 100%;
     }
   }
 `;

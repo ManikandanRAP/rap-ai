@@ -199,7 +199,7 @@ const InfoServiceSection = ({
                 />
                 <Text
                   {...description}
-                  className="text_center"
+                  className="text_center intro_text_container"
                   content="With AI/ML integrated social commerce technology, businesses are revolutionizing social shopping experience, enhancing customer engagement with your brand within social networks such as Instagram, Facebook, TikTok, etc.  Cnetric can help you leverage the right tools and technology to drive greater sales through social commerce."
                 />
                 <br />
@@ -286,7 +286,7 @@ InfoServiceSection.propTypes = {
 InfoServiceSection.defaultProps = {
   sectionWrapper: {
     as: 'section',
-    pt: ['25px', '25px', '25px', '30px', '30px'],
+    // pt: ['25px', '25px', '25px', '30px', '30px'],
     // pb: ['60px', '80px', '40px', '80px', '80px'],
     id: 'info_section',
   },

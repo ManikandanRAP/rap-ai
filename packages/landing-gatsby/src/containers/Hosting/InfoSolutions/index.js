@@ -78,7 +78,7 @@ const InfoSolutionSection = ({
 
         <Container>
           <Box>
-            <Box >
+            <Box>
               <Fade bottom cascade>
                 <Heading
                   {...title}
@@ -87,7 +87,7 @@ const InfoSolutionSection = ({
                 />
                 <Text
                   {...description}
-                  className="text_center"
+                  className="text_center intro_text_container"
                   content="The convergence of multiple digital platforms and social media has transformed shopping for the modern B2C customer. In order to drive greater sales and win over customers, a seamless experience across multiple channels is necessary. The modern shopper could be shopping from a laptop, an app on a mobile phone, searching for products via Alexa or browsing options at a kiosk.  Cnetric specializes in integrations that connect your multiple systems, driving greater value at every stage and ensuring a delightful, universal customer experience anytime on any device."
                 />
                 <br />
@@ -205,7 +205,7 @@ const InfoSolutionSection = ({
 
         <Container>
           <Box>
-            <Box >
+            <Box>
               <Fade bottom cascade>
                 <Heading
                   {...title}
@@ -214,7 +214,7 @@ const InfoSolutionSection = ({
                 />
                 <Text
                   {...description}
-                  className="text_center"
+                  className="text_center intro_text_container"
                   content="The B2B buyer’s journey has also gone through a profound transformation due to technological advances. As a result, B2B shoppers also expect relevant information that is conveniently accessible with smooth user experiences. Search results, content, conversations, and customer service must hit the mark every time across channels. The good news is Cnetric can connect your multiple systems and combine your siloed data to add value at every stage, accelerating integrations for a seamless, omnichannel experience."
                 />
                 <br />
@@ -312,6 +312,7 @@ const InfoSolutionSection = ({
                 />
                 <Text
                   {...description}
+                  className="intro_text_container"
                   content="eCommerce has been revolutionized by a multitude of technological advancements. AI and Machine Learning can be leveraged across your entire eCommerce ecosystem to improve your inventory, service, personalization and modes of shopping. All of this improves customer experience and increases conversions. Cnetric can help you harness the power of AI and ML to drive greater sales through an improved eCommerce ecosystem."
                 />
                 <br />
@@ -457,7 +458,7 @@ const InfoSolutionSection = ({
                   content="A Good Omnichannel Strategy Is Essential To Good Commerce"
                 />
                 <Text
-                  className="text_center"
+                  className="text_center intro_text_container"
                   {...description}
                   content="An omnichannel eCommerce strategy is one of the most powerful ways to drive brand loyalty and turn loyal customers into advocates.  Cnetric, with several years of expertise, can provide seamless integration of innumerable customer touch points to drive a smooth customer journey across all channels. This includes both brick and mortar and eCommerce sores with a seamless experience across email, social media, smartwatches, voice search, etc."
                 />
@@ -580,6 +581,7 @@ const InfoSolutionSection = ({
                 />
                 <Text
                   {...description}
+                  className="intro_text_container"
                   content="A headless ecommerce system is the decoupling of your presentation layer (the website) from your backend (the technology that drives your website). Whereas a traditional system is monolithic meaning the body and head are attached. The shift to headless is a powerful catalyst for a nimble business that can drive greater sales."
                 />
                 <br />
@@ -720,20 +722,24 @@ const InfoSolutionSection = ({
               <Fade bottom cascade>
                 <Heading
                   {...title}
+                  style={{marginBottom: '10px'}}
                   className="text_center"
                   content="Digital Experience (DX)  & Customer Experience (CX)"
                 />
                 <Text
                   {...subtitle}
                   className="text_center"
+                  style={{fontWeight: '17px'}}
                   content="For Greater Sales"
                 />
                 <Text
                   {...description}
+                  className="intro_text_container"
                   content="A positive customer experience can make or break an eCommerce business in today’s customer-centric world. Over 53% of customers abandon their shopping if they have to wait 3 seconds or more. As you can see the bar is high for pleasing today’s online customers. This is where a technologically-optimized digital experience (DX) and customer experience (CX) plays a substantial role in delighting customers to build sustained engagement and loyalty."
                 />
                 <Text
                   {...description}
+                  className="intro_text_container"
                   content="You must bridge the silos of your web site, mobile app, offline and backend systems and you must think of DX strategy as being a significant piece of your customer experience (CX) strategy. Cnetric’s services, solutions and expertise can help your organization truly standout from the pack through seamless, omnichannel, thoughtful customer experience."
                 />
                 <br />
@@ -756,7 +762,9 @@ const InfoSolutionSection = ({
               </Box>
               <Box className="Solutions_Image_container">
                 <Fade bottom cascade>
-                  <Image src={DigitalExpImg1} alt="Full Spectrum of Digital Experience" />
+                  <Image src={DigitalExpImg1} alt="Full Spectrum of Digital Experience" 
+                  style={{maxWidth: '512px', objectFit: 'contain'}}
+                  />
                 </Fade>
                 <br />
               </Box>
@@ -797,6 +805,7 @@ const InfoSolutionSection = ({
             <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
               <Box {...col} {...textArea} className="info_order_change">
                 <Fade bottom cascade>
+                  <br />
                   <Heading
                     {...title}
                     className="text_center"
@@ -826,6 +835,7 @@ const InfoSolutionSection = ({
                 />
                 <Text
                   {...description}
+                  className="intro_text_container"
                   content="Traditionally, transactions in ecommerce have several drawbacks when conducted via electronic payment system, where banks or financial institutions act as a third-party. With disruptive technological breakthroughs, an advanced model of eCommerce is being introduced that bypasses third-parties to conduct peer-to-peer transactions employing Blockchain technology. Blockchain technology was primarily utilized in the financial sector and its gradual entry into the ecommerce sector is going to disrupt the marketplace with decentralization. Cnetric has the expertise to leverage disruptive IoT and Blockchain for a robust, future-proof ecommerce business."
                 />
                 <br />
@@ -1065,6 +1075,7 @@ const InfoSolutionSection = ({
                 />
                 <Text
                   {...description}
+                  className="intro_text_container"
                   content="Retailers and manufacturers worldwide find it challenging to demystify the complexities in the order management systems and fulfillment processes. It is a system of people, processes, and suppliers where everyone should sync together for a delightful customer experience. To avoid bottlenecks and meet customer demand, a flexible omnichannel order management system is essential. Cnetric’s expertise in order management system solutions can retain customers’ trust and loyalty for long-term success."
                 />
                 <br />
@@ -1218,7 +1229,7 @@ InfoSolutionSection.propTypes = {
 InfoSolutionSection.defaultProps = {
   sectionWrapper: {
     as: 'section',
-    pt: ['25px', '25px', '25px', '30px', '30px'],
+    // pt: ['15px', '15px', '15px', '15px', '15px'],
     // pb: ['60px', '80px', '40px', '80px', '80px'],
     id: 'info_section',
   },

@@ -43,30 +43,24 @@ export const MainNavbarDropUl = styled.ul`
         }
     }
     &.Desktop_Menu_stepped2 {
-        justify-content: center;
-        flex-direction: column;
-        width: 100%;
         padding: 0;
+        width: 100%;
         li {
+            border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+            padding: 0px !important;
+            a {
+                display: flex;
+                width: 100%;
+                align-items: center;
+            }
             img {
                 width: 100%;
                 max-width: 30px;
                 object-fit: contain;
+                margin: 10px;
                 margin-right: 25px;
             }
-            span {
-                width: 100%;
-                // text-align: center;
-                // min-width: 110px;
-            }
-            display: flex !important;
-            flex-direction: row;
-            align-items: center;
-            justify-content: left;
-            width: 100%;
-            margin: 0;
-            border-bottom: 2px solid rgba(0, 0, 0, 0.1);
-            padding: 10px !important;
+            
         }
         li:last-child {
             border-bottom: none;

@@ -28,6 +28,10 @@
 .Cta_container div {
     text-align: center;
 }
+.Cta_container p {
+    font-size: 20px !important;
+}
+
 .Home_page .Cta_container.cta_Home_page,
 .B2b_page .Cta_container.cta_B2b_page,
 .B2c_page .Cta_container.cta_B2c_page,
@@ -41,4 +45,10 @@
 .IOT_blockchain_page .iot_blockchain_page,
 .Digital_experience_page .cta_digital_experience_page {
     display: flex;
+}
+
+@media only screen and (max-width: 575px) {
+    .Cta_container p  {
+        font-size: 18px !important;
+    }
 }

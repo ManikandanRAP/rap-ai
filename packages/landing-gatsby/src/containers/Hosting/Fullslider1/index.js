@@ -13,7 +13,7 @@ var settings = {
     dots: true,
     speed: 500,
     infinite: true,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 7000,
     slidesToShow: 1,
     slidesToScroll: 1

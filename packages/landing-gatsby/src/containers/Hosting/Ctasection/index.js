@@ -149,7 +149,7 @@ Ctasection.propTypes = {
 Ctasection.defaultProps = {
     button: {
         type: 'button',
-        fontSize: '14px',
+        fontSize: ['18px', '20px', '20px', '20px', '20px'],
         fontWeight: '600',
         color: '#fff',
         borderRadius: '4px',

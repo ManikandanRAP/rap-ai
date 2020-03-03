@@ -169,7 +169,7 @@ BannerSolutionsSection.defaultProps = {
     width: ['100%', '100%', '90%', '100%', '55%'],
   },
   title: {
-    fontSize: ['26px', '32px', '42px', '46px', '45px'],
+    fontSize: ['26px', '32px', '42px', '45px', '45px'],
     fontWeight: '400',
     color: '#0f2137',
     letterSpacing: '-0.025em',
@@ -178,7 +178,7 @@ BannerSolutionsSection.defaultProps = {
     textAlign: 'center',
   },
   description: {
-    fontSize: ['15px', '16px', '16px', '16px', '16px'],
+    fontSize: ['18px', '20px', '20px', '24px', '24px'],
     color: '#343d48cc',
     lineHeight: '1.75',
     mb: '0',

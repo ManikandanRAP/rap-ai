@@ -12,7 +12,8 @@ import Container from 'common/src/components/UI/Container';
 import drcimg from 'common/src/assets/image/hosting/Home/drc.svg';
 import univcoming from 'common/src/assets/image/hosting/Home/uc.svg';
 import illusting from 'common/src/assets/image/hosting/Home/Illustration.svg';
-import { Link } from "gatsby"
+import illusting2 from 'common/src/assets/image/hosting/Home/Illustration2.svg';
+import { Link } from "gatsby";
 
 
 import "./infohome.css";
@@ -21,6 +22,9 @@ const InfoHomeSection = ({
   sectionWrapper,
   row,
   col,
+  col1,
+  col2,
+  col3,
   title,
   description,
   button,
@@ -37,15 +41,16 @@ const InfoHomeSection = ({
   return (
     <Box {...sectionWrapper} id="info_home">
 
+
       <Container>
-        <Box>
-          <Box>
+        <Heading
+          {...title}
+          className="text_center"
+          content="eCommerce is hard but your technology shouldn’t be"
+        />
+        <Box {...row} style={{justifyContent: "center", alignItems: "center"}}>
+          <Box {...col2} className="info_order_change">
             <Fade bottom cascade>
-              <Heading
-                {...title}
-                className="text_center"
-                content="eCommerce is hard but your technology shouldn’t be"
-              />
               <Text
                 {...description}
                 content="Are you looking for a partner who can fix and modernize your eCommerce ecosystem, and at the same time will help you elevate your brand well beyond household and industry standards? Cnetric is successfully achieving these goals for our clients including retailers, bankers, insurers, grocers, educators, telecommunicators, and government agencies."
@@ -60,12 +65,12 @@ const InfoHomeSection = ({
               />
             </Fade>
           </Box>
-
-          <Box className="Home_Image_container">
+          <Box {...col1} className="Home_Image_container" style={{paddingTop: 0}}>
             <Fade bottom cascade>
-              <Image src={illusting} alt="Info Image One" />
+              <Image src={illusting2} alt="eCommerce is hard but your technology shouldn’t be" />
             </Fade>
           </Box>
+          <br />
         </Box>
       </Container>
 
@@ -86,10 +91,12 @@ const InfoHomeSection = ({
               <Fade bottom cascade>
                 <Heading
                   {...title}
+                  style={{ marginBottom: '5px' }}
                   content="Dr. Commerce"
                 />
                 <Text
                   {...description}
+                  style={{ fontWeight: '500' }}
                   content="A personal touch to heal your eCommerce woes"
                 />
                 <Text
@@ -122,10 +129,12 @@ const InfoHomeSection = ({
             <Fade bottom cascade>
               <Heading
                 {...title}
+                style={{ marginBottom: '5px' }}
                 content="Universal Commerce"
               />
               <Text
                 {...description}
+                style={{ fontWeight: 500 }}
                 content="Best of Breed Innovation and Disruption on a Single Platform"
               />
               <Text
@@ -153,6 +162,9 @@ InfoHomeSection.propTypes = {
   sectionWrapper: PropTypes.object,
   row: PropTypes.object,
   col: PropTypes.object,
+  col1: PropTypes.object,
+  col2: PropTypes.object,
+  col3: PropTypes.object,
   title: PropTypes.object,
   description: PropTypes.object,
   button: PropTypes.object,
@@ -170,7 +182,7 @@ InfoHomeSection.propTypes = {
 InfoHomeSection.defaultProps = {
   sectionWrapper: {
     as: 'section',
-    pt: ['25px', '25px', '25px', '30px', '30px'],
+    // pt: ['25px', '25px', '25px', '30px', '10px'],
     // pb: ['0px', '0px', '0px', '0px', '0px'],
     id: 'info_section',
   },
@@ -200,6 +212,7 @@ InfoHomeSection.defaultProps = {
     flexWrap: 'wrap',
     ml: '-15px',
     mr: '-15px',
+    alignItems: 'center',
   },
   imageAreaRow: {
     flexDirection: 'row-reverse',
@@ -207,6 +220,17 @@ InfoHomeSection.defaultProps = {
   col: {
     pr: '15px',
     pl: '15px',
+  },
+  col1: {
+    // width: '60%',
+    width: ['100%', '100%', '100%', '45%', '45%'],
+  },
+  col2: {
+    // width: '40%',
+    width: ['100%', '100%', '100%', '55%', '55%'],
+  },
+  col3: {
+    width: '70%'
   },
   textArea: {
     width: ['100%', '100%', '100%', '49%', '49%'],
@@ -238,7 +262,7 @@ InfoHomeSection.defaultProps = {
     fontSize: ['16px', '16px', '16px', '16px', '16px'],
     color: '#343d48cc',
     lineHeight: '1.5',
-    mb: '15px',
+    mb: '10px',
   },
   button: {
     type: 'button',
