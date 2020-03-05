@@ -3,54 +3,6 @@
   	Creation date: 10/02/2019 12:14
   	*/
 
-/* Lora and Alagrey fonts */
-@font-face {
-  font-family: 'Alegreyabold';
-  src: url('../fonts/fonts/alegreya-bold-webfont.woff2') format('woff2'),
-       url('../fonts/fonts/alegreya-bold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-
-@font-face {
-  font-family: 'Alegreyamedium';
-  src: url('../fonts/fonts/alegreya-medium-webfont.woff2') format('woff2'),
-       url('../fonts/fonts/alegreya-medium-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-
-@font-face {
-  font-family: 'Alegreyaregular';
-  src: url('../fonts/fonts/alegreya-regular-webfont.woff2') format('woff2'),
-       url('../fonts/fonts/alegreya-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-@font-face {
-  font-family: 'Lorabold';
-  src: url('../fonts/fonts/lora-bold-webfont.woff2') format('woff2'),
-       url('../fonts/fonts/lora-bold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-@font-face {
-  font-family: 'Loraregular';
-  src: url('../fonts/fonts/lora-regular-webfont.woff2') format('woff2'),
-       url('../fonts/fonts/lora-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
 /* robotoslab and nunito */
 
 @font-face {
