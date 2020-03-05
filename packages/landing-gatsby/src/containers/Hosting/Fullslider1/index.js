@@ -11,10 +11,11 @@ import "./fullslider1.css";
 
 var settings = {
     dots: true,
-    speed: 500,
+    arrows: true,
+    speed: 700,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 7000,
+    autoplaySpeed: 4000,
     slidesToShow: 1,
     slidesToScroll: 1
 };
