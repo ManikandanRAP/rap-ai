@@ -14,9 +14,7 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 import SEO from '../../components/seo';
 
 import BannerOtherSection from '../../containers/Hosting/BannerOther';
-// import OurTeam from '../../containers/Hosting/OurTeam';
-
-import OurPartners from '../../containers/Hosting/OurPartners';
+import OurCustomers from '../../containers/Hosting/OurCustomers';
 
 const PartnerPage = () => {
   return (
@@ -33,7 +31,7 @@ const PartnerPage = () => {
           </Sticky>
           <BannerOtherSection />
 
-          <OurPartners />
+          <OurCustomers />
           {/* <OurTeam2 /> */}
           <Footer />
         </ContentWrapper>

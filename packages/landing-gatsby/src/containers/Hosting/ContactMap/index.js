@@ -73,43 +73,6 @@ const ContactMap = ({
           </Box>
           <Box className="contact_location_list">
             <ul>
-<<<<<<< HEAD
-              <li>
-                Irvine, CA, USA
-                <br />
-                (800) 555-1212
-              </li>
-              <li>
-                Austin, TX, USA
-                <br />
-                (415) 806-2739
-              </li>
-              <li>
-                Toronto, ON, Canada
-                <br />
-                (416) 705-5128
-              </li>
-              <li>
-                Buenos Aires, Argentina
-                <br />
-                +54 9 11 6941 8155
-              </li>
-              <li>
-                Bogota, Colombia
-                <br />
-                +54 9 11 6941 8155
-              </li>
-              <li>
-                Sydney, Australia
-                <br />
-                +61 4 3852 8176
-              </li>
-              <li>
-                Bangalore, India
-                <br />
-                +91 98451 64517
-              </li>
-=======
               <li>Irvine, CA, USA</li>
               <li>Austin, TX, USA</li>
               <li>Toronto, ON, Canada</li>
@@ -121,7 +84,6 @@ const ContactMap = ({
               <li>Dubai, UAE</li>
               <li>Milan, Italy</li>
               <li>San Palo, Brazil</li>
->>>>>>> c441aca25a0a8c83856cd3da4a79b74119dd1156
             </ul>
           </Box>
           <div className="empty_space30" />

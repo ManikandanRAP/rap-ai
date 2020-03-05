@@ -730,8 +730,6 @@ const InfoSolutionSection = ({
             <Box {...col} {...textArea}>
               <Fade bottom cascade>
                 <Heading {...title} content="An Eye on 5G" />
-<<<<<<< HEAD
-=======
                 <Text
                   {...description}
                   content="Have you considered how 5G will impact your eCommerce business? 5G will be 100x faster than 4G and this will have a massive effect on how mobile devices consume data. Many modern shoppers love to shop from their mobile devices, so your business must adapt to 5G. With exponentially higher speed, increased capacity, and low latency new channels will emerge or grow like with AR/VR and IOT. Cnetric has the expertise to help you transform your eCommerce business to a headless system, so you can thrive in the era of 5G."
@@ -783,14 +781,11 @@ const InfoSolutionSection = ({
                   className="text_center"
                   content="Importance of AI in Marketing Performance"
                 />
->>>>>>> c441aca25a0a8c83856cd3da4a79b74119dd1156
                 <Text
                   {...description}
                   className="intro_text_container"
                   content="In a changing business landscape and the market exploding with innumerable digital technologies, organizations are leveraging AI-powered marketing instruments to stay competitive. AI-enabled marketing technologies are smart, intuitive and intelligent and have the capability to attract and retain potential customers, who interact with the business across a multitude of touch points. Cnetric can help you leverage their impressive functionalities, in order to heighten your marketing performance exponentially for greater customer satisfaction and loyalty in the long run."
                 />
-<<<<<<< HEAD
-=======
                 <br />
               </Fade>
             </Box>
@@ -883,7 +878,6 @@ const InfoSolutionSection = ({
                   {...description}
                   content="With AI capabilities, quantifying consumer behavior leads to better pricing and marketing decisions and predictive merchandising, boosting sales and profitability in the process. With automation, pricing strategy and optimization can be accomplished precisely with haste. Profit and inventory levels can be optimized with easy detection of ideal timing and pricing for clearance merchandise. Trade promotion and deal management are streamlined with extended and automated features customized for manufacturers and brokers respectively."
                 />
->>>>>>> c441aca25a0a8c83856cd3da4a79b74119dd1156
               </Fade>
             </Box>
             <Box {...col} {...textArea} className="Solutions_Image_container">
@@ -901,11 +895,6 @@ const InfoSolutionSection = ({
               {...row}
               style={{ alignItems: 'center', justifyContent: 'center' }}
             >
-<<<<<<< HEAD
-              <Box {...col} {...textArea} className="info_order_change">
-                <Fade bottom cascade>
-                  <Heading {...title} content="Social Commerce" />
-=======
               <Box {...col} {...textArea} className="info_order_change">
                 <Fade bottom cascade>
                   <Heading {...title} content="Marketing Automation" />
@@ -1008,7 +997,6 @@ const InfoSolutionSection = ({
                     {...title}
                     content="Right Offer, Right Place, Right Time"
                   />
->>>>>>> c441aca25a0a8c83856cd3da4a79b74119dd1156
                   <Text
                     {...description}
                     content="In order to drive sales, you need the trifecta of factors to win customers over. To create focused hyper-personalization and provide carefully picked and sorted offers at the right time and place, organizations must cater to meaningful and specific interactions across all the touch-points across the enterprise. They must also scrutinize customer data across all systems and keep tabs on ever-changing consumer behaviors while protecting their privacy. Cnetric has extensive experience helping eCommerce organizations leverage their data for greater success."
@@ -1094,10 +1082,7 @@ const InfoSolutionSection = ({
                 <Text
                   {...subtitle}
                   className="text_center"
-<<<<<<< HEAD
-=======
                   style={{ fontWeight: '17px' }}
->>>>>>> c441aca25a0a8c83856cd3da4a79b74119dd1156
                   content="For Greater Sales"
                 />
                 <Text

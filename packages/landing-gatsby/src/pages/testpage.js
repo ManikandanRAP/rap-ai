@@ -30,7 +30,7 @@ import SEO from '../components/seo';
 
 import Fullslider1 from '../containers/Hosting/Fullslider1';
 import GlideSlider1 from '../containers/Hosting/GlideSlider1/index';
-import GlideMaqure from '../containers/Hosting/GlideMarque';
+// import GlideMaqure from '../containers/Hosting/GlideMarque';
 import IconTextSection from '../containers/Hosting/IconText';
 
 // var FontAwesome = require('react-fontawesome');
@@ -64,7 +64,7 @@ export default () => {
           <PaymentSection /> */}
           {/* <TestimonialSection /> */}
           <GlideSlider1 />
-          <GlideMaqure />
+          {/* <GlideMaqure /> */}
           {/* <GlideSlider2 /> */}
           {/* <TestimonialSection2 /> */}
           <ContactMap />
