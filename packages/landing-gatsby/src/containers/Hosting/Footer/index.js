@@ -7,9 +7,9 @@ import Heading from 'common/src/components/Heading';
 import Logo from 'common/src/components/UIElements/Logo';
 import Container from 'common/src/components/UI/Container';
 import FooterWrapper, { List, ListItem } from './footer.style';
-import { Link } from "gatsby";
+import { Link } from 'gatsby';
 
-import LogoImage from 'common/src/assets/image/hosting/logo.png';
+import LogoImage from 'common/src/assets/image/hosting/logo.svg';
 
 const Footer = ({
   row,

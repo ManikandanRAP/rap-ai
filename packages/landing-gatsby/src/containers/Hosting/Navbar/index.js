@@ -11,13 +11,13 @@ import Container from 'common/src/components/UI/Container';
 import { DrawerContext } from 'common/src/contexts/DrawerContext';
 import ScrollSpyMenu from 'common/src/components/ScrollSpyMenu';
 
-import { Link } from "gatsby"
+import { Link } from 'gatsby';
 
-import LogoImage from 'common/src/assets/image/hosting/logo_white.svg';
+import LogoImage from 'common/src/assets/image/hosting/logo-light.svg';
 
-import Mainsubmenu1 from "../MainPrimaryMenu/MainSubMenu"
-import Maindeskmenu1 from "../MainPrimaryMenu/MainDesktopMenu"
-import MainMobilemenu1 from "../MainPrimaryMenu/MainMobileMenu"
+import Mainsubmenu1 from '../MainPrimaryMenu/MainSubMenu';
+import Maindeskmenu1 from '../MainPrimaryMenu/MainDesktopMenu';
+import MainMobilemenu1 from '../MainPrimaryMenu/MainMobileMenu';
 
 const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
   const { state, dispatch } = useContext(DrawerContext);
@@ -46,7 +46,11 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
       <Container>
         <Box {...row}>
           <Link to="/">
-            <img src={LogoImage} className="Image__ImageWrapper LogoImageSize" style={{maxWidth: '150px'}}/>
+            <img
+              src={LogoImage}
+              className="Image__ImageWrapper LogoImageSize"
+              style={{ maxWidth: '150px', width: '100%', height: '100%' }}
+            />
           </Link>
           {/* <Logo
             href="/"
@@ -106,7 +110,7 @@ Navbar.defaultProps = {
     display: 'block',
     position: 'relative',
     backgroundColor: 'transparent',
-    
+
     // backgroundColor: 'rgba(255, 255, 255, 0.95)',
   },
   row: {

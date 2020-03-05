@@ -11,11 +11,10 @@ import Container from 'common/src/components/UI/Container';
 
 // import ReportsPage from "../ContactReactMap"
 
-import "./contactmap.css";
-import { Link } from "gatsby";
+import './contactmap.css';
+import { Link } from 'gatsby';
 
-
-import contactMapLocation from "./contactMap.svg";
+import contactMapLocation from './contactMap.svg';
 
 const ContactMap = ({
   sectionWrapper,
@@ -40,7 +39,10 @@ const ContactMap = ({
   `);
 
   return (
-    <Box {...sectionWrapper} className="Contactmap_section section_background_color">
+    <Box
+      {...sectionWrapper}
+      className="Contactmap_section section_background_color"
+    >
       <Heading {...title} content="Contact Us" />
       <Container className="Contactmap_container1">
         <Box {...row} className="ContactMap_container_row">
@@ -53,10 +55,15 @@ const ContactMap = ({
           <Box {...col} {...textArea} className="ContactMap_container_col2">
             <Fade bottom cascade>
               <div id="contactLocations">
-                <p className="contact_addressBlock">Cnetric Global Inc.<br />
-                  300 Spectrum Center Dr., Suite 400, Irvine, CA 92618<br />
-                  P: +1 (415) 806-2739‬<br />
-                  E: info@cnetric.com<br />
+                <p className="contact_addressBlock">
+                  Cnetric Global Inc.
+                  <br />
+                  300 Spectrum Center Dr., Suite 400, Irvine, CA 92618
+                  <br />
+                  P: +1 (415) 806-2739‬
+                  <br />
+                  E: info@cnetric.com
+                  <br />
                   (Dennis Menendez, SVP - Client Success, Americas)
                 </p>
                 <p>We are also located at:</p>
@@ -66,27 +73,17 @@ const ContactMap = ({
           </Box>
           <Box className="contact_location_list">
             <ul>
-              <li>Irvine, CA, USA<br />
-                (800) 555-1212
-                  </li>
-              <li>Austin, TX, USA<br />
-                (415) 806-2739
-                  </li>
-              <li>Toronto, ON, Canada<br />
-                (416) 705-5128
-                  </li>
-              <li>Buenos Aires, Argentina<br />
-                +54 9 11 6941 8155
-                  </li>
-              <li>Bogota, Colombia<br />
-                +54 9 11 6941 8155
-                  </li>
-              <li>Sydney, Australia<br />
-                +61 4 3852 8176
-                  </li>
-              <li>Bangalore, India<br />
-                +91 98451 64517
-                  </li>
+              <li>Irvine, CA, USA</li>
+              <li>Austin, TX, USA</li>
+              <li>Toronto, ON, Canada</li>
+              <li>Buenos Aires, Argentina</li>
+              <li>Bogota, Colombia</li>
+              <li>Sydney, Australia</li>
+              <li>Bangalore, India</li>
+              <li>London, UK</li>
+              <li>Dubai, UAE</li>
+              <li>Milan, Italy</li>
+              <li>San Palo, Brazil</li>
             </ul>
           </Box>
           <div className="empty_space30" />

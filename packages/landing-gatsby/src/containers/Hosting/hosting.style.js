@@ -1,7 +1,7 @@
 import styled, { createGlobalStyle } from 'styled-components';
 import { themeGet } from 'styled-system';
 import FeatureBlock from 'common/src/components/FeatureBlock';
-import logo_black from 'common/src/assets/image/hosting/logo.png';
+import logo_black from 'common/src/assets/image/hosting/logo.svg';
 import b2bbanner_image from 'common/src/assets/image/hosting/Banner/B2B.jpg';
 import b2cbanner_image from 'common/src/assets/image/hosting/Banner/B2C.jpg';
 import aimlbanner_image from 'common/src/assets/image/hosting/Banner/AIML.jpg';
@@ -167,6 +167,10 @@ export const ContentWrapper = styled.div`
   .empty_space25 {
     display: block;
     height: 25px;
+  }
+  .empty_space20 {
+    display: block;
+    height: 20px;
   }
   .empty_space10 {
     display: block;
@@ -403,11 +407,11 @@ export const ContentWrapper = styled.div`
       color: #fff;
       font-size: 16px;
       padding: 0;
-      z-index: 1; 
+      z-index: 1;
     }
   }
   .reusecore__button:after {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
@@ -416,7 +420,7 @@ export const ContentWrapper = styled.div`
     // z-index: -1;
     transform: scaleY(0);
     transform-origin: 50% 100%;
-    
+
     -webkit-transform: scaleY(0);
     -ms-transform: scaleY(0);
     -webkit-transform-origin: 50% 100%;
@@ -436,30 +440,30 @@ export const ContentWrapper = styled.div`
     -o-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   }
   //ul box layout
-  .info_container_list_items   {
+  .info_container_list_items {
     display: flex;
     justify-content: start;
     flex-wrap: wrap;
   }
   .info_container_list_items li {
-      width: 46%;
-      margin: 10px;
-      padding: 10px;
-      color: #343d48cc;
-      box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 35px;
-      border-radius: 8px;
-    }
-    .info_container_list_items li:hover {
-      box-shadow: rgba(39,79,117,0.2) 0 40px 90px -30px;
-    }
-    @media only screen and (max-width: 575px) {
-      .info_container_list_items {
-        display: block;
-        li {
-          width: 100%;
-        }
+    width: 46%;
+    margin: 10px;
+    padding: 10px;
+    color: #343d48cc;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 35px;
+    border-radius: 8px;
+  }
+  .info_container_list_items li:hover {
+    box-shadow: rgba(39, 79, 117, 0.2) 0 40px 90px -30px;
+  }
+  @media only screen and (max-width: 575px) {
+    .info_container_list_items {
+      display: block;
+      li {
+        width: 100%;
       }
     }
+  }
   // Pages setting
   &.Home_page {
     // .hosting_navbar {
@@ -499,20 +503,20 @@ export const ContentWrapper = styled.div`
     }
   }
   &.B2c_page {
-    .container.banner_container.B2c_banner{
+    .container.banner_container.B2c_banner {
       display: block;
     }
     #banner_section {
       background-image: url(${b2bbanner_image});
-    } 
+    }
   }
   &.B2b_page {
-    .container.banner_container.B2b_banner{
+    .container.banner_container.B2b_banner {
       display: block;
     }
     #banner_section {
       background-image: url(${b2cbanner_image});
-    } 
+    }
   }
   &.Automation_ai_page {
     .container.banner_container.automation_ai_banner {
@@ -520,7 +524,7 @@ export const ContentWrapper = styled.div`
     }
     #banner_section {
       background-image: url(${aimlbanner_image});
-    } 
+    }
   }
   &.Cloud_infrastructure_page {
     .container.banner_container.Cloud_infrastructure_banner {
@@ -528,7 +532,7 @@ export const ContentWrapper = styled.div`
     }
     #banner_section {
       background-image: url(${cloudtransformationbanner_image});
-    } 
+    }
   }
   &.Omnichannel_page {
     .container.banner_container.omnichannel_banner {
@@ -536,7 +540,7 @@ export const ContentWrapper = styled.div`
     }
     #banner_section {
       background-image: url(${omnichannelbanner_image});
-    } 
+    }
   }
   &.Headless_commerce_page {
     .container.banner_container.headless_commerce_banner {
@@ -544,7 +548,23 @@ export const ContentWrapper = styled.div`
     }
     #banner_section {
       background-image: url(${headlesscommercebanner_image});
-    } 
+    }
+  }
+  &.Marketing_page {
+    .container.banner_container.marketing_banner {
+      display: block;
+    }
+    #banner_section {
+      background-image: url(${headlesscommercebanner_image});
+    }
+  }
+  &.Experience_analytics_page {
+    .container.banner_container.experience_analytics_banner {
+      display: block;
+    }
+    #banner_section {
+      background-image: url(${headlesscommercebanner_image});
+    }
   }
   &.Social_commerce_page {
     .container.banner_container.social_commerce_banner {
@@ -552,7 +572,7 @@ export const ContentWrapper = styled.div`
     }
     #banner_section {
       background-image: url(${socialcommercebanner_image});
-    } 
+    }
   }
   &.Order_Management_page {
     .container.banner_container.order_management_banner {
@@ -560,7 +580,7 @@ export const ContentWrapper = styled.div`
     }
     #banner_section {
       background-image: url(${socialcommercebanner_image});
-    } 
+    }
   }
   &.Digital_experience_page {
     .container.banner_container.digital_experience_banner {
@@ -568,7 +588,7 @@ export const ContentWrapper = styled.div`
     }
     #banner_section {
       background-image: url(${socialcommercebanner_image});
-    } 
+    }
   }
   &.Technology_page {
     .container.banner_container.technology_banner {
@@ -576,7 +596,7 @@ export const ContentWrapper = styled.div`
     }
     #banner_section {
       background-image: url(${socialcommercebanner_image});
-    } 
+    }
   }
   &.IOT_blockchain_page {
     .container.banner_container.iot_blockchain_banner {
@@ -584,7 +604,7 @@ export const ContentWrapper = styled.div`
     }
     #banner_section {
       background-image: url(${socialcommercebanner_image});
-    } 
+    }
   }
 
   @media (max-width: 990px) {

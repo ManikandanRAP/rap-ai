@@ -27,17 +27,13 @@ const BannerSolutionsSection = ({
   discountAmount,
   discountText,
 }) => {
-
   return (
     <BannerWrapper3 id="banner_section">
       <ParticlesComponent />
       <Container className="banner_container B2c_banner">
         <Box {...row}>
           <Box {...textArea}>
-            <Heading
-              {...title}
-              content="B2C"
-            />
+            <Heading {...title} content="B2C" />
             <Text
               {...description}
               content="Greater Sales with Seamless, Omnichannel eCommerce"
@@ -48,10 +44,7 @@ const BannerSolutionsSection = ({
       <Container className="banner_container B2b_banner">
         <Box {...row}>
           <Box {...textArea}>
-            <Heading
-              {...title}
-              content="B2B"
-            />
+            <Heading {...title} content="B2B" />
             <Text
               {...description}
               content="Greater Sales with Seamless, Omnichannel eCommerce"
@@ -62,10 +55,7 @@ const BannerSolutionsSection = ({
       <Container className="banner_container automation_ai_banner">
         <Box {...row}>
           <Box {...textArea}>
-            <Heading
-              {...title}
-              content="AI/ML"
-            />
+            <Heading {...title} content="AI/ML" />
             <Text
               {...description}
               content="Enhance Your eCommerce Ecosystem with Disruptive AI/ML"
@@ -76,10 +66,7 @@ const BannerSolutionsSection = ({
       <Container className="banner_container omnichannel_banner">
         <Box {...row}>
           <Box {...textArea}>
-            <Heading
-              {...title}
-              content="Omnichannel"
-            />
+            <Heading {...title} content="Omnichannel" />
             <Text
               {...description}
               content="Seamless Experience Delights Customers"
@@ -90,10 +77,7 @@ const BannerSolutionsSection = ({
       <Container className="banner_container headless_commerce_banner">
         <Box {...row}>
           <Box {...textArea}>
-            <Heading
-              {...title}
-              content="Headless eCommerce"
-            />
+            <Heading {...title} content="Headless eCommerce" />
             <Text
               {...description}
               content="Maximize Sales with Headless eCommerce"
@@ -101,13 +85,32 @@ const BannerSolutionsSection = ({
           </Box>
         </Box>
       </Container>
+      <Container className="banner_container marketing_banner">
+        <Box {...row}>
+          <Box {...textArea}>
+            <Heading {...title} content="Marketing" />
+            <Text
+              {...description}
+              content="Maximize sales with superior eCommerce marketing tools"
+            />
+          </Box>
+        </Box>
+      </Container>
+      <Container className="banner_container experience_analytics_banner">
+        <Box {...row}>
+          <Box {...textArea}>
+            <Heading {...title} content="Experience Analytics" />
+            <Text
+              {...description}
+              content="Accelerate sales and enhance customer experience with powerful analytics"
+            />
+          </Box>
+        </Box>
+      </Container>
       <Container className="banner_container order_management_banner">
         <Box {...row}>
           <Box {...textArea}>
-            <Heading
-              {...title}
-              content="Order Management"
-            />
+            <Heading {...title} content="Order Management" />
             <Text
               {...description}
               content="Seamless omnichannel order management system"
@@ -118,10 +121,7 @@ const BannerSolutionsSection = ({
       <Container className="banner_container digital_experience_banner">
         <Box {...row}>
           <Box {...textArea}>
-            <Heading
-              {...title}
-              content="Digital Experience & CX"
-            />
+            <Heading {...title} content="Digital Experience & CX" />
             <Text
               {...description}
               content="Seamless, omnichannel customer experience drives sales"
@@ -132,10 +132,7 @@ const BannerSolutionsSection = ({
       <Container className="banner_container iot_blockchain_banner">
         <Box {...row}>
           <Box {...textArea}>
-            <Heading
-              {...title}
-              content="IoT and Block chain"
-            />
+            <Heading {...title} content="IoT and Block chain" />
             <Text
               {...description}
               content="Fast track eCommerce transactions with IoT and Blockchain"

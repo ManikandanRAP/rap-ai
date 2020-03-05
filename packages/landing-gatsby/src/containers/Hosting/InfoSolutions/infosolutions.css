@@ -1,36 +1,54 @@
 #info_solutions .Solutions_Image_container {
-    /* background-color: #ececec; */
-    background-color: transparent;
+  /* background-color: #ececec; */
+  background-color: transparent;
 }
 #info_solutions .Solutions_Image_container img {
-    /* background-color: #ececec; */
-    padding: 15px;
-    width: 100%;;
-    max-width: 350px;
-    margin: 0 auto;
+  /* background-color: #ececec; */
+  padding: 15px;
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
 }
 #info_solutions .multi_sections_container {
-    display: none;
+  display: none;
 }
 .B2c_page #info_solutions .multi_sections_container.B2c_info_container,
 .B2b_page #info_solutions .multi_sections_container.B2b_info_container,
-.Automation_ai_page #info_solutions .multi_sections_container.automation_ai_info_container,
-.Omnichannel_page #info_solutions .multi_sections_container.omnichannel_info_container,
-.Headless_commerce_page #info_solutions .multi_sections_container.headless_commerce_info_container,
-.Digital_experience_page #info_solutions .multi_sections_container.digital_experience_info_container,
-.IOT_blockchain_page #info_solutions .multi_sections_container.iot_blockchain_info_container,
-.Order_Management_page #info_solutions .multi_sections_container.order_management_info_container {
-    display: block;
+.Automation_ai_page
+  #info_solutions
+  .multi_sections_container.automation_ai_info_container,
+.Omnichannel_page
+  #info_solutions
+  .multi_sections_container.omnichannel_info_container,
+.Headless_commerce_page
+  #info_solutions
+  .multi_sections_container.headless_commerce_info_container,
+.Digital_experience_page
+  #info_solutions
+  .multi_sections_container.digital_experience_info_container,
+.IOT_blockchain_page
+  #info_solutions
+  .multi_sections_container.iot_blockchain_info_container,
+.Order_Management_page
+  #info_solutions
+  .multi_sections_container.order_management_info_container,
+.Marketing_page
+  #info_solutions
+  .multi_sections_container.marketing_info_container,
+.Experience_analytics_page
+  #info_solutions
+  .multi_sections_container.experience_analytics_info_container {
+  display: block;
 }
 
 @media only screen and (min-width: 992px) {
-    #info_solutions .info_order_change {
-        order: 2;
-    }   
+  #info_solutions .info_order_change {
+    order: 2;
+  }
 }
 
 @media only screen and (max-width: 575px) {
-    #info_solutions .Solutions_Image_container {
-        padding: 15px;
-    }   
+  #info_solutions .Solutions_Image_container {
+    padding: 15px;
+  }
 }
