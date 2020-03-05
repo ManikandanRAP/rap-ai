@@ -73,6 +73,7 @@ const ContactMap = ({
           </Box>
           <Box className="contact_location_list">
             <ul>
+<<<<<<< HEAD
               <li>
                 Irvine, CA, USA
                 <br />
@@ -108,6 +109,19 @@ const ContactMap = ({
                 <br />
                 +91 98451 64517
               </li>
+=======
+              <li>Irvine, CA, USA</li>
+              <li>Austin, TX, USA</li>
+              <li>Toronto, ON, Canada</li>
+              <li>Buenos Aires, Argentina</li>
+              <li>Bogota, Colombia</li>
+              <li>Sydney, Australia</li>
+              <li>Bangalore, India</li>
+              <li>London, UK</li>
+              <li>Dubai, UAE</li>
+              <li>Milan, Italy</li>
+              <li>San Palo, Brazil</li>
+>>>>>>> c441aca25a0a8c83856cd3da4a79b74119dd1156
             </ul>
           </Box>
           <div className="empty_space30" />

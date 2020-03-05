@@ -35,7 +35,11 @@ const Maindeskmenu1 = button => (
           <MainNavFlexbox className="Desktop_menu_shadow">
             <MainNavbarDropUl>
               <MainNavbarDropMainLi>Business Model</MainNavbarDropMainLi>
+<<<<<<< HEAD
               <br />
+=======
+              <div className="empty_space10" />
+>>>>>>> c441aca25a0a8c83856cd3da4a79b74119dd1156
               <MainNavbarDropLi>
                 <Link to="solutions/b2c">B2C</Link>
               </MainNavbarDropLi>
@@ -44,10 +48,22 @@ const Maindeskmenu1 = button => (
                   <span>B2B</span>
                 </Link>
               </MainNavbarDropLi>
+<<<<<<< HEAD
             </MainNavbarDropUl>
             <MainNavbarDropUl>
               <MainNavbarDropMainLi>Industry</MainNavbarDropMainLi>
               <br />
+=======
+              <MainNavbarDropLi>
+                <Link to="#">
+                  <span>Market Place</span>
+                </Link>
+              </MainNavbarDropLi>
+            </MainNavbarDropUl>
+            <MainNavbarDropUl>
+              <MainNavbarDropMainLi>Industry</MainNavbarDropMainLi>
+              <div className="empty_space10" />
+>>>>>>> c441aca25a0a8c83856cd3da4a79b74119dd1156
               <MainNavbarDropLi>
                 <span>Retail</span>
               </MainNavbarDropLi>
@@ -66,7 +82,11 @@ const Maindeskmenu1 = button => (
             </MainNavbarDropUl>
             <MainNavbarDropUl>
               <MainNavbarDropMainLi>Expertise</MainNavbarDropMainLi>
+<<<<<<< HEAD
               <br />
+=======
+              <div className="empty_space10" />
+>>>>>>> c441aca25a0a8c83856cd3da4a79b74119dd1156
               <MainNavbarDropLi>
                 <Link to="solutions/headless-commerce">Headless Commerce</Link>
               </MainNavbarDropLi>
@@ -82,10 +102,19 @@ const Maindeskmenu1 = button => (
                 <Link to="solutions/order-management">Order Management</Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
+<<<<<<< HEAD
                 <span>Experience Analytics</span>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
                 <span>Marketing</span>
+=======
+                <Link to="solutions/experience-analytics">
+                  Experience Analytics
+                </Link>
+              </MainNavbarDropLi>
+              <MainNavbarDropLi>
+                <Link to="solutions/marketing">Marketing</Link>
+>>>>>>> c441aca25a0a8c83856cd3da4a79b74119dd1156
               </MainNavbarDropLi>
               <MainNavbarDropLi>
                 <Link to="solutions/automation-ai">
@@ -185,7 +214,11 @@ const Maindeskmenu1 = button => (
               <br />
               <MainNavbarDropLi>
                 <Link to="services/elasticpath">
+<<<<<<< HEAD
                   <span>Elastic Path</span>
+=======
+                  <a>Elastic Path</a>
+>>>>>>> c441aca25a0a8c83856cd3da4a79b74119dd1156
                 </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>

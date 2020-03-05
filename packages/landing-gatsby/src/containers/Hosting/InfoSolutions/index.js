@@ -730,6 +730,8 @@ const InfoSolutionSection = ({
             <Box {...col} {...textArea}>
               <Fade bottom cascade>
                 <Heading {...title} content="An Eye on 5G" />
+<<<<<<< HEAD
+=======
                 <Text
                   {...description}
                   content="Have you considered how 5G will impact your eCommerce business? 5G will be 100x faster than 4G and this will have a massive effect on how mobile devices consume data. Many modern shoppers love to shop from their mobile devices, so your business must adapt to 5G. With exponentially higher speed, increased capacity, and low latency new channels will emerge or grow like with AR/VR and IOT. Cnetric has the expertise to help you transform your eCommerce business to a headless system, so you can thrive in the era of 5G."
@@ -771,6 +773,313 @@ const InfoSolutionSection = ({
         </Box>
       </div>
       {/* end of headless Commerce */}
+      <div className="multi_sections_container marketing_info_container">
+        <Container>
+          <Box>
+            <Box>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  className="text_center"
+                  content="Importance of AI in Marketing Performance"
+                />
+>>>>>>> c441aca25a0a8c83856cd3da4a79b74119dd1156
+                <Text
+                  {...description}
+                  className="intro_text_container"
+                  content="In a changing business landscape and the market exploding with innumerable digital technologies, organizations are leveraging AI-powered marketing instruments to stay competitive. AI-enabled marketing technologies are smart, intuitive and intelligent and have the capability to attract and retain potential customers, who interact with the business across a multitude of touch points. Cnetric can help you leverage their impressive functionalities, in order to heighten your marketing performance exponentially for greater customer satisfaction and loyalty in the long run."
+                />
+<<<<<<< HEAD
+=======
+                <br />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space30" />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading {...title} content="Digital Marketing" />
+                  <Text
+                    {...description}
+                    content="Leverage digital marketing technologies with interactive and user-friendly functionalities that can revolutionize customers’ interactions and fulfillment with brands. Capabilities such as Omni-channel campaigns, drag-and-drop program design, AI-powered CMS and marketing assistance, audience segmentation and interactive reporting are some of the ways to offer tailor-made customer experiences and content across various channels. Cnetric can help you leverage the tools that best suit your particular eCommerce marketing requirements."
+                  />
+                </Fade>
+              </Box>
+              <Box {...col} {...textArea} className="Solutions_Image_container">
+                <Fade bottom cascade>
+                  <Image src={headlessCommImg2} alt="Info Image One" />
+                </Fade>
+              </Box>
+            </Box>
+            <div className="empty_space25" />
+          </Container>
+        </Box>
+
+        <Container>
+          <Box
+            {...row}
+            style={{ alignItems: 'center', justifyContent: 'center' }}
+          >
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading {...title} content="Personalization" />
+                <Text
+                  {...description}
+                  content="With AI-powered, cloud-based and centralized content management system, consistency with regards to brand experience is maintained across all touch-points. Appropriate AI-based recommendations with hyper-personalization and real-time responses to sessions of greater magnitude are game changers in creating tailored customers’ experiences with every interactions. Drive greater personalization with Cnetric’s aid in utilizing AI-driven technology that gets to know your customers."
+                />
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="Solutions_Image_container">
+              <Fade bottom cascade>
+                <Image src={headlessCommImg3} alt="Info Image One" />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space25" />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading {...title} content="Mobile Marketing" />
+                  <Text
+                    {...description}
+                    content="Magnify engagement and conversions with Cnetric’s aid in leveraging AI-powered mobile marketing solutions. With advanced capabilities such as multichannel marketing, mobile push messaging, optimized SMS and group chat, mobile analytics, location-based marketing and AI-powered content management, prospects are inclined to opt into SMS program and more call-backs, leading to higher conversions."
+                  />
+                </Fade>
+              </Box>
+              <Box {...col} {...textArea} className="Solutions_Image_container">
+                <Fade bottom cascade>
+                  <Image src={headlessCommImg4} alt="Info Image One" />
+                </Fade>
+              </Box>
+            </Box>
+            <div className="empty_space25" />
+          </Container>
+        </Box>
+
+        <Container>
+          <Box
+            {...row}
+            style={{ alignItems: 'center', justifyContent: 'center' }}
+          >
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading {...title} content="Pricing & Promotions" />
+                <Text
+                  {...description}
+                  content="With AI capabilities, quantifying consumer behavior leads to better pricing and marketing decisions and predictive merchandising, boosting sales and profitability in the process. With automation, pricing strategy and optimization can be accomplished precisely with haste. Profit and inventory levels can be optimized with easy detection of ideal timing and pricing for clearance merchandise. Trade promotion and deal management are streamlined with extended and automated features customized for manufacturers and brokers respectively."
+                />
+>>>>>>> c441aca25a0a8c83856cd3da4a79b74119dd1156
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="Solutions_Image_container">
+              <Fade bottom cascade>
+                <Image src={headlessCommImg5} alt="Info Image One" />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space25" />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+<<<<<<< HEAD
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading {...title} content="Social Commerce" />
+=======
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading {...title} content="Marketing Automation" />
+                  <Text
+                    {...description}
+                    content="With AI-powered, multi-channel marketing automation platform in place, lead management becomes smooth-sailing. Cnetric will help you leverage the best-fit platform that provides myriad capabilities such as CRM integrations, advanced scoring models, AI-enabled content management and marketing assistance and enhanced visibility of campaigns with specialized dashboards. This means you can send relevant and tailored messages that ensure increased open rates, conversions and loyalty."
+                  />
+                </Fade>
+              </Box>
+              <Box {...col} {...textArea} className="Solutions_Image_container">
+                <Fade bottom cascade>
+                  <Image src={headlessCommImg6} alt="Info Image One" />
+                </Fade>
+              </Box>
+            </Box>
+            <div className="empty_space25" />
+          </Container>
+        </Box>
+      </div>
+      {/* end of Marketing */}
+      <div className="multi_sections_container experience_analytics_info_container">
+        <Container>
+          <Box>
+            <Box>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  className="text_center"
+                  content="Personalization and Big Data Analytics"
+                />
+                <Text
+                  {...description}
+                  className="intro_text_container"
+                  content="Understanding every customer’s buying behavior and providing them with personalized services is every organization’s dream come true. This personal touch is possible thanks to advancements in AI and analytics that enable hyper-personalization. Smart marketers are focusing on connected customer experiences rather than fragmented discounts and other offers. Hyper-personalization brings in value-added encounters so every customer feels that they are served with relevant, tailored offerings. Leverage Cnetric’s expertise in harnessing the power of your big data through the latest analytics. Doing so drives greater success and sales through insight from big data."
+                />
+                <br />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space30" />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading {...title} content="Big Data & AI" />
+                  <Text
+                    {...description}
+                    content="In today’s era of big data, Artificial Intelligence (AI) is a promising weapon which marketers are leveraging to drive and engage customers. Surveys show that despite the awareness of the importance of AI, only 84% of marketers are leveraging AI as many firms are uncertain how to leverage this technology. Cnetric can help you harness the power of this technology and glean insights you’re your big data. This drives better customer interaction with your brand across touch points, which in turn increases sales."
+                  />
+                </Fade>
+              </Box>
+              <Box {...col} {...textArea} className="Solutions_Image_container">
+                <Fade bottom cascade>
+                  <Image src={headlessCommImg2} alt="Info Image One" />
+                </Fade>
+              </Box>
+            </Box>
+            <div className="empty_space25" />
+          </Container>
+        </Box>
+
+        <Container>
+          <Box
+            {...row}
+            style={{ alignItems: 'center', justifyContent: 'center' }}
+          >
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading {...title} content="Hyper-Personalization" />
+                <Text
+                  {...description}
+                  content="Make your customers feel understood by creating meaningful experiences on all channels across the customer journey. Hyper personalization based on AI and big data analytics makes this personalized approach a reality. AI can help can you make sense of the tons of data generated by customers and gather meaningful insights by automating systems and analyzing customer behavior. Cnetric can help you leverage AI and your data, so your marketers can understand customers’ motivations to provide tailored recommendations that enhance engagement, increase conversions and drive sales with greater customer loyalty."
+                />
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="Solutions_Image_container">
+              <Fade bottom cascade>
+                <Image src={headlessCommImg3} alt="Info Image One" />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space25" />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Right Offer, Right Place, Right Time"
+                  />
+>>>>>>> c441aca25a0a8c83856cd3da4a79b74119dd1156
+                  <Text
+                    {...description}
+                    content="In order to drive sales, you need the trifecta of factors to win customers over. To create focused hyper-personalization and provide carefully picked and sorted offers at the right time and place, organizations must cater to meaningful and specific interactions across all the touch-points across the enterprise. They must also scrutinize customer data across all systems and keep tabs on ever-changing consumer behaviors while protecting their privacy. Cnetric has extensive experience helping eCommerce organizations leverage their data for greater success."
+                  />
+                </Fade>
+              </Box>
+              <Box {...col} {...textArea} className="Solutions_Image_container">
+                <Fade bottom cascade>
+                  <Image src={headlessCommImg4} alt="Info Image One" />
+                </Fade>
+              </Box>
+            </Box>
+            <div className="empty_space25" />
+          </Container>
+        </Box>
+
+        <Container>
+          <Box
+            {...row}
+            style={{ alignItems: 'center', justifyContent: 'center' }}
+          >
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="Uncovering Patterns of Customer Behavior"
+                />
+                <Text
+                  {...description}
+                  content="Organizations must implement various analytical tools and techniques to appropriately gauge customers’ life cycle that begins with discovery and ends with engagement. With the massive volumes of data being generated by customers and prospects interacting with your brand, it is impossible to uncover such patterns and take advantage of them by purely manual methods. Cnetric can help you utilize analytics technology that transform data into meaningful insights that are actionable, precise, and timely with a strong focus on sustained profitability and customer metrics."
+                />
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="Solutions_Image_container">
+              <Fade bottom cascade>
+                <Image src={headlessCommImg5} alt="Info Image One" />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space25" />
+        </Container>
+        <Box className="section_background_color">
+          <Container>
+            <Box>
+              <Box>
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    className="text_center"
+                    content="Our Partner"
+                  />
+                  <Text
+                    {...description}
+                    className="intro_text_container"
+                    content="Cnetric is proud to engage in active partnership with Acoustic, an end-to-end customer experience analytical firm, providing enhanced clarity over the entire customer journey with experience across a multitude of channels."
+                  />
+                  <br />
+                  <Text
+                    {...description}
+                    className="intro_text_container"
+                    content="Acoustic Experience Analytics (Tealeaf), Acoustic Exchange, Acoustic Campaign and Acoustic Analytics are some of their tools to measure customers’ all-round interactions and gain in-depth insights to augment customers’ experience."
+                  />
+                  <br />
+                </Fade>
+              </Box>
+            </Box>
+            <div className="empty_space30" />
+          </Container>
+        </Box>
+      </div>
+      {/* end of Experience Analytics */}
       <div className="multi_sections_container digital_experience_info_container">
         <Container>
           <Box>
@@ -785,6 +1094,10 @@ const InfoSolutionSection = ({
                 <Text
                   {...subtitle}
                   className="text_center"
+<<<<<<< HEAD
+=======
+                  style={{ fontWeight: '17px' }}
+>>>>>>> c441aca25a0a8c83856cd3da4a79b74119dd1156
                   content="For Greater Sales"
                 />
                 <Text
