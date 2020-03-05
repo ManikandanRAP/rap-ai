@@ -74,7 +74,7 @@ const GlideSlider1 = ({
     };
     const glide2option = {
         type: 'carousel',
-        autoplay: 4000,
+        autoplay: 5000,
         perView: 5,
         gap: 0,
         animationDuration: 800,
@@ -104,8 +104,7 @@ const GlideSlider1 = ({
             <GliderSlider1Wrapper className="section_background_color">
                 <Container fullWidth noGutter>
                     <Box {...secTitleWrapper}>
-                        <Text {...secText} content="Our Partners" />
-                        {/* <Heading {...secHeading} content="What’s clients say" /> */}
+                        <Heading {...secHeading} content="Our Partners" />
                     </Box>
                     <GlideCarousel
                         options={glide1option}
@@ -133,13 +132,14 @@ const GlideSlider1 = ({
                             ))}
                         </>
                     </GlideCarousel>
+                    <div className="empty_space30" />
                 </Container>
             </GliderSlider1Wrapper>
             <GliderSlider1Wrapper>
                 <Container fullWidth noGutter>
                     <Box {...secTitleWrapper}>
-                        <Text {...secText} content="Our Customers" />
-                        {/* <Heading {...secHeading} content="What’s clients say" /> */}
+                        {/* <Text {...secText} content="Our Customers" /> */}
+                        <Heading {...secHeading} content="Our Customers" />
                     </Box>
                     <GlideCarousel2
                         options={glide2option}
@@ -167,7 +167,7 @@ const GlideSlider1 = ({
                             ))}
                         </>
                     </GlideCarousel2>
-
+                    <div className="empty_space30" />       
                 </Container>
             </GliderSlider1Wrapper>
 
@@ -182,25 +182,26 @@ GlideSlider1.propTypes = {
 };
 GlideSlider1.defaultProps = {
     secTitleWrapper: {
-        mb: ['10px', '15px', '15px', '15px'],
+        as: 'section',
+        // mt: ['10px', '15px', '15px', '40px'],
+        // pb: ['10px', '15px', '15px', '40px'],
     },
     secText: {
         as: 'span',
         display: 'block',
         textAlign: 'center',
-        fontSize: '22px',
-        letterSpacing: '0.15em',
-        fontWeight: '600',
-        color: '#06324e',
-        mb: '10px',
+        fontSize: ['30px', '30px', '35px', '40px', '45px'],
+        // color: '#06324e',
+        pb: '20px',
+        mt: '25px',
     },
     secHeading: {
         textAlign: 'center',
-        fontSize: ['20px', '24px'],
-        fontWeight: '400',
+        fontSize: ['30px', '30px', '35px', '40px', '45px'],
         color: 'headingColor',
-        letterSpacing: '-0.025em',
-        mb: '0',
+        // letterSpacing: '-0.025em',
+        pt: '40px',
+        pb: '30px',
     },
 };
 export default GlideSlider1

@@ -9,9 +9,9 @@ import Card from 'common/src/components/Card';
 import Image from 'common/src/components/Image';
 import Container from 'common/src/components/UI/Container';
 
-import drcimg from 'common/src/assets/image/hosting/Home/DrCommerce.png';
-import univcoming from 'common/src/assets/image/hosting/Home/UniversalCommerce.png';
-import illusting from 'common/src/assets/image/hosting/Home/Illustration.png';
+import drcimg from 'common/src/assets/image/hosting/Home/drc.svg';
+import univcoming from 'common/src/assets/image/hosting/Home/uc.svg';
+import illusting from 'common/src/assets/image/hosting/Home/illustration.svg';
 import { Link } from "gatsby";
 import IconParticleSection from "../IconTextParticle";
 
@@ -19,6 +19,10 @@ import greatervalueImg from 'common/src/assets/image/hosting/Pages/Cloud Transfo
 import riseedgeImg from 'common/src/assets/image/hosting/Pages/Cloud Transformation/Rise of Edge Computing.svg';
 import shifttowardsImg from 'common/src/assets/image/hosting/Pages/Cloud Transformation/Shift towards Open Source.svg';
 import transformImg from 'common/src/assets/image/hosting/Pages/Cloud Transformation/Transform to Serverless Microservices.svg';
+
+import frictionlessshipping from 'common/src/assets/image/hosting/Pages/Social Commerce/Frictionless Shopping.svg';
+import chatbots from 'common/src/assets/image/hosting/Pages/Social Commerce/Chatbots are Driving Social Commerce.svg';
+import risingsales from 'common/src/assets/image/hosting/Pages/Social Commerce/Rising Sales from Social Commerce.svg';
 
 
 import "./infoservices.css";
@@ -227,7 +231,7 @@ const InfoServiceSection = ({
               </Box>
               <Box {...col} {...textArea} className="InfoBanner_Image_container">
                 <Fade bottom cascade>
-                  <Image src={drcimg} alt="Info Image One" />
+                  <Image src={frictionlessshipping} alt="Frictionless Shopping" />
                 </Fade>
               </Box>
             </Box>
@@ -252,7 +256,7 @@ const InfoServiceSection = ({
             </Box>
             <Box {...col} {...textArea} className="InfoBanner_Image_container">
               <Fade bottom cascade>
-                <Image src={univcoming} alt="Info Image One" />
+                <Image src={chatbots} alt="Chatbots are Driving Social Commerce" />
               </Fade>
             </Box>
           </Box>
@@ -343,15 +347,15 @@ InfoServiceSection.defaultProps = {
     mb: '-60px',
   },
   title: {
-    fontSize: ['22px', '24px', '24px', '28px', '28px'],
+    fontSize: ['30px', '30px', '35px', '40px', '45px'],
     fontWeight: '300',
     color: '#0f2137',
     letterSpacing: '-0.025em',
-    mb: '20px',
-    mt: '20px',
+    mb: '25px',
+    pt: '25px',
   },
   description: {
-    fontSize: ['16px', '16px', '16px', '16px', '16px'],
+    fontSize: ['16px', '18px', '18px', '18px', '18px'],
     color: '#343d48cc',
     lineHeight: '1.5',
     mb: '15px',

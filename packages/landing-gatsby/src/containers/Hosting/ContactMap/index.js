@@ -14,6 +14,9 @@ import Container from 'common/src/components/UI/Container';
 import "./contactmap.css";
 import { Link } from "gatsby";
 
+
+import contactMapLocation from "./contactMap.svg";
+
 const ContactMap = ({
   sectionWrapper,
   row,
@@ -38,53 +41,55 @@ const ContactMap = ({
 
   return (
     <Box {...sectionWrapper} className="Contactmap_section section_background_color">
-      <Text className="ContactHeading1" content="Contact Us" />
+      <Heading {...title} content="Contact Us" />
       <Container className="Contactmap_container1">
         <Box {...row} className="ContactMap_container_row">
           <Box {...col} {...imageArea} className="ContactMap_container_col">
             {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.1316523115825!2d-117.74961718494642!3d33.65375048071613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dce7aab2704683%3A0x38d7352f3c8d081d!2sCnetric%20Global%20Inc.!5e0!3m2!1sen!2sin!4v1581419686076!5m2!1sen!2sin" width="600" height="450" frameborder="0" allowfullscreen=""></iframe> */}
-            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1GX4_Dd7WeEzYZwSVuUOW0LPJVm8wA7eL" width="100%" height="400" id="mymap1"></iframe>
+            {/* <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1GX4_Dd7WeEzYZwSVuUOW0LPJVm8wA7eL" width="100%" height="400" id="mymap1"></iframe> */}
             {/* <ReportsPage /> */}
+            <img src={contactMapLocation} alt="contact map" />
           </Box>
           <Box {...col} {...textArea} className="ContactMap_container_col2">
             <Fade bottom cascade>
               <div id="contactLocations">
                 <p className="contact_addressBlock">Cnetric Global Inc.<br />
-                300 Spectrum Center Dr., Suite 400, Irvine, CA 92618<br />
-                P: +1 (415) 806-2739‬<br />
-                E: info@cnetric.com<br />
-                (Dennis Menendez, SVP - Client Success, Americas)
+                  300 Spectrum Center Dr., Suite 400, Irvine, CA 92618<br />
+                  P: +1 (415) 806-2739‬<br />
+                  E: info@cnetric.com<br />
+                  (Dennis Menendez, SVP - Client Success, Americas)
                 </p>
                 <p>We are also located at:</p>
-                <ul className="Contact_locations" style={{marginBottom: '15px'}}>
-                  <li>Irvine, CA, USA<br/>
-                    (800) 555-1212
-                  </li>
-                  <li>Austin, TX, USA<br/>
-                    (415) 806-2739
-                  </li>
-                  <li>Toronto, ON, Canada<br/>
-                    (416) 705-5128
-                  </li>
-                  <li>Buenos Aires, Argentina<br/>
-                    +54 9 11 6941 8155
-                  </li>
-                  <li>Bogota, Colombia<br/>
-                    +54 9 11 6941 8155
-                  </li>
-                  <li>Sydney, Australia<br/>
-                    +61 4 3852 8176
-                  </li>
-                  <li>Bangalore, India<br/>
-                    +91 98451 64517
-                  </li>
-                </ul>
-                <Link to="/contact">
-                  <Button {...button} title="Contact Us" />
-                </Link>
+                <div className="empty_space10" />
               </div>
             </Fade>
           </Box>
+          <Box className="contact_location_list">
+            <ul>
+              <li>Irvine, CA, USA<br />
+                (800) 555-1212
+                  </li>
+              <li>Austin, TX, USA<br />
+                (415) 806-2739
+                  </li>
+              <li>Toronto, ON, Canada<br />
+                (416) 705-5128
+                  </li>
+              <li>Buenos Aires, Argentina<br />
+                +54 9 11 6941 8155
+                  </li>
+              <li>Bogota, Colombia<br />
+                +54 9 11 6941 8155
+                  </li>
+              <li>Sydney, Australia<br />
+                +61 4 3852 8176
+                  </li>
+              <li>Bangalore, India<br />
+                +91 98451 64517
+                  </li>
+            </ul>
+          </Box>
+          <div className="empty_space30" />
         </Box>
       </Container>
     </Box>
@@ -105,7 +110,7 @@ ContactMap.propTypes = {
 ContactMap.defaultProps = {
   sectionWrapper: {
     as: 'section',
-    pt: ['0', '0', '29px', '30px'],
+    pt: ['0', '0', '0px', '25px'],
     pb: ['20px', '20px', '30px', '30px'],
   },
   row: {
@@ -130,11 +135,11 @@ ContactMap.defaultProps = {
     mb: ['40px', '40px', '0', '0', '0'],
   },
   title: {
-    fontSize: ['26px', '38px', '38px', '48px', '48px'],
-    fontWeight: '300',
-    color: '#0f2137',
-    letterSpacing: '-0.025em',
-    mb: '20px',
+    fontSize: ['30px', '30px', '35px', '40px', '45px'],
+    // color: '#0f2137',
+    // letterSpacing: '-0.025em',
+    mb: '25px',
+    textAlign: 'center',
   },
   description: {
     fontSize: '16px',

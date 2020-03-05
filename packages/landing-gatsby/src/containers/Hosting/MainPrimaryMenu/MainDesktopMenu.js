@@ -74,7 +74,7 @@ const Maindeskmenu1 = (button) => (
                                 <Link to="solutions/omnichannel">Omnichannel</Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="solutions/digital-experience">Digital Experience & CX</Link></MainNavbarDropLi>
+                                <Link to="solutions/digital-experience-cx">Digital Experience & CX</Link></MainNavbarDropLi>
                             <MainNavbarDropLi>
                                 <Link to="solutions/order-management">Order Management</Link></MainNavbarDropLi>
                             <MainNavbarDropLi>
@@ -87,7 +87,7 @@ const Maindeskmenu1 = (button) => (
                                 </Link>
                             </MainNavbarDropLi>
                             <MainNavbarDropLi>
-                                <Link to="solutions/iot&blockchain">IOT & Blockchain</Link>
+                                <Link to="solutions/iot-blockchain">IOT & Blockchain</Link>
                             </MainNavbarDropLi>
                         </MainNavbarDropUl>
                         <MainNavbarDropUl className="featured_Menu">

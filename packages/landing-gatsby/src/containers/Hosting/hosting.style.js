@@ -12,7 +12,9 @@ import socialcommercebanner_image from 'common/src/assets/image/hosting/Banner/S
 
 export const GlobalStyle = createGlobalStyle`
   body{
-    font-family: 'Roboto', sans-serif;
+    // font-family: 'Alegreyaregular', sans-serif;
+    font-family: 'Nunito-Regular', sans-serif;
+    line-height: 1.66em;
   }
 
   h1,
@@ -21,7 +23,9 @@ export const GlobalStyle = createGlobalStyle`
   h4,
   h5,
   h6 {
-    font-family: 'Roboto', sans-serif;
+    // font-family: 'Lorabold', sans-serif;
+    font-family: 'RobotoSlab-Bold', sans-serif;
+    line-height: normal;
   }
 
   section {
@@ -148,6 +152,26 @@ export const ContentWrapper = styled.div`
     }
   }
   // hosting navbar own code
+  .empty_space50 {
+    display: block;
+    height: 50px;
+  }
+  .empty_space40 {
+    display: block;
+    height: 40px;
+  }
+  .empty_space30 {
+    display: block;
+    height: 30px;
+  }
+  .empty_space25 {
+    display: block;
+    height: 25px;
+  }
+  .empty_space10 {
+    display: block;
+    height: 10px;
+  }
   .hosting_navbar .main_menu .main_menu_head {
     color: #fff;
   }
@@ -365,19 +389,21 @@ export const ContentWrapper = styled.div`
   }
   //Banner other pages visibility
   // button style
+  .LinkButton {
+    display: inline-block;
+    overflow: hidden;
+  }
   .reusecore__button {
     padding: 10px 20px;
     min-height: auto;
     border-radius: 50px;
     overflow: hidden;
-    overflow-x: hidden;
-    overflow-y: hidden;
     position: relative;
     .btn-text {
       color: #fff;
       font-size: 16px;
       padding: 0;
-      z-index: 3; 
+      z-index: 1; 
     }
   }
   .reusecore__button:after {
@@ -387,16 +413,27 @@ export const ContentWrapper = styled.div`
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: -1;
+    // z-index: -1;
     transform: scaleY(0);
     transform-origin: 50% 100%;
-    transition: all 0.4s ease-out;
+    
+    -webkit-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    -webkit-transform-origin: 50% 100%;
+    -ms-transform-origin: 50% 100%;
+    -webkit-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+    transition: all scaleY 0.4s ease-out 0s;
   }
   .reusecore__button:hover:after {
     transform: scaleY(1);
-    z-index: 1;
+    // z-index: 1;
     transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
     background-color: #73c2c2;
+    -webkit-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    -o-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   }
   //ul box layout
   .info_container_list_items   {

@@ -17,7 +17,7 @@ import PaymentSection from '../containers/Hosting/Payment';
 import GuaranteeSection from '../containers/Hosting/Guarantee';
 import FaqSection from '../containers/Hosting/Faq';
 import ServicesSection from '../containers/Hosting/Services';
-import ServicesSection2 from '../containers/Hosting/Services2';
+// import ServicesSection2 from '../containers/Hosting/Services2';
 import BannerSection from '../containers/Hosting/Banner';
 import PricingSection from '../containers/Hosting/Pricing';
 // import TestimonialSection from '../containers/Hosting/Testimonials';
@@ -54,7 +54,7 @@ export default () => {
           <Fullslider1 />
           <InfoHomeSection />
           <FeatureSection />
-          <ServicesSection2 />
+          {/* <ServicesSection2 /> */}
           <IconTextSection />
           {/* <BannerSection />
           
