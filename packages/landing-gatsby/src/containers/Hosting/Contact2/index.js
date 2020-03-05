@@ -8,7 +8,7 @@ import Input from 'common/src/components/Input';
 import Container from 'common/src/components/UI/Container';
 
 import ContactFromWrapper2 from './contact2.style';
-import "./contact2.css";
+import './contact2.css';
 import ContactMap from '../ContactMap';
 
 const ContactSection2 = ({
@@ -25,19 +25,20 @@ const ContactSection2 = ({
     <Box {...sectionWrapper} className="contactForm2_container">
       <Container>
         <Box {...secTitleWrapper}>
-          <Text {...secText} content="CONTACT US" className="contact_header" />
+          <Heading
+            {...secHeading}
+            content="CONTACT US"
+            className="contact_header"
+          />
         </Box>
-        {/* <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1GX4_Dd7WeEzYZwSVuUOW0LPJVm8wA7eL" width="100%" height="400" id="mymap1"></iframe> */}
         <Box {...row} className="contactform_flex">
           <Box className="contactmap_col">
             <ContactMap />
           </Box>
-
           <Box {...contactForm} className="contact_col2">
-            {/* <Heading
-              content="Fill in the short form and we will get back to you at the earliest"
-            /> */}
-            <h3>Fill in the short form and we will get back to you at the earliest</h3>
+            <h3>
+              Fill in the short form and we will get back to you at the earliest
+            </h3>
             <form id="contactForm2" action="#" method="POST">
               <div className="fieldsWrapper_flex">
                 <Input
@@ -67,17 +68,6 @@ const ContactSection2 = ({
               />
               <Button {...button} title="SEND ENQUIRY" />
             </form>
-            <br />
-            {/* <Text
-              {...note}
-              content="Note: Give us a call, drop us an email, or fill out the form below to get in touch. We endeavour to answer all enquiries within 24 hours on business days."
-            /> */}
-            <br />
-            <br />
-            <Box>
-              <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1GX4_Dd7WeEzYZwSVuUOW0LPJVm8wA7eL" width="100%" height="250" id="mymap1"></iframe>
-            </Box>
-            
           </Box>
         </Box>
       </Container>

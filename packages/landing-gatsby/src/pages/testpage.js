@@ -11,7 +11,6 @@ import Navbar from '../containers/Hosting/Navbar';
 import FeatureSection from '../containers/Hosting/Features';
 import InfoHomeSection from '../containers/Hosting/InfoHome';
 
-
 import DomainSection from '../containers/Hosting/Domain';
 import PaymentSection from '../containers/Hosting/Payment';
 import GuaranteeSection from '../containers/Hosting/Guarantee';
@@ -29,10 +28,10 @@ import { DrawerProvider } from 'common/src/contexts/DrawerContext';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import SEO from '../components/seo';
 
-
 import Fullslider1 from '../containers/Hosting/Fullslider1';
-import GlideSlider1 from "../containers/Hosting/GlideSlider1/index";
-import IconTextSection from "../containers/Hosting/IconText";
+import GlideSlider1 from '../containers/Hosting/GlideSlider1/index';
+import GlideMaqure from '../containers/Hosting/GlideMarque';
+import IconTextSection from '../containers/Hosting/IconText';
 
 // var FontAwesome = require('react-fontawesome');
 
@@ -42,14 +41,13 @@ export default () => {
       <ParallaxProvider>
         <SEO title="Cnetric Global Inc" />
         <ResetCSS />
-        <GlobalStyle />        
+        <GlobalStyle />
 
         <ContentWrapper className="Home_page">
           <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
             <DrawerProvider>
               <Navbar />
             </DrawerProvider>
-            
           </Sticky>
 
           <Fullslider1 />
@@ -66,6 +64,7 @@ export default () => {
           <PaymentSection /> */}
           {/* <TestimonialSection /> */}
           <GlideSlider1 />
+          <GlideMaqure />
           {/* <GlideSlider2 /> */}
           {/* <TestimonialSection2 /> */}
           <ContactMap />
@@ -75,7 +74,9 @@ export default () => {
           <Footer />
         </ContentWrapper>
         <div id="footerWrapper" className="copyright">
-          <p style={{textAlign: 'center'}}>Copyright 2020 @Cnetric Global. All Rights Reserved.</p>
+          <p style={{ textAlign: 'center' }}>
+            Copyright 2020 @Cnetric Global. All Rights Reserved.
+          </p>
           <i class="fa fa-facebook"></i>
           {/* <FontAwesome
             className="super-crazy-colors"

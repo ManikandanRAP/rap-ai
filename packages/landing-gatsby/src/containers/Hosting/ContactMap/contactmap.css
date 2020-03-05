@@ -1,31 +1,38 @@
 #contactLocations p {
-    box-sizing: border-box;
-    font-size: 18px;
-    /* margin-top: 0; */
+  box-sizing: border-box;
+  font-size: 18px;
+  /* margin-top: 0; */
 }
 #contactLocations .contact_addressBlock {
-    line-height: 1.4;
+  line-height: 1.4;
 }
 
 .ContantUs_page .section_background_color {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .contact_location_list {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 .contact_location_list ul {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.contact_location_list li{
-    width: 23%;
-    margin: 1%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 5px;
-    border-radius: 5px;
-    box-shadow: 0 0 0 1px rgba(0,0,0,.1);
+.contact_location_list li {
+  width: 23%;
+  margin: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+.ContactMap_container_col {
+  text-align: center;
+}
+.ContactMap_container_col img {
+  object-fit: contain;
+  max-width: 100%;
 }

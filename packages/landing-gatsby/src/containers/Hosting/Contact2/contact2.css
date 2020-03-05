@@ -1,82 +1,17 @@
-#contactForm2 .fieldsWrapper_flex {
-    display: flex;
-    justify-content: space-between;
+#contact_section .contact_location_list li {
+  width: 30%;
 }
 
-#contactForm2 textarea {
-    width: 100%;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-size: 16px;
-    padding: 11px;
-    display: block;
-    color: #5d646d;
-    box-shadow: none;
-    border-radius: 4px;
-    box-sizing: border-box;
-    border: 1px solid #EBEBEB;
-    transition: border-color 0.2s ease;
-    font-family: arial;
-}
-#banner_section3 {
-    /* background-image: url('./googlemap_capture.png'); */
-    object-fit: contain;
+#contact_section .ContactMap_container_col,
+#contact_section .ContactMap_container_col2 {
+  width: 100%;
 }
 
-.contactForm2_container .ContactMap_container_col,
-.contactForm2_container .ContactHeading1,
-.contactForm2_container .contact_header,
-.contactForm2_container .ContactMap_container_col2 button {
-    display: none;
+#contact_section .contactmap_col,
+#contact_section .contact_col2 {
+  width: 49%;
 }
 
-.contactForm2_container .Contactmap_section {
-    padding-top: 0;
-}
-
-.contactForm2_container .ContactMap_container_col2 {
-    width: 100%;
-}
-.contactForm2_container .contact_col2 {
-    margin: 0 15px;
-}
-
-.contactForm2_container .Contactmap_container1 {
-    padding: 0 15px;
-}
-
-.contactForm2_container .contactmap_col {
-    width: 50%;
-}
-.contactForm2_container iframe {
-    border: none;
-}
-#contact_section.contactForm2_container {
-    padding-top: 40px !important;
-    background: #fff;
-}
-.contactForm2_container #contactLocations li:nth-child(odd) {
-    margin-left: 0;
-}
-
-@media only screen and (max-width: 1024px) {
-    .contactForm2_container .contactform_flex {
-        flex-direction: column;
-        align-items: center;
-    }
-    .contactForm2_container .contactmap_col,
-    .contactForm2_container .contact_col2 {
-        width: 100%;
-    }
-    .contactForm2_container .name_input,
-    .contactForm2_container .email_input {
-        width: 49%;
-    }
-}
-@media only screen and (max-width: 575px) {
-    .contactForm2_container #contactLocations li {
-        width: 100%;
-        text-align: center;
-        margin-left: 0;
-    }
+#contact_section .contactmap_col h2 {
+  display: none;
 }

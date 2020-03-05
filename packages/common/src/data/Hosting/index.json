@@ -192,19 +192,6 @@
   ],
   "FOOTER_WIDGET": [
     {
-      "title": "Business Model",
-      "menuItems": [
-        {
-          "url": "solutions/b2c",
-          "text": "B2C"
-        },
-        {
-          "url": "solutions/b2b",
-          "text": "B2B"
-        }
-      ]
-    },
-    {
       "title": "Industry",
       "menuItems": [
         {
@@ -259,6 +246,43 @@
         {
           "url": "#",
           "text": "IOT & BlockChain"
+        }
+      ]
+    },
+    {
+      "title": "Technology",
+      "menuItems": [
+        {
+          "url": "#",
+          "text": "Elastic Path"
+        },
+        {
+          "url": "#",
+          "text": "HCL Commerce"
+        },
+        {
+          "url": "#",
+          "text": "Core Media"
+        },
+        {
+          "url": "#",
+          "text": "IBM & Red Hat"
+        },
+        {
+          "url": "#",
+          "text": "Drupal Commerce"
+        },
+        {
+          "url": "#",
+          "text": "APIs & GraphQL"
+        },
+        {
+          "url": "#",
+          "text": "JAMStack & Gatsby"
+        },
+        {
+          "url": "#",
+          "text": "Magento"
         }
       ]
     },

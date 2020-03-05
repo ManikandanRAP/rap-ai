@@ -12,10 +12,9 @@ import Container from 'common/src/components/UI/Container';
 import drcimg from 'common/src/assets/image/hosting/Home/drc.svg';
 import univcoming from 'common/src/assets/image/hosting/Home/uc.svg';
 import illusting from 'common/src/assets/image/hosting/Home/illustration.svg';
-import { Link } from "gatsby";
+import { Link } from 'gatsby';
 
-
-import "./infohome.css";
+import './infohome.css';
 
 const InfoHomeSection = ({
   sectionWrapper,
@@ -40,19 +39,26 @@ const InfoHomeSection = ({
 }) => {
   return (
     <Box {...sectionWrapper} id="info_home">
-
-
       <Container>
         <Heading
           {...title}
           className="text_center"
           content="eCommerce is hard but your technology shouldn’t be"
         />
-        <Box {...row} style={{justifyContent: "center", alignItems: "center"}}>
-       
-          <Box {...col1} className="Home_Image_container" style={{paddingTop: 0}}>
+        <Box
+          {...row}
+          style={{ justifyContent: 'center', alignItems: 'center' }}
+        >
+          <Box
+            {...col1}
+            className="Home_Image_container"
+            style={{ paddingTop: 0 }}
+          >
             <Fade bottom cascade>
-              <Image src={illusting} alt="eCommerce is hard but your technology shouldn’t be" />
+              <Image
+                src={illusting}
+                alt="eCommerce is hard but your technology shouldn’t be"
+              />
             </Fade>
           </Box>
           <Box {...col2} className="info_order_change">
@@ -88,7 +94,10 @@ const InfoHomeSection = ({
 
       <Box className="section_background_color">
         <Container>
-          <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+          <Box
+            {...row}
+            style={{ alignItems: 'center', justifyContent: 'center' }}
+          >
             <Box {...col} {...textArea} className="info_order_change">
               <Fade bottom cascade>
                 <Heading
@@ -125,10 +134,11 @@ const InfoHomeSection = ({
         </Container>
       </Box>
 
-
       <Container>
-        <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
-        
+        <Box
+          {...row}
+          style={{ alignItems: 'center', justifyContent: 'center' }}
+        >
           <Box {...col} {...textArea} className="Home_Image_container">
             <Fade bottom cascade>
               <Image src={univcoming} alt="Info Image One" />
@@ -158,7 +168,6 @@ const InfoHomeSection = ({
           </Box>
         </Box>
       </Container>
-
     </Box>
   );
 };
@@ -236,7 +245,7 @@ InfoHomeSection.defaultProps = {
     width: ['100%', '100%', '100%', '55%', '55%'],
   },
   col3: {
-    width: '70%'
+    width: '70%',
   },
   textArea: {
     width: ['100%', '100%', '100%', '49%', '49%'],
@@ -258,7 +267,7 @@ InfoHomeSection.defaultProps = {
   },
   title: {
     fontSize: ['30px', '30px', '35px', '40px', '45px'],
-    color: '#252525',
+    color: '#0F2137',
     letterSpacing: '-0.025em',
     mb: '25px',
     mt: '25px',
@@ -267,11 +276,12 @@ InfoHomeSection.defaultProps = {
     fontSize: ['20px', '22px', '22px', '22px', '22px'],
     fontFamily: 'RobotoSlab-SemiBold',
     mb: '25px',
+    color: '#5E7086',
   },
   description: {
     fontSize: ['16px', '18px', '18px', '18px', '18px'],
-    // color: '#343d48cc',
-    color: '#000',
+    color: '#343d48cc',
+    // color: '#000',
     lineHeight: '1.5',
     mb: '10px',
   },
@@ -285,7 +295,7 @@ InfoHomeSection.defaultProps = {
     pr: '22px',
     colors: 'primaryWithBg',
     height: `{5}`,
-    marginTop: '14px'
+    marginTop: '14px',
   },
 };
 
