@@ -48,6 +48,7 @@ export default () => {
             <DrawerProvider>
               <Navbar />
             </DrawerProvider>
+            
           </Sticky>
 
           <Fullslider1 />
