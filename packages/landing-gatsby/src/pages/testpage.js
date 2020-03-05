@@ -42,6 +42,7 @@ export default () => {
         <SEO title="Cnetric Global Inc" />
         <ResetCSS />
         <GlobalStyle />
+        
 
         <ContentWrapper className="Home_page">
           <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
