@@ -2,18 +2,18 @@ import React from "react";
 import { Link } from "gatsby";
 import Button from 'common/src/components/Button';
 import Slider from "react-slick";
-import SliderImg1 from "./sliderimage1.jpg";
-import SliderImg2 from "./sliderimage2.jpg";
-import SliderImg3 from "./sliderimage3.jpg";
-import SliderImg4 from "./sliderimage4.jpg";
-import SliderImg5 from "./sliderimage5.jpg";
+import SliderImg1 from "common/src/assets/image/hosting/Slider/sliderimage1.jpg";
+import SliderImg2 from "common/src/assets/image/hosting/Slider/sliderimage2.jpg";
+import SliderImg3 from "common/src/assets/image/hosting/Slider/sliderimage3.jpg";
+import SliderImg4 from "common/src/assets/image/hosting/Slider/sliderimage4.jpg";
+import SliderImg5 from "common/src/assets/image/hosting/Slider/sliderimage5.jpg";
 import "./fullslider1.css";
 
 var settings = {
     dots: true,
     speed: 500,
     infinite: true,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 7000,
     slidesToShow: 1,
     slidesToScroll: 1
@@ -27,9 +27,10 @@ const Fullslider1 = () => (
                     <img src={SliderImg1} alt="slideimage1" className="sliderImage" />
                     <div className="Banner-details">
                         <div>
-                            <h1>Disrupt eCommerce with a Headless Model</h1>
+                            <h1>Headless Commerce</h1>
+                            <p>Disrupt eCommerce and deliver extraordinary customer experience anywhere</p>
                             <Link to="/product">
-                                <Button title="Learn How" />
+                                <Button title="Work With Us" />
                             </Link>
                         </div>
                     </div>
@@ -40,9 +41,10 @@ const Fullslider1 = () => (
                     <img src={SliderImg2} alt="slideimage2" className="sliderImage" />
                     <div className="Banner-details">
                         <div>
-                            <h1>Innovative, Disruptive Plug n Play with Universal Commerce</h1>
+                            <h1>Universal Commerce Suite</h1>
+                            <p>Best of breed solutions with microservices, extensibility and no vendor lock-in</p>
                             <Link to="/product">
-                                <Button title="Learn How" />
+                                <Button title="Work With Us" />
                             </Link>
                         </div>
                     </div>
@@ -53,9 +55,10 @@ const Fullslider1 = () => (
                     <img src={SliderImg3} alt="slideimage2" className="sliderImage" />
                     <div className="Banner-details">
                         <div>
-                            <h1>Dr Commerce – Personalized Support & Services</h1>
+                            <h1>Doctor Commerce</h1>
+                            <p>Personalized health check that boosts your eCommerce ecosystem</p>
                             <Link to="/product">
-                                <Button title="Learn How" />
+                                <Button title="Work With Us" />
                             </Link>
                         </div>
                     </div>
@@ -66,9 +69,10 @@ const Fullslider1 = () => (
                     <img src={SliderImg4} alt="slideimage2" className="sliderImage" />
                     <div className="Banner-details">
                         <div>
-                            <h1>Seamless Omnichannel Experience to Delight Shoppers</h1>
+                            <h1>Omnichannel Engagement</h1>
+                            <p>Seamless engagement that drives customer loyalty and evangelism</p>
                             <Link to="/product">
-                                <Button title="Learn How" />
+                                <Button title="Work With Us" />
                             </Link>
                         </div>
                     </div>
@@ -79,9 +83,10 @@ const Fullslider1 = () => (
                     <img src={SliderImg5} alt="slideimage2" className="sliderImage" />
                     <div className="Banner-details">
                         <div>
-                            <h1>TBD</h1>
+                            <h1>5G </h1>
+                            <p>Next-gen eCommerce connecting everything at speed & scale</p>
                             <Link to="/product">
-                                <Button title="Learn How" />
+                                <Button title="Work With Us" />
                             </Link>
                         </div>
                     </div>

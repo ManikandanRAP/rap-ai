@@ -9,20 +9,14 @@ import Container from 'common/src/components/UI/Container';
 import FeatureBlock from 'common/src/components/FeatureBlock';
 import "./icontext.css";
 
-import CloudIcon1 from 'common/src/assets/image/hosting/IconText/CloudTransformation/icon1.svg';
-import CloudIcon2 from 'common/src/assets/image/hosting/IconText/CloudTransformation/icon2.svg';
-import CloudIcon3 from 'common/src/assets/image/hosting/IconText/CloudTransformation/icon3.svg';
-import CloudIcon4 from 'common/src/assets/image/hosting/IconText/CloudTransformation/icon4.svg';
-
-import DigitalExpIcon1 from 'common/src/assets/image/hosting/IconText/Digital Experience/Personalization.svg';
-import DigitalExpIcon2 from 'common/src/assets/image/hosting/IconText/Digital Experience/Omnichannel.svg';
-import DigitalExpIcon3 from 'common/src/assets/image/hosting/IconText/Digital Experience/Seamless.svg';
-import DigitalExpIcon4 from 'common/src/assets/image/hosting/IconText/Digital Experience/Multi-Language.svg';
-
-import speedIcon from 'common/src/assets/image/hosting/Pages/Cloud Transformation/Speed.svg';
-import costeffectiveIcon from 'common/src/assets/image/hosting/Pages/Cloud Transformation/Cost-Effective.svg';
-import scalabilityIcon from 'common/src/assets/image/hosting/Pages/Cloud Transformation/Scalability.svg';
-import robustIcon from 'common/src/assets/image/hosting/Pages/Cloud Transformation/Robust.svg';
+import costeffectiveIcon from 'common/src/assets/image/hosting/IconText/Cost-Effective.svg';
+import MultiLanguageIcon from 'common/src/assets/image/hosting/IconText/Multi-Language.svg';
+import OmnichannelIcon from 'common/src/assets/image/hosting/IconText/Omnichannel.svg';
+import PersonalizationIcon from 'common/src/assets/image/hosting/IconText/Personalization.svg';
+import RobustIcon from 'common/src/assets/image/hosting/IconText/Robust.svg';
+import ScalabilityIcon from 'common/src/assets/image/hosting/IconText/Scalability.svg';
+import SeamlessIcon from 'common/src/assets/image/hosting/IconText/Seamless.svg';
+import SpeedIcon from 'common/src/assets/image/hosting/IconText/Speed.svg';
 
 const IconTextSection = ({
   sectionWrapper,
@@ -64,7 +58,7 @@ const IconTextSection = ({
                   icon={
                     <Image
                       {...featureItemImage}
-                      src={CloudIcon1}
+                      src={costeffectiveIcon}
                       alt="alt text"
                     />
                   }
@@ -90,7 +84,7 @@ const IconTextSection = ({
                   icon={
                     <Image
                       {...featureItemImage}
-                      src={CloudIcon2}
+                      src={costeffectiveIcon}
                       alt="alt text"
                     />
                   }
@@ -116,7 +110,7 @@ const IconTextSection = ({
                   icon={
                     <Image
                       {...featureItemImage}
-                      src={CloudIcon3}
+                      src={costeffectiveIcon}
                       alt="alt text"
                     />
                   }
@@ -142,7 +136,7 @@ const IconTextSection = ({
                   icon={
                     <Image
                       {...featureItemImage}
-                      src={CloudIcon4}
+                      src={costeffectiveIcon}
                       alt="alt text"
                     />
                   }
@@ -175,7 +169,7 @@ const IconTextSection = ({
                   icon={
                     <Image
                       {...featureItemImage}
-                      src={DigitalExpIcon1}
+                      src={costeffectiveIcon}
                       alt="alt text"
                     />
                   }
@@ -201,7 +195,7 @@ const IconTextSection = ({
                   icon={
                     <Image
                       {...featureItemImage}
-                      src={DigitalExpIcon2}
+                      src={costeffectiveIcon}
                       alt="alt text"
                     />
                   }
@@ -227,7 +221,7 @@ const IconTextSection = ({
                   icon={
                     <Image
                       {...featureItemImage}
-                      src={DigitalExpIcon3}
+                      src={costeffectiveIcon}
                       alt="alt text"
                     />
                   }
@@ -253,7 +247,7 @@ const IconTextSection = ({
                   icon={
                     <Image
                       {...featureItemImage}
-                      src={DigitalExpIcon4}
+                      src={costeffectiveIcon}
                       alt="alt text"
                     />
                   }
@@ -286,7 +280,7 @@ const IconTextSection = ({
                   icon={
                     <Image
                       {...featureItemImage}
-                      src={DigitalExpIcon1}
+                      src={costeffectiveIcon}
                       alt="alt text"
                     />
                   }
@@ -312,7 +306,7 @@ const IconTextSection = ({
                   icon={
                     <Image
                       {...featureItemImage}
-                      src={DigitalExpIcon2}
+                      src={costeffectiveIcon}
                       alt="alt text"
                     />
                   }
@@ -338,7 +332,7 @@ const IconTextSection = ({
                   icon={
                     <Image
                       {...featureItemImage}
-                      src={DigitalExpIcon3}
+                      src={costeffectiveIcon}
                       alt="alt text"
                     />
                   }
@@ -364,7 +358,7 @@ const IconTextSection = ({
                   icon={
                     <Image
                       {...featureItemImage}
-                      src={DigitalExpIcon4}
+                      src={costeffectiveIcon}
                       alt="alt text"
                     />
                   }

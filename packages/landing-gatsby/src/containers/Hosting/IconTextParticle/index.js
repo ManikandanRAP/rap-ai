@@ -12,23 +12,19 @@ import AdditionalContentParticle from './additionalComponent';
 
 import someimage from 'common/src/assets/image/hosting/author-1.jpg';
 
-import DigitalExpIcon1 from 'common/src/assets/image/hosting/IconText/Digital Experience/Personalization.svg';
-import DigitalExpIcon2 from 'common/src/assets/image/hosting/IconText/Digital Experience/Omnichannel.svg';
-import DigitalExpIcon3 from 'common/src/assets/image/hosting/IconText/Digital Experience/Seamless.svg';
-import DigitalExpIcon4 from 'common/src/assets/image/hosting/IconText/Digital Experience/Multi-Language.svg';
-
-import CloudTransIcon1 from 'common/src/assets/image/hosting/Pages/Cloud Transformation/Speed.svg';
-import CloudTransIcon2 from 'common/src/assets/image/hosting/Pages/Cloud Transformation/Cost-Effective.svg';
-import CloudTransIcon3 from 'common/src/assets/image/hosting/Pages/Cloud Transformation/Scalability.svg';
-import CloudTransIcon4 from 'common/src/assets/image/hosting/Pages/Cloud Transformation/Robust.svg';
-
-import OrderMangIcon1 from 'common/src/assets/image/hosting/Pages/OrderManagement/Personalization.svg';
-import OrderMangIcon2 from 'common/src/assets/image/hosting/Pages/OrderManagement/Personalization.svg';
-import OrderMangIcon3 from 'common/src/assets/image/hosting/Pages/OrderManagement/Personalization.svg';
-import OrderMangIcon4 from 'common/src/assets/image/hosting/Pages/OrderManagement/Personalization.svg';
-import OrderMangIcon5 from 'common/src/assets/image/hosting/Pages/OrderManagement/Personalization.svg';
-
-import testimage from 'common/src/assets/image/hosting/testimage.svg';
+import costeffectiveIcon from 'common/src/assets/image/hosting/IconText/Cost-Effective.svg';
+import MultiLanguageIcon from 'common/src/assets/image/hosting/IconText/Multi-Language.svg';
+import OmnichannelIcon from 'common/src/assets/image/hosting/IconText/Omnichannel.svg';
+import PersonalizationIcon from 'common/src/assets/image/hosting/IconText/Personalization.svg';
+import RobustIcon from 'common/src/assets/image/hosting/IconText/Robust.svg';
+import ScalabilityIcon from 'common/src/assets/image/hosting/IconText/Scalability.svg';
+import SeamlessIcon from 'common/src/assets/image/hosting/IconText/Seamless.svg';
+import SpeedIcon from 'common/src/assets/image/hosting/IconText/Speed.svg';
+import CostefficacyIcon from 'common/src/assets/image/hosting/IconText/Cost-efficacy.svg';
+import FlexibilityIcon from 'common/src/assets/image/hosting/IconText/Flexibility.svg';
+import FasterFulfillmentIcon from 'common/src/assets/image/hosting/IconText/Faster Fulfillment.svg';
+import GreaterAccuracyIcon from 'common/src/assets/image/hosting/IconText/Greater Accuracy.svg';
+import DelightCustomersIcon from 'common/src/assets/image/hosting/IconText/Delight Customers.svg';
 
 
 import "./icontextparticle.css";
@@ -74,7 +70,7 @@ const IconParticleSection = ({
 
                   icon={
                     <Image
-                      src={DigitalExpIcon1}
+                      src={PersonalizationIcon}
                       alt="Personalization"
                       className="home_features_icon"
                     />
@@ -111,7 +107,7 @@ const IconParticleSection = ({
 
                   icon={
                     <Image
-                      src={DigitalExpIcon2}
+                      src={OmnichannelIcon}
                       alt="Omnichannel"
                       className="home_features_icon"
                     />
@@ -148,7 +144,7 @@ const IconParticleSection = ({
 
                   icon={
                     <Image
-                      src={DigitalExpIcon3}
+                      src={SeamlessIcon}
                       alt="Seamless"
                       className="home_features_icon"
                     />
@@ -185,7 +181,7 @@ const IconParticleSection = ({
 
                   icon={
                     <Image
-                      src={DigitalExpIcon4}
+                      src={MultiLanguageIcon}
                       alt="Multi-Language"
                       className="home_features_icon"
                     />
@@ -226,7 +222,7 @@ const IconParticleSection = ({
 
                   icon={
                     <Image
-                      src={CloudTransIcon1}
+                      src={costeffectiveIcon}
                       alt="Cost-Effective"
                       className="home_features_icon"
                     />
@@ -263,7 +259,7 @@ const IconParticleSection = ({
 
                   icon={
                     <Image
-                      src={CloudTransIcon2}
+                      src={SpeedIcon}
                       alt="Speed"
                       className="home_features_icon"
                     />
@@ -300,7 +296,7 @@ const IconParticleSection = ({
 
                   icon={
                     <Image
-                      src={CloudTransIcon3}
+                      src={ScalabilityIcon}
                       alt="Scalability"
                       className="home_features_icon"
                     />
@@ -337,7 +333,7 @@ const IconParticleSection = ({
 
                   icon={
                     <Image
-                      src={CloudTransIcon4}
+                      src={RobustIcon}
                       alt="Robust"
                       className="home_features_icon"
                     />
@@ -379,7 +375,7 @@ const IconParticleSection = ({
 
                   icon={
                     <Image
-                      src={OrderMangIcon1}
+                      src={CostefficacyIcon}
                       alt="Cost-efficacy"
                       className="home_features_icon"
                     />
@@ -416,7 +412,7 @@ const IconParticleSection = ({
 
                   icon={
                     <Image
-                      src={OrderMangIcon2}
+                      src={FlexibilityIcon}
                       alt="Flexibility"
                       className="home_features_icon"
                     />
@@ -453,7 +449,7 @@ const IconParticleSection = ({
 
                   icon={
                     <Image
-                      src={OrderMangIcon3}
+                      src={FasterFulfillmentIcon}
                       alt="Faster Fulfillment"
                       className="home_features_icon"
                     />
@@ -490,7 +486,7 @@ const IconParticleSection = ({
 
                   icon={
                     <Image
-                      src={OrderMangIcon4}
+                      src={GreaterAccuracyIcon}
                       alt="Greater Accuracy"
                       className="home_features_icon"
                     />
@@ -526,7 +522,7 @@ const IconParticleSection = ({
 
                   icon={
                     <Image
-                      src={OrderMangIcon5}
+                      src={DelightCustomersIcon}
                       alt="Delight Customers"
                       className="home_features_icon"
                     />
@@ -567,7 +563,7 @@ const IconParticleSection = ({
 
                   icon={
                     <Image
-                      src={CloudTransIcon1}
+                      src={costeffectiveIcon}
                       alt="Cost-Effective"
                       className="home_features_icon"
                     />
@@ -604,7 +600,7 @@ const IconParticleSection = ({
 
                   icon={
                     <Image
-                      src={CloudTransIcon2}
+                      src={SpeedIcon}
                       alt="Speed"
                       className="home_features_icon"
                     />
@@ -641,7 +637,7 @@ const IconParticleSection = ({
 
                   icon={
                     <Image
-                      src={CloudTransIcon3}
+                      src={ScalabilityIcon}
                       alt="Scalability"
                       className="home_features_icon"
                     />
@@ -678,7 +674,7 @@ const IconParticleSection = ({
 
                   icon={
                     <Image
-                      src={CloudTransIcon4}
+                      src={RobustIcon}
                       alt="Robust"
                       className="home_features_icon"
                     />

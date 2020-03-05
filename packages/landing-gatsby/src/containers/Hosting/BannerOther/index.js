@@ -105,48 +105,6 @@ const BannerOtherSection = ({
           </Box>
         </Box>
       </Container>
-      <Container className="banner_container B2c_banner">
-        <Box {...row}>
-          <Box {...textArea}>
-            <Heading
-              {...title}
-              content="B2C"
-            />
-            <Text
-              {...description}
-              content="Greater Sales with Seamless, Omnichannel eCommerce"
-            />
-          </Box>
-        </Box>
-      </Container>
-      <Container className="banner_container B2b_banner">
-        <Box {...row}>
-          <Box {...textArea}>
-            <Heading
-              {...title}
-              content="B2B"
-            />
-            <Text
-              {...description}
-              content="Greater Sales with Seamless, Omnichannel eCommerce"
-            />
-          </Box>
-        </Box>
-      </Container>
-      <Container className="banner_container automation_ai_banner">
-        <Box {...row}>
-          <Box {...textArea}>
-            <Heading
-              {...title}
-              content="AI/ML"
-            />
-            <Text
-              {...description}
-              content="Enhance Your eCommerce Ecosystem with Disruptive AI/ML"
-            />
-          </Box>
-        </Box>
-      </Container>
     </BannerWrapper4>
   );
 };

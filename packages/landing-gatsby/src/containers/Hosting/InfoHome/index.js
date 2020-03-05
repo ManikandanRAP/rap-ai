@@ -11,8 +11,7 @@ import Container from 'common/src/components/UI/Container';
 
 import drcimg from 'common/src/assets/image/hosting/Home/drc.svg';
 import univcoming from 'common/src/assets/image/hosting/Home/uc.svg';
-import illusting from 'common/src/assets/image/hosting/Home/Illustration.svg';
-import illusting2 from 'common/src/assets/image/hosting/Home/Illustration2.svg';
+import illusting from 'common/src/assets/image/hosting/Home/illustration.svg';
 import { Link } from "gatsby";
 
 
@@ -27,6 +26,7 @@ const InfoHomeSection = ({
   col3,
   title,
   description,
+  subtitle,
   button,
   textArea,
   imageArea,
@@ -49,6 +49,12 @@ const InfoHomeSection = ({
           content="eCommerce is hard but your technology shouldn’t be"
         />
         <Box {...row} style={{justifyContent: "center", alignItems: "center"}}>
+       
+          <Box {...col1} className="Home_Image_container" style={{paddingTop: 0}}>
+            <Fade bottom cascade>
+              <Image src={illusting} alt="eCommerce is hard but your technology shouldn’t be" />
+            </Fade>
+          </Box>
           <Box {...col2} className="info_order_change">
             <Fade bottom cascade>
               <Text
@@ -65,13 +71,9 @@ const InfoHomeSection = ({
               />
             </Fade>
           </Box>
-          <Box {...col1} className="Home_Image_container" style={{paddingTop: 0}}>
-            <Fade bottom cascade>
-              <Image src={illusting2} alt="eCommerce is hard but your technology shouldn’t be" />
-            </Fade>
-          </Box>
           <br />
         </Box>
+        <div className="empty_space40" />
       </Container>
 
       {/* <Box {...secTitleWrapper}>
@@ -87,7 +89,7 @@ const InfoHomeSection = ({
       <Box className="section_background_color">
         <Container>
           <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
-            <Box {...col} {...textArea}>
+            <Box {...col} {...textArea} className="info_order_change">
               <Fade bottom cascade>
                 <Heading
                   {...title}
@@ -95,7 +97,7 @@ const InfoHomeSection = ({
                   content="Dr. Commerce"
                 />
                 <Text
-                  {...description}
+                  {...subtitle}
                   style={{ fontWeight: '500' }}
                   content="A personal touch to heal your eCommerce woes"
                 />
@@ -107,6 +109,7 @@ const InfoHomeSection = ({
                   <Button {...button} title="Learn More" />
                 </Link>
               </Fade>
+              <div className="empty_space40" />
             </Box>
             <Box {...col} {...textArea} className="Home_Image_container">
               <Fade bottom cascade>
@@ -125,6 +128,12 @@ const InfoHomeSection = ({
 
       <Container>
         <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+        
+          <Box {...col} {...textArea} className="Home_Image_container">
+            <Fade bottom cascade>
+              <Image src={univcoming} alt="Info Image One" />
+            </Fade>
+          </Box>
           <Box {...col} {...textArea} className="info_order_change">
             <Fade bottom cascade>
               <Heading
@@ -133,7 +142,7 @@ const InfoHomeSection = ({
                 content="Universal Commerce"
               />
               <Text
-                {...description}
+                {...subtitle}
                 style={{ fontWeight: 500 }}
                 content="Best of Breed Innovation and Disruption on a Single Platform"
               />
@@ -141,14 +150,10 @@ const InfoHomeSection = ({
                 {...description}
                 content="Rule your eCommerce empire with ease and confidence through a single platform. That’s right, a single window to your entire eCommerce ecosystem, no matter how big. No more silos that slow things down. Jump to light speed with the sophisticated power of Universal Commerce that unifies all your eCommerce operations."
               />
-              <Link to="/contact">
+              <Link to="/contact" className="LinkButton">
                 <Button {...button} title="Learn More" />
               </Link>
-            </Fade>
-          </Box>
-          <Box {...col} {...textArea} className="Home_Image_container">
-            <Fade bottom cascade>
-              <Image src={univcoming} alt="Info Image One" />
+              <br />
             </Fade>
           </Box>
         </Box>
@@ -166,6 +171,7 @@ InfoHomeSection.propTypes = {
   col2: PropTypes.object,
   col3: PropTypes.object,
   title: PropTypes.object,
+  subtitle: PropTypes.object,
   description: PropTypes.object,
   button: PropTypes.object,
   textArea: PropTypes.object,
@@ -183,7 +189,7 @@ InfoHomeSection.defaultProps = {
   sectionWrapper: {
     as: 'section',
     // pt: ['25px', '25px', '25px', '30px', '10px'],
-    // pb: ['0px', '0px', '0px', '0px', '0px'],
+    pb: ['25px', '25px', '25px', '25px', '25px'],
     id: 'info_section',
   },
   secTitleWrapper: {
@@ -251,16 +257,21 @@ InfoHomeSection.defaultProps = {
     mb: '-60px',
   },
   title: {
-    fontSize: ['22px', '24px', '24px', '28px', '28px'],
-    fontWeight: '400',
+    fontSize: ['30px', '30px', '35px', '40px', '45px'],
     color: '#252525',
     letterSpacing: '-0.025em',
-    mb: '20px',
-    pt: '20px',
+    mb: '25px',
+    mt: '25px',
+  },
+  subtitle: {
+    fontSize: ['20px', '22px', '22px', '22px', '22px'],
+    fontFamily: 'RobotoSlab-SemiBold',
+    mb: '25px',
   },
   description: {
-    fontSize: ['16px', '16px', '16px', '16px', '16px'],
-    color: '#343d48cc',
+    fontSize: ['16px', '18px', '18px', '18px', '18px'],
+    // color: '#343d48cc',
+    color: '#000',
     lineHeight: '1.5',
     mb: '10px',
   },

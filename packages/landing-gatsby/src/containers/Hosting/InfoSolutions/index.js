@@ -9,36 +9,53 @@ import Card from 'common/src/components/Card';
 import Image from 'common/src/components/Image';
 import Container from 'common/src/components/UI/Container';
 
-import drcimg from 'common/src/assets/image/hosting/Home/DrCommerce.png';
-import univcoming from 'common/src/assets/image/hosting/Home/UniversalCommerce.png';
-import illusting from 'common/src/assets/image/hosting/Home/Illustration.png';
+import drcimg from 'common/src/assets/image/hosting/Home/drc.svg';
+import univcoming from 'common/src/assets/image/hosting/Home/uc.svg';
+import illusting from 'common/src/assets/image/hosting/Home/illustration.svg';
 import { Link } from "gatsby";
 
 import IconParticleSection from "../IconTextParticle";
 
-import headlessCommImg1 from 'common/src/assets/image/hosting/Pages/HeadlessCommerce/An Eye on 5G.svg';
-import headlessCommImg2 from 'common/src/assets/image/hosting/Pages/HeadlessCommerce/Faster Time to Market.svg';
-import headlessCommImg3 from 'common/src/assets/image/hosting/Pages/HeadlessCommerce/Omnichannel Reach.svg';
-import headlessCommImg4 from 'common/src/assets/image/hosting/Pages/HeadlessCommerce/Customization, Personalization & Flexibility.svg';
-import headlessCommImg5 from 'common/src/assets/image/hosting/Pages/HeadlessCommerce/An Eye on 5G.svg';
-import headlessCommImg6 from 'common/src/assets/image/hosting/Pages/HeadlessCommerce/Social Commerce.svg';
+import headlessCommImg1 from 'common/src/assets/image/hosting/Pages/Headless Commerce/An Eye on 5G.svg';
+import headlessCommImg2 from 'common/src/assets/image/hosting/Pages/Headless Commerce/Faster Time to Market.svg';
+import headlessCommImg3 from 'common/src/assets/image/hosting/Pages/Headless Commerce/Omnichannel Reach.svg';
+import headlessCommImg4 from 'common/src/assets/image/hosting/Pages/Headless Commerce/Customization, Personalization & Flexibility.svg';
+import headlessCommImg5 from 'common/src/assets/image/hosting/Pages/Headless Commerce/An Eye on 5G.svg';
+import headlessCommImg6 from 'common/src/assets/image/hosting/Pages/Headless Commerce/Social Commerce.svg';
 
 import B2BImage1 from 'common/src/assets/image/hosting/Pages/B2B/The Modern B2B Customer.svg';
 import B2BImage2 from 'common/src/assets/image/hosting/Pages/B2B/Headless Commerce.svg';
 import B2BImage3 from 'common/src/assets/image/hosting/Pages/B2B/Influence and Social Proof.svg';
 import B2BImage4 from 'common/src/assets/image/hosting/Pages/B2B/Big Data and AI.svg';
 
+import B2CImage1 from 'common/src/assets/image/hosting/Pages/B2C/Leap Ahead of The Pack.svg';
+import B2CImage2 from 'common/src/assets/image/hosting/Pages/B2C/The Evolving Landscape.svg';
+import B2CImage3 from 'common/src/assets/image/hosting/Pages/B2C/Automation, AI & Big Data.svg';
+
 import AiMlImg from 'common/src/assets/image/hosting/Pages/AI ML/Personalized Shopping.svg';
-import Personalizedimg from 'common/src/assets/image/hosting/Pages/AI ML/Personalized Shopping.svg';
-import GivevoiceImg from 'common/src/assets/image/hosting/Pages/AI ML/Give a Voice to Your Digital Experience.svg';
-import InventoryImg from 'common/src/assets/image/hosting/Pages/AI ML/Inventory Management and Fulfillment.svg';
-import FraudprevImg from 'common/src/assets/image/hosting/Pages/AI ML/Fraud Prevention.svg';
-import RetargetingImg from 'common/src/assets/image/hosting/Pages/AI ML/Retargeting Potential Customers.svg';
+import AIMLImage1 from 'common/src/assets/image/hosting/Pages/AI ML/Personalized Shopping.svg';
+import AIMLImage2 from 'common/src/assets/image/hosting/Pages/AI ML/Give a Voice to Your Digital Experience.svg';
+import AIMLImage3 from 'common/src/assets/image/hosting/Pages/AI ML/Inventory Management and Fulfillment.svg';
+import AIMLImage4 from 'common/src/assets/image/hosting/Pages/AI ML/Fraud Prevention.svg';
+import AIMLImage5 from 'common/src/assets/image/hosting/Pages/AI ML/Retargeting Potential Customers.svg';
 
-import DigitalExpImg1 from 'common/src/assets/image/hosting/Pages/Digital Experience & CX/Full Spectrum of Digital Experience.png';
+import OmnichannelImage1 from 'common/src/assets/image/hosting/Pages/Omnichannel/Groundbreaking Possibilities with AI.svg';
+import OmnichannelImage2 from 'common/src/assets/image/hosting/Pages/Omnichannel/Driving Emotional Connection.svg';
+import OmnichannelImage3 from 'common/src/assets/image/hosting/Pages/Omnichannel/Seamless Online-Offline Transitions.svg';
+import OmnichannelImage4 from 'common/src/assets/image/hosting/Pages/Omnichannel/Decoupled Architecture.svg';
 
+import DigitalImage1 from 'common/src/assets/image/hosting/Pages/OrderManagement/Our Solutions Omnichannel Order Management.svg';
+import DigitalImage2 from 'common/src/assets/image/hosting/Pages/OrderManagement/Order Management.svg';
+import DigitalImage3 from 'common/src/assets/image/hosting/Pages/OrderManagement/Our Capabilities.svg';
 import ourpartners from 'common/src/assets/image/hosting/Pages/OrderManagement/partnersimg.png';
 
+import IotImage1 from 'common/src/assets/image/hosting/Pages/IOT and Blockchain/Deregulation.svg';
+import IotImage2 from 'common/src/assets/image/hosting/Pages/IOT and Blockchain/Privacy.svg';
+import IotImage3 from 'common/src/assets/image/hosting/Pages/IOT and Blockchain/Efficiency.svg';
+import IotImage4 from 'common/src/assets/image/hosting/Pages/IOT and Blockchain/Streamlined Operations.svg';
+import IotImage5 from 'common/src/assets/image/hosting/Pages/IOT and Blockchain/Better Inventory Management.svg';
+import IotImage6 from 'common/src/assets/image/hosting/Pages/IOT and Blockchain/Automation of Warehousing.svg';
+import IotImage7 from 'common/src/assets/image/hosting/Pages/IOT and Blockchain/Smooth Operations in Supply Chain.svg';
 
 import "./infosolutions.css";
 
@@ -46,6 +63,8 @@ const InfoSolutionSection = ({
   sectionWrapper,
   row,
   col,
+  col1,
+  col2,
   title,
   subtitle,
   centertext,
@@ -90,7 +109,6 @@ const InfoSolutionSection = ({
                   className="text_center intro_text_container"
                   content="The convergence of multiple digital platforms and social media has transformed shopping for the modern B2C customer. In order to drive greater sales and win over customers, a seamless experience across multiple channels is necessary. The modern shopper could be shopping from a laptop, an app on a mobile phone, searching for products via Alexa or browsing options at a kiosk.  Cnetric specializes in integrations that connect your multiple systems, driving greater value at every stage and ensuring a delightful, universal customer experience anytime on any device."
                 />
-                <br />
                 {/* <Box>
                 <Link to="/contact">
                   <Button {...button} title="Learn More" />
@@ -99,6 +117,7 @@ const InfoSolutionSection = ({
               </Fade>
             </Box>
           </Box>
+          <div className="empty_space30" />
         </Container>
         {/* <Box {...secTitleWrapper}>
         <Fade bottom cascade>
@@ -131,7 +150,7 @@ const InfoSolutionSection = ({
               </Box>
               <Box {...col} {...textArea} className="Solutions_Image_container">
                 <Fade bottom cascade>
-                  <Image src={drcimg} alt="Info Image One" />
+                  <Image src={B2CImage1} alt="Leap Ahead of The Pack" />
                   {/* <h4>Irvine, California</h4>
               <Text
                 {...description}
@@ -140,6 +159,7 @@ const InfoSolutionSection = ({
                 </Fade>
               </Box>
             </Box>
+            <div className="empty_space25" />
           </Container>
         </Box>
 
@@ -165,10 +185,11 @@ const InfoSolutionSection = ({
             </Box>
             <Box {...col} {...textArea} className="Solutions_Image_container">
               <Fade bottom cascade>
-                <Image src={univcoming} alt="Info Image One" />
+                <Image src={B2CImage2} alt="The Evolving Landscape" />
               </Fade>
             </Box>
           </Box>
+          <div className="empty_space25" />
         </Container>
         <Box className="section_background_color">
           <Container>
@@ -192,36 +213,41 @@ const InfoSolutionSection = ({
               </Box>
               <Box {...col} {...textArea} className="Solutions_Image_container">
                 <Fade bottom cascade>
-                  <Image src={univcoming} alt="Info Image One" />
+                  <Image src={B2CImage3} alt="Automation, AI & Big Data" />
                 </Fade>
               </Box>
             </Box>
+            <div className="empty_space25" />
           </Container>
         </Box>
 
       </div>
       {/* end of b2c */}
       <div className="multi_sections_container B2b_info_container">
-
         <Container>
-          <Box>
-            <Box>
-              <Fade bottom cascade>
-                <Heading
-                  {...title}
-                  className="text_center"
-                  content="The Modern B2B Customer"
-                />
-                <Text
-                  {...description}
-                  className="text_center intro_text_container"
-                  content="The B2B buyer’s journey has also gone through a profound transformation due to technological advances. As a result, B2B shoppers also expect relevant information that is conveniently accessible with smooth user experiences. Search results, content, conversations, and customer service must hit the mark every time across channels. The good news is Cnetric can connect your multiple systems and combine your siloed data to add value at every stage, accelerating integrations for a seamless, omnichannel experience."
-                />
-                <br />
-              </Fade>
-            </Box>
+        <Heading
+          {...title}
+          className="text_center"
+          content="The Modern B2B Customer"
+        />
+        <Box {...row} style={{justifyContent: "center", alignItems: "center"}}>
+          <Box {...col2}>
+            <Fade bottom cascade>
+              <Text
+                {...description}
+                content="The B2B buyer’s journey has also gone through a profound transformation due to technological advances. As a result, B2B shoppers also expect relevant information that is conveniently accessible with smooth user experiences. Search results, content, conversations, and customer service must hit the mark every time across channels. The good news is Cnetric can connect your multiple systems and combine your siloed data to add value at every stage, accelerating integrations for a seamless, omnichannel experience."
+              />
+            </Fade>
           </Box>
-        </Container>
+          {/* <Box {...col1} className="Solutions_Image_container" style={{paddingTop: 0}}>
+            <Fade bottom cascade>
+              <Image src={B2BImage1} alt="The Modern B2B Customer" />
+            </Fade>
+          </Box> */}
+          <br />
+        </Box>
+        <div className="empty_space30" />
+      </Container>
 
         <Box className="section_background_color">
           <Container>
@@ -245,6 +271,7 @@ const InfoSolutionSection = ({
                 </Fade>
               </Box>
             </Box>
+            <div className="empty_space25" />
           </Container>
         </Box>
 
@@ -270,6 +297,7 @@ const InfoSolutionSection = ({
               </Fade>
             </Box>
           </Box>
+          <div className="empty_space25" />
         </Container>
 
         <Box className="section_background_color">
@@ -294,6 +322,7 @@ const InfoSolutionSection = ({
                 </Fade>
               </Box>
             </Box>
+            <div className="empty_space25" />
           </Container>
         </Box>
 
@@ -319,6 +348,7 @@ const InfoSolutionSection = ({
               </Fade>
             </Box>
           </Box>
+          <div className="empty_space30" />
         </Container>
 
         <Box className="section_background_color">
@@ -339,11 +369,12 @@ const InfoSolutionSection = ({
               </Box>
               <Box {...col} {...textArea} className="Solutions_Image_container">
                 <Fade bottom cascade>
-                  <Image src={AiMlImg} alt="Personalized Shopping" />
+                  <Image src={AIMLImage1} alt="Personalized Shopping" />
                 </Fade>
               </Box>
             </Box>
           </Container>
+          <div className="empty_space25" />
         </Box>
 
 
@@ -364,10 +395,11 @@ const InfoSolutionSection = ({
             </Box>
             <Box {...col} {...textArea} className="Solutions_Image_container">
               <Fade bottom cascade>
-                <Image src={GivevoiceImg} alt="Give a Voice to Your Digital Experience" />
+                <Image src={AIMLImage2} alt="Give a Voice to Your Digital Experience" />
               </Fade>
             </Box>
           </Box>
+          <div className="empty_space25" />
         </Container>
 
 
@@ -389,10 +421,11 @@ const InfoSolutionSection = ({
               </Box>
               <Box {...col} {...textArea} className="Solutions_Image_container">
                 <Fade bottom cascade>
-                  <Image src={InventoryImg} alt="Inventory Management and Fulfillment" />
+                  <Image src={AIMLImage3} alt="Inventory Management and Fulfillment" />
                 </Fade>
               </Box>
             </Box>
+            <div className="empty_space25" />
           </Container>
         </Box>
 
@@ -413,10 +446,11 @@ const InfoSolutionSection = ({
             </Box>
             <Box {...col} {...textArea} className="Solutions_Image_container">
               <Fade bottom cascade>
-                <Image src={FraudprevImg} alt="Fraud Prevention" />
+                <Image src={AIMLImage4} alt="Fraud Prevention" />
               </Fade>
             </Box>
           </Box>
+          <div className="empty_space25" />
         </Container>
 
 
@@ -437,10 +471,11 @@ const InfoSolutionSection = ({
               </Box>
               <Box {...col} {...textArea} className="Solutions_Image_container">
                 <Fade bottom cascade>
-                  <Image src={RetargetingImg} alt="Retargeting Potential Customers" />
+                  <Image src={AIMLImage5} alt="Retargeting Potential Customers" />
                 </Fade>
               </Box>
             </Box>
+            <div className="empty_space25" />
           </Container>
         </Box>
 
@@ -466,6 +501,7 @@ const InfoSolutionSection = ({
               </Fade>
             </Box>
           </Box>
+          <div className="empty_space30" />
         </Container>
 
         <Box className="section_background_color">
@@ -486,10 +522,11 @@ const InfoSolutionSection = ({
               </Box>
               <Box {...col} {...textArea} className="Solutions_Image_container">
                 <Fade bottom cascade>
-                  <Image src={drcimg} alt="Info Image One" />
+                  <Image src={OmnichannelImage1} alt="Groundbreaking Possibilities with AI" />
                 </Fade>
               </Box>
             </Box>
+            <div className="empty_space25" />
           </Container>
         </Box>
 
@@ -511,10 +548,11 @@ const InfoSolutionSection = ({
             </Box>
             <Box {...col} {...textArea} className="Solutions_Image_container">
               <Fade bottom cascade>
-                <Image src={univcoming} alt="Info Image One" />
+                <Image src={OmnichannelImage2} alt="Driving Emotional Connection" />
               </Fade>
             </Box>
           </Box>
+          <div className="empty_space25" />
         </Container>
 
 
@@ -536,10 +574,11 @@ const InfoSolutionSection = ({
               </Box>
               <Box {...col} {...textArea} className="Solutions_Image_container">
                 <Fade bottom cascade>
-                  <Image src={univcoming} alt="Info Image One" />
+                  <Image src={OmnichannelImage3} alt="Seamless Online-Offline Transitions" />
                 </Fade>
               </Box>
             </Box>
+            <div className="empty_space25" />
           </Container>
         </Box>
 
@@ -549,7 +588,7 @@ const InfoSolutionSection = ({
               <Fade bottom cascade>
                 <Heading
                   {...title}
-                  content="Decoupled Architecture "
+                  content="Decoupled Architecture"
                 />
                 <Text
                   {...description}
@@ -560,10 +599,11 @@ const InfoSolutionSection = ({
             </Box>
             <Box {...col} {...textArea} className="Solutions_Image_container">
               <Fade bottom cascade>
-                <Image src={univcoming} alt="Info Image One" />
+                <Image src={OmnichannelImage4} alt="Decoupled Architecture" />
               </Fade>
             </Box>
           </Box>
+          <div className="empty_space25" />
         </Container>
 
       </div>
@@ -588,6 +628,7 @@ const InfoSolutionSection = ({
               </Fade>
             </Box>
           </Box>
+          <div className="empty_space30" />
         </Container>
 
         <Box className="section_background_color">
@@ -612,6 +653,7 @@ const InfoSolutionSection = ({
                 </Fade>
               </Box>
             </Box>
+            <div className="empty_space25" />
           </Container>
         </Box>
 
@@ -637,6 +679,7 @@ const InfoSolutionSection = ({
               </Fade>
             </Box>
           </Box>
+          <div className="empty_space25" />
         </Container>
 
 
@@ -662,6 +705,7 @@ const InfoSolutionSection = ({
                 </Fade>
               </Box>
             </Box>
+            <div className="empty_space25" />
           </Container>
         </Box>
 
@@ -686,6 +730,7 @@ const InfoSolutionSection = ({
               </Fade>
             </Box>
           </Box>
+          <div className="empty_space25" />
         </Container>
 
         <Box className="section_background_color">
@@ -710,6 +755,7 @@ const InfoSolutionSection = ({
                 </Fade>
               </Box>
             </Box>
+            <div className="empty_space25" />
           </Container>
         </Box>
       </div>
@@ -746,6 +792,7 @@ const InfoSolutionSection = ({
               </Fade>
             </Box>
           </Box>
+          <div className="empty_space30" />
         </Container>
 
         <Box className="section_background_color">
@@ -762,13 +809,14 @@ const InfoSolutionSection = ({
               </Box>
               <Box className="Solutions_Image_container">
                 <Fade bottom cascade>
-                  <Image src={DigitalExpImg1} alt="Full Spectrum of Digital Experience" 
-                  style={{maxWidth: '512px', objectFit: 'contain'}}
+                  <Image src={DigitalImage1} alt="Full Spectrum of Digital Experience" 
+                  style={{maxWidth: '600px', objectFit: 'contain'}}
                   />
                 </Fade>
                 <br />
               </Box>
             </Box>
+            <div className="empty_space25" />
           </Container>
         </Box>
 
@@ -793,10 +841,11 @@ const InfoSolutionSection = ({
             </Box>
             <Box {...col} {...textArea} className="Solutions_Image_container">
               <Fade bottom cascade>
-                <Image src={headlessCommImg3} alt="Info Image One" />
+                <Image src={DigitalImage2} alt="Facets of State-Of-The-Art DX" style={{maxWidth: '780px'}}/>
               </Fade>
             </Box>
           </Box>
+          <div className="empty_space25" />
         </Container>
 
 
@@ -816,7 +865,7 @@ const InfoSolutionSection = ({
             </Box>
             <IconParticleSection />
             <br />
-
+            <div className="empty_space25" />
           </Container>
         </Box>
 
@@ -842,6 +891,7 @@ const InfoSolutionSection = ({
               </Fade>
             </Box>
           </Box>
+          <div className="empty_space30" />
         </Container>
 
         <Box>
@@ -857,6 +907,7 @@ const InfoSolutionSection = ({
                 </Fade>
               </Box>
             </Box>
+            <div className="empty_space25" />
           </Container>
         </Box>
 
@@ -877,10 +928,11 @@ const InfoSolutionSection = ({
             </Box>
             <Box {...col} {...textArea} className="Solutions_Image_container">
               <Fade bottom cascade>
-                <Image src={headlessCommImg3} alt="Info Image One" />
+                <Image src={IotImage1} alt="Deregulation" />
               </Fade>
             </Box>
           </Box>
+          <div className="empty_space25" />
         </Container>
         <Box className="section_background_color">
           <Container>
@@ -900,10 +952,11 @@ const InfoSolutionSection = ({
               </Box>
               <Box {...col} {...textArea} className="Solutions_Image_container">
                 <Fade bottom cascade>
-                  <Image src={headlessCommImg3} alt="Info Image One" />
+                  <Image src={IotImage2} alt="Privacy" />
                 </Fade>
               </Box>
             </Box>
+            <div className="empty_space25" />
           </Container>
         </Box>
 
@@ -924,10 +977,11 @@ const InfoSolutionSection = ({
             </Box>
             <Box {...col} {...textArea} className="Solutions_Image_container">
               <Fade bottom cascade>
-                <Image src={headlessCommImg3} alt="Info Image One" />
+                <Image src={IotImage3} alt="Efficiency" />
               </Fade>
             </Box>
           </Box>
+          <div className="empty_space25" />
         </Container>
         <Box className="section_background_color">
           <Container>
@@ -947,10 +1001,11 @@ const InfoSolutionSection = ({
               </Box>
               <Box {...col} {...textArea} className="Solutions_Image_container">
                 <Fade bottom cascade>
-                  <Image src={headlessCommImg3} alt="Info Image One" />
+                  <Image src={IotImage4} alt="Streamlined Operations" />
                 </Fade>
               </Box>
             </Box>
+            <div className="empty_space25" />
           </Container>
         </Box>
 
@@ -967,6 +1022,7 @@ const InfoSolutionSection = ({
                 </Fade>
               </Box>
             </Box>
+            <div className="empty_space25" />
           </Container>
         </Box>
 
@@ -976,7 +1032,7 @@ const InfoSolutionSection = ({
               <Fade bottom cascade>
                 <Heading
                   {...title}
-                  content="Better Inventory Management "
+                  content="Better Inventory Management"
                 />
                 <Text
                   {...description}
@@ -987,10 +1043,11 @@ const InfoSolutionSection = ({
             </Box>
             <Box {...col} {...textArea} className="Solutions_Image_container">
               <Fade bottom cascade>
-                <Image src={headlessCommImg3} alt="Info Image One" />
+                <Image src={IotImage5} alt="Better Inventory Management" />
               </Fade>
             </Box>
           </Box>
+          <div className="empty_space25" />
         </Container>
         <Box className="section_background_color">
           <Container>
@@ -1010,10 +1067,11 @@ const InfoSolutionSection = ({
               </Box>
               <Box {...col} {...textArea} className="Solutions_Image_container">
                 <Fade bottom cascade>
-                  <Image src={headlessCommImg3} alt="Info Image One" />
+                  <Image src={IotImage6} alt="Automation of Warehousing" />
                 </Fade>
               </Box>
             </Box>
+            <div className="empty_space25" />
           </Container>
         </Box>
 
@@ -1034,10 +1092,11 @@ const InfoSolutionSection = ({
             </Box>
             <Box {...col} {...textArea} className="Solutions_Image_container">
               <Fade bottom cascade>
-                <Image src={headlessCommImg3} alt="Info Image One" />
+                <Image src={IotImage7} alt="Smooth Operations in Supply Chain" />
               </Fade>
             </Box>
           </Box>
+          <div className="empty_space25" />
         </Container>
 
         <Box className="section_background_color">
@@ -1055,7 +1114,7 @@ const InfoSolutionSection = ({
             </Box>
             <IconParticleSection />
             <br />
-
+            <div className="empty_space25" />
           </Container>
         </Box>
 
@@ -1082,6 +1141,7 @@ const InfoSolutionSection = ({
               </Fade>
             </Box>
           </Box>
+          <div className="empty_space30" />
         </Container>
 
         <Box className="section_background_color">
@@ -1101,12 +1161,13 @@ const InfoSolutionSection = ({
               </Box>
               <Box {...col} {...textArea} className="Solutions_Image_container">
                 <Fade bottom cascade>
-                  <Image src={headlessCommImg2} alt="Info Image One" />
+                  <Image src={DigitalImage1} alt="Our Solutions: Omnichannel Order Management" />
                 </Fade>
               </Box>
             </Box>
             <IconParticleSection />
             <br />
+            <div className="empty_space25" />
           </Container>
         </Box>
 
@@ -1129,10 +1190,11 @@ const InfoSolutionSection = ({
             </Box>
             <Box className="Solutions_Image_container">
               <Fade bottom cascade>
-                <Image src={headlessCommImg3} alt="Info Image One" />
+                <Image src={DigitalImage2} alt="End-to-End Order Management Solutions" style={{maxWidth: '780px'}}/>
               </Fade>
             </Box>
           </Box>
+          <div className="empty_space25" />
         </Container>
 
 
@@ -1167,10 +1229,11 @@ const InfoSolutionSection = ({
               </Box>
               <Box {...col} {...textArea} className="Solutions_Image_container">
                 <Fade bottom cascade>
-                  <Image src={headlessCommImg4} alt="Info Image One" />
+                  <Image src={DigitalImage3} alt="Our Capabilities" />
                 </Fade>
               </Box>
             </Box>
+            <div className="empty_space25" />
           </Container>
         </Box>
 
@@ -1198,6 +1261,7 @@ const InfoSolutionSection = ({
             </Box>
             <br />
           </Box>
+          <div className="empty_space25" />
         </Container>
 
       </div>
@@ -1210,6 +1274,8 @@ InfoSolutionSection.propTypes = {
   sectionWrapper: PropTypes.object,
   row: PropTypes.object,
   col: PropTypes.object,
+  col1: PropTypes.object,
+  col2: PropTypes.object,
   title: PropTypes.object,
   subtitle: PropTypes.object,
   centertext: PropTypes.object,
@@ -1267,6 +1333,17 @@ InfoSolutionSection.defaultProps = {
     pr: '15px',
     pl: '15px',
   },
+  col1: {
+    // width: '60%',
+    width: ['100%', '100%', '100%', '45%', '45%'],
+  },
+  col2: {
+    // width: '40%',
+    width: ['100%', '100%', '100%', '55%', '55%'],
+  },
+  col3: {
+    width: '70%'
+  },
   textArea: {
     width: ['100%', '100%', '100%', '49%', '49%'],
   },
@@ -1286,15 +1363,15 @@ InfoSolutionSection.defaultProps = {
     mb: '-60px',
   },
   title: {
-    fontSize: ['22px', '24px', '24px', '28px', '28px'],
+    fontSize: ['30px', '30px', '35px', '40px', '45px'],
     fontWeight: '300',
     color: '#0f2137',
     letterSpacing: '-0.025em',
-    mb: '20px',
-    pt: '20px',
+    mb: '25px',
+    pt: '25px',
   },
   subtitle: {
-    fontSize: ['16px', '16px', '16px', '16px', '16px'],
+    fontSize: ['20px', '22px', '22px', '22px', '22px'],
     color: '#343d48cc',
     lineHeight: '1.5',
     fontWeight: '500',
@@ -1305,7 +1382,7 @@ InfoSolutionSection.defaultProps = {
     textAlign: 'center',
   },
   description: {
-    fontSize: ['16px', '16px', '16px', '16px', '16px'],
+    fontSize: ['16px', '18px', '18px', '18px', '18px'],
     color: '#343d48cc',
     lineHeight: '1.5',
     mb: '15px',
