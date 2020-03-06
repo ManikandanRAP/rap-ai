@@ -608,6 +608,14 @@ export const ContentWrapper = styled.div`
       background-image: url(${socialcommercebanner_image});
     }
   }
+  &.Consulting_page {
+    .container.banner_container.consulting_banner {
+      display: block;
+    }
+    #banner_section {
+      background-image: url(${socialcommercebanner_image});
+    }
+  }
 
   @media (max-width: 990px) {
     .glide__slide--active .pricing_table {
