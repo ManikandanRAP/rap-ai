@@ -12,8 +12,8 @@ import Container from 'common/src/components/UI/Container';
 import drcimg from 'common/src/assets/image/hosting/Home/drc.svg';
 import univcoming from 'common/src/assets/image/hosting/Home/uc.svg';
 import illusting from 'common/src/assets/image/hosting/Home/illustration.svg';
-import { Link } from "gatsby";
-import IconParticleSection from "../IconTextParticle";
+import { Link } from 'gatsby';
+import IconParticleSection from '../IconTextParticle';
 
 import greatervalueImg from 'common/src/assets/image/hosting/Pages/Cloud Transformation/Greater Value at Lower Costs.svg';
 import riseedgeImg from 'common/src/assets/image/hosting/Pages/Cloud Transformation/Rise of Edge Computing.svg';
@@ -24,8 +24,7 @@ import frictionlessshipping from 'common/src/assets/image/hosting/Pages/Social C
 import chatbots from 'common/src/assets/image/hosting/Pages/Social Commerce/Chatbots are Driving Social Commerce.svg';
 import risingsales from 'common/src/assets/image/hosting/Pages/Social Commerce/Rising Sales from Social Commerce.svg';
 
-
-import "./infoservices.css";
+import './infoservices.css';
 
 const InfoServiceSection = ({
   sectionWrapper,
@@ -43,15 +42,14 @@ const InfoServiceSection = ({
   secTitleWrapper,
   secHeading,
   secText,
+  box_size,
 }) => {
   return (
     <Box {...sectionWrapper} id="info_services">
-
       <div className="multi_sections_container CloudTransformation_info_container">
-
         <Container>
           <Box style={{ alignItems: 'center', justifyContent: 'center' }}>
-            <Box >
+            <Box>
               <Fade bottom cascade>
                 <Heading
                   {...title}
@@ -71,43 +69,47 @@ const InfoServiceSection = ({
 
         <Box className="section_background_color">
           <Container>
-            <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
               <Box {...col} {...textArea} className="info_order_change">
                 <Fade bottom cascade>
-                  <Heading
-                    {...title}
-                    content="Greater Value at Lower Costs"
-                  />
+                  <Heading {...title} content="Greater Value at Lower Costs" />
                   <Text
                     {...description}
                     content="Cloud infrastructure provides the value of the latest technology with minimal implementation and maintenance costs. Shift to cloud technology with Cnetric’s expertise and services for  greater cost efficiency & zero downtime. Purchase and its maintenance of equipment are things of the past with cloud-enabled system. This has very tangible benefits such as lower rack space, IT requirements, power consumption, risk of internal outages and the complexity of housing the network."
                   />
-
                 </Fade>
               </Box>
-              <Box {...col} {...textArea} className="InfoBanner_Image_container">
+              <Box
+                {...col}
+                {...textArea}
+                className="InfoBanner_Image_container"
+              >
                 <Fade bottom cascade>
-                  <Image src={greatervalueImg} alt="Greater Value at Lower Costs" />
+                  <Image
+                    src={greatervalueImg}
+                    alt="Greater Value at Lower Costs"
+                  />
                 </Fade>
               </Box>
             </Box>
           </Container>
         </Box>
 
-
         <Container>
-          <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+          <Box
+            {...row}
+            style={{ alignItems: 'center', justifyContent: 'center' }}
+          >
             <Box {...col} {...textArea}>
               <Fade bottom cascade>
-                <Heading
-                  {...title}
-                  content="Shift towards Open Source"
-                />
+                <Heading {...title} content="Shift towards Open Source" />
                 <Text
                   {...description}
                   content="Make your eCommerce business lean and agile by shifting to open source. Embracing open source provides a  competitive edge in terms of cost efficiency and speed to market. You might wonder where to start in shifting your systems to an open source cloud architecture. Cnetric’s specialized expertise in open-source DevOps tools and infrastructure platforms can help transform your systems to open source on the cloud."
                 />
-
               </Fade>
             </Box>
             <Box {...col} {...textArea} className="InfoBanner_Image_container">
@@ -120,21 +122,24 @@ const InfoServiceSection = ({
 
         <Box className="section_background_color">
           <Container>
-            <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
               <Box {...col} {...textArea} className="info_order_change">
                 <Fade bottom cascade>
-                  <Heading
-                    {...title}
-                    content="Rise of Edge Computing"
-                  />
+                  <Heading {...title} content="Rise of Edge Computing" />
                   <Text
                     {...description}
                     content="Edge computing is the perfect solution for global companies that require instant access to data and computing resources to satisfy customer’s expectations. The edge is exactly what it sounds like, distributed cloud architecture that directs processes away from centralized data centers and closer to the devices worldwide. The paradigm shift to edge computing is essential for IOT, as it is required to collect and process big data in real-time and the edge delivers low latency. Bring the power of edge computing to your eCommerce ecosystem with Cnetric’s services and expertise."
                   />
-
                 </Fade>
               </Box>
-              <Box {...col} {...textArea} className="InfoBanner_Image_container">
+              <Box
+                {...col}
+                {...textArea}
+                className="InfoBanner_Image_container"
+              >
                 <Fade bottom cascade>
                   <Image src={riseedgeImg} alt="Rise of Edge Computing" />
                 </Fade>
@@ -144,7 +149,10 @@ const InfoServiceSection = ({
         </Box>
 
         <Container>
-          <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+          <Box
+            {...row}
+            style={{ alignItems: 'center', justifyContent: 'center' }}
+          >
             <Box {...col} {...textArea}>
               <Fade bottom cascade>
                 <Heading
@@ -155,23 +163,153 @@ const InfoServiceSection = ({
                   {...description}
                   content="In an attempt to digital transformation, businesses are shifting from monolithic applications to nimble cloud-based microservices. Break your monolithic system into discrete microservices that run in containers with Cnetric’s expertise. This gives your business increased flexibility at both speed and scale. As scale increases, orchestration between the containers becomes complicated. Our microservice mesh and expertise can help you manage hundreds or thousands of containers with ease by mediating requests inside the cloud infrastructure with the various environment-conscious components."
                 />
-
               </Fade>
             </Box>
             <Box {...col} {...textArea} className="InfoBanner_Image_container">
               <Fade bottom cascade>
-                <Image src={transformImg} alt="Transform to Serverless Microservices" />
+                <Image
+                  src={transformImg}
+                  alt="Transform to Serverless Microservices"
+                />
+              </Fade>
+            </Box>
+          </Box>
+        </Container>
+      </div>
+      {/* end of Cloud Transformation */}
+
+      <div className="multi_sections_container Consulting_info_container">
+        <Container>
+          <Box style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <Box>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  className="text_center"
+                  content="Solve Problems with Cnetric’s Expertise"
+                />
+                <Text
+                  {...description}
+                  content="Cnetric’s specialized ecommerce consultants hold extensive experience with regard to ecommerce strategy, integrations, migrations and support. We make use of advanced tools and technologies to provide data-driven, innovative, focused and strategic solutions to handle every challenge faced by your ecommerce ecosystem. We provide customized and result-oriented solutions in every aspect of ecommerce from increasing traffic and conversions, enhancing customer experience, retargeting customers, streamlining operational activities, etc."
+                />
+              </Fade>
+            </Box>
+          </Box>
+          <IconParticleSection />
+          <br />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Customers Success Is Our Top Priority"
+                  />
+                  <Text
+                    {...description}
+                    content="Our focused approach is designed to understand and fulfill clients. Our dedicated team of account managers, project managers and consultants work tirelessly to deliver exceptional results."
+                  />
+                </Fade>
+              </Box>
+              <Box
+                {...col}
+                {...textArea}
+                className="InfoBanner_Image_container"
+              >
+                <Fade bottom cascade>
+                  <Image
+                    src={greatervalueImg}
+                    alt="Greater Value at Lower Costs"
+                  />
+                </Fade>
+              </Box>
+            </Box>
+          </Container>
+        </Box>
+
+        <Container>
+          <Box
+            {...row}
+            style={{ alignItems: 'center', justifyContent: 'center' }}
+          >
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading {...title} content="Why Customers Like What We Do?" />
+                <ul className="list_style_disc">
+                  <li>
+                    Capabilities to integrate migrate and support third-party
+                    applications with eCommerce platforms.
+                  </li>
+                  <li>
+                    Lean & agile eCommerce solutions including mobile eCommerce
+                    capabilities.
+                  </li>
+                  <li>
+                    Robust cross-functional team of in-house experts to deliver
+                    solutions with empathy and transparency.
+                  </li>
+                  <li>
+                    Proven track record of successful implementations of
+                    strategies for improving traffic, conversions, purchase
+                    completions, retargeting, etc.
+                  </li>
+                </ul>
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="InfoBanner_Image_container">
+              <Fade bottom cascade>
+                <Image src={shifttowardsImg} alt="Shift towards Open Source" />
               </Fade>
             </Box>
           </Box>
         </Container>
 
+        <Box className="section_background_color">
+          <Container>
+            <Box style={{ alignItems: 'center', justifyContent: 'center' }}>
+              <Box>
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    className="text_center"
+                    content="Related Digital Strategy Services"
+                  />
+                  <Box {...box_size} className="boxFill">
+                    <Link to="solutions/omnichannel">
+                      <Button {...button} title="Omnichannel Strategy" />
+                    </Link>
+                    <Link to="solutions/analytics-insights">
+                      <Button {...button} title="Analytics & Insights" />
+                    </Link>
+                    <Link to="solutions/conversation-ai">
+                      <Button {...button} title="Conversation AI" />
+                    </Link>
+                    <Link to="solutions/5g">
+                      <Button {...button} title="5G" />
+                    </Link>
+                    <Link to="solutions/microservices-mesh">
+                      <Button {...button} title="Microservices & Mesh" />
+                    </Link>
+                  </Box>
+                </Fade>
+              </Box>
+            </Box>
+            <IconParticleSection />
+            <br />
+          </Container>
+        </Box>
       </div>
-      {/* end of Cloud Transformation */}
+      {/* end of Consulting */}
       <div className="multi_sections_container technology_info_container">
         <Container>
           <Box>
-            <Box >
+            <Box>
               <Fade bottom cascade>
                 <Heading
                   {...title}
@@ -189,9 +327,8 @@ const InfoServiceSection = ({
         </Container>
       </div>
       {/* end of technology */}
-      
-      <div className="multi_sections_container social_commerce_info_container">
 
+      <div className="multi_sections_container social_commerce_info_container">
         <Container>
           <Box>
             <Box>
@@ -209,38 +346,45 @@ const InfoServiceSection = ({
                 <br />
               </Fade>
             </Box>
-
           </Box>
         </Container>
 
         <Box className="section_background_color">
           <Container>
-            <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
               <Box {...col} {...textArea} className="info_order_change">
                 <Fade bottom cascade>
-                  <Heading
-                    {...title}
-                    content="Frictionless Shopping"
-                  />
+                  <Heading {...title} content="Frictionless Shopping" />
                   <Text
                     {...description}
                     content="Businesses should embrace the fact that simplicity is the Holy Grail to achieving greater sales and revenue. With innumerable options available today, customers have the power to switch brands easily. Too many steps are often a factor in this decision. With social commerce businesses can reduce the steps in the funnel and provide a seamless, hassle-free experience that entices customers."
                   />
-
                 </Fade>
               </Box>
-              <Box {...col} {...textArea} className="InfoBanner_Image_container">
+              <Box
+                {...col}
+                {...textArea}
+                className="InfoBanner_Image_container"
+              >
                 <Fade bottom cascade>
-                  <Image src={frictionlessshipping} alt="Frictionless Shopping" />
+                  <Image
+                    src={frictionlessshipping}
+                    alt="Frictionless Shopping"
+                  />
                 </Fade>
               </Box>
             </Box>
           </Container>
         </Box>
 
-
         <Container>
-          <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+          <Box
+            {...row}
+            style={{ alignItems: 'center', justifyContent: 'center' }}
+          >
             <Box {...col} {...textArea}>
               <Fade bottom cascade>
                 <Heading
@@ -251,20 +395,20 @@ const InfoServiceSection = ({
                   {...description}
                   content="You need the right tools to drive sales via social commerce and chatbots AI-powered chatbots are perfect for the job. Many customers prefer to communicate with your brand via chat. Potential shoppers are inspired when they see the latest fashion or a cool new gadget and with the social proof of user-generated content they are typically ready to move to purchase. Cnetric can help your brand create bots that have defined the purpose of helping the shopper complete the sale within their social platform."
                 />
-
               </Fade>
             </Box>
             <Box {...col} {...textArea} className="InfoBanner_Image_container">
               <Fade bottom cascade>
-                <Image src={chatbots} alt="Chatbots are Driving Social Commerce" />
+                <Image
+                  src={chatbots}
+                  alt="Chatbots are Driving Social Commerce"
+                />
               </Fade>
             </Box>
           </Box>
         </Container>
-
       </div>
       {/* end of Social Commerce */}
-
     </Box>
   );
 };
@@ -285,6 +429,7 @@ InfoServiceSection.propTypes = {
   secHeading: PropTypes.object,
   secText: PropTypes.object,
   secTitleWrapper: PropTypes.object,
+  box_size: PropTypes.object,
 };
 
 InfoServiceSection.defaultProps = {
@@ -370,6 +515,12 @@ InfoServiceSection.defaultProps = {
     pr: '22px',
     colors: 'primaryWithBg',
     height: `{5}`,
+  },
+  box_size: {
+    width: '100%',
+    display: 'flex',
+    justifyContent: 'space-around',
+    flexWrap: 'wrap',
   },
 };
 

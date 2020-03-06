@@ -162,6 +162,16 @@ const Ctasection = ({ button, box_size, cta_size_container }) => {
             </Link>
           </Box>
         </Box>
+        <Box className="Cta_container consulting_page">
+          <Box {...box_size}>
+            <p>Proven expertise that boosts your ecosystem and sales.</p>
+          </Box>
+          <Box {...box_size}>
+            <Link to="/contact">
+              <Button {...button} title="Schedule A Consultation" />
+            </Link>
+          </Box>
+        </Box>
       </Container>
     </>
   );

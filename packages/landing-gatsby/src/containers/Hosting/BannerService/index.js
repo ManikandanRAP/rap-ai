@@ -27,17 +27,13 @@ const BannerServicesSection = ({
   discountAmount,
   discountText,
 }) => {
-
   return (
     <BannerWrapper1 id="banner_section">
       <ParticlesComponent />
       <Container className="banner_container Cloud_infrastructure_banner">
         <Box {...row}>
           <Box {...textArea}>
-            <Heading
-              {...title}
-              content="Cloud Transformation"
-            />
+            <Heading {...title} content="Cloud Transformation" />
             <Text
               {...description}
               content="Seamless, Connected eCommerce Drives Sales"
@@ -48,10 +44,7 @@ const BannerServicesSection = ({
       <Container className="banner_container social_commerce_banner">
         <Box {...row}>
           <Box {...textArea}>
-            <Heading
-              {...title}
-              content="Social Commerce"
-            />
+            <Heading {...title} content="Social Commerce" />
             <Text
               {...description}
               content="Maximize Sales through Social Commerce"
@@ -62,10 +55,7 @@ const BannerServicesSection = ({
       <Container className="banner_container technology_banner">
         <Box {...row}>
           <Box {...textArea}>
-            <Heading
-              {...title}
-              content="Technology"
-            />
+            <Heading {...title} content="Technology" />
             <Text
               {...description}
               content="Leverage innovative technology to disrupt eCommerce"
@@ -73,7 +63,18 @@ const BannerServicesSection = ({
           </Box>
         </Box>
       </Container>
-     </BannerWrapper1>
+      <Container className="banner_container consulting_banner">
+        <Box {...row}>
+          <Box {...textArea}>
+            <Heading {...title} content="Consulting" />
+            <Text
+              {...description}
+              content="Proven, tech-savvy expertise that conquers your challenges"
+            />
+          </Box>
+        </Box>
+      </Container>
+    </BannerWrapper1>
   );
 };
 

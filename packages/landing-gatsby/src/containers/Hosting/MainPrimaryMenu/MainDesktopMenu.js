@@ -131,7 +131,7 @@ const Maindeskmenu1 = button => (
           <MainNavFlexbox className="Desktop_menu_shadow">
             <MainNavbarDropUl>
               <MainNavbarDropMainLi>Strategy</MainNavbarDropMainLi>
-              <br />
+              <div className="empty_space10" />
               <MainNavbarDropLi>
                 <Link to="services/consulting">
                   <span>Consulting</span>
@@ -170,7 +170,7 @@ const Maindeskmenu1 = button => (
             </MainNavbarDropUl>
             <MainNavbarDropUl>
               <MainNavbarDropMainLi>Delivery</MainNavbarDropMainLi>
-              <br />
+              <div className="empty_space10" />
               <MainNavbarDropLi>
                 <Link to="services/delivery">
                   <span>Agile Teams</span>
@@ -189,7 +189,7 @@ const Maindeskmenu1 = button => (
             </MainNavbarDropUl>
             <MainNavbarDropUl>
               <MainNavbarDropMainLi>Technology</MainNavbarDropMainLi>
-              <br />
+              <div className="empty_space10" />
               <MainNavbarDropLi>
                 <Link to="services/elasticpath">
                   <a>Elastic Path</a>
