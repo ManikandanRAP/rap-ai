@@ -44,10 +44,13 @@ import OmnichannelImage2 from 'common/src/assets/image/hosting/Pages/Omnichannel
 import OmnichannelImage3 from 'common/src/assets/image/hosting/Pages/Omnichannel/Seamless Online-Offline Transitions.svg';
 import OmnichannelImage4 from 'common/src/assets/image/hosting/Pages/Omnichannel/Decoupled Architecture.svg';
 
-import DigitalImage1 from 'common/src/assets/image/hosting/Pages/OrderManagement/Our Solutions Omnichannel Order Management.svg';
-import DigitalImage2 from 'common/src/assets/image/hosting/Pages/OrderManagement/Order Management.svg';
-import DigitalImage3 from 'common/src/assets/image/hosting/Pages/OrderManagement/Our Capabilities.svg';
+import OrderImage1 from 'common/src/assets/image/hosting/Pages/OrderManagement/Our Solutions Omnichannel Order Management.svg';
+import OrderImage2 from 'common/src/assets/image/hosting/Pages/OrderManagement/Order Management.svg';
+import OrderImage3 from 'common/src/assets/image/hosting/Pages/OrderManagement/Our Capabilities.svg';
 import ourpartners from 'common/src/assets/image/hosting/Pages/OrderManagement/partnersimg.png';
+
+import DigitalImage1 from 'common/src/assets/image/hosting/Pages/Digital Experience & CX/Full Spectrum of Digital Experience.svg';
+import DigitalImage2 from 'common/src/assets/image/hosting/Pages/Digital Experience & CX/Facets of State-Of-The-Art DX.svg';
 
 import IotImage1 from 'common/src/assets/image/hosting/Pages/IOT and Blockchain/Deregulation.svg';
 import IotImage2 from 'common/src/assets/image/hosting/Pages/IOT and Blockchain/Privacy.svg';
@@ -226,23 +229,16 @@ const InfoSolutionSection = ({
             className="text_center"
             content="The Modern B2B Customer"
           />
-          <Box
-            {...row}
-            style={{ justifyContent: 'center', alignItems: 'center' }}
-          >
-            <Box {...col2}>
+          <Box>
+            <Box>
               <Fade bottom cascade>
                 <Text
                   {...description}
+                  className="intro_text_container"
                   content="The B2B buyer’s journey has also gone through a profound transformation due to technological advances. As a result, B2B shoppers also expect relevant information that is conveniently accessible with smooth user experiences. Search results, content, conversations, and customer service must hit the mark every time across channels. The good news is Cnetric can connect your multiple systems and combine your siloed data to add value at every stage, accelerating integrations for a seamless, omnichannel experience."
                 />
               </Fade>
             </Box>
-            {/* <Box {...col1} className="Solutions_Image_container" style={{paddingTop: 0}}>
-            <Fade bottom cascade>
-              <Image src={B2BImage1} alt="The Modern B2B Customer" />
-            </Fade>
-          </Box> */}
             <br />
           </Box>
           <div className="empty_space30" />
@@ -1504,7 +1500,7 @@ const InfoSolutionSection = ({
               <Box {...col} {...textArea} className="Solutions_Image_container">
                 <Fade bottom cascade>
                   <Image
-                    src={DigitalImage1}
+                    src={OrderImage1}
                     alt="Our Solutions: Omnichannel Order Management"
                   />
                 </Fade>
@@ -1535,7 +1531,7 @@ const InfoSolutionSection = ({
             <Box className="Solutions_Image_container">
               <Fade bottom cascade>
                 <Image
-                  src={DigitalImage2}
+                  src={OrderImage2}
                   alt="End-to-End Order Management Solutions"
                   style={{ maxWidth: '780px' }}
                 />
@@ -1578,7 +1574,7 @@ const InfoSolutionSection = ({
               </Box>
               <Box {...col} {...textArea} className="Solutions_Image_container">
                 <Fade bottom cascade>
-                  <Image src={DigitalImage3} alt="Our Capabilities" />
+                  <Image src={OrderImage3} alt="Our Capabilities" />
                 </Fade>
               </Box>
             </Box>

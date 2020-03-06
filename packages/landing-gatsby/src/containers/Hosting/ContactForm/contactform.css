@@ -1,0 +1,44 @@
+#Contact_Form .form_fields {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#Contact_Form .form_fields .reusecore__input {
+    margin: 10px 0;
+    width: 49%;
+}
+
+#Contact_Form form input {
+    font-family: inherit;
+}
+
+#Contact_Form .form_fields .reusecore__input.country_input {
+    width: 100%;
+}
+
+#Contact_Form .messagebox {
+    margin-top: 10px;
+}
+#Contact_Form .messagebox textarea {
+    min-height: 100px;
+    font-family: inherit;
+}
+
+#Contact_Form .contact_location_list.sm {
+    display: none;
+}
+
+@media only screen and (max-width: 991px) {
+    #Contact_Form .contact_location_list {
+        display: none;
+    }
+    #Contact_Form .contact_location_list.sm {
+        display: block;
+    }
+}
+@media only screen and (max-width: 575px) {
+    #Contact_Form .form_fields .reusecore__input {
+        width: 100%;
+    }
+}

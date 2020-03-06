@@ -146,7 +146,7 @@ export const ContentWrapper = styled.div`
         padding-left: 13px;
         padding-right: 13px;
         &:first-child {
-          padding-left: 0;
+          // padding-left: 0;
         }
         &:last-child {
           padding-right: 0;

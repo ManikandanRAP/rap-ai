@@ -47,10 +47,7 @@ const ContactMap = ({
       <Container className="Contactmap_container1">
         <Box {...row} className="ContactMap_container_row">
           <Box {...col} {...imageArea} className="ContactMap_container_col">
-            {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.1316523115825!2d-117.74961718494642!3d33.65375048071613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dce7aab2704683%3A0x38d7352f3c8d081d!2sCnetric%20Global%20Inc.!5e0!3m2!1sen!2sin!4v1581419686076!5m2!1sen!2sin" width="600" height="450" frameborder="0" allowfullscreen=""></iframe> */}
-            {/* <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1GX4_Dd7WeEzYZwSVuUOW0LPJVm8wA7eL" width="100%" height="400" id="mymap1"></iframe> */}
-            {/* <ReportsPage /> */}
-            <img src={contactMapLocation} alt="contact map" />
+           <img src={contactMapLocation} alt="contact map" />
           </Box>
           <Box {...col} {...textArea} className="ContactMap_container_col2">
             <Fade bottom cascade>

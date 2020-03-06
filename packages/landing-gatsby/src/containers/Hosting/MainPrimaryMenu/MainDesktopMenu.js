@@ -12,6 +12,7 @@ import StoreIcon from '../../../../../common/src/assets/image/hosting/Menu/store
 import CompanyIcon from '../../../../../common/src/assets/image/hosting/Menu/company.svg';
 import TeamIcon from '../../../../../common/src/assets/image/hosting/Menu/team.svg';
 import PartnersIcon from '../../../../../common/src/assets/image/hosting/Menu/partners.svg';
+import CustomersIcon from '../../../../../common/src/assets/image/hosting/Menu/customers.svg';
 import MediaIcon from '../../../../../common/src/assets/image/hosting/Menu/media.svg';
 
 import MainDesktopNav, {
@@ -27,7 +28,7 @@ import MainDesktopNav, {
 const Maindeskmenu1 = button => (
   <MainDesktopNav>
     <MainNavbarUl className="scrollspy__menu main_menu">
-      <MainNavbarLi>
+      <MainNavbarLi className="firstmenu">
         <span className="main_menu_head">
           Solutions <span class="desk_arrow_down">&#9660;</span>
         </span>
@@ -331,7 +332,7 @@ const Maindeskmenu1 = button => (
               </MainNavbarDropLi>
               <MainNavbarDropLi>
                 <Link to="about/customers">
-                  <img src={PartnersIcon} />
+                  <img src={CustomersIcon} />
                   <div>Customers</div>
                 </Link>
               </MainNavbarDropLi>

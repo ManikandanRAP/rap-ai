@@ -51,7 +51,8 @@
 #OurCustomers .ourCustomerPage_content .service_item img {
   width: 100%;
   height: 150px;
-  max-width: 150px;
+  /* max-width: 150px; */
+  max-width: calc(100% - 20px);
   object-fit: contain;
 }
 /* partner css */

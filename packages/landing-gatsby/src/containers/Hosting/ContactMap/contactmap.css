@@ -36,3 +36,16 @@
   object-fit: contain;
   max-width: 100%;
 }
+
+@media only screen and (max-width: 991px) {
+  .contact_location_list li {
+    width: 28%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .contact_location_list li {
+    width: auto;
+    margin: 2%;
+  }
+}

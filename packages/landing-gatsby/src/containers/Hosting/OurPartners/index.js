@@ -94,11 +94,11 @@ OurPartners.defaultProps = {
     as: 'section',
     id: 'service_section',
     className: 'service_section',
-    pt: ['60px', '80px', '80px', '80px'],
+    pt: ['30px', '30px', '40px', '40px'],
     pb: ['60px', '80px', '80px', '100px'],
   },
   secTitleWrapper: {
-    mb: ['50px', '60px', '60px', '75px'],
+    mb: ['30px', '30px', '40px', '40px'],
   },
   secText: {
     as: 'span',

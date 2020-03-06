@@ -158,6 +158,7 @@ const InfoHomeSection = ({
               />
               <Text
                 {...description}
+                style={{color: '#252525'}}
                 content="Rule your eCommerce empire with ease and confidence through a single platform. That’s right, a single window to your entire eCommerce ecosystem, no matter how big. No more silos that slow things down. Jump to light speed with the sophisticated power of Universal Commerce that unifies all your eCommerce operations."
               />
               <Link to="/contact" className="LinkButton">

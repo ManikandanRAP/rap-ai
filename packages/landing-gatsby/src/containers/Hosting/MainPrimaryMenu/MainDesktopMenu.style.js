@@ -182,6 +182,9 @@ export const MainNavFlexbox = styled.div`
 
 export const MainNavbarLi = styled.li`
     padding: 30px 15px;
+    &.firstmenu {
+        padding-left: 13px !important;
+    }
     .desktop_menu_drop_effect {
         opacity: 0;
         visibility: hidden;

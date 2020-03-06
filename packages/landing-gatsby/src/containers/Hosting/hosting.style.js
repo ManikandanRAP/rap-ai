@@ -355,6 +355,8 @@ export const ContentWrapper = styled.div`
       list-style-type: disc;
       color: #343d48cc;
       padding-bottom: 10px;
+      font-size: 18px;
+      line-height: inherit;
     }
   }
   //intro container
@@ -364,11 +366,11 @@ export const ContentWrapper = styled.div`
     text-align: justify;
   }
   // banner
-  #banner_section:before {
+  #banner_section::before {
     content: '';
     width: 100%;
     height: 100%;
-    background-color: #052f4aab;
+    background-color: rgba(5, 47, 74, 0.67);
     position: absolute;
     left: 0;
     right: 0;
