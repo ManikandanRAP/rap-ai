@@ -45,7 +45,8 @@
 .IOT_blockchain_page .iot_blockchain_page,
 .Digital_experience_page .cta_digital_experience_page,
 .Marketing_page .cta_marketing_page,
-.Experience_analytics_page .cta_experience_analytics_page {
+.Experience_analytics_page .cta_experience_analytics_page,
+.Consulting_page .cta_consulting_page {
   display: flex;
 }
 
