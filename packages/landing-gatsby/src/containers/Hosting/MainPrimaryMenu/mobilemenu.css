@@ -1,7 +1,9 @@
+.Mobile_menu_container {
+  transition: all 0.4s ease;
+}
 .mobile_drop_menu li {
   padding-left: 50px !important;
 }
-
 .Mobile_caret {
   position: absolute;
   right: 8%;
@@ -21,6 +23,20 @@
 .mobile_drop_menu {
   display: none;
 }
+.mobile_drop_menu2 {
+  height: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
+.drawer-content-wrapper .drawer-content .mobile_menu.mobile_drop_menu {
+  margin-bottom: 0;
+}
 .showmenu {
-  display: block;
+  display: block !important;
+}
+.showmenu2 {
+  height: 100%;
+  visibility: visible;
+  opacity: 1;
 }
