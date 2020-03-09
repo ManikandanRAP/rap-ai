@@ -35,7 +35,7 @@ const Maindeskmenu1 = button => (
         <MainNavbarDropBox className="desktop_menu_drop_effect">
           <MainNavFlexbox className="Desktop_menu_shadow">
             <MainNavbarDropUl>
-              <MainNavbarDropMainLi>Business Model</MainNavbarDropMainLi>
+              <MainNavbarDropMainLi>Expertise</MainNavbarDropMainLi>
               <div className="empty_space10" />
               <MainNavbarDropLi>
                 <Link to="solutions/b2c">B2C</Link>
@@ -71,7 +71,7 @@ const Maindeskmenu1 = button => (
               </MainNavbarDropLi>
             </MainNavbarDropUl>
             <MainNavbarDropUl>
-              <MainNavbarDropMainLi>Expertise</MainNavbarDropMainLi>
+              <MainNavbarDropMainLi>Capability</MainNavbarDropMainLi>
               <div className="empty_space10" />
               <MainNavbarDropLi>
                 <Link to="solutions/headless-commerce">Headless Commerce</Link>
@@ -131,15 +131,20 @@ const Maindeskmenu1 = button => (
         <MainNavbarDropBox className="desktop_menu_drop_effect">
           <MainNavFlexbox className="Desktop_menu_shadow">
             <MainNavbarDropUl>
-              <MainNavbarDropMainLi>Strategy</MainNavbarDropMainLi>
+              <MainNavbarDropMainLi>Consulting</MainNavbarDropMainLi>
               <div className="empty_space10" />
               <MainNavbarDropLi>
-                <Link to="services/consulting">
-                  <span>Consulting</span>
+                <Link to="services/dr-commerce">
+                  <span>Dr. Commerce</span>
                 </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
-                <Link to="services/analytics&insights">
+                <Link to="services/strategy-roadmap">
+                  <span>Strategy & Roadmap</span>
+                </Link>
+              </MainNavbarDropLi>
+              <MainNavbarDropLi>
+                <Link to="services/analytics-insights">
                   <span>Analytics & Insights</span>
                 </Link>
               </MainNavbarDropLi>
@@ -149,18 +154,13 @@ const Maindeskmenu1 = button => (
                 </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
-                <Link to="services/converstationAI">
-                  <span>Conversation AI</span>
-                </Link>
-              </MainNavbarDropLi>
-              <MainNavbarDropLi>
                 <Link to="services/5G">
                   <span>5G</span>
                 </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
-                <Link to="services/microservices&mesh">
-                  <span>Microservices & Mesh</span>
+                <Link to="services/microservice-mesh">
+                  <span>Microservice & Mesh</span>
                 </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
@@ -173,17 +173,17 @@ const Maindeskmenu1 = button => (
               <MainNavbarDropMainLi>Delivery</MainNavbarDropMainLi>
               <div className="empty_space10" />
               <MainNavbarDropLi>
-                <Link to="services/delivery">
+                <Link to="services/agile-teams">
                   <span>Agile Teams</span>
                 </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
-                <Link to="services/managedservices">
+                <Link to="services/managed-services">
                   <span>Managed Services</span>
                 </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
-                <Link to="services/offshoredevcenter">
+                <Link to="services/offshore-dev-center">
                   <span>Offshore Dev Center</span>
                 </Link>
               </MainNavbarDropLi>
@@ -192,37 +192,37 @@ const Maindeskmenu1 = button => (
               <MainNavbarDropMainLi>Technology</MainNavbarDropMainLi>
               <div className="empty_space10" />
               <MainNavbarDropLi>
-                <Link to="services/elasticpath">
+                <Link to="services/elastic-path">
                   <a>Elastic Path</a>
                 </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
-                <Link to="services/hclcommerce">
+                <Link to="services/hcl-commerce">
                   <span>HCL Commerce</span>
                 </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
-                <Link to="services/coremedia">
+                <Link to="services/core-media">
                   <span>Core Media</span>
                 </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
-                <Link to="services/ibm&redhat">
+                <Link to="services/ibm-redhat">
                   <span>IBM & Red Hat</span>
                 </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
-                <Link to="services/drupalcommerce">
+                <Link to="services/drupal-commerce">
                   <span>Drupal Commerce</span>
                 </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
-                <Link to="services/apis&graphql">
+                <Link to="services/apis-graphql">
                   <span>APIs & GraphQL</span>
                 </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
-                <Link to="services/jamstact&gatsby">
+                <Link to="services/jamstact-gatsby">
                   <span>JAMStack & Gatsby</span>
                 </Link>
               </MainNavbarDropLi>
@@ -262,15 +262,33 @@ const Maindeskmenu1 = button => (
               <MainNavbarDropLi>
                 <Link to="product/universal-commerce">
                   <img src={UCIcon} />
-                  <div>Universal Commerce</div>
+                  <div>Universal Commerce Suite</div>
                 </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
+                <Link to="product/universal-retail-dashboard">
+                  <img src={UCIcon} />
+                  <div>Universal Retail Dashboard</div>
+                </Link>
+              </MainNavbarDropLi>
+              <MainNavbarDropLi>
+                <Link to="product/universal-virtual-agent">
+                  <img src={UCIcon} />
+                  <div>Universal Virtual Agent</div>
+                </Link>
+              </MainNavbarDropLi>
+              <MainNavbarDropLi>
+                <Link to="product/universal-automation-suite">
+                  <img src={UCIcon} />
+                  <div>Universal Automation Suite</div>
+                </Link>
+              </MainNavbarDropLi>
+              {/* <MainNavbarDropLi>
                 <Link to="product/dr-commerce">
                   <img src={DRCIcon} />
                   <div>Dr. Commerce</div>
                 </Link>
-              </MainNavbarDropLi>
+              </MainNavbarDropLi> */}
               <MainNavbarDropLi>
                 <Link to="product/store-fronts">
                   <img src={StoreIcon} />

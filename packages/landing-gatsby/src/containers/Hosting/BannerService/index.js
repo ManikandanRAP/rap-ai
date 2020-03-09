@@ -63,13 +63,24 @@ const BannerServicesSection = ({
           </Box>
         </Box>
       </Container>
-      <Container className="banner_container consulting_banner">
+      <Container className="banner_container Strategy_roadmap_banner">
         <Box {...row}>
           <Box {...textArea}>
-            <Heading {...title} content="Consulting" />
+            <Heading {...title} content="Strategy Roadmap" />
             <Text
               {...description}
               content="Proven, tech-savvy expertise that conquers your challenges"
+            />
+          </Box>
+        </Box>
+      </Container>
+      <Container className="banner_container Microservice_mesh_banner">
+        <Box {...row}>
+          <Box {...textArea}>
+            <Heading {...title} content="Microservice & Mesh" />
+            <Text
+              {...description}
+              content="Implement microservices with mesh for greater agility"
             />
           </Box>
         </Box>

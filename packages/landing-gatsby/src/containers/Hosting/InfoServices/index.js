@@ -178,7 +178,7 @@ const InfoServiceSection = ({
       </div>
       {/* end of Cloud Transformation */}
 
-      <div className="multi_sections_container Consulting_info_container">
+      <div className="multi_sections_container Strategy_roadmap_info_container">
         <Container>
           <Box style={{ alignItems: 'center', justifyContent: 'center' }}>
             <Box>
@@ -305,7 +305,123 @@ const InfoServiceSection = ({
           </Container>
         </Box>
       </div>
-      {/* end of Consulting */}
+      {/* end of Strategy Roadmap */}
+
+      <div className="multi_sections_container Microservice_mesh_info_container">
+        <Container>
+          <Box style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <Box>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  className="text_center"
+                  content="A New Age of Microservice & Mesh"
+                />
+                <Text
+                  {...description}
+                  content="Is your company looking to become more agile, more flexible, and increase the velocity of your development efforts? Microservices as an architectural design can meet these demands. Some companies no longer believe that the traditional monoliths are able to keep pace with changes in the market but this isn't always true. For some companies, a monolithic architecture is the best way to run their ecosystem but others can benefit greatly from a serverless microservice and mesh architecture. Cnetric has expertise in helping companies implement microservices for a multitude of advantages."
+                />
+              </Fade>
+            </Box>
+          </Box>
+          <IconParticleSection />
+          <br />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="What is Monolithic Architecture?"
+                  />
+                  <Text
+                    {...description}
+                    content="A monolith is an application that utilizes a single codebase architecture and is the traditional model for designing and developing software. It can communicate internally, maintain application state, and take advantage of shared libraries. They are highly logical, and easier to maintain. At deployment time, the entire codebase is deployed, and scaling can be difficult and they can lock you into a narrow set of technologies. So adaptability and upgrades are not that easy with monolithic architecture."
+                  />
+                </Fade>
+              </Box>
+              <Box
+                {...col}
+                {...textArea}
+                className="InfoBanner_Image_container"
+              >
+                <Fade bottom cascade>
+                  <Image
+                    src={greatervalueImg}
+                    alt="Greater Value at Lower Costs"
+                  />
+                </Fade>
+              </Box>
+            </Box>
+          </Container>
+        </Box>
+
+        <Container>
+          <Box
+            {...row}
+            style={{ alignItems: 'center', justifyContent: 'center' }}
+          >
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="What is Microservices Architecture?"
+                />
+                <Text
+                  {...description}
+                  content="Microservices has a new kind of flexibility within your applications. They are loosely coupled services that are typically lightweight, highly modular, self-contained, and technology agnostic. They can be independently deployable, highly scalable with a single focus on a business goal. Microservices tie in well with a headless model allowing swift upgrades and enabling companies to harness new technology swiftly. Cnetric has expertise in both headless models of eCommerce and microservices."
+                />
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="InfoBanner_Image_container">
+              <Fade bottom cascade>
+                <Image src={shifttowardsImg} alt="Shift towards Open Source" />
+              </Fade>
+            </Box>
+          </Box>
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Mesh is the Orchestration Layer"
+                  />
+                  <Text
+                    {...description}
+                    content="Microservices can multiply quickly and soon they may become uncontrollable simply due to the numbers. Having so many moving pieces complicates nearly every part of the stack and every part of the software development lifecycle. So a good orchestration layer also known as the Mesh is immensely important. A service mesh is a way to control how different parts of an application share data with one another. It is a dedicated infrastructure layer built right into an app. This visible infrastructure layer can document how well different parts of an app interact, so it becomes easier to optimize communication and avoid downtime as an app grows. Cnetric’s experience with microservices and mesh can help you leverage the power of microservices."
+                  />
+                </Fade>
+              </Box>
+              <Box
+                {...col}
+                {...textArea}
+                className="InfoBanner_Image_container"
+              >
+                <Fade bottom cascade>
+                  <Image
+                    src={greatervalueImg}
+                    alt="Greater Value at Lower Costs"
+                  />
+                </Fade>
+              </Box>
+            </Box>
+          </Container>
+        </Box>
+      </div>
+      {/* end of Strategy Roadmap */}
       <div className="multi_sections_container technology_info_container">
         <Container>
           <Box>

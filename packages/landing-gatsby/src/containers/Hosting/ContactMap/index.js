@@ -43,11 +43,11 @@ const ContactMap = ({
       {...sectionWrapper}
       className="Contactmap_section section_background_color"
     >
-      <Heading {...title} content="Contact Us" />
+      <Heading {...title} content="10+ Branches Across The World" />
       <Container className="Contactmap_container1">
         <Box {...row} className="ContactMap_container_row">
           <Box {...col} {...imageArea} className="ContactMap_container_col">
-           <img src={contactMapLocation} alt="contact map" />
+            <img src={contactMapLocation} alt="contact map" />
           </Box>
           <Box {...col} {...textArea} className="ContactMap_container_col2">
             <Fade bottom cascade>

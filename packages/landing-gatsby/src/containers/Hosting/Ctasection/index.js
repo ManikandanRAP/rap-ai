@@ -149,7 +149,7 @@ const Ctasection = ({ button, box_size, cta_size_container }) => {
             </Link>
           </Box>
         </Box>
-        <Box className="Cta_container iot_blockchain_page">
+        <Box className="Cta_container cta_iot_blockchain_page">
           <Box {...box_size}>
             <p>
               Embrace IoT and Block Chain today to fast forward business
@@ -162,7 +162,17 @@ const Ctasection = ({ button, box_size, cta_size_container }) => {
             </Link>
           </Box>
         </Box>
-        <Box className="Cta_container consulting_page">
+        <Box className="Cta_container cta_Strategy_roadmap_page">
+          <Box {...box_size}>
+            <p>Proven expertise that boosts your ecosystem and sales.</p>
+          </Box>
+          <Box {...box_size}>
+            <Link to="/contact">
+              <Button {...button} title="Schedule A Consultation" />
+            </Link>
+          </Box>
+        </Box>
+        <Box className="Cta_container cta_Microservice_mesh_page">
           <Box {...box_size}>
             <p>Proven expertise that boosts your ecosystem and sales.</p>
           </Box>

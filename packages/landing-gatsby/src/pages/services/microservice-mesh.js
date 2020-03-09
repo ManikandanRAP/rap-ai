@@ -18,14 +18,14 @@ import BannerServicessSection from '../../containers/Hosting/BannerService';
 import InfoServiceSection from '../../containers/Hosting/InfoServices';
 import Ctasection from '../../containers/Hosting/Ctasection';
 
-const ConsultingPage = () => {
+const MicroserviceMeshPage = () => {
   return (
     <ThemeProvider theme={hostingTheme}>
       <ParallaxProvider>
         <SEO title="Cnetric Global Inc" />
         <ResetCSS />
         <GlobalStyle />
-        <ContentWrapper className="Consulting_page">
+        <ContentWrapper className="Microservice_mesh_page">
           <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
             <DrawerProvider>
               <Navbar />
@@ -46,4 +46,4 @@ const ConsultingPage = () => {
   );
 };
 
-export default ConsultingPage;
+export default MicroserviceMeshPage;
