@@ -195,13 +195,8 @@ const Maindeskmenu1 = button => (
               <MainNavbarDropMainLi>Technology</MainNavbarDropMainLi>
               <div className="empty_space10" />
               <MainNavbarDropLi>
-<<<<<<< HEAD
                 <Link to="services/elastic-path">
                   <a>Elastic Path</a>
-=======
-                <Link to="services/elasticpath">
-                  <span>Elastic Path</span>
->>>>>>> fcec8d81bec16fc2e58b8e1d784786a93e24095e
                 </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
