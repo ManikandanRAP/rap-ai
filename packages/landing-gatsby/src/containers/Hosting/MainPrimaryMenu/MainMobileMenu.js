@@ -3,6 +3,8 @@ import { Link } from 'gatsby';
 
 import './mobilemenu.css';
 
+import leftarrow from 'common/src/assets/image/hosting/Symbols/arrow_left.png';
+
 const MainMobilemenu1 = () => {
   const goHome = () => {
     document
@@ -56,8 +58,8 @@ const MainMobilemenu1 = () => {
   return (
     <>
       <div id="Mobile_menu_container">
-        <span onClick={goHome} className="Mobile_caret_back">
-          &#9654; Home
+        <span onClick={goHome} className="icons_image">
+          <img src={leftarrow} />
         </span>
         <ul className="scrollspy__menu mobile_menu" id="mainmobilemenu">
           <li onClick={SolutionsMenu}>
@@ -67,7 +69,8 @@ const MainMobilemenu1 = () => {
             Services<span className="Mobile_caret"> &#9654;</span>
           </li>
           <li onClick={ProductsMenu}>
-            Product<span className="Mobile_caret"> &#9654;</span>
+            Product
+            <span className="Mobile_caret Mobile_caret_down"> &#9654;</span>
           </li>
           <ul
             className="scrollspy__menu mobile_menu mobile_sub_menu mobile_drop_menu"
@@ -84,7 +87,8 @@ const MainMobilemenu1 = () => {
             </Link>
           </ul>
           <li onClick={AboutsMenu}>
-            About<span className="Mobile_caret"> &#9654;</span>
+            About
+            <span className="Mobile_caret Mobile_caret_down"> &#9654;</span>
           </li>
           <ul
             className="scrollspy__menu mobile_menu mobile_sub_menu mobile_drop_menu"
@@ -110,6 +114,7 @@ const MainMobilemenu1 = () => {
           className="scrollspy__menu mobile_menu mobile_sub_menu"
           id="solutionsmenu"
         >
+          <li className="submenu_heading">Solutions</li>
           <ul>
             <li onClick={SolutionsSubMenu}>
               Business Model <span className="Mobile_caret"> &#9654;</span>
@@ -184,6 +189,7 @@ const MainMobilemenu1 = () => {
           className="scrollspy__menu mobile_menu mobile_sub_menu"
           id="servicesmenu"
         >
+          <li className="submenu_heading">Services</li>
           <ul>
             <li onClick={ServicesSubMenu}>
               Strategy <span className="Mobile_caret"> &#9654;</span>

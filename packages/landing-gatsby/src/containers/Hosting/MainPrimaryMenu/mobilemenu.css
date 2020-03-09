@@ -15,6 +15,9 @@
   color: #fff;
   display: none;
 }
+.Mobile_caret.Mobile_caret_down {
+  transform: rotate(90deg);
+}
 .sub_Menu .Mobile_caret_back {
   display: block;
 }
@@ -39,4 +42,35 @@
   height: 100%;
   visibility: visible;
   opacity: 1;
+}
+
+.icons_image {
+  position: absolute;
+  top: 4%;
+  padding-left: 30px;
+  filter: brightness(0) invert(1);
+  display: none;
+}
+.sub_Menu .icons_image {
+  display: block;
+}
+.icons_image img {
+  max-width: 20px;
+  filter: brightness(0) invert(1);
+}
+.submenu_heading {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 18px;
+  position: relative;
+}
+.submenu_heading:before {
+  content: '';
+  width: 40px;
+  height: 2px;
+  background: white;
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
