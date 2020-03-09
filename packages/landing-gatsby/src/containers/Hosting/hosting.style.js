@@ -613,8 +613,16 @@ export const ContentWrapper = styled.div`
       background-image: url(${socialcommercebanner_image});
     }
   }
-  &.Consulting_page {
-    .container.banner_container.consulting_banner {
+  &.Strategy_roadmap_page {
+    .container.banner_container.Strategy_roadmap_banner {
+      display: block;
+    }
+    #banner_section {
+      background-image: url(${socialcommercebanner_image});
+    }
+  }
+  &.Microservice_mesh_page {
+    .container.banner_container.Microservice_mesh_banner {
       display: block;
     }
     #banner_section {

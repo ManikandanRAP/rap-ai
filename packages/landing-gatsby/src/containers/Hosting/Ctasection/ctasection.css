@@ -42,11 +42,12 @@
 .Social_commerce_page .cta_social_commerce_page,
 .Order_Management_page .cta_order_management_page,
 .Technology_page .cta_order_management_page,
-.IOT_blockchain_page .iot_blockchain_page,
+.IOT_blockchain_page .cta_iot_blockchain_page,
 .Digital_experience_page .cta_digital_experience_page,
 .Marketing_page .cta_marketing_page,
 .Experience_analytics_page .cta_experience_analytics_page,
-.Consulting_page .cta_consulting_page {
+.Strategy_roadmap_page .cta_Strategy_roadmap_page,
+.Microservice_mesh_page .cta_Microservice_mesh_page {
   display: flex;
 }
 

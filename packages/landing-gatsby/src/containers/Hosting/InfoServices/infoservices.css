@@ -22,9 +22,12 @@
 .Social_commerce_page
   #info_services
   .multi_sections_container.social_commerce_info_container,
-.Consulting_page
+.Strategy_roadmap_page
   #info_services
-  .multi_sections_container.Consulting_info_container {
+  .multi_sections_container.Strategy_roadmap_info_container,
+.Microservice_mesh_page
+  #info_services
+  .multi_sections_container.Microservice_mesh_info_container {
   display: block;
 }
 .boxFill a {

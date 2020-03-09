@@ -217,34 +217,38 @@
       ]
     },
     {
-      "title": "Expertise",
+      "title": "Capability",
       "menuItems": [
         {
-          "url": "#",
-          "text": "Commerce"
+          "url": "solutions/headless-commerce/",
+          "text": "Headless Commerce"
         },
         {
-          "url": "#",
+          "url": "solutions/omnichannel/",
+          "text": "Omnichannel"
+        },
+        {
+          "url": "solutions/digital-experience-cx/",
           "text": "Digital Experience & CX"
         },
         {
-          "url": "#",
+          "url": "solutions/order-management/",
           "text": "Order Management"
         },
         {
-          "url": "#",
-          "text": "Analytics"
+          "url": "solutions/experience-analytics/",
+          "text": "Experience Analytics"
         },
         {
-          "url": "#",
+          "url": "solutions/marketing/",
           "text": "Marketing"
         },
         {
-          "url": "#",
+          "url": "solutions/automation-ai/",
           "text": "Automation & AI"
         },
         {
-          "url": "#",
+          "url": "solutions/iot-blockchain/",
           "text": "IOT & BlockChain"
         }
       ]
@@ -291,11 +295,19 @@
       "menuItems": [
         {
           "url": "#",
-          "text": "Dr.Commerce"
+          "text": "Universal Commerce Suite"
         },
         {
           "url": "#",
-          "text": "Universal Commerce"
+          "text": "Universal Retail Dashboard"
+        },
+        {
+          "url": "#",
+          "text": "Universal Virtual Agent"
+        },
+        {
+          "url": "#",
+          "text": "Universal Automation Suite"
         },
         {
           "url": "#",
