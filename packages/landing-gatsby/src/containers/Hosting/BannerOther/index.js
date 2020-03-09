@@ -17,7 +17,7 @@ import BannerWrapper4, {
   DiscountLabel,
 } from './bannerother.style';
 
-import "./bannerother.css";
+import './bannerother.css';
 
 import { search } from 'react-icons-kit/feather/search';
 
@@ -31,7 +31,6 @@ const BannerOtherSection = ({
   discountAmount,
   discountText,
 }) => {
-
   return (
     <BannerWrapper4 id="banner_section">
       <ParticlesComponent />
@@ -52,10 +51,7 @@ const BannerOtherSection = ({
       <Container className="banner_container ContactUs_banner">
         <Box {...row}>
           <Box {...textArea}>
-            <Heading
-              {...title}
-              content="Contact us"
-            />
+            <Heading {...title} content="Contact us" />
             <Text
               {...description}
               content=" Give us a call, drop us an email, or fill out the form below to get in touch. We endeavour to answer all enquiries within 24 hours on business days."
@@ -80,10 +76,7 @@ const BannerOtherSection = ({
       <Container className="banner_container ourTeam_banner">
         <Box {...row}>
           <Box {...textArea}>
-            <Heading
-              {...title}
-              content="Our Team"
-            />
+            <Heading {...title} content="Our Team" />
             <Text
               {...description}
               content="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
@@ -94,10 +87,7 @@ const BannerOtherSection = ({
       <Container className="banner_container Partner_banner">
         <Box {...row}>
           <Box {...textArea}>
-            <Heading
-              {...title}
-              content="Partners"
-            />
+            <Heading {...title} content="Partners" />
             <Text
               {...description}
               content="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
@@ -128,7 +118,7 @@ BannerOtherSection.defaultProps = {
     justifyContent: 'center',
   },
   textArea: {
-    width: ['100%', '100%', '90%', '100%', '55%'],
+    width: ['90%', '90%', '90%', '90%', '75%'],
   },
   title: {
     fontSize: ['26px', '32px', '42px', '45px', '45px'],

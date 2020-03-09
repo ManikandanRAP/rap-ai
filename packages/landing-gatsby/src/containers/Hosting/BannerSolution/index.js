@@ -163,7 +163,7 @@ BannerSolutionsSection.defaultProps = {
     justifyContent: 'center',
   },
   textArea: {
-    width: ['100%', '100%', '90%', '100%', '55%'],
+    width: ['90%', '90%', '90%', '90%', '75%'],
   },
   title: {
     fontSize: ['26px', '32px', '42px', '45px', '45px'],

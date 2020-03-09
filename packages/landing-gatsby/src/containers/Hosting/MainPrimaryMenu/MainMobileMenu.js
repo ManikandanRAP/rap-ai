@@ -15,6 +15,20 @@ const MainMobilemenu1 = () => {
     document.getElementById('servicesmenu').style.display = 'none';
     document.getElementById('productsmenu').style.display = 'none';
     document.getElementById('aboutsmenu').style.display = 'none';
+    document.getElementById('solutionssubmenu').classList.remove('showmenu');
+    document.getElementById('solutionssubmenu2').classList.remove('showmenu');
+    document.getElementById('solutionssubmenu3').classList.remove('showmenu');
+    document.getElementById('servicessubmenu').classList.remove('showmenu');
+    document.getElementById('servicessubmenu2').classList.remove('showmenu');
+    document.getElementById('servicessubmenu3').classList.remove('showmenu');
+    document.getElementById('sol_arrow_down').classList.remove('arrowtoggle');
+    document.getElementById('sol2_arrow_down').classList.remove('arrowtoggle');
+    document.getElementById('sol3_arrow_down').classList.remove('arrowtoggle');
+    document.getElementById('ser_arrow_down').classList.remove('arrowtoggle');
+    document.getElementById('ser2_arrow_down').classList.remove('arrowtoggle');
+    document.getElementById('ser3_arrow_down').classList.remove('arrowtoggle');
+    document.getElementById('about_arrow_down').classList.remove('arrowtoggle');
+    document.getElementById('prod_arrow_down').classList.remove('arrowtoggle');
   };
 
   const SolutionsMenu = () => {
@@ -24,12 +38,15 @@ const MainMobilemenu1 = () => {
   };
   const SolutionsSubMenu = () => {
     document.getElementById('solutionssubmenu').classList.toggle('showmenu');
+    document.getElementById('sol_arrow_down').classList.toggle('arrowtoggle');
   };
   const SolutionsSubMenu2 = () => {
     document.getElementById('solutionssubmenu2').classList.toggle('showmenu');
+    document.getElementById('sol2_arrow_down').classList.toggle('arrowtoggle');
   };
   const SolutionsSubMenu3 = () => {
     document.getElementById('solutionssubmenu3').classList.toggle('showmenu');
+    document.getElementById('sol3_arrow_down').classList.toggle('arrowtoggle');
   };
   // solution
   const ServicesMenu = () => {
@@ -39,20 +56,25 @@ const MainMobilemenu1 = () => {
   };
   const ServicesSubMenu = () => {
     document.getElementById('servicessubmenu').classList.toggle('showmenu');
+    document.getElementById('ser_arrow_down').classList.toggle('arrowtoggle');
   };
   const ServicesSubMenu2 = () => {
     document.getElementById('servicessubmenu2').classList.toggle('showmenu');
+    document.getElementById('ser2_arrow_down').classList.toggle('arrowtoggle');
   };
   const ServicesSubMenu3 = () => {
     document.getElementById('servicessubmenu3').classList.toggle('showmenu');
+    document.getElementById('ser3_arrow_down').classList.toggle('arrowtoggle');
   };
   // services
   const ProductsMenu = () => {
     document.getElementById('productsmenu').classList.toggle('showmenu');
+    document.getElementById('prod_arrow_down').classList.toggle('arrowtoggle');
   };
   // products
   const AboutsMenu = () => {
     document.getElementById('aboutsmenu').classList.toggle('showmenu');
+    document.getElementById('about_arrow_down').classList.toggle('arrowtoggle');
   };
   // about
   return (
@@ -63,24 +85,38 @@ const MainMobilemenu1 = () => {
         </span>
         <ul className="scrollspy__menu mobile_menu" id="mainmobilemenu">
           <li onClick={SolutionsMenu}>
-            Solutions<span className="Mobile_caret"> &#9654;</span>
+            Solutions
+            <span className="Mobile_caret">
+              <li className="fa fa-chevron-right" />
+            </span>
           </li>
           <li onClick={ServicesMenu}>
-            Services<span className="Mobile_caret"> &#9654;</span>
+            Services
+            <span className="Mobile_caret">
+              <li className="fa fa-chevron-right" />
+            </span>
           </li>
           <li onClick={ProductsMenu}>
             Product
-            <span className="Mobile_caret Mobile_caret_down"> &#9654;</span>
+            <span className="Mobile_caret Mobile_caret_down">
+              <li id="prod_arrow_down" className="fa fa-chevron-down" />
+            </span>
           </li>
           <ul
             className="scrollspy__menu mobile_menu mobile_sub_menu mobile_drop_menu"
             id="productsmenu"
           >
-            <Link to="/services/universal-commerce">
-              <li>Universal Commerce</li>
+            <Link to="/services/universal-commerce-suite">
+              <li>Universal Commerce Suite</li>
             </Link>
-            <Link to="/services/dr-commerce">
-              <li>DR. Commerce</li>
+            <Link to="/services/universal-retail-dashboard">
+              <li>Universal Retail Dashboard</li>
+            </Link>
+            <Link to="/services/universal-virtual-agent">
+              <li>Universal Virtual Agent</li>
+            </Link>
+            <Link to="/services/universal-automation-suite">
+              <li>Universal Automation Suite</li>
             </Link>
             <Link to="/services/store-fronts">
               <li>Store Fronts</li>
@@ -88,7 +124,9 @@ const MainMobilemenu1 = () => {
           </ul>
           <li onClick={AboutsMenu}>
             About
-            <span className="Mobile_caret Mobile_caret_down"> &#9654;</span>
+            <span className="Mobile_caret Mobile_caret_down">
+              <li id="about_arrow_down" className="fa fa-chevron-down" />
+            </span>
           </li>
           <ul
             className="scrollspy__menu mobile_menu mobile_sub_menu mobile_drop_menu"
@@ -117,7 +155,10 @@ const MainMobilemenu1 = () => {
           <li className="submenu_heading">Solutions</li>
           <ul>
             <li onClick={SolutionsSubMenu}>
-              Business Model <span className="Mobile_caret"> &#9654;</span>
+              Business Model{' '}
+              <span className="Mobile_caret">
+                <li id="sol_arrow_down" className="fa fa-chevron-right" />
+              </span>
             </li>
             <ul className="mobile_drop_menu" id="solutionssubmenu">
               <Link to="/solutions/b2c">
@@ -133,7 +174,10 @@ const MainMobilemenu1 = () => {
           </ul>
           <ul>
             <li onClick={SolutionsSubMenu2}>
-              Industry <span className="Mobile_caret"> &#9654;</span>
+              Industry{' '}
+              <span className="Mobile_caret">
+                <li id="sol2_arrow_down" className="fa fa-chevron-right" />
+              </span>
             </li>
             <ul className="mobile_drop_menu" id="solutionssubmenu2">
               <Link to="/solutions/retail">
@@ -155,7 +199,10 @@ const MainMobilemenu1 = () => {
           </ul>
           <ul>
             <li onClick={SolutionsSubMenu3}>
-              Expertise <span className="Mobile_caret"> &#9654;</span>
+              Capability{' '}
+              <span className="Mobile_caret">
+                <li id="sol3_arrow_down" className="fa fa-chevron-right" />
+              </span>
             </li>
             <ul className="mobile_drop_menu" id="solutionssubmenu3">
               <Link to="/solutions/headless-commerce/">
@@ -192,11 +239,17 @@ const MainMobilemenu1 = () => {
           <li className="submenu_heading">Services</li>
           <ul>
             <li onClick={ServicesSubMenu}>
-              Strategy <span className="Mobile_caret"> &#9654;</span>
+              Consulting{' '}
+              <span className="Mobile_caret">
+                <li id="ser_arrow_down" className="fa fa-chevron-right" />
+              </span>
             </li>
             <ul className="mobile_drop_menu" id="servicessubmenu">
-              <Link to="/services/consulting">
-                <li>Consulting</li>
+              <Link to="/services/dr-commerce">
+                <li>Dr. Commerce</li>
+              </Link>
+              <Link to="/services/strategy-roadmap">
+                <li>Strategy & Roadmap</li>
               </Link>
               <Link to="/services/analytics-insights">
                 <li>Analytics & Insights</li>
@@ -220,7 +273,10 @@ const MainMobilemenu1 = () => {
           </ul>
           <ul>
             <li onClick={ServicesSubMenu2}>
-              Delivery <span className="Mobile_caret"> &#9654;</span>
+              Delivery{' '}
+              <span className="Mobile_caret">
+                <li id="ser2_arrow_down" className="fa fa-chevron-right" />
+              </span>
             </li>
             <ul className="mobile_drop_menu" id="servicessubmenu2">
               <Link to="/services/agile-teams">
@@ -236,7 +292,10 @@ const MainMobilemenu1 = () => {
           </ul>
           <ul>
             <li onClick={ServicesSubMenu3}>
-              Technology <span className="Mobile_caret"> &#9654;</span>
+              Technology{' '}
+              <span className="Mobile_caret">
+                <li id="ser3_arrow_down" className="fa fa-chevron-right" />
+              </span>
             </li>
             <ul className="mobile_drop_menu" id="servicessubmenu3">
               <Link to="/services/elastic-path">

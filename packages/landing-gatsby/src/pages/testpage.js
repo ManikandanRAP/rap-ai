@@ -62,7 +62,18 @@ export default () => {
           <IconTextSection />
           <InfoSolutionTestSection content1={b2ctest} />
           <InfoSolutionTestSection content1={b2btest} />
-          {console.log(b2ctest)}
+
+          <div>
+            <form
+              action="https://getform.io/f/e64ebaae-e4a4-4591-b2c2-8b0fe4604fa0"
+              method="POST"
+            >
+              <input type="text" name="name" />
+              <input type="email" name="email" />
+              <input type="tel" name="tel" />
+              <button type="submit">Send</button>
+            </form>
+          </div>
           {/* <BannerSection />
           
           

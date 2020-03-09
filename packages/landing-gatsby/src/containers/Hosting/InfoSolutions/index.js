@@ -1731,7 +1731,8 @@ InfoSolutionSection.defaultProps = {
   },
   description: {
     fontSize: ['16px', '18px', '18px', '18px', '18px'],
-    color: '#343d48cc',
+    // color: '#343d48cc',
+    color: '#252525',
     lineHeight: '1.5',
     mb: '15px',
   },
