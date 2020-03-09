@@ -33,6 +33,11 @@ import GlideSlider1 from '../containers/Hosting/GlideSlider1/index';
 // import GlideMaqure from '../containers/Hosting/GlideMarque';
 import IconTextSection from '../containers/Hosting/IconText';
 
+import InfoSolutionTestSection from '../containers/Hosting/TestSection';
+
+import b2ctest from '../containers/Hosting/TestSection/b2c';
+import b2btest from '../containers/Hosting/TestSection/b2b';
+
 // var FontAwesome = require('react-fontawesome');
 
 export default () => {
@@ -55,6 +60,9 @@ export default () => {
           <FeatureSection />
           {/* <ServicesSection2 /> */}
           <IconTextSection />
+          <InfoSolutionTestSection content1={b2ctest} />
+          <InfoSolutionTestSection content1={b2btest} />
+          {console.log(b2ctest)}
           {/* <BannerSection />
           
           
@@ -76,8 +84,8 @@ export default () => {
         <div id="footerWrapper" className="copyright">
           <p style={{ textAlign: 'center' }}>
             Copyright 2020 @Cnetric Global. All Rights Reserved.
+            <i className="fa fa-facebook-square" />
           </p>
-          <i class="fa fa-facebook"></i>
           {/* <FontAwesome
             className="super-crazy-colors"
             name="rocket"

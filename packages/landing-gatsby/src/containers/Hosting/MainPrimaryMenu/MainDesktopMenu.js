@@ -30,7 +30,7 @@ const Maindeskmenu1 = button => (
     <MainNavbarUl className="scrollspy__menu main_menu">
       <MainNavbarLi className="firstmenu">
         <span className="main_menu_head">
-          Solutions <span class="desk_arrow_down">&#9660;</span>
+          Solutions <span className="desk_arrow_down">&#9660;</span>
         </span>
         <MainNavbarDropBox className="desktop_menu_drop_effect">
           <MainNavFlexbox className="Desktop_menu_shadow">
@@ -117,7 +117,10 @@ const Maindeskmenu1 = button => (
                   </Link>
                 </Box>
                 <Box className="featured_Menu_col featured_Menu_col2">
-                  <img src={imageFeatureMenu} />
+                  <img
+                    src={imageFeatureMenu}
+                    alt="universal commerce features"
+                  />
                 </Box>
               </Box>
             </MainNavbarDropUl>
@@ -126,7 +129,7 @@ const Maindeskmenu1 = button => (
       </MainNavbarLi>
       <MainNavbarLi>
         <span className="main_menu_head">
-          Services <span class="desk_arrow_down">&#9660;</span>
+          Services <span className="desk_arrow_down">&#9660;</span>
         </span>
         <MainNavbarDropBox className="desktop_menu_drop_effect">
           <MainNavFlexbox className="Desktop_menu_shadow">
@@ -192,8 +195,13 @@ const Maindeskmenu1 = button => (
               <MainNavbarDropMainLi>Technology</MainNavbarDropMainLi>
               <div className="empty_space10" />
               <MainNavbarDropLi>
+<<<<<<< HEAD
                 <Link to="services/elastic-path">
                   <a>Elastic Path</a>
+=======
+                <Link to="services/elasticpath">
+                  <span>Elastic Path</span>
+>>>>>>> fcec8d81bec16fc2e58b8e1d784786a93e24095e
                 </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
@@ -245,7 +253,7 @@ const Maindeskmenu1 = button => (
                   </Link>
                 </Box>
                 <Box className="featured_Menu_col featured_Menu_col2">
-                  <img src={imageFeatureMenu} />
+                  <img src={imageFeatureMenu} alte="dr commerce feature" />
                 </Box>
               </Box>
             </MainNavbarDropUl>
@@ -254,7 +262,7 @@ const Maindeskmenu1 = button => (
       </MainNavbarLi>
       <MainNavbarLi className="Menu_position_rel">
         <span className="main_menu_head">
-          Product <span class="desk_arrow_down">&#9660;</span>
+          Product <span className="desk_arrow_down">&#9660;</span>
         </span>
         <MainNavbarDropBox className="Menu_desktop_set desktop_menu_drop_effect">
           <MainNavFlexbox className="Menu_desktop_box Desktop_menu_shadow">
@@ -285,13 +293,13 @@ const Maindeskmenu1 = button => (
               </MainNavbarDropLi>
               {/* <MainNavbarDropLi>
                 <Link to="product/dr-commerce">
-                  <img src={DRCIcon} />
+                  <img src={DRCIcon} alte="dr commerce" />
                   <div>Dr. Commerce</div>
                 </Link>
               </MainNavbarDropLi> */}
               <MainNavbarDropLi>
                 <Link to="product/store-fronts">
-                  <img src={StoreIcon} />
+                  <img src={StoreIcon} alt="store fronts" />
                   <div>Store Fronts</div>
                 </Link>
               </MainNavbarDropLi>
@@ -328,7 +336,7 @@ const Maindeskmenu1 = button => (
       </MainNavbarLi>
       <MainNavbarLi className="Menu_position_rel">
         <span className="main_menu_head">
-          About <span class="desk_arrow_down">&#9660;</span>
+          About <span className="desk_arrow_down">&#9660;</span>
         </span>
         {/* <Link to="/about">
                     <span>About</span>
@@ -338,25 +346,25 @@ const Maindeskmenu1 = button => (
             <MainNavbarDropUl className="Desktop_Menu_stepped2">
               <MainNavbarDropLi>
                 <Link to="about/company">
-                  <img src={CompanyIcon} />
+                  <img src={CompanyIcon} alt="company" />
                   <div>Company</div>
                 </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
                 <Link to="about/partners">
-                  <img src={PartnersIcon} />
+                  <img src={PartnersIcon} alt="partners" />
                   <div>Partners</div>
                 </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
                 <Link to="about/customers">
-                  <img src={CustomersIcon} />
+                  <img src={CustomersIcon} alt="customers" />
                   <div>Customers</div>
                 </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
                 <Link to="about/media&whitepapers">
-                  <img src={MediaIcon} />
+                  <img src={MediaIcon} alt="Media" />
                   <div>Media & White Papers</div>
                 </Link>
               </MainNavbarDropLi>
