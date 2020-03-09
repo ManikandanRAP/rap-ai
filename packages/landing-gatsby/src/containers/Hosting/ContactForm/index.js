@@ -11,9 +11,9 @@ import Container from 'common/src/components/UI/Container';
 
 import contactMap from './contactMap.svg';
 
-import { Link } from "gatsby"
+import { Link } from 'gatsby';
 
-import "./contactform.css";
+import './contactform.css';
 
 const ContactFormSection = ({
   sectionWrapper,
@@ -34,42 +34,33 @@ const ContactFormSection = ({
   return (
     <Box {...sectionWrapper} id="Contact_Form">
       <Container>
-        <Heading
+        {/* <Heading
           {...title}
           content="Contact Us"
           className="text_center"
-        />
+        /> */}
         <div className="empty_space20" />
-        <Box {...row} style={{ alignItems: 'center', justifyContent: 'center' }}>
+        <Box
+          {...row}
+          style={{ alignItems: 'center', justifyContent: 'center' }}
+        >
           <Box {...col} {...textArea}>
             <Fade bottom cascade>
               <Box id="contactLocations">
                 <Image src={contactMap} alt="Contact map" />
                 <div className="empty_space25" />
-                <Text
-                  {...description2}
-                  content="Cnetric Global Inc."
-                />
+                <Text {...description2} content="Cnetric Global Inc." />
                 <Text
                   {...description2}
                   content="300 Spectrum Center Dr., Suite 400, Irvine, CA 92618"
                 />
-                <Text
-                  {...description2}
-                  content="P: +1 (415) 806-2739‬"
-                />
-                <Text
-                  {...description2}
-                  content="E: info@cnetric.com"
-                />
+                <Text {...description2} content="P: +1 (415) 806-2739‬" />
+                <Text {...description2} content="E: info@cnetric.com" />
                 <Text
                   {...description}
                   content="(Dennis Menendez, SVP - Client Success, Americas)"
                 />
-                <Text
-                  {...description2}
-                  content="(We are also located at:)"
-                />
+                <Text {...description2} content="(We are also located at:)" />
                 <div className="empty_space10" />
               </Box>
               <Box className="contact_location_list sm">
@@ -96,12 +87,7 @@ const ContactFormSection = ({
               content="Fill in the short form and we will get back to you at the earliest"
             />
             <Fade bottom cascade>
-              <form
-                id="contactForm2"
-                name="contact"
-                method="POST"
-                action="#"
-              >
+              <form id="contactForm2" name="contact" method="POST" action="#">
                 <Box className="form_fields">
                   <Input
                     inputType="text"
@@ -128,7 +114,6 @@ const ContactFormSection = ({
                     isMaterial={false}
                     aria-label="phone"
                     name="phone"
-
                   />
                   <Input
                     inputType="text"
@@ -159,11 +144,7 @@ const ContactFormSection = ({
                   className="messagebox"
                 />
                 <div className="empty_space20" />
-                <Button
-                  {...button}
-                  title="SUBMIT"
-                  type="submit"
-                />
+                <Button {...button} title="SUBMIT" type="submit" />
                 <div className="empty_space20" />
               </form>
             </Fade>

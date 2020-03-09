@@ -40,8 +40,10 @@ export const GlobalStyle = createGlobalStyle`
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      background-color: #27296c;
       @media (max-width: 767px) {
-        padding: 50px 40px 30px 40px;
+        // padding: 50px 40px 30px 40px;
+        padding: 50px 0;
       }
       .mobile_menu {
         margin-bottom: 40px;
@@ -50,14 +52,17 @@ export const GlobalStyle = createGlobalStyle`
           margin-bottom: 30px;
         }
         li{
-          margin-bottom: 35px;
+          // margin-bottom: 35px;
+          color: #fff;
           @media (max-width: 767px) {
-            margin-bottom: 25px;
+            // margin-bottom: 25px;
+            padding: 10px 25px;
           }
           a{
             font-size: 20px;
             font-weight: 400;
-            color: #343d48;
+            // color: #343d48;
+            color: #fff;
             position: relative;
             transition: 0.15s ease-in-out;
             @media (max-width: 767px) {

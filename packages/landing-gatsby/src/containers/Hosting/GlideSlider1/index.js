@@ -41,10 +41,10 @@ const GlideSlider1 = ({ secTitleWrapper, secText, secHeading }) => {
 
   const glide1option = {
     type: 'carousel',
-    autoplay: 2000,
+    autoplay: 1000,
     perView: 5,
     gap: 0,
-    animationDuration: 1000,
+    animationDuration: 3000,
     animationTimingFunc: 'linear',
     peek: {
       before: 100,
@@ -69,10 +69,10 @@ const GlideSlider1 = ({ secTitleWrapper, secText, secHeading }) => {
   };
   const glide2option = {
     type: 'carousel',
-    autoplay: 2000,
+    autoplay: 1000,
     perView: 5,
     gap: 0,
-    animationDuration: 1000,
+    animationDuration: 3000,
     animationTimingFunc: 'linear',
     peek: {
       before: 100,
