@@ -92,7 +92,6 @@ const ContactFormSection = ({
                 name="contact"
                 method="POST"
                 data-netlify="true"
-                data-netlify-honeypot="bot-field"
               >
                 <Box className="form_fields">
                   <Input

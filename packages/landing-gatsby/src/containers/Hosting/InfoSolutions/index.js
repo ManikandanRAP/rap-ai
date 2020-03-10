@@ -1073,14 +1073,14 @@ const InfoSolutionSection = ({
                   {...title}
                   style={{ marginBottom: '10px' }}
                   className="text_center"
-                  content="Digital Experience (DX)  & Customer Experience (CX)"
+                  content="Digital Experience (DX)  & Customer Experience (CX) For Greater Sales"
                 />
-                <Text
+                {/* <Text
                   {...subtitle}
                   className="text_center"
                   style={{ fontWeight: '17px' }}
                   content="For Greater Sales"
-                />
+                /> */}
                 <Text
                   {...description}
                   className="intro_text_container"
