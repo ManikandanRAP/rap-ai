@@ -64,7 +64,7 @@ const InfoServiceSection = ({
             </Box>
           </Box>
           <IconParticleSection />
-          <br />
+          <div className="empty_space30" />
         </Container>
 
         <Box className="section_background_color">
@@ -95,6 +95,7 @@ const InfoServiceSection = ({
                 </Fade>
               </Box>
             </Box>
+            <div className="empty_space30" />
           </Container>
         </Box>
 
@@ -118,6 +119,7 @@ const InfoServiceSection = ({
               </Fade>
             </Box>
           </Box>
+          <div className="empty_space30" />
         </Container>
 
         <Box className="section_background_color">
@@ -146,6 +148,7 @@ const InfoServiceSection = ({
               </Box>
             </Box>
           </Container>
+          <div className="empty_space30" />
         </Box>
 
         <Container>
@@ -174,6 +177,7 @@ const InfoServiceSection = ({
               </Fade>
             </Box>
           </Box>
+          <div className="empty_space30" />
         </Container>
       </div>
       {/* end of Cloud Transformation */}
@@ -190,13 +194,14 @@ const InfoServiceSection = ({
                 />
                 <Text
                   {...description}
+                  className="intro_text_container"
                   content="Cnetric’s specialized ecommerce consultants hold extensive experience with regard to ecommerce strategy, integrations, migrations and support. We make use of advanced tools and technologies to provide data-driven, innovative, focused and strategic solutions to handle every challenge faced by your ecommerce ecosystem. We provide customized and result-oriented solutions in every aspect of ecommerce from increasing traffic and conversions, enhancing customer experience, retargeting customers, streamlining operational activities, etc."
                 />
               </Fade>
             </Box>
           </Box>
           <IconParticleSection />
-          <br />
+          <div className="empty_space20" />
         </Container>
 
         <Box className="section_background_color">
@@ -230,6 +235,7 @@ const InfoServiceSection = ({
                 </Fade>
               </Box>
             </Box>
+            <div className="empty_space30" />
           </Container>
         </Box>
 
@@ -268,6 +274,7 @@ const InfoServiceSection = ({
               </Fade>
             </Box>
           </Box>
+          <div className="empty_space30" />
         </Container>
 
         <Box className="section_background_color">
@@ -301,7 +308,7 @@ const InfoServiceSection = ({
               </Box>
             </Box>
             <IconParticleSection />
-            <br />
+            <div className="empty_space30" />
           </Container>
         </Box>
       </div>
@@ -319,13 +326,14 @@ const InfoServiceSection = ({
                 />
                 <Text
                   {...description}
+                  className="intro_text_container"
                   content="Is your company looking to become more agile, more flexible, and increase the velocity of your development efforts? Microservices as an architectural design can meet these demands. Some companies no longer believe that the traditional monoliths are able to keep pace with changes in the market but this isn't always true. For some companies, a monolithic architecture is the best way to run their ecosystem but others can benefit greatly from a serverless microservice and mesh architecture. Cnetric has expertise in helping companies implement microservices for a multitude of advantages."
                 />
               </Fade>
             </Box>
           </Box>
           <IconParticleSection />
-          <br />
+          <div className="empty_space20" />
         </Container>
 
         <Box className="section_background_color">
@@ -359,6 +367,7 @@ const InfoServiceSection = ({
                 </Fade>
               </Box>
             </Box>
+            <div className="empty_space30" />
           </Container>
         </Box>
 
@@ -385,6 +394,7 @@ const InfoServiceSection = ({
               </Fade>
             </Box>
           </Box>
+          <div className="empty_space30" />
         </Container>
 
         <Box className="section_background_color">
@@ -418,10 +428,146 @@ const InfoServiceSection = ({
                 </Fade>
               </Box>
             </Box>
+            <div className="empty_space30" />
           </Container>
         </Box>
       </div>
-      {/* end of Strategy Roadmap */}
+      {/* end of Microservice Mesh */}
+
+      <div className="multi_sections_container Dr_Commerce_info_container">
+        <Container>
+          <Box style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <Box>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  className="text_center"
+                  content="Personalized Care for Your eCommerce System"
+                />
+                <Text
+                  {...description}
+                  className="intro_text_container"
+                  content="You want to be at the top of the eCommerce game, but maybe your platform isn’t up to speed. Count on Dr. Commerce to heal your e-commerce woes and prescribe the latest digital innovation that supercharges your eCommerce technology increasing engagement, reducing churn and uncovering hidden insights. Our personalized expertise is tailored to optimize, modernize and maximize your eCommerce ecosystem."
+                />
+              </Fade>
+            </Box>
+          </Box>
+          <IconParticleSection />
+          <br />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading {...title} content="Business Health Check" />
+                  <Text
+                    {...description}
+                    content="Are you meeting your online business Key Performance Indicators (KPIs)? And even if you are, is your competition growing faster and grabbing more market share?  Engage Cnetric's Dr. Commerce to review your current online history and ailing KPIs. Using worldwide industry best practices, Dr. Commerce will then prescribe remedies to quickly improve your success. Once your immediate business ailments have been addressed, we recommend coming back for a broader Business Strategy Review to look at how you can reach your peak omnichannel performance."
+                  />
+                </Fade>
+              </Box>
+              <Box
+                {...col}
+                {...textArea}
+                className="InfoBanner_Image_container"
+              >
+                <Fade bottom cascade>
+                  <Image
+                    src={greatervalueImg}
+                    alt="Greater Value at Lower Costs"
+                  />
+                </Fade>
+              </Box>
+            </Box>
+          </Container>
+          <div className="empty_space30" />
+        </Box>
+
+        <Container>
+          <Box
+            {...row}
+            style={{ alignItems: 'center', justifyContent: 'center' }}
+          >
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading {...title} content="Technical Health Check" />
+                <Text
+                  {...description}
+                  content="If your site is currently experiencing any technical errors or outages, we need to take care of those first. Not only are those technical issues holding you back from realizing your current storefront's potential, but they would also inhibit any changes from improving your overall success as well.  Engage Cnetric's Dr. Commerce to review your error logs to look for time outs, lost connections, and slow responses. Dr. Commerce's technical team can then prescribe improvements to configuration, tuning, and customizations to eliminate the technical issues."
+                />
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="InfoBanner_Image_container">
+              <Fade bottom cascade>
+                <Image src={shifttowardsImg} alt="Shift towards Open Source" />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space30" />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading {...title} content="Business Strategy Review" />
+                  <Text
+                    {...description}
+                    content="Now let's look at the bigger picture. How effective is your Omni-Channel Customer Experience? From acquisition to conversion to retention, are you able to find, convert, and create loyal customers?  Are customers using your multiple available touchpoints in ways that inform, educate, and inspire them to make a purchase?  Engage Cnetric's Dr. Commerce to examine your industry, competition, and desired KPI's and to collaborate on an industry-leading omnichannel business strategy."
+                  />
+                </Fade>
+              </Box>
+              <Box
+                {...col}
+                {...textArea}
+                className="InfoBanner_Image_container"
+              >
+                <Fade bottom cascade>
+                  <Image
+                    src={greatervalueImg}
+                    alt="Greater Value at Lower Costs"
+                  />
+                </Fade>
+              </Box>
+            </Box>
+          </Container>
+          <div className="empty_space30" />
+        </Box>
+
+        <Container>
+          <Box
+            {...row}
+            style={{ alignItems: 'center', justifyContent: 'center' }}
+          >
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading {...title} content="Continuous Business Monitoring" />
+                <Text
+                  {...description}
+                  content="Rome wasn't built in a day, and neither will your ideal omnichannel customer journey. Plus your competition isn't standing still and customer needs and expectations change over time.  Engage Cnetric's Dr. Commerce to regularly review your progress towards your targeted omnichannel customer experience and see if any changes in strategy are required based on opportunities and threats in your environment."
+                />
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="InfoBanner_Image_container">
+              <Fade bottom cascade>
+                <Image src={shifttowardsImg} alt="Shift towards Open Source" />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space30" />
+        </Container>
+      </div>
+      {/* end of Dr. Commerce */}
+
       <div className="multi_sections_container technology_info_container">
         <Container>
           <Box>
@@ -434,6 +580,7 @@ const InfoServiceSection = ({
                 />
                 <Text
                   {...description}
+                  className="intro_text_container"
                   content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
                 />
                 <br />
@@ -463,6 +610,7 @@ const InfoServiceSection = ({
               </Fade>
             </Box>
           </Box>
+          <div className="empty_space20" />
         </Container>
 
         <Box className="section_background_color">
@@ -493,6 +641,7 @@ const InfoServiceSection = ({
                 </Fade>
               </Box>
             </Box>
+            <div className="empty_space30" />
           </Container>
         </Box>
 
@@ -522,6 +671,7 @@ const InfoServiceSection = ({
               </Fade>
             </Box>
           </Box>
+          <div className="empty_space30" />
         </Container>
       </div>
       {/* end of Social Commerce */}

@@ -174,7 +174,47 @@ const Ctasection = ({ button, box_size, cta_size_container }) => {
         </Box>
         <Box className="Cta_container cta_Microservice_mesh_page">
           <Box {...box_size}>
-            <p>Proven expertise that boosts your ecosystem and sales.</p>
+            <p>Boost your eCommerce ecosystem with microservices and mesh.</p>
+          </Box>
+          <Box {...box_size}>
+            <Link to="/contact">
+              <Button {...button} title="Schedule A Consultation" />
+            </Link>
+          </Box>
+        </Box>
+        <Box className="Cta_container cta_Dr_Commerce_page">
+          <Box {...box_size}>
+            <p>Enhance and future-proof your eCommerce system.</p>
+          </Box>
+          <Box {...box_size}>
+            <Link to="/contact">
+              <Button {...button} title="Schedule A Consultation" />
+            </Link>
+          </Box>
+        </Box>
+        <Box className="Cta_container cta_Banking_page">
+          <Box {...box_size}>
+            <p>Transform banking transactions and delight customers.</p>
+          </Box>
+          <Box {...box_size}>
+            <Link to="/contact">
+              <Button {...button} title="Schedule A Consultation" />
+            </Link>
+          </Box>
+        </Box>
+        <Box className="Cta_container cta_Food_Grocery_page">
+          <Box {...box_size}>
+            <p>Transform online food & grocery with digital innovation.</p>
+          </Box>
+          <Box {...box_size}>
+            <Link to="/contact">
+              <Button {...button} title="Schedule A Consultation" />
+            </Link>
+          </Box>
+        </Box>
+        <Box className="Cta_container cta_Retail_page">
+          <Box {...box_size}>
+            <p>Drive greater online retail sales with digital innovation.</p>
           </Box>
           <Box {...box_size}>
             <Link to="/contact">

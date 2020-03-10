@@ -140,6 +140,39 @@ const BannerSolutionsSection = ({
           </Box>
         </Box>
       </Container>
+      <Container className="banner_container Banking_banner">
+        <Box {...row}>
+          <Box {...textArea}>
+            <Heading {...title} content="Banking" />
+            <Text
+              {...description}
+              content="Delight customers with personalized transactions"
+            />
+          </Box>
+        </Box>
+      </Container>
+      <Container className="banner_container Food_Grocery_banner">
+        <Box {...row}>
+          <Box {...textArea}>
+            <Heading {...title} content="Food and Grocery" />
+            <Text
+              {...description}
+              content="Enter a new era of digital food and grocery services"
+            />
+          </Box>
+        </Box>
+      </Container>
+      <Container className="banner_container Retail_banner">
+        <Box {...row}>
+          <Box {...textArea}>
+            <Heading {...title} content="Retail" />
+            <Text
+              {...description}
+              content="Future proof your eCommerce with disruptive innovation"
+            />
+          </Box>
+        </Box>
+      </Container>
     </BannerWrapper3>
   );
 };

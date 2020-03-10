@@ -27,7 +27,10 @@
   .multi_sections_container.Strategy_roadmap_info_container,
 .Microservice_mesh_page
   #info_services
-  .multi_sections_container.Microservice_mesh_info_container {
+  .multi_sections_container.Microservice_mesh_info_container,
+.Dr_Commerce_page
+  #info_services
+  .multi_sections_container.Dr_Commerce_info_container {
   display: block;
 }
 .boxFill a {

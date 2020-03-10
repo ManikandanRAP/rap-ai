@@ -167,8 +167,8 @@ const MainMobilemenu1 = () => {
               <Link to="/solutions/b2b">
                 <li>B2B</li>
               </Link>
-              <Link to="/solutions/market-place">
-                <li>Market Place</li>
+              <Link to="/solutions/market-places">
+                <li>Market Places</li>
               </Link>
             </ul>
           </ul>

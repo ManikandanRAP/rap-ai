@@ -46,8 +46,8 @@ const Maindeskmenu1 = button => (
                 </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
-                <Link to="#">
-                  <span>Market Place</span>
+                <Link to="/solutions/market-places">
+                  <span>Market Places</span>
                 </Link>
               </MainNavbarDropLi>
             </MainNavbarDropUl>
@@ -55,19 +55,29 @@ const Maindeskmenu1 = button => (
               <MainNavbarDropMainLi>Industry</MainNavbarDropMainLi>
               <div className="empty_space10" />
               <MainNavbarDropLi>
-                <span>Retail</span>
+                <Link to="solutions/retail">
+                  <span>Retail</span>
+                </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
-                <span>Banking</span>
+                <Link to="solutions/banking">
+                  <span>Banking</span>
+                </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
-                <span>Telecom</span>
+                <Link to="solutions/telecom">
+                  <span>Telecom</span>
+                </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
-                <span>Food & Grocery</span>
+                <Link to="solutions/food-grocery">
+                  <span>Food & Grocery</span>
+                </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
-                <span>Government & Education</span>
+                <Link to="solutions/government-education">
+                  <span>Government & Education</span>
+                </Link>
               </MainNavbarDropLi>
             </MainNavbarDropUl>
             <MainNavbarDropUl>
@@ -109,8 +119,8 @@ const Maindeskmenu1 = button => (
                 <Box className="featured_Menu_col featured_Menu_col1">
                   <h4 style={{ marginTop: 0 }}>Features</h4>
                   <p>
-                    Our Universal Commerce approach ensures significantly higher
-                    rate of success than other system integrators
+                    Our Universal Commerce approach ensures a significantly
+                    higher rate of success than other system integrators.
                   </p>
                   <Link to="/contact">
                     <Button {...button} title="Learn More" />
@@ -240,8 +250,8 @@ const Maindeskmenu1 = button => (
                 <Box className="featured_Menu_col featured_Menu_col1">
                   <h4 style={{ marginTop: 0 }}>Features</h4>
                   <p>
-                    Our Universal Commerce approach ensures significantly higher
-                    rate of success than other system integrators
+                    Personalized eCommerce health check and remedies that boost
+                    your ecosystem’s health and ensure it is future proof.
                   </p>
                   <Link to="/contact">
                     <Button {...button} title="Learn More" />

@@ -85,6 +85,17 @@ const BannerServicesSection = ({
           </Box>
         </Box>
       </Container>
+      <Container className="banner_container Dr_Commerce_banner">
+        <Box {...row}>
+          <Box {...textArea}>
+            <Heading {...title} content="Dr. Commerce" />
+            <Text
+              {...description}
+              content="A personal touch to heal your eCommerce woes"
+            />
+          </Box>
+        </Box>
+      </Container>
     </BannerWrapper1>
   );
 };

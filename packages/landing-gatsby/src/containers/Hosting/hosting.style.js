@@ -358,15 +358,19 @@ export const ContentWrapper = styled.div`
     margin-left: 30px;
     & li {
       list-style-type: disc;
-      color: #343d48cc;
+      color: #252525;
       padding-bottom: 10px;
       font-size: 18px;
       line-height: inherit;
     }
   }
+  //text bold
+  .text_bold {
+    font-weight: bold;
+  }
   //intro container
   .intro_text_container {
-    width: 65%;
+    width: 75%;
     margin: 0 auto;
     text-align: justify;
   }
@@ -623,6 +627,38 @@ export const ContentWrapper = styled.div`
   }
   &.Microservice_mesh_page {
     .container.banner_container.Microservice_mesh_banner {
+      display: block;
+    }
+    #banner_section {
+      background-image: url(${socialcommercebanner_image});
+    }
+  }
+  &.Dr_Commerce_page {
+    .container.banner_container.Dr_Commerce_banner {
+      display: block;
+    }
+    #banner_section {
+      background-image: url(${socialcommercebanner_image});
+    }
+  }
+  &.Banking_page {
+    .container.banner_container.Banking_banner {
+      display: block;
+    }
+    #banner_section {
+      background-image: url(${socialcommercebanner_image});
+    }
+  }
+  &.Food_Grocery_page {
+    .container.banner_container.Food_Grocery_banner {
+      display: block;
+    }
+    #banner_section {
+      background-image: url(${socialcommercebanner_image});
+    }
+  }
+  &.Retail_page {
+    .container.banner_container.Retail_banner {
       display: block;
     }
     #banner_section {

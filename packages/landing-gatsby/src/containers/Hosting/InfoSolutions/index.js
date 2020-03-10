@@ -1613,6 +1613,557 @@ const InfoSolutionSection = ({
         </Container>
       </div>
       {/* end of order management */}
+
+      <div className="multi_sections_container Banking_info_container">
+        <Container>
+          <Box style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <Box>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  className="text_center"
+                  content="Banks Are Relying On Hyper-Personalized Experience"
+                />
+                <Text
+                  {...description}
+                  className="intro_text_container"
+                  content="Digital transformation has changed the landscape of retail banking. With a view to differentiate and deliver outstanding services encouraging loyalty and customer satisfaction, retail banks should apply advanced analytics on data consolidated from disjointed systems across the organization to set up connected consumer intelligence. Banks should study and leverage data on customers’ behavioral patterns, goals, sentiments and propensities across all digital and physical channels at every stage of the customers’ journey.  With hyper-personalization, achieved through Connected Consumer Intelligence, contextual targeting at the appropriate time and space allows the organizations to build sustainable customer engagement and loyalty with the firm."
+                />
+                <div className="empty_space20" />
+                <Text
+                  {...description}
+                  className="intro_text_container"
+                  content="Cnetric has embraced this evolution and has partnered with Tata Consultancy Services (TCS) Digital Software & Solutions Group (DS&S) on their Customer Intelligence &Insights (CI&I) for banking software solutions. TCS’s Customer Intelligence & Insights for Banks (CI&I Banks) is an advanced, big data enabled customer analytics platform that delivers data driven & actionable customer insights for more engaging personalized experience for your customers."
+                />
+              </Fade>
+            </Box>
+          </Box>
+          <IconParticleSection />
+          <div className="empty_space20" />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Creating Connected Consumer Experiences"
+                  />
+                  <Text
+                    {...description}
+                    content="Customers look for experiences that surpass traditional boundaries and there is a shift towards connected experiences. TCS’s CI&I Banks allow customers to go through connected consumer experiences delivered by utilizing customer insights at an individual level. With its implementation, retail banks are able to engage in intelligent customer conversations, ameliorate customer on-boarding experience, tone down attrition and dormancy and enhance value to customers."
+                  />
+                </Fade>
+              </Box>
+              <Box
+                {...col}
+                {...textArea}
+                className="InfoBanner_Image_container"
+              >
+                <Fade bottom cascade>
+                  <Image src={IotImage2} alt="Greater Value at Lower Costs" />
+                </Fade>
+              </Box>
+            </Box>
+          </Container>
+          <div className="empty_space30" />
+        </Box>
+
+        <Container>
+          <Box
+            {...row}
+            style={{ alignItems: 'center', justifyContent: 'center' }}
+          >
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="Grow and Retain Newly Acquired Customers"
+                />
+                <Text
+                  {...description}
+                  content="With advanced Machine Learning algorithms factoring in the customers’ pattern of transactions and interactions, the next best actions and offers are suggested and recommended products are displayed. These personalized suggestions tailored based on customer history have a stronger chance of winning over customers. In addition, CSAT scores help to detect and address negative experiences and improve any issues identified. This ensures a greater success rate in your hyper-targeted campaigns and suggestions that will attract and retain new customers."
+                />
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="InfoBanner_Image_container">
+              <Fade bottom cascade>
+                <Image src={IotImage2} alt="Shift towards Open Source" />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space30" />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Increase Direct Loan Originations"
+                  />
+                  <Text
+                    {...description}
+                    content="Accurate customer persona will provide demographic, value, product white space, multiple product profiles and account activities, enabling the bank to have intelligent interactions with customers who do not have a mortgage account with flag-star and help drive conversions. This also enables banks to retain existing mortgage customers, upsell checking-only customers, drive more direct to consumer mortgage loans and provide next best offer or product to buy."
+                  />
+                </Fade>
+              </Box>
+              <Box
+                {...col}
+                {...textArea}
+                className="InfoBanner_Image_container"
+              >
+                <Fade bottom cascade>
+                  <Image src={IotImage2} alt="Greater Value at Lower Costs" />
+                </Fade>
+              </Box>
+            </Box>
+          </Container>
+          <div className="empty_space30" />
+        </Box>
+
+        <Container>
+          <Box
+            {...row}
+            style={{ alignItems: 'center', justifyContent: 'center' }}
+          >
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading {...title} content="Customer & Marketing Analytics" />
+                <Text
+                  {...description}
+                  content="Customer analytics provide a complete 360 degree view of customers, customer base view, digital persona, customer scores, behavior & propensity modeling, experience alerts, next best offer, etc. Marketing analytics aid in event-based marketing, next best action and dynamic customer segmentation. These capabilities help fine tune efforts to deliver tailor-made and relevant offers and recommendations that target customers’ needs."
+                />
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="InfoBanner_Image_container">
+              <Fade bottom cascade>
+                <Image src={IotImage2} alt="Shift towards Open Source" />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space30" />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box style={{ alignItems: 'center', justifyContent: 'center' }}>
+              <Box className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Excellence in Next Gen Customer Engagement"
+                  />
+                  <Text
+                    {...description}
+                    content="CI&I deliver advanced customer stratification capabilities to make targeted and contextual recommendations for customers. It accomplishes primarily 3 goals:"
+                  />
+                  <ul className="list_style_disc">
+                    <li>
+                      Establish a foundation for enterprise-wide customer
+                      insights in terms of customer transaction views, customer
+                      behavioral insights by overlaying Machine Learning
+                      analytics, analyzing customer insights and iteratively
+                      learn and fine tune insights across channels as a driver
+                      for business decision support.
+                    </li>
+                    <li>
+                      Providing real time insights and context-driven
+                      recommendations to help customers fulfill goals by
+                      optimizing campaigns with persona-based stratification,
+                      improving up-sell with product affinities white space
+                      analysis, increasing customer stickiness through
+                      event-based marketing and life event & life stage
+                      detection and contextual recommendation.
+                    </li>
+                    <li>
+                      Consistent and customized experience delivery on broader
+                      life style & consumption context by developing customer
+                      profile with insights from emails, social, text and
+                      speech, creating customer journey maps for hotspot
+                      detection & care, building an eco-system of partners to
+                      provide a connected journey experience & recommendations
+                      on broader consumption context.
+                    </li>
+                  </ul>
+                </Fade>
+              </Box>
+            </Box>
+          </Container>
+          <div className="empty_space30" />
+        </Box>
+      </div>
+      {/* end of Banking */}
+
+      <div className="multi_sections_container Food_Grocery_info_container">
+        <Container>
+          <Box style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <Box>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  className="text_center"
+                  content="Revolution in the eCommerce Grocery Sector"
+                />
+                <Text
+                  {...description}
+                  className="intro_text_container"
+                  content="The next big thing in the ecommerce space is the grocery shopping sector, which is set to grow stupendously by 2020. In recent years, there has been a marked shift in the way consumers buy groceries. Based on existing trends, it is estimated that ecommerce grocery expenditure will hit $100 billion by 2022. According to reports by Food Marketing Institute and Nielsen, over 70% of U.S. households will rely on an online medium for shopping for groceries, which is an astonishing shift from 30% in 2018. Amazon is one of the eCommerce giants driving innovation in the ecommerce grocery sector thanks to convenience and speed of delivery. Organizations must keep up with this massive change and adopt alternative eCommerce strategies to stay ahead of the competition."
+                />
+              </Fade>
+            </Box>
+          </Box>
+          <IconParticleSection />
+          <div className="empty_space20" />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Omnichannel Ecommerce Grocery Shopping"
+                  />
+                  <Text
+                    {...description}
+                    content="Convenience is the key when it comes to ecommerce omnichannel grocery shopping. According to Nielsen and Rakuten, the current valuation of the omnichannel grocery market is over $1 trillion and will continue to grow at an enormous scale each year. Innovative features which empower consumers to search, research and buy at ease are going to set the standard for the organizations to stay ahead in this highly competitive space. Amazon’s Go stores or Walmart’s Click & Collect or Amazon’s Subscribe & Save are the game changers in the ecommerce arena that provide convenient and easy way online shopping. An omnichannel system opens up opportunities in terms of myriad of options and personalization for a seamless shopping experience."
+                  />
+                </Fade>
+              </Box>
+              <Box
+                {...col}
+                {...textArea}
+                className="InfoBanner_Image_container"
+              >
+                <Fade bottom cascade>
+                  <Image src={IotImage2} alt="Greater Value at Lower Costs" />
+                </Fade>
+              </Box>
+            </Box>
+          </Container>
+          <div className="empty_space30" />
+        </Box>
+
+        <Container>
+          <Box
+            {...row}
+            style={{ alignItems: 'center', justifyContent: 'center' }}
+          >
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="Revamping Logistics and Supply Chain"
+                />
+                <Text
+                  {...description}
+                  content="Organizations have realized the importance of an efficient supply chain for meeting consumer needs by providing the freshest and highest-quality ingredients quickly. Platforms which can tackle the logistical challenges that arise can effectively compete with others in the market creating greater value for the consumers. Facilities such as reliable cold-storage and fulfillment centers situated near major populated regions, drone-delivery systems that reduce transit time and predictive analytics must be implemented to increase customers’ satisfaction and trust towards online grocery shopping. They also serve to minimize any wasted groceries."
+                />
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="InfoBanner_Image_container">
+              <Fade bottom cascade>
+                <Image src={IotImage2} alt="Shift towards Open Source" />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space30" />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Hype About the Internet of Things (IoT)"
+                  />
+                  <Text
+                    {...description}
+                    content="IoT has gained momentum in recent years on account of its effortless data exchange through embedded sensors via connected devices and its widespread applications across the value chain. The Consumer Packaged Goods (CPG) companies are one of the greatest benefactors of IoT technology, driving enhanced consumer engagement via implanted sensors in the products or services. With IoT on their side, organizations can now gauge customers’ deeper motivation based on behavior and upgrade their product designs or service models. This ensures improved customer experience and enhanced brand loyalty and retention directly affecting top-line growth."
+                  />
+                </Fade>
+              </Box>
+              <Box
+                {...col}
+                {...textArea}
+                className="InfoBanner_Image_container"
+              >
+                <Fade bottom cascade>
+                  <Image src={IotImage2} alt="Greater Value at Lower Costs" />
+                </Fade>
+              </Box>
+            </Box>
+          </Container>
+          <div className="empty_space30" />
+        </Box>
+
+        <Container>
+          <Box
+            {...row}
+            style={{ alignItems: 'center', justifyContent: 'center' }}
+          >
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="Sales & Marketing Offerings for CPG"
+                />
+                <Text
+                  {...description}
+                  content="Our strategic partner, Tata Consultancy Services’ (TCS’) Sales and Marketing Solutions, serves CPG companies helping them fast-forward their sales journey, and improving ROI and product availability. They are primarily focused around business consulting, solution implementation, and support services to CPG clients."
+                />
+                <Text
+                  {...description}
+                  content="Here are their key offerings:"
+                />
+                <ul className="list_style_disc">
+                  <li>
+                    <span className="text_bold">SFDC Solutions</span>
+                    <br />
+                    SFDC (Salesforce.com) Sales, Service and Marketing Cloud
+                    Solutions propelling channel collaboration and insights to
+                    the sales force.
+                  </li>
+                  <li>
+                    <span className="text_bold">
+                      Trade Promotion Management Solutions
+                    </span>
+                    <br />
+                    Consulting and implementation services operate promotion
+                    planning, execution, evaluation, and analytics while
+                    business process services drives claims and payment
+                    management.
+                  </li>
+                  <li>
+                    <span className="text_bold">
+                      Sales Force Automation Solutions
+                    </span>
+                    <br />
+                    Automation services are implemented for managing store
+                    audits and planogram compliance while innovative retail
+                    activity optimization solutions are activated for order
+                    management and real-time planogram compliance.
+                  </li>
+                </ul>
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="InfoBanner_Image_container">
+              <Fade bottom cascade>
+                <Image src={IotImage2} alt="Shift towards Open Source" />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space30" />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box style={{ alignItems: 'center', justifyContent: 'center' }}>
+              <Box className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Advanced Business Analytics Offering for CPG"
+                  />
+                  <Text
+                    {...description}
+                    content="For better visibility across business functions, CPG companies needs to collate data from various sources into a single dashboard. Our solutions partner, TCS' Advanced Business Analytics Solutions aids businesses with actionable insights."
+                  />
+                  <Text
+                    {...description}
+                    content="Their Key offerings are as follows:"
+                  />
+                  <ul className="list_style_disc">
+                    <li>
+                      Key Account Management Analytics for accurate forecast.
+                    </li>
+                    <li>
+                      Integrated Cost Analysis Platform for analyzing product-
+                      and customer-specific cost-to-serve for presenting
+                      customer-specific profit and loss reports.
+                    </li>
+                    <li>
+                      Marketing Effectiveness Solution for measuring program
+                      effectiveness on key parameters such as key volume
+                      drivers, gross rating point (GRP) and budget allocation.
+                    </li>
+                    <li>
+                      Integrated Business Insights for real-time decisions
+                      provide actionable insights after thorough data analysis.
+                    </li>
+                    <li>
+                      Consumer Products Business Intelligence for decision
+                      support.
+                    </li>
+                    <li>
+                      Data Ingestion Platform brings about data synchronization
+                      enhancing standardization capabilities utilizing Big Data
+                      and advanced cloud analytics solutions.
+                    </li>
+                  </ul>
+                </Fade>
+              </Box>
+            </Box>
+          </Container>
+          <div className="empty_space30" />
+        </Box>
+      </div>
+      {/* end of Food & Grocery */}
+
+      <div className="multi_sections_container Retail_info_container">
+        <Container>
+          <Box style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <Box>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  className="text_center"
+                  content="eCommerce Redefined"
+                />
+                <Text
+                  {...description}
+                  className="intro_text_container"
+                  content="Ecommerce is being reborn with cutting-edge technologies like voice commerce, exclusive pop-ups, Augmented Reality-enabled shopping, online-to-offline (O2O), headless commerce and progressive web applications (PWA), etc. Smart mirrors, video games, and live streams have transformed the ecommerce landscape. The future of ecommerce looks promising with technological breakthrough and changes in consumers’ preferences."
+                />
+              </Fade>
+            </Box>
+          </Box>
+          <IconParticleSection />
+          <div className="empty_space20" />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading {...title} content="Selling Directly To Consumers" />
+                  <Text
+                    {...description}
+                    content="Direct to Consumer (DTC) selling is a growing trend. This is largely due to increasing popularity of private brands that occupy 20% of the consumables market and offer their own brands in lieu of legacy manufacturers. This is causing more traditional brands and manufacturers to opt for DTC selling. Consumers are eager for this change as it provides better value for money. With DTC, brands can own the customers, get access to first-party data for hyper-personalization and offer ultra-personalization and enjoy freedom to design their own customized products that win customers over, turning them into brand evangelists."
+                  />
+                </Fade>
+              </Box>
+              <Box
+                {...col}
+                {...textArea}
+                className="InfoBanner_Image_container"
+              >
+                <Fade bottom cascade>
+                  <Image src={IotImage2} alt="Greater Value at Lower Costs" />
+                </Fade>
+              </Box>
+            </Box>
+          </Container>
+          <div className="empty_space30" />
+        </Box>
+
+        <Container>
+          <Box
+            {...row}
+            style={{ alignItems: 'center', justifyContent: 'center' }}
+          >
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading {...title} content="Customer & User Experience" />
+                <Text
+                  {...description}
+                  content="Soon customer experience will be the top priority for any brand, even more important than pricing. A poor experience will cause customers to switch brands in the blink of an eye. In an era of omnichannel engagement and multiple avenues of shopping, you must optimize every aspect of user experience from website design to load time and payment options. Headless systems that have decoupled architecture can help you deliver a great experience anywhere a customer wants to engage like voice or social commerce. Aside from the popularity of mobile shopping, consumers are catching up with the new trend of social shopping with its varied aspects such as groups, communities, recommendations, discussions and selling products and services online. With group shopping facilities, it is possible to secure group discounts for bulk selling. Voice assistants & voice search are rapidly gaining momentum and becoming consumers’ preferred choice while shopping online. Cnetric’s expertise can help you harness these omnichannel opportunities and deliver a delightful experience that retains customers."
+                />
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="InfoBanner_Image_container">
+              <Fade bottom cascade>
+                <Image src={IotImage2} alt="Shift towards Open Source" />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space30" />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="The Promising World of Artificial Intelligence (AI)"
+                  />
+                  <Text
+                    {...description}
+                    content="AI-enabled ecommerce automation is bringing revolution across ecommerce industry, primarily by eliminating human error in managing multiple stores, streamlining cross-border commerce and top-rated shopping experience. Hyper-personalization is booming with mobile voice-related searches – most of these are locally-based. Localization is going to rule in this decade to deliver tailor-made product recommendations at the right time and place."
+                  />
+                  <Text
+                    {...description}
+                    content="AI is extensively employed in digital self-service tools, such as on websites, apps, or via chatbots. AI-powered chatbots answer customers queries extremely fast and can provide better customer service post sale.  With the ecommerce industry moving towards omnichannel marketing, AI provides personalized suggestions and support, driving greater sales. Cnetric can help you delight customers with an AI-powered, omnichannel shopping experience."
+                  />
+                </Fade>
+              </Box>
+              <Box
+                {...col}
+                {...textArea}
+                className="InfoBanner_Image_container"
+              >
+                <Fade bottom cascade>
+                  <Image src={IotImage2} alt="Greater Value at Lower Costs" />
+                </Fade>
+              </Box>
+            </Box>
+          </Container>
+          <div className="empty_space30" />
+        </Box>
+
+        <Container>
+          <Box
+            {...row}
+            style={{ alignItems: 'center', justifyContent: 'center' }}
+          >
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading {...title} content="The Power of Analytics" />
+                <Text
+                  {...description}
+                  content="Today’s tech-savvy consumers look for a superior purchase experience across all touch points with relevant and useful content. The orchestration of connected technologies and channels has the capability to capture the digital footprints of these consumers. Organizations can derive valuable insights and uncover patterns through the power of analytics utilizing Machine Learning and adaptive analytics models. With these customer insights, organizations can fine-tune customer experience at every step of their journey and deliver hyper-personalized services and products. This drives higher conversions resulting in enhanced customer satisfaction, loyalty and retention."
+                />
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="InfoBanner_Image_container">
+              <Fade bottom cascade>
+                <Image src={IotImage2} alt="Shift towards Open Source" />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space30" />
+        </Container>
+      </div>
+      {/* end of Retails */}
     </Box>
   );
 };

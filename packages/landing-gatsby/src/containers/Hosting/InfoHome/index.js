@@ -108,11 +108,11 @@ const InfoHomeSection = ({
                 <Text
                   {...subtitle}
                   style={{ fontWeight: '500' }}
-                  content="A personal touch to heal your eCommerce woes"
+                  content="For your eCommerce health today and tomorrow"
                 />
                 <Text
                   {...description}
-                  content="You want to be at the top of the eCommerce game, but maybe your platform isn’t up to speed. Count on Dr. Commerce to heal your e-commerce woes and prescribe the latest digital innovation that supercharges your eCommerce technology increasing engagement, reducing churn and uncovering hidden insights. Our personalized expertise is tailored to optimize, modernize and maximize your eCommerce ecosystem."
+                  content="Are you hitting your target eCommerce KPIs and realizing the available omnichannel opportunity in your industry? Dr. Commerce can look at your current symptoms and prescribe remedies to meet your short term online business goals. Furthermore, with a more comprehensive review, Dr. Commerce can help you prioritize longer-term actions that will bring you to peak omnichannel performance."
                 />
                 <Link to="/contact">
                   <Button {...button} title="Learn More" />

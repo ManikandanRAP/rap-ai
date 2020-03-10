@@ -47,7 +47,11 @@
 .Marketing_page .cta_marketing_page,
 .Experience_analytics_page .cta_experience_analytics_page,
 .Strategy_roadmap_page .cta_Strategy_roadmap_page,
-.Microservice_mesh_page .cta_Microservice_mesh_page {
+.Microservice_mesh_page .cta_Microservice_mesh_page,
+.Dr_Commerce_page .cta_Dr_Commerce_page,
+.Banking_page .cta_Banking_page,
+.Food_Grocery_page .cta_Food_Grocery_page,
+.Retail_page .cta_Retail_page {
   display: flex;
 }
 

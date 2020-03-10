@@ -3,7 +3,7 @@ const colors = {
   black: '#000000', // 1
   white: '#ffffff', // 2
   headingColor: '#0f2137',
-  textColor: '#5d646d', // 3
+  textColor: '#252525', // 3
   labelColor: '#767676', // 4
   inactiveField: '#f2f2f2', // 5
   inactiveButton: '#b7dbdd', // 6
