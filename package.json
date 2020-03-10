@@ -68,6 +68,7 @@
     "gatsby-plugin-nprogress": "^2.1.20",
     "google-map-react": "^1.1.6",
     "react-select": "^3.0.8",
-    "react-slick": "^0.25.2"
+    "react-slick": "^0.25.2",
+    "react-visibility-sensor": "^5.1.1"
   }
 }

@@ -7,6 +7,9 @@ import Heading from 'common/src/components/Heading';
 import Image from 'common/src/components/Image';
 import Container from 'common/src/components/UI/Container';
 
+// import CountUp from 'react-countup';
+import CountUp, { startAnimation } from 'react-countup';
+
 const StatsSection = ({
   sectionWrapper,
   row,
@@ -20,7 +23,12 @@ const StatsSection = ({
   featureBlockStyle,
   iconStyle,
   contentStyle,
+  props,
 }) => {
+  const VisibilitySensor = require('react-visibility-sensor');
+  function onChange(isVisible) {
+    console.log('Element is now %s', isVisible ? 'visible' : 'hidden');
+  }
   return (
     <Box {...sectionWrapper}>
       <Container>
@@ -37,6 +45,11 @@ const StatsSection = ({
           <Box {...row} style={{ justifyContent: 'center' }}>
             <Box {...col}>some content 1</Box>
             <Box {...col}>some content 2</Box>
+            <CountUp start={0} end={9350} duration={5} />+
+            <VisibilitySensor onChange={onChange}>
+              <div>...content goes here...</div>
+              <CountUp start={0} end={9350} duration={5} />+
+            </VisibilitySensor>
           </Box>
         </>
       </Container>
