@@ -34,6 +34,7 @@ import GlideSlider1 from '../containers/Hosting/GlideSlider1/index';
 import IconTextSection from '../containers/Hosting/IconText';
 
 import InfoSolutionTestSection from '../containers/Hosting/TestSection';
+import StatsSection from '../containers/Hosting/Stats';
 
 import b2ctest from '../containers/Hosting/TestSection/b2c';
 import b2btest from '../containers/Hosting/TestSection/b2b';
@@ -83,6 +84,7 @@ export default () => {
           <PaymentSection /> */}
           {/* <TestimonialSection /> */}
           <GlideSlider1 />
+          <StatsSection />
           {/* <GlideMaqure /> */}
           {/* <GlideSlider2 /> */}
           {/* <TestimonialSection2 /> */}
