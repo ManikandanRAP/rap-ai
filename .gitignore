@@ -23,7 +23,6 @@ yarn-error.log*
 #server file
 packages/functions/next
 package-lock.json
-yarn.lock
 .firebase
 .firebaserc
 #submodule
