@@ -87,7 +87,13 @@ const ContactFormSection = ({
               content="Fill in the short form and we will get back to you at the earliest"
             />
             <Fade bottom cascade>
-              <form id="contactForm2" name="contact" method="POST" action="#">
+              <form
+                id="contactForm2"
+                name="contact"
+                method="POST"
+                data-netlify="true"
+                data-netlify-honeypot="bot-field"
+              >
                 <Box className="form_fields">
                   <Input
                     inputType="text"
