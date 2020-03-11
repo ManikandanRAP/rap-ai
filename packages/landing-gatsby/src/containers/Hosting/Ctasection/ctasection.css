@@ -24,6 +24,7 @@
   display: none;
   max-width: 1170px;
   margin: 0 auto;
+  flex-wrap: wrap;
 }
 .Cta_container div {
   text-align: center;
@@ -51,6 +52,11 @@
 .Dr_Commerce_page .cta_Dr_Commerce_page,
 .Banking_page .cta_Banking_page,
 .Food_Grocery_page .cta_Food_Grocery_page,
+.Ibm_redhat_page .cta_Ibm_redhat_page,
+.Core_media_page .cta_Core_media_page,
+.Elatic_path_page .cta_Elatic_path_page,
+.Analytics_insight_page .cta_Analytics_insight_page,
+.FiveG_page .cta_FiveG_page,
 .Retail_page .cta_Retail_page {
   display: flex;
 }

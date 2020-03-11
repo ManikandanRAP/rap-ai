@@ -165,11 +165,13 @@ export const MainNavFlexbox = styled.div`
     }
     .featured_Menu_container .featured_Menu_col2 img{
         position: absolute;
-        max-height: 100%;
+        max-height: 400px;
         max-width: 150px;
         top: 50%;
         transform: translateY(-50%);
         right: 10%;
+        background-color: #fff;
+        // padding: 25px 0;
     }
     &.Menu_desktop_box {
         padding: 0;
@@ -177,6 +179,7 @@ export const MainNavFlexbox = styled.div`
     &.Desktop_menu_shadow {
         // box-shadow: 0 4px 15px #4a90e2;
         box-shadow: rgb(74, 144, 226) 0 10px 20px -15px;
+        border-radius: 8px;
     }
 `;
 

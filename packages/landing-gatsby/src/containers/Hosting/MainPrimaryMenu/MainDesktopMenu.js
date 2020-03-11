@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 
 import Box from 'common/src/components/Box';
-import DrcFeatureMenu from 'common/src/assets/image/hosting/Menu/drccover.gif';
+import DrcFeatureMenu from 'common/src/assets/image/hosting/Menu/drccover.png';
 import UCFeatureMenu from 'common/src/assets/image/hosting/Menu/uccover.png';
 import DRCIcon from 'common/src/assets/image/hosting/Menu/Drc.svg';
 import UCIcon from 'common/src/assets/image/hosting/Menu/UC.svg';
@@ -119,6 +119,7 @@ const Maindeskmenu1 = button => (
               <Box className="featured_Menu_container">
                 <Box className="featured_Menu_col featured_Menu_col1">
                   <h4 style={{ marginTop: 0 }}>Features</h4>
+                  <h4>Universal Commerce</h4>
                   <p>
                     Our Universal Commerce approach ensures a significantly
                     higher rate of success than other system integrators.
@@ -165,7 +166,7 @@ const Maindeskmenu1 = button => (
                 </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
-                <Link to="services/5G">
+                <Link to="services/5g">
                   <span>5G</span>
                 </Link>
               </MainNavbarDropLi>
@@ -247,6 +248,7 @@ const Maindeskmenu1 = button => (
               <Box className="featured_Menu_container">
                 <Box className="featured_Menu_col featured_Menu_col1">
                   <h4 style={{ marginTop: 0 }}>Features</h4>
+                  <h4>Dr. Commerce</h4>
                   <p>
                     Personalized eCommerce health check and remedies that boost
                     your ecosystem’s health and ensure it is future proof.

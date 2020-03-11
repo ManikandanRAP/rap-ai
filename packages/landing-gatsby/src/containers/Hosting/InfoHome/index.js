@@ -43,7 +43,7 @@ const InfoHomeSection = ({
         <Heading
           {...title}
           className="text_center"
-          content="eCommerce is hard but your technology shouldn’t be"
+          content="eCommerce is Hard but Your Technology Shouldn’t Be"
         />
         <Box
           {...row}
@@ -108,7 +108,7 @@ const InfoHomeSection = ({
                 <Text
                   {...subtitle}
                   style={{ fontWeight: '500' }}
-                  content="For your eCommerce health today and tomorrow"
+                  content="For Your eCommerce Health Today and Tomorrow"
                 />
                 <Text
                   {...description}

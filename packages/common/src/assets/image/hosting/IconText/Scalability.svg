@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="81.9px" height="85.6px" viewBox="0 0 81.9 85.6" style="enable-background:new 0 0 81.9 85.6;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;stroke:#13426F;stroke-width:2;stroke-miterlimit:10;}
-</style>
-<g>
-	<path class="st0" d="M40.2,67.5c0,6.7,0,12.6,0,12.6c0,2-1.6,3.5-3.5,3.5H4.6C2.6,83.6,1,82,1,80V47.9c0-2,1.6-3.5,3.5-3.5
-		c0,0,6.2,0,13.1,0"/>
-	<path class="st0" d="M78.6,66.6H21.4c-1.8,0-3.3-1.5-3.3-3.3V5.3c0-1.8,1.5-3.3,3.3-3.3h57.2c1.8,0,3.3,1.5,3.3,3.3v58.1
-		C81.9,65.2,80.4,66.6,78.6,66.6z"/>
-	<line class="st0" x1="30.5" y1="54" x2="69.9" y2="14.6"/>
-	<polygon class="st0" points="26.5,51.1 29.9,54.4 33.3,57.6 28.8,59 24.3,60.3 25.4,55.7 	"/>
-	<polygon class="st0" points="75.8,8.7 74.6,13.3 73.3,17.8 70,14.5 66.7,11.1 71.2,9.9 	"/>
-</g>
-</svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 101.14 102"><defs><style>.cls-1{fill:none;stroke:#0b1f6e;stroke-miterlimit:10;stroke-width:2px;}</style></defs><title>Scalability</title><path class="cls-1" d="M49,81.26V96.67A4.33,4.33,0,0,1,44.71,101H5.33A4.33,4.33,0,0,1,1,96.67V57.29A4.33,4.33,0,0,1,5.33,53h16"/><rect class="cls-1" x="21.92" y="1" width="78.21" height="79.24" rx="3.28"/><line class="cls-1" x1="37.13" y1="64.79" x2="85.5" y2="16.42"/><polygon class="cls-1" points="32.21 61.24 36.41 65.23 40.6 69.22 35.05 70.86 29.5 72.5 30.85 66.87 32.21 61.24"/><polygon class="cls-1" points="92.69 9.24 91.17 14.83 89.65 20.42 85.57 16.31 81.49 12.2 87.09 10.72 92.69 9.24"/></svg>

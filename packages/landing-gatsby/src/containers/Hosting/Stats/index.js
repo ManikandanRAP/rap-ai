@@ -7,9 +7,7 @@ import Heading from 'common/src/components/Heading';
 import Image from 'common/src/components/Image';
 import Container from 'common/src/components/UI/Container';
 
-// import CountUp from 'react-countup';
-// import CountUp, { startAnimation } from 'react-countup';
-// import VisibilitySensor from 'react-visibility-sensor';
+import "./stats.css"
 
 const StatsSection = ({
   sectionWrapper,
@@ -26,32 +24,41 @@ const StatsSection = ({
   contentStyle,
   props,
 }) => {
-  // const VisibilitySensor = require('react-visibility-sensor');
-  // function onChange(isVisible) {
-  //   console.log('Element is now %s', isVisible ? 'visible' : 'hidden');
-  // }
+
   return (
     <Box {...sectionWrapper}>
       <Container>
         <>
           <Box {...secTitleWrapper}>
             <Fade bottom cascade>
-              <Text {...secText} content="OUR SERVICES" />
+              <Text {...secText} content="Our Story So Far" />
               <Heading
                 {...secHeading}
-                content="What Featured Service that We Provide"
+                content="Here are a few numbers that illustrate the scale of Cnetric’s experience and clientele."
               />
             </Fade>
           </Box>
           <Box {...row} style={{ justifyContent: 'center' }}>
-            <Box {...col}>some content 1</Box>
-            <Box {...col}>some content 2</Box>
-            {/* <CountUp start={0} end={9350} duration={5} />+
-            <VisibilitySensor onChange={onChange}>
-              <div>...content goes here...</div>
-              <CountUp start={0} end={9350} duration={5} />+
-            </VisibilitySensor> */}
+            <Box {...col}>
+              <ul>
+                <li>100+</li>
+                <li>clients</li>
+              </ul>
+            </Box>
+            <Box {...col}>
+              <ul>
+                <li>16+</li>
+                <li>years of experience</li>
+              </ul>
+            </Box>
+            <Box {...col}>
+              <ul>
+                <li>150+</li>
+                <li>projects</li>
+              </ul>
+            </Box>
           </Box>
+
         </>
       </Container>
     </Box>
@@ -88,27 +95,28 @@ StatsSection.defaultProps = {
     as: 'span',
     display: 'block',
     textAlign: 'center',
-    fontSize: '14px',
-    letterSpacing: '0.15em',
-    fontWeight: '700',
-    color: '#eb4d4b',
-    mb: '10px',
+    fontSize: ['30px', '30px', '35px', '40px', '45px'],
+    fontWeight: '300',
+    textAlign: 'center',
+    color: '#fff',
+    mb: '25px',
+    pt: '25px',
   },
   secHeading: {
+    fontSize: ['18px', '18px', '20px', '22px', '24px'],
+    fontWeight: '300',
     textAlign: 'center',
-    fontSize: ['16px', '16px'],
-    fontWeight: '400',
-    color: '#0f2137',
-    letterSpacing: '-0.025em',
-    mb: '0',
+    color: '#fff',
+    mb: '25px',
+    pt: '25px',
   },
   row: {
     flexBox: true,
     flexWrap: 'wrap',
   },
   col: {
-    width: [1, 1, 0.45, 0.45],
-    className: 'service_col',
+    width: [1, 1, 0.25, 0.25],
+    className: 'stats_col',
     bg: '#fff',
     margin: '1%',
   },

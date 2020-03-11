@@ -421,6 +421,10 @@ export const ContentWrapper = styled.div`
       z-index: 1;
     }
   }
+  .testimonial_button:after {
+    content: "";
+    display: none;
+  }
   .reusecore__button:after {
     content: '';
     position: absolute;
@@ -659,6 +663,46 @@ export const ContentWrapper = styled.div`
   }
   &.Retail_page {
     .container.banner_container.Retail_banner {
+      display: block;
+    }
+    #banner_section {
+      background-image: url(${socialcommercebanner_image});
+    }
+  }
+  &.Ibm_redhat_page {
+    .container.banner_container.IBM_Redhat_banner {
+      display: block;
+    }
+    #banner_section {
+      background-image: url(${socialcommercebanner_image});
+    }
+  }
+  &.Core_media_page {
+    .container.banner_container.Core_media_banner {
+      display: block;
+    }
+    #banner_section {
+      background-image: url(${socialcommercebanner_image});
+    }
+  }
+  &.Elatic_path_page {
+    .container.banner_container.Elastic_path_banner {
+      display: block;
+    }
+    #banner_section {
+      background-image: url(${socialcommercebanner_image});
+    }
+  }
+  &.Analytics_insight_page {
+    .container.banner_container.Analytics_insight_banner {
+      display: block;
+    }
+    #banner_section {
+      background-image: url(${socialcommercebanner_image});
+    }
+  }
+  &.FiveG_page {
+    .container.banner_container.fiveG_banner {
       display: block;
     }
     #banner_section {

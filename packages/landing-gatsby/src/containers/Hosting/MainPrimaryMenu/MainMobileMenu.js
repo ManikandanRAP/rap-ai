@@ -29,12 +29,15 @@ const MainMobilemenu1 = () => {
     document.getElementById('ser3_arrow_down').classList.remove('arrowtoggle');
     document.getElementById('about_arrow_down').classList.remove('arrowtoggle');
     document.getElementById('prod_arrow_down').classList.remove('arrowtoggle');
+    document.getElementById('productsmenu').classList.remove('showmenu');
+    document.getElementById('aboutsmenu').classList.remove('showmenu');
   };
 
   const SolutionsMenu = () => {
     document.getElementById('mainmobilemenu').style.display = 'none';
     document.getElementById('solutionsmenu').style.display = 'block';
     document.getElementById('Mobile_menu_container').classList.add('sub_Menu');
+
   };
   const SolutionsSubMenu = () => {
     document.getElementById('solutionssubmenu').classList.toggle('showmenu');
@@ -145,8 +148,12 @@ const MainMobilemenu1 = () => {
               <li>Media & White Papers</li>
             </Link>
           </ul>
-          <li>Blog</li>
-          <li>Contact</li>
+          <Link to="/blog">
+              <li>Blog</li>
+            </Link>
+          <Link to="/contact">
+              <li>contact</li>
+            </Link>
         </ul>
         <ul
           className="scrollspy__menu mobile_menu mobile_sub_menu"

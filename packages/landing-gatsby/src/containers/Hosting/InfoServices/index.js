@@ -24,6 +24,7 @@ import frictionlessshipping from 'common/src/assets/image/hosting/Pages/Social C
 import chatbots from 'common/src/assets/image/hosting/Pages/Social Commerce/Chatbots are Driving Social Commerce.svg';
 import risingsales from 'common/src/assets/image/hosting/Pages/Social Commerce/Rising Sales from Social Commerce.svg';
 
+
 import './infoservices.css';
 
 const InfoServiceSection = ({
@@ -93,9 +94,9 @@ const InfoServiceSection = ({
                     alt="Greater Value at Lower Costs"
                   />
                 </Fade>
+                <div className="empty_space30" />
               </Box>
             </Box>
-            <div className="empty_space30" />
           </Container>
         </Box>
 
@@ -117,9 +118,10 @@ const InfoServiceSection = ({
               <Fade bottom cascade>
                 <Image src={shifttowardsImg} alt="Shift towards Open Source" />
               </Fade>
+              <div className="empty_space30" />
             </Box>
           </Box>
-          <div className="empty_space30" />
+
         </Container>
 
         <Box className="section_background_color">
@@ -145,10 +147,11 @@ const InfoServiceSection = ({
                 <Fade bottom cascade>
                   <Image src={riseedgeImg} alt="Rise of Edge Computing" />
                 </Fade>
+                <div className="empty_space30" />
               </Box>
             </Box>
           </Container>
-          <div className="empty_space30" />
+
         </Box>
 
         <Container>
@@ -175,9 +178,9 @@ const InfoServiceSection = ({
                   alt="Transform to Serverless Microservices"
                 />
               </Fade>
+              <div className="empty_space30" />
             </Box>
           </Box>
-          <div className="empty_space30" />
         </Container>
       </div>
       {/* end of Cloud Transformation */}
@@ -233,9 +236,9 @@ const InfoServiceSection = ({
                     alt="Greater Value at Lower Costs"
                   />
                 </Fade>
+                <div className="empty_space30" />
               </Box>
             </Box>
-            <div className="empty_space30" />
           </Container>
         </Box>
 
@@ -272,9 +275,10 @@ const InfoServiceSection = ({
               <Fade bottom cascade>
                 <Image src={shifttowardsImg} alt="Shift towards Open Source" />
               </Fade>
+              <div className="empty_space30" />
             </Box>
           </Box>
-          <div className="empty_space30" />
+
         </Container>
 
         <Box className="section_background_color">
@@ -433,7 +437,812 @@ const InfoServiceSection = ({
         </Box>
       </div>
       {/* end of Microservice Mesh */}
+      <div className="multi_sections_container Ibm_redhat_info_container">
+        <Container>
+          <Box>
+            <Box>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  className="text_center"
+                  content="Foster Innovation & Flexibility"
+                />
+                <Text
+                  {...description}
+                  className="intro_text_container"
+                  content="IBM and Red Hat are the best of two worlds. By combining the power and flexibility of Red Hat open hybrid cloud technologies with the scale and depth of IBM innovation and industry expertise, you now have access to the tools and talent you need to accelerate your cloud journey. Cnetric has been an IBM partner since its creation and our team has some of the deepest talent sets in the market so look no further for your Cloud Transformation."
+                />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space30" />
+        </Container>
 
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Private Cloud, Public Cloud, Multi-Cloud, or Hybrid Cloud"
+                  />
+                  <Text
+                    {...description}
+                    content="Enterprise has slowly learned that the cloud is an increasingly complex environment to manage. IBM with the purchase of Red Hat is trying to simplify the complexities of cloud infrastructure regardless of how your company wants to run it. They are helping to simplify the IT environments across every aspect such as platform, containers, Linux, middleware. data and AI making everything less brittle. Cnetric is an expert in cloud transformation and helps simplify your implementation."
+                  />
+                </Fade>
+              </Box>
+              <Box
+                {...col}
+                {...textArea}
+                className="InfoBanner_Image_container"
+              >
+                <Fade bottom cascade>
+                  <Image
+                    src={greatervalueImg}
+                    alt="Greater Value at Lower Costs"
+                  />
+                </Fade>
+              </Box>
+            </Box>
+            <div className="empty_space30" />
+          </Container>
+        </Box>
+
+        <Container>
+          <Box
+            {...row}
+            style={{ alignItems: 'center', justifyContent: 'center' }}
+          >
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="Red Hat OpenShift Container Storage"
+                />
+                <Text
+                  {...description}
+                  content="This enterprise-ready Kubernetes platform is the right choice for implementing grand ideas. Cnetric can help your team shift from VMs to containers with some amazing benefits like faster time to market, lower cost, greater resource utilization, and rapid iteration cycles. Cnetric would be glad to help you being your containerized future to boost your eCommerce system."
+                />
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="InfoBanner_Image_container">
+              <Fade bottom cascade>
+                <Image src={shifttowardsImg} alt="Shift towards Open Source" />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space30" />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="A Cloud That Works for You"
+                  />
+                  <Text
+                    {...description}
+                    content="Cnetric can help you design a cloud suite that works the way you work. Whether it is a private, public, multi, or hybrid cloud with tightly integrated Red Hat technologies for cloud infrastructure, cloud-native apps, we can orchestrate deployment across hybrid IT environments."
+                  />
+                </Fade>
+              </Box>
+              <Box
+                {...col}
+                {...textArea}
+                className="InfoBanner_Image_container"
+              >
+                <Fade bottom cascade>
+                  <Image
+                    src={greatervalueImg}
+                    alt="Greater Value at Lower Costs"
+                  />
+                </Fade>
+              </Box>
+            </Box>
+            <div className="empty_space30" />
+          </Container>
+        </Box>
+          <Container>
+          <Box
+            {...row}
+            style={{ alignItems: 'center', justifyContent: 'center' }}
+          >
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="Middleware and Runtimes"
+                />
+                <Text
+                  {...description}
+                  content="Middleware and Runtimes
+                  Cnetric being a middleware specialist can accelerate application development and delivery with Red Hat runtimes. This set of products, tools, and components can be used for developing and maintaining cloud-native applications. This offers lightweight runtimes and frameworks for microservices."
+                />
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="InfoBanner_Image_container">
+              <Fade bottom cascade>
+                <Image src={shifttowardsImg} alt="Shift towards Open Source" />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space30" />
+        </Container>
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Living on the Edge"
+                  />
+                  <Text
+                    {...description}
+                    content="Edge computing is more important than ever with an explosion of IoT devices, virtual machines, AI/ML workloads in microservices architectures, and much more. Edge computing is an integral part of Red Hat’s open hybrid cloud strategy. It extends the goal of providing a consistent experience and works with any cloud architecture."
+                  />
+                </Fade>
+              </Box>
+              <Box
+                {...col}
+                {...textArea}
+                className="InfoBanner_Image_container"
+              >
+                <Fade bottom cascade>
+                  <Image
+                    src={greatervalueImg}
+                    alt="Greater Value at Lower Costs"
+                  />
+                </Fade>
+              </Box>
+            </Box>
+            <div className="empty_space30" />
+          </Container>
+        </Box>
+          
+        
+      </div>
+      {/* end of IBM Redhat */}
+      <div className="multi_sections_container Core_media_info_container">
+        <Container>
+          <Box>
+            <Box>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  className="text_center"
+                  content="Core Media Overview"
+                />
+                <Text
+                  {...description}
+                  className="intro_text_container"
+                  content="CoreMedia provides the content experience platform for some of the biggest brands in the world, from major media and entertainment companies to manufacturing, top retailers and eCommerce companies. The Cnetric team has a deep understanding of this intuitive, advanced content management platform and will help your team to collaboratively create, preview, and optimize iconic brand experiences."
+                />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space30" />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Headless Plus Content Management"
+                  />
+                  <Text
+                    {...description}
+                    content="CoreMedia's headless content management provides a big advantage with its easy-to-use APIs and quick access to content for any channel. You can combine this with CoreMedia Studio UI empowering marketers to preview all changes in-place and in-context and re-use it across channels."
+                  />
+                </Fade>
+              </Box>
+              <Box
+                {...col}
+                {...textArea}
+                className="InfoBanner_Image_container"
+              >
+                <Fade bottom cascade>
+                  <Image
+                    src={greatervalueImg}
+                    alt="Greater Value at Lower Costs"
+                  />
+                </Fade>
+              </Box>
+            </Box>
+            <div className="empty_space30" />
+          </Container>
+        </Box>
+
+        <Container>
+          <Box
+            {...row}
+            style={{ alignItems: 'center', justifyContent: 'center' }}
+          >
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="CoreMedia Content Cloud"
+                />
+                <Text
+                  {...description}
+                  content="The CoreMedia Content Cloud is an API-led approach that enables your brand to deliver highly personalized customer experiences to any digital channel. This system is more advanced than a CMS and more flexible than a closed DXP. If you are looking for agility and best-of-breed Content Management solution then CoreMedia is your choice."
+                />
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="InfoBanner_Image_container">
+              <Fade bottom cascade>
+                <Image src={shifttowardsImg} alt="Shift towards Open Source" />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space30" />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Omnichannel Made Easy"
+                  />
+                  <Text
+                    {...description}
+                    content="True omnichannel capability is being able to create your content once and then easily re-use it across all your channels. Preview all channel variations in CoreMedia Studio. You can make variations as necessary for specific channels and localize the content as needed. Their smart content allows you to separate copy text from images which makes it easy to translate and localize your sites and campaigns."
+                  />
+                </Fade>
+              </Box>
+              <Box
+                {...col}
+                {...textArea}
+                className="InfoBanner_Image_container"
+              >
+                <Fade bottom cascade>
+                  <Image
+                    src={greatervalueImg}
+                    alt="Greater Value at Lower Costs"
+                  />
+                </Fade>
+              </Box>
+            </Box>
+            <div className="empty_space30" />
+          </Container>
+        </Box>
+        <Container>
+          <Box
+            {...row}
+            style={{ alignItems: 'center', justifyContent: 'center' }}
+          >
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="Personalize Your Customer's Experience"
+                />
+                <Text
+                  {...description}
+                  content="Omnichannel is hard to achieve without personalization and CoreMedia makes highly relevant personalized experiences simple. Provide the right content at the right time in the right language and design. Simulate customer experiences based on identity, region, device, language, browsing history and more. Integrate data from all available sources including eCommerce, Marketing and CRM tools."
+                />
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="InfoBanner_Image_container">
+              <Fade bottom cascade>
+                <Image src={shifttowardsImg} alt="Shift towards Open Source" />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space30" />
+        </Container>
+      </div>
+      {/* end of Core Media */}
+      <div className="multi_sections_container Elastic_path_info_container">
+        <Container>
+          <Box style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <Box>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  className="text_center"
+                  content="Drive Engagement & Customer Experience with Elastic Path"
+                />
+                <Text
+                  {...description}
+                  className="intro_text_container"
+                  content="Elastic Path has APIs architecture in its DNA and is a favorite of ecommerce companies that want to deliver the best digital experiences. This approach gives you the freedom to design a unique and engaging customer journey and experiences on any desired channel that will boost you past your competition."
+                />
+                <div className="empty_space10" />
+                <Text
+                  {...description}
+                  className="intro_text_container"
+                  content="The Cnetric team has  deep understanding of the EP commerce solution and can help launch your new platform in weeks not months. We would be more than happy to show you how you can leverage EP’s capabilities to your advantage."
+                />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space30" />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Elastic Path Pioneers in Headless Architecture"
+                  />
+                  <Text
+                    {...description}
+                    content="The age of traditional CMS structures is slowly coming to a standstill vacating space for the innovative and faster decoupled and headless solutions. Elastic Path, with its headless architecture, has capabilities to drive content distribution to any device or channel with internet access such as wearables, social media, kiosks, virtual and augmented reality, voice assistants, etc. This is key to a consistent omnichannel experience for prospects and customers."
+                  />
+                </Fade>
+              </Box>
+              <Box
+                {...col}
+                {...textArea}
+                className="InfoBanner_Image_container"
+              >
+                <Fade bottom cascade>
+                  <Image
+                    src={greatervalueImg}
+                    alt="Greater Value at Lower Costs"
+                  />
+                </Fade>
+              </Box>
+            </Box>
+            <div className="empty_space30" />
+          </Container>
+        </Box>
+
+        <Container>
+          <Box
+            {...row}
+            style={{ alignItems: 'center', justifyContent: 'center' }}
+          >
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="Easy-To-Use Business User Tooling"
+                />
+                <Text
+                  {...description}
+                  content="Maximize the monetization with robust business user tooling that caters to all your requirements. It  provides all the necessary commerce functions like robust product catalog, complex pricing, dynamic bundles, intelligent search, promotions, gateway, and taxes. Make simple work of these tasks and focus on your core business."
+                />
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="InfoBanner_Image_container">
+              <Fade bottom cascade>
+                <Image src={shifttowardsImg} alt="Shift towards Open Source" />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space30" />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Enterprise Solution for Any Situation"
+                  />
+                  <Text
+                    {...description}
+                    content="Companies are looking for extensible, flexible, and scalable enterprise commerce solutions to transform every customer interaction, across B2C, B2B, B2B2C, and B2B2B use cases, into unique and engaging digital commerce experiences. The Elastic Path commerce platform provides secure, enterprise-grade deployment options across multi-tenant SaaS, single-tenant SaaS, private cloud, and on-premise. So whatever your requirements, it can be tailored to fit them."
+                  />
+                </Fade>
+              </Box>
+              <Box
+                {...col}
+                {...textArea}
+                className="InfoBanner_Image_container"
+              >
+                <Fade bottom cascade>
+                  <Image
+                    src={greatervalueImg}
+                    alt="Greater Value at Lower Costs"
+                  />
+                </Fade>
+              </Box>
+            </Box>
+            <div className="empty_space30" />
+          </Container>
+        </Box>
+
+        <Container>
+          <Box
+            {...row}
+            style={{ alignItems: 'center', justifyContent: 'center' }}
+          >
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="Library of Pre-built and Turnkey Commerce Experiences"
+                />
+                <Text
+                  {...description}
+                  content="Launch new revenue channels on-demand using a comprehensive library of ready-to-use commerce experiences. This library cuts short any delay in capitalizing omnichannel possibilities for sales. This includes multiple website experiences, a progressive web application (PWA), Alexa Voice Assistant, Facebook chatbot, social login, self-checkout for retail stores, Zendesk customer service, magic mirror, Augmented Reality, self-checkout for pop-up events, IoT, embeddable cart and checkout buy button, and more."
+                />
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="InfoBanner_Image_container">
+              <Fade bottom cascade>
+                <Image src={shifttowardsImg} alt="Shift towards Open Source" />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space30" />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Choreographed Microservices"
+                  />
+                  <Text
+                    {...description}
+                    content="Deliver digital experiences that are fully tailored to business requirements with a very flexible headless microservices architecture that can be consumed modularly. Combined with Elastic Path’s Cortex API Orchestration layer, Elastic Path provides businesses with the agility and control needed to deliver fit-for-purpose experiences across any digital channel."
+                  />
+                </Fade>
+              </Box>
+              <Box
+                {...col}
+                {...textArea}
+                className="InfoBanner_Image_container"
+              >
+                <Fade bottom cascade>
+                  <Image
+                    src={greatervalueImg}
+                    alt="Greater Value at Lower Costs"
+                  />
+                </Fade>
+              </Box>
+            </Box>
+            <div className="empty_space30" />
+          </Container>
+        </Box>
+
+      </div>
+      {/* end of Elastic path */}
+      <div className="multi_sections_container Analytics_insight_info_container">
+        <Container>
+          <Box style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <Box>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  className="text_center"
+                  content="Big Data Analytics for Greater Sales"
+                />
+                <Text
+                  {...description}
+                  className="intro_text_container"
+                  content="Studies show that many organizations only analyze about 12% of their data, leaving a huge volume of their data untapped.  Cnetric leverages leading Big Data analytics to help you harness these huge volumes of data residing in your enterprise, generated by customer and prospect interactions with your brand. We help you turn this data into actionable insights that drive more targeted marketing efforts, better customer service and uncover new revenue opportunities. Visualization with drill-down capabilities drives better decision-making so you can tailor your efforts to win customers and increase conversions."
+                />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space30" />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Measure, Understand and Then Act"
+                  />
+                  <Text
+                    {...description}
+                    content="Whilst the use cases and datasets vary, all of our capabilities revolve around a core theme – we correlate information from multiple sources allowing you to better understand the impact of decisions and changes. Our suite of analytics tools give you the insight you need to make clear decisions based on facts."
+                  />
+                </Fade>
+              </Box>
+              <Box
+                {...col}
+                {...textArea}
+                className="InfoBanner_Image_container"
+              >
+                <Fade bottom cascade>
+                  <Image
+                    src={greatervalueImg}
+                    alt="Greater Value at Lower Costs"
+                  />
+                </Fade>
+              </Box>
+            </Box>
+            <div className="empty_space30" />
+          </Container>
+        </Box>
+
+        <Container>
+          <Box
+            {...row}
+            style={{ alignItems: 'center', justifyContent: 'center' }}
+          >
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="Make Critical Decisions Based On Hard Data"
+                />
+                <Text
+                  {...description}
+                  content="Planning, forecasting, and anticipating future demand are tasks traditionally done via spreadsheets. But what if a predictive model could be used to simulate the impact of price changes, market competition, or even disruptive technologies? Leveraging historical customer data can provide accurate forecasts to make more successful decisions and drive sales."
+                />
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="InfoBanner_Image_container">
+              <Fade bottom cascade>
+                <Image src={shifttowardsImg} alt="Shift towards Open Source" />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space30" />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Success through Insight"
+                  />
+                  <Text
+                    {...description}
+                    content="If your organization excels in storing data, but suffers from understanding it, our big data practice can help – using cost effective and powerful tools to help you make sense of the data at hand. Whether planning marketing campaigns, looking to understand resource requirements, or seeking to further understand customer buying behaviors, our big data team can help you draw conclusions and make sense of the noise."
+                  />
+                </Fade>
+              </Box>
+              <Box
+                {...col}
+                {...textArea}
+                className="InfoBanner_Image_container"
+              >
+                <Fade bottom cascade>
+                  <Image
+                    src={greatervalueImg}
+                    alt="Greater Value at Lower Costs"
+                  />
+                </Fade>
+              </Box>
+            </Box>
+            <div className="empty_space30" />
+          </Container>
+        </Box>
+      </div>
+      {/* end of Analytics insight */}
+      <div className="multi_sections_container FiveG_info_container">
+        <Container>
+          <Box style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <Box>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  className="text_center"
+                  content="Rise of Mobile Commerce"
+                />
+                <Text
+                  {...description}
+                  className="intro_text_container"
+                  content="There has been a huge increase in mobile commerce and research shows that 70% of all internet traffic hails from mobile devices. Brands are optimizing their ecommerce sites for mobile devices for an intuitive, seamless experience. With the introduction of 5G, loading times for mobile devices will be much faster than 4G, meaning that users can find and buy in mere seconds. According to some estimates, 5G will drive ecommerce revenue to $12 billion. Organizations must leverage 5G technology to make their mobile websites faster to drive greater sales and conversions. Cnetric’s expertise can help you with your 5G transition."
+                />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space30" />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Boosting Virtual Reality (VR) and Augmented Reality (AR)"
+                  />
+                  <Text
+                    {...description}
+                    content="VR and AR markets will grow massively with the advent of 5G technology. Ultra-smooth VR and AR experiences will be possible and eliminate the need for customers to visit stores to get a feel for products. This is set to revolutionize sales with VR and AR markets estimated to be $80 billion by 2025. Drive sales and thrill customers with 5G-powered experiences across multiple touch points."
+                  />
+                </Fade>
+              </Box>
+              <Box
+                {...col}
+                {...textArea}
+                className="InfoBanner_Image_container"
+              >
+                <Fade bottom cascade>
+                  <Image
+                    src={greatervalueImg}
+                    alt="Greater Value at Lower Costs"
+                  />
+                </Fade>
+              </Box>
+            </Box>
+            <div className="empty_space30" />
+          </Container>
+        </Box>
+
+        <Container>
+          <Box
+            {...row}
+            style={{ alignItems: 'center', justifyContent: 'center' }}
+          >
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="Advancement in Artificial Intelligence (AI) Technology "
+                />
+                <Text
+                  {...description}
+                  content="AI-powered customer service tools such as chatbots and virtual personal assistants are gaining popularity due to speedy resolution of customer queries. Delayed responses are detrimental to customer facing business units, resulting in poor customer experiences, heightened customer churn and decreased ROI. Hence, with elevated speed of 5G, there is a considerable reduction in these issues, boosting customer experience with providing solutions at record speed."
+                />
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="InfoBanner_Image_container">
+              <Fade bottom cascade>
+                <Image src={shifttowardsImg} alt="Shift towards Open Source" />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space30" />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Enhanced Efficiency in Internet of Things (IoT)"
+                  />
+                  <Text
+                    {...description}
+                    content="With 5G in operation, data sharing over connected devices such as wearables, smart home devices, smart cars, etc. will be effortless. Consumers can purchase online through any device of their choosing with convenient sales support. Customer experience will reach new heights with 5G-enabled inter-connected devices."
+                  />
+                </Fade>
+              </Box>
+              <Box
+                {...col}
+                {...textArea}
+                className="InfoBanner_Image_container"
+              >
+                <Fade bottom cascade>
+                  <Image
+                    src={greatervalueImg}
+                    alt="Greater Value at Lower Costs"
+                  />
+                </Fade>
+              </Box>
+            </Box>
+            <div className="empty_space30" />
+          </Container>
+        </Box>
+
+        <Container>
+          <Box
+            {...row}
+            style={{ alignItems: 'center', justifyContent: 'center' }}
+          >
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="Turn the Dream of Autonomous Vehicles into Reality"
+                />
+                <Text
+                  {...description}
+                  content="With the advancement in machine learning and AI, autonomous vehicles are becoming reality. Self-driving cars, comprising hundreds of sensors, make use of huge amounts of data to run autonomously. Processing such volumes of data requires faster networks to function at the level of human reflexes. With 5G’s incredible network speed, autonomous vehicles can analyze information and operate at an optimum level on the roads. 5G will cause these vehicles to be safe and reliable."
+                />
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="InfoBanner_Image_container">
+              <Fade bottom cascade>
+                <Image src={shifttowardsImg} alt="Shift towards Open Source" />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space30" />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="Revolution in Marketing & Advertising"
+                  />
+                  <Text
+                    {...description}
+                    content="With super-fast 5G networks in place, high-end screens for ad placements will cause a stir in the media world. 5G coupled with Augmented Reality technologies will open up new marketing channels for marketers and advertisers for product placement. Mobile marketing will be geared towards voice conversations with the power of 5G."
+                  />
+                </Fade>
+              </Box>
+              <Box
+                {...col}
+                {...textArea}
+                className="InfoBanner_Image_container"
+              >
+                <Fade bottom cascade>
+                  <Image
+                    src={greatervalueImg}
+                    alt="Greater Value at Lower Costs"
+                  />
+                </Fade>
+              </Box>
+            </Box>
+            <div className="empty_space30" />
+          </Container>
+        </Box>
+      </div>
+      {/* end of 5g */}
       <div className="multi_sections_container Dr_Commerce_info_container">
         <Container>
           <Box style={{ alignItems: 'center', justifyContent: 'center' }}>
@@ -452,8 +1261,7 @@ const InfoServiceSection = ({
               </Fade>
             </Box>
           </Box>
-          <IconParticleSection />
-          <br />
+          <div className="empty_space30" />
         </Container>
 
         <Box className="section_background_color">
@@ -567,7 +1375,6 @@ const InfoServiceSection = ({
         </Container>
       </div>
       {/* end of Dr. Commerce */}
-
       <div className="multi_sections_container technology_info_container">
         <Container>
           <Box>
@@ -590,7 +1397,6 @@ const InfoServiceSection = ({
         </Container>
       </div>
       {/* end of technology */}
-
       <div className="multi_sections_container social_commerce_info_container">
         <Container>
           <Box>

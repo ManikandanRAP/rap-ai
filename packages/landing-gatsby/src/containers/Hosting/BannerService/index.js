@@ -96,6 +96,61 @@ const BannerServicesSection = ({
           </Box>
         </Box>
       </Container>
+      <Container className="banner_container IBM_Redhat_banner">
+        <Box {...row}>
+          <Box {...textArea}>
+            <Heading {...title} content="IBM & RedHat" />
+            <Text
+              {...description}
+              content="Power your cloud transformation with the right expertise"
+            />
+          </Box>
+        </Box>
+      </Container>
+      <Container className="banner_container Core_media_banner">
+        <Box {...row}>
+          <Box {...textArea}>
+            <Heading {...title} content="Core Media" />
+            <Text
+              {...description}
+              content="Cutting-edge content experience that delights users"
+            />
+          </Box>
+        </Box>
+      </Container>
+      <Container className="banner_container Elastic_path_banner">
+        <Box {...row}>
+          <Box {...textArea}>
+            <Heading {...title} content="Elastic Path" />
+            <Text
+              {...description}
+              content="Delight customers with a world-class digital experience"
+            />
+          </Box>
+        </Box>
+      </Container>
+      <Container className="banner_container Analytics_insight_banner">
+        <Box {...row}>
+          <Box {...textArea}>
+            <Heading {...title} content="Analytics & Insights" />
+            <Text
+              {...description}
+              content="Glean actionable insights from the wealth of customer data"
+            />
+          </Box>
+        </Box>
+      </Container>
+      <Container className="banner_container fiveG_banner">
+        <Box {...row}>
+          <Box {...textArea}>
+            <Heading {...title} content="5G" />
+            <Text
+              {...description}
+              content="Deliver a next-gen experience that boosts sales"
+            />
+          </Box>
+        </Box>
+      </Container>
     </BannerWrapper1>
   );
 };
@@ -119,7 +174,7 @@ BannerServicesSection.defaultProps = {
     justifyContent: 'center',
   },
   textArea: {
-    width: ['90%', '90%', '90%', '90%', '75%'],
+    width: ['100%', '95%', '95%', '90%', '75%'],
   },
   title: {
     fontSize: ['26px', '32px', '42px', '45px', '45px'],

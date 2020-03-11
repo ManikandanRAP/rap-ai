@@ -13,6 +13,14 @@ import AdditionalContentParticle from './additionalComponent';
 import someimage from 'common/src/assets/image/hosting/author-1.jpg';
 
 import costeffectiveIcon from 'common/src/assets/image/hosting/IconText/Cost-Effective.svg';
+import costeffectivenessIcon from 'common/src/assets/image/hosting/IconText/Cost Effectiveness.svg';
+import CostefficacyIcon from 'common/src/assets/image/hosting/IconText/Cost-efficacy.svg';
+import DelightCustomersIcon from 'common/src/assets/image/hosting/IconText/Delight Customers.svg';
+import EnhancedEfficacyIcon from 'common/src/assets/image/hosting/IconText/Enhanced Efficiency.svg';
+import FasterFulfillmentIcon from 'common/src/assets/image/hosting/IconText/Faster Fulfillment.svg';
+import FlexibilityIcon from 'common/src/assets/image/hosting/IconText/Flexibility.svg';
+import FraudIcon from 'common/src/assets/image/hosting/IconText/Fraud Detection.svg';
+import GreaterAccuracyIcon from 'common/src/assets/image/hosting/IconText/Greater Accuracy.svg';
 import MultiLanguageIcon from 'common/src/assets/image/hosting/IconText/Multi-Language.svg';
 import OmnichannelIcon from 'common/src/assets/image/hosting/IconText/Omnichannel.svg';
 import PersonalizationIcon from 'common/src/assets/image/hosting/IconText/Personalization.svg';
@@ -20,11 +28,7 @@ import RobustIcon from 'common/src/assets/image/hosting/IconText/Robust.svg';
 import ScalabilityIcon from 'common/src/assets/image/hosting/IconText/Scalability.svg';
 import SeamlessIcon from 'common/src/assets/image/hosting/IconText/Seamless.svg';
 import SpeedIcon from 'common/src/assets/image/hosting/IconText/Speed.svg';
-import CostefficacyIcon from 'common/src/assets/image/hosting/IconText/Cost-efficacy.svg';
-import FlexibilityIcon from 'common/src/assets/image/hosting/IconText/Flexibility.svg';
-import FasterFulfillmentIcon from 'common/src/assets/image/hosting/IconText/Faster Fulfillment.svg';
-import GreaterAccuracyIcon from 'common/src/assets/image/hosting/IconText/Greater Accuracy.svg';
-import DelightCustomersIcon from 'common/src/assets/image/hosting/IconText/Delight Customers.svg';
+import SteamlinedIcon from 'common/src/assets/image/hosting/IconText/Streamlined Operations.svg';
 
 
 import "./icontextparticle.css";
@@ -563,8 +567,8 @@ const IconParticleSection = ({
 
                   icon={
                     <Image
-                      src={costeffectiveIcon}
-                      alt="Cost-Effective"
+                      src={costeffectivenessIcon}
+                      alt="Cost Effective"
                       className="home_features_icon"
                     />
                   }
@@ -600,8 +604,8 @@ const IconParticleSection = ({
 
                   icon={
                     <Image
-                      src={SpeedIcon}
-                      alt="Speed"
+                      src={SteamlinedIcon}
+                      alt="Streamlined Operations"
                       className="home_features_icon"
                     />
                   }
@@ -637,8 +641,8 @@ const IconParticleSection = ({
 
                   icon={
                     <Image
-                      src={ScalabilityIcon}
-                      alt="Scalability"
+                      src={FraudIcon}
+                      alt="Fraud Detection"
                       className="home_features_icon"
                     />
                   }
@@ -674,8 +678,8 @@ const IconParticleSection = ({
 
                   icon={
                     <Image
-                      src={RobustIcon}
-                      alt="Robust"
+                      src={EnhancedEfficacyIcon}
+                      alt="Enhanced Efficiency"
                       className="home_features_icon"
                     />
                   }

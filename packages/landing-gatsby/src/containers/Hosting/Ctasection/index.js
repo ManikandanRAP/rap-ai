@@ -225,6 +225,56 @@ const Ctasection = ({ button, box_size, cta_size_container }) => {
             </Link>
           </Box>
         </Box>
+        <Box className="Cta_container cta_Ibm_redhat_page">
+          <Box {...box_size}>
+            <p>Drive greater online retail sales with digital innovation.</p>
+          </Box>
+          <Box {...box_size}>
+            <Link to="/contact">
+              <Button {...button} title="Schedule A Consultation" />
+            </Link>
+          </Box>
+        </Box>
+        <Box className="Cta_container cta_Core_media_page">
+          <Box {...box_size}>
+            <p>Deliver an iconic brand experience with CoreMedia.</p>
+          </Box>
+          <Box {...box_size}>
+            <Link to="/contact">
+              <Button {...button} title="Schedule A Consultation" />
+            </Link>
+          </Box>
+        </Box>
+        <Box className="Cta_container cta_Elatic_path_page">
+          <Box {...box_size}>
+            <p>Drive seamless, omnichannel sales with Elastic Path.</p>
+          </Box>
+          <Box {...box_size}>
+            <Link to="/contact">
+              <Button {...button} title="Schedule A Consultation" />
+            </Link>
+          </Box>
+        </Box>
+        <Box className="Cta_container cta_Analytics_insight_page">
+          <Box {...box_size}>
+            <p>Drive sales with actionable insights from analytics.</p>
+          </Box>
+          <Box {...box_size}>
+            <Link to="/contact">
+              <Button {...button} title="Schedule A Consultation" />
+            </Link>
+          </Box>
+        </Box>
+        <Box className="Cta_container cta_FiveG_page">
+          <Box {...box_size}>
+            <p>Disrupt eCommerce with 5G innovation.</p>
+          </Box>
+          <Box {...box_size}>
+            <Link to="/contact">
+              <Button {...button} title="Schedule A Consultation" />
+            </Link>
+          </Box>
+        </Box>
       </Container>
     </>
   );
@@ -247,7 +297,7 @@ Ctasection.defaultProps = {
     height: `{5}`,
   },
   box_size: {
-    width: '50%',
+    width: [1, 0.5, 0.5, 0.5],
   },
 };
 

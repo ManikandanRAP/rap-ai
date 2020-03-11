@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Box from 'common/src/components/Box';
 import Container from 'common/src/components/UI/Container';
-import GlideCarousel from 'common/src/components/GlideCarousel';
-import GlideSlide from 'common/src/components/GlideCarousel/glideSlide';
+import GlideCarousel1 from 'common/src/components/GlideCarousel1';
+import GlideSlide1 from 'common/src/components/GlideCarousel1/glideSlide1';
 import GlideCarousel2 from 'common/src/components/GlideCarousel2';
 import GlideSlide2 from 'common/src/components/GlideCarousel2/glideSlide2';
 import Text from 'common/src/components/Text';
@@ -102,7 +102,7 @@ const GlideSlider1 = ({ secTitleWrapper, secText, secHeading }) => {
           <Box {...secTitleWrapper}>
             <Heading {...secHeading} content="Our Partners" />
           </Box>
-          <GlideCarousel
+          <GlideCarousel1
             options={glide1option}
             nextButton={
               <Button
@@ -121,15 +121,15 @@ const GlideSlider1 = ({ secTitleWrapper, secText, secHeading }) => {
           >
             <>
               {Data.hostingJson.PARTNERS.map((slideItem, index) => (
-                <GlideSlide key={`partners-slide-${index}`}>
+                <GlideSlide1 key={`partners-slide-${index}`}>
                   <Image
                     src={slideItem.avatar.childImageSharp.fluid.src}
                     alt={`partners-${index}`}
                   />
-                </GlideSlide>
+                </GlideSlide1>
               ))}
             </>
-          </GlideCarousel>
+          </GlideCarousel1>
           <div className="empty_space30" />
         </Container>
       </GliderSlider1Wrapper>
@@ -137,7 +137,7 @@ const GlideSlider1 = ({ secTitleWrapper, secText, secHeading }) => {
         <Container fullWidth noGutter>
           <Box {...secTitleWrapper}>
             {/* <Text {...secText} content="Our Customers" /> */}
-            <Heading {...secHeading} content="Our Customers" />
+            <Heading {...secHeading} content="Some Of Our Happy Customers" />
           </Box>
           <GlideCarousel2
             options={glide2option}

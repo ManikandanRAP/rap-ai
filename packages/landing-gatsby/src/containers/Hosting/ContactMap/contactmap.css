@@ -36,6 +36,9 @@
   object-fit: contain;
   max-width: 100%;
 }
+.ContactMap_container_single {
+  margin: 0 auto;
+}
 
 @media only screen and (max-width: 991px) {
   .contact_location_list li {

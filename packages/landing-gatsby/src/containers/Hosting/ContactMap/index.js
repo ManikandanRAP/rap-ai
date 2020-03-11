@@ -46,7 +46,10 @@ const ContactMap = ({
       <Heading {...title} content="10+ Branches Across The World" />
       <Container className="Contactmap_container1">
         <Box {...row} className="ContactMap_container_row">
-          <Box {...col} {...imageArea} className="ContactMap_container_col">
+          <Box {...imageArea} className="ContactMap_container_single">
+            <img src={contactMapLocation} alt="contact map" />
+          </Box>
+          {/* <Box {...col} {...imageArea} className="ContactMap_container_col">
             <img src={contactMapLocation} alt="contact map" />
           </Box>
           <Box {...col} {...textArea} className="ContactMap_container_col2">
@@ -67,7 +70,7 @@ const ContactMap = ({
                 <div className="empty_space10" />
               </div>
             </Fade>
-          </Box>
+          </Box> */}
           <Box className="contact_location_list">
             <ul>
               <li>Irvine, CA, USA</li>

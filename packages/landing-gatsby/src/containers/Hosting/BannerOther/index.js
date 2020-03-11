@@ -54,7 +54,7 @@ const BannerOtherSection = ({
             <Heading {...title} content="Contact us" />
             <Text
               {...description}
-              content=" Give us a call, drop us an email, or fill out the form below to get in touch. We endeavour to answer all enquiries within 24 hours on business days."
+              content="We endeavour to answer all enquiries within 24 hours on business days."
             />
           </Box>
         </Box>
@@ -118,7 +118,7 @@ BannerOtherSection.defaultProps = {
     justifyContent: 'center',
   },
   textArea: {
-    width: ['90%', '90%', '90%', '90%', '75%'],
+    width: ['98%', '95%', '95%', '95%', '85%'],
   },
   title: {
     fontSize: ['26px', '32px', '42px', '45px', '45px'],

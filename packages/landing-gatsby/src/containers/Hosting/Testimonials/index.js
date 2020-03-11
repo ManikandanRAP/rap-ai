@@ -103,7 +103,7 @@ const TestimonialSection = ({
     <TestimonialSecWrapper id="testimonial_section">
       <Container fullWidth noGutter>
         <Box {...secTitleWrapper}>
-          <Text {...secText} content="TESTIMONIALS " />
+          {/* <Text {...secText} content="TESTIMONIALS " /> */}
           <Heading {...secHeading} content="What’s clients say about us" />
         </Box>
         <GlideCarousel
@@ -113,6 +113,7 @@ const TestimonialSection = ({
               icon={<i className="flaticon-next" />}
               variant="textButton"
               aria-label="next button"
+              className="testimonial_button"
             />
           }
           prevButton={
@@ -120,6 +121,7 @@ const TestimonialSection = ({
               icon={<i className="flaticon-left-arrow" />}
               variant="textButton"
               aria-label="prev button"
+              className="testimonial_button"
             />
           }
         >
@@ -184,11 +186,11 @@ TestimonialSection.defaultProps = {
   },
   secHeading: {
     textAlign: 'center',
-    fontSize: ['20px', '24px'],
-    fontWeight: '400',
-    color: 'headingColor',
+    fontSize: ['30px', '30px', '35px', '40px', '45px'],
+    color: '#0F2137',
     letterSpacing: '-0.025em',
-    mb: '0',
+    mb: '25px',
+    mt: '25px',
   },
   reviewStyle: {
     fontSize: ['16px', '16px', '17px', '17px', '19px'],

@@ -7,6 +7,8 @@ import SliderImg2 from 'common/src/assets/image/hosting/Slider/sliderimage2.jpg'
 import SliderImg3 from 'common/src/assets/image/hosting/Slider/sliderimage3.jpg';
 import SliderImg4 from 'common/src/assets/image/hosting/Slider/sliderimage4.jpg';
 import SliderImg5 from 'common/src/assets/image/hosting/Slider/sliderimage5.jpg';
+
+
 import './fullslider1.css';
 
 var settings = {

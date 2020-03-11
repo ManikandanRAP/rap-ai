@@ -60,6 +60,24 @@ import IotImage5 from 'common/src/assets/image/hosting/Pages/IOT and Blockchain/
 import IotImage6 from 'common/src/assets/image/hosting/Pages/IOT and Blockchain/Automation of Warehousing.svg';
 import IotImage7 from 'common/src/assets/image/hosting/Pages/IOT and Blockchain/Smooth Operations in Supply Chain.svg';
 
+import BigdataImage1 from 'common/src/assets/image/hosting/Pages/Experience Analytics/Big Data & AI.svg';
+import hyperpersonalizationImage1 from 'common/src/assets/image/hosting/Pages/Experience Analytics/Hyper-Personalization.svg';
+import rightofferImage1 from 'common/src/assets/image/hosting/Pages/Experience Analytics/Right Offer, Right Place, Right Time.svg';
+import customerbehaviorImage1 from 'common/src/assets/image/hosting/Pages/Experience Analytics/Uncovering Patterns of Customer Behavior.svg';
+
+import DigitalMarkImage1 from 'common/src/assets/image/hosting/Pages/Marketing/Digital Marketing.svg';
+import MarketingAIImage1 from 'common/src/assets/image/hosting/Pages/Marketing/Marketing Automation.svg';
+import MobileMarkImage1 from 'common/src/assets/image/hosting/Pages/Marketing/Mobile Marketing.svg';
+import PersonalizationImage1 from 'common/src/assets/image/hosting/Pages/Marketing/Personalization.svg';
+import PricingImage1 from 'common/src/assets/image/hosting/Pages/Marketing/Pricing & Promotions.svg';
+
+import RetailImage2 from 'common/src/assets/image/hosting/Pages/Retail/Customer & User Experience.svg';
+import RetailImage1 from 'common/src/assets/image/hosting/Pages/Retail/Selling Directly To Consumers.svg';
+import RetailImage4 from 'common/src/assets/image/hosting/Pages/Retail/The Power of Analytics.svg';
+import RetailImage3 from 'common/src/assets/image/hosting/Pages/Retail/The Promising World of Artificial Intelligence (AI).svg';
+
+
+
 import './infosolutions.css';
 
 const InfoSolutionSection = ({
@@ -239,7 +257,6 @@ const InfoSolutionSection = ({
                 />
               </Fade>
             </Box>
-            <br />
           </Box>
           <div className="empty_space30" />
         </Container>
@@ -806,7 +823,7 @@ const InfoSolutionSection = ({
               </Box>
               <Box {...col} {...textArea} className="Solutions_Image_container">
                 <Fade bottom cascade>
-                  <Image src={headlessCommImg2} alt="Info Image One" />
+                  <Image src={DigitalMarkImage1} alt="Digital Marketing" />
                 </Fade>
               </Box>
             </Box>
@@ -830,7 +847,7 @@ const InfoSolutionSection = ({
             </Box>
             <Box {...col} {...textArea} className="Solutions_Image_container">
               <Fade bottom cascade>
-                <Image src={headlessCommImg3} alt="Info Image One" />
+                <Image src={PersonalizationImage1} alt="Personalization" />
               </Fade>
             </Box>
           </Box>
@@ -854,7 +871,7 @@ const InfoSolutionSection = ({
               </Box>
               <Box {...col} {...textArea} className="Solutions_Image_container">
                 <Fade bottom cascade>
-                  <Image src={headlessCommImg4} alt="Info Image One" />
+                  <Image src={MobileMarkImage1} alt="Mobile Marketing" />
                 </Fade>
               </Box>
             </Box>
@@ -878,7 +895,7 @@ const InfoSolutionSection = ({
             </Box>
             <Box {...col} {...textArea} className="Solutions_Image_container">
               <Fade bottom cascade>
-                <Image src={headlessCommImg5} alt="Info Image One" />
+                <Image src={PricingImage1} alt="Pricing & Promotions" />
               </Fade>
             </Box>
           </Box>
@@ -902,7 +919,7 @@ const InfoSolutionSection = ({
               </Box>
               <Box {...col} {...textArea} className="Solutions_Image_container">
                 <Fade bottom cascade>
-                  <Image src={headlessCommImg6} alt="Info Image One" />
+                  <Image src={MarketingAIImage1} alt="Marketing Automation" />
                 </Fade>
               </Box>
             </Box>
@@ -950,7 +967,7 @@ const InfoSolutionSection = ({
               </Box>
               <Box {...col} {...textArea} className="Solutions_Image_container">
                 <Fade bottom cascade>
-                  <Image src={headlessCommImg2} alt="Info Image One" />
+                  <Image src={BigdataImage1} alt="Big Data & AI" />
                 </Fade>
               </Box>
             </Box>
@@ -974,7 +991,7 @@ const InfoSolutionSection = ({
             </Box>
             <Box {...col} {...textArea} className="Solutions_Image_container">
               <Fade bottom cascade>
-                <Image src={headlessCommImg3} alt="Info Image One" />
+                <Image src={hyperpersonalizationImage1} alt="Hyper-Personalization" />
               </Fade>
             </Box>
           </Box>
@@ -1001,7 +1018,7 @@ const InfoSolutionSection = ({
               </Box>
               <Box {...col} {...textArea} className="Solutions_Image_container">
                 <Fade bottom cascade>
-                  <Image src={headlessCommImg4} alt="Info Image One" />
+                  <Image src={rightofferImage1} alt="Right Offer, Right Place, Right Time" />
                 </Fade>
               </Box>
             </Box>
@@ -1028,7 +1045,7 @@ const InfoSolutionSection = ({
             </Box>
             <Box {...col} {...textArea} className="Solutions_Image_container">
               <Fade bottom cascade>
-                <Image src={headlessCommImg5} alt="Info Image One" />
+                <Image src={customerbehaviorImage1} alt="Uncovering Patterns of Customer Behavior" />
               </Fade>
             </Box>
           </Box>
@@ -1115,10 +1132,9 @@ const InfoSolutionSection = ({
                   <Image
                     src={DigitalImage1}
                     alt="Full Spectrum of Digital Experience"
-                    style={{ maxWidth: '600px', objectFit: 'contain' }}
+                    style={{ maxWidth: '1170px', objectFit: 'contain' }}
                   />
                 </Fade>
-                <br />
               </Box>
             </Box>
             <div className="empty_space25" />
@@ -1451,7 +1467,6 @@ const InfoSolutionSection = ({
               </Box>
             </Box>
             <IconParticleSection />
-            <br />
             <div className="empty_space25" />
           </Container>
         </Box>
@@ -2073,7 +2088,7 @@ const InfoSolutionSection = ({
                 className="InfoBanner_Image_container"
               >
                 <Fade bottom cascade>
-                  <Image src={IotImage2} alt="Greater Value at Lower Costs" />
+                  <Image src={RetailImage1} alt="Selling Directly To Consumers" />
                 </Fade>
               </Box>
             </Box>
@@ -2097,7 +2112,7 @@ const InfoSolutionSection = ({
             </Box>
             <Box {...col} {...textArea} className="InfoBanner_Image_container">
               <Fade bottom cascade>
-                <Image src={IotImage2} alt="Shift towards Open Source" />
+                <Image src={RetailImage2} alt="Customer & User Experience" />
               </Fade>
             </Box>
           </Box>
@@ -2132,7 +2147,7 @@ const InfoSolutionSection = ({
                 className="InfoBanner_Image_container"
               >
                 <Fade bottom cascade>
-                  <Image src={IotImage2} alt="Greater Value at Lower Costs" />
+                  <Image src={RetailImage3} alt="The Promising World of Artificial Intelligence (AI)" />
                 </Fade>
               </Box>
             </Box>
@@ -2156,7 +2171,7 @@ const InfoSolutionSection = ({
             </Box>
             <Box {...col} {...textArea} className="InfoBanner_Image_container">
               <Fade bottom cascade>
-                <Image src={IotImage2} alt="Shift towards Open Source" />
+                <Image src={RetailImage4} alt="The Power of Analytics" />
               </Fade>
             </Box>
           </Box>

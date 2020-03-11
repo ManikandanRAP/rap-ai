@@ -10,7 +10,7 @@ import { ResetCSS } from 'common/src/assets/css/style';
 import Navbar from '../containers/Hosting/Navbar';
 import InfoHomeSection from '../containers/Hosting/InfoHome';
 
-// import TestimonialSection from '../containers/Hosting/Testimonials';
+import TestimonialSection from '../containers/Hosting/Testimonials';
 import ContactMap from '../containers/Hosting/ContactMap';
 import Footer from '../containers/Hosting/Footer';
 import { DrawerProvider } from 'common/src/contexts/DrawerContext';
@@ -39,6 +39,7 @@ export default () => {
           <Fullslider1 />
           <InfoHomeSection />
           <GlideSlider1 />
+          <TestimonialSection />
           <ContactMap />
           <Ctasection />
          <Footer />

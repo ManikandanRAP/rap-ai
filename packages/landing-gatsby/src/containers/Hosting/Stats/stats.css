@@ -1,0 +1,10 @@
+#stats_section {
+    background-color: #150b47;
+}
+.stats_col {
+    background: transparent;
+}
+
+.stats_col li {
+    color: #fff;
+}
