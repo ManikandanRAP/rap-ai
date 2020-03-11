@@ -55,7 +55,7 @@ const BannerSolutionsSection = ({
       <Container className="banner_container automation_ai_banner">
         <Box {...row}>
           <Box {...textArea}>
-            <Heading {...title} content="AI/ML" />
+            <Heading {...title} content="Automation & AI" />
             <Text
               {...description}
               content="Enhance Your eCommerce Ecosystem with Disruptive AI/ML"

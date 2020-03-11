@@ -332,7 +332,7 @@ const InfoSolutionSection = ({
                 <Heading
                   {...title}
                   className="text_center"
-                  content="AI & ML for eCommerce"
+                  content="Automation & AI for eCommerce"
                 />
                 <Text
                   {...description}

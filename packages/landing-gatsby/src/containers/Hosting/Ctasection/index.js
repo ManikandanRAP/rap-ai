@@ -43,7 +43,10 @@ const Ctasection = ({ button, box_size, cta_size_container }) => {
         </Box>
         <Box className="Cta_container cta_automation_ai_page">
           <Box {...box_size}>
-            <p>Disrupt eCommerce with integrations and the power of AI/ML. </p>
+            <p>
+              Disrupt eCommerce with integrations and the power of Automation &
+              AI.
+            </p>
           </Box>
           <Box {...box_size}>
             <Link to="/contact">

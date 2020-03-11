@@ -5,16 +5,16 @@ import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 
 import Box from 'common/src/components/Box';
-import DrcFeatureMenu from '../../../../../common/src/assets/image/hosting/Menu/drccover.gif';
-import UCFeatureMenu from '../../../../../common/src/assets/image/hosting/Menu/uccover.png';
-import DRCIcon from '../../../../../common/src/assets/image/hosting/Menu/Drc.svg';
-import UCIcon from '../../../../../common/src/assets/image/hosting/Menu/UC.svg';
-import StoreIcon from '../../../../../common/src/assets/image/hosting/Menu/storefront.svg';
-import CompanyIcon from '../../../../../common/src/assets/image/hosting/Menu/company.svg';
-import TeamIcon from '../../../../../common/src/assets/image/hosting/Menu/team.svg';
-import PartnersIcon from '../../../../../common/src/assets/image/hosting/Menu/partners.svg';
-import CustomersIcon from '../../../../../common/src/assets/image/hosting/Menu/customers.svg';
-import MediaIcon from '../../../../../common/src/assets/image/hosting/Menu/media.svg';
+import DrcFeatureMenu from 'common/src/assets/image/hosting/Menu/drccover.gif';
+import UCFeatureMenu from 'common/src/assets/image/hosting/Menu/uccover.png';
+import DRCIcon from 'common/src/assets/image/hosting/Menu/Drc.svg';
+import UCIcon from 'common/src/assets/image/hosting/Menu/UC.svg';
+import StoreIcon from 'common/src/assets/image/hosting/Menu/storefront.svg';
+import CompanyIcon from 'common/src/assets/image/hosting/Menu/company.svg';
+import TeamIcon from 'common/src/assets/image/hosting/Menu/team.svg';
+import PartnersIcon from 'common/src/assets/image/hosting/Menu/partners.svg';
+import CustomersIcon from 'common/src/assets/image/hosting/Menu/customers.svg';
+import MediaIcon from 'common/src/assets/image/hosting/Menu/media.svg';
 
 import MainDesktopNav, {
   MainNavbarUl,
