@@ -5,7 +5,8 @@ import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 
 import Box from 'common/src/components/Box';
-import imageFeatureMenu from '../../../../../common/src/assets/image/hosting/Menu_featured_1.gif';
+import DrcFeatureMenu from '../../../../../common/src/assets/image/hosting/Menu/drccover.gif';
+import UCFeatureMenu from '../../../../../common/src/assets/image/hosting/Menu/uccover.png';
 import DRCIcon from '../../../../../common/src/assets/image/hosting/Menu/Drc.svg';
 import UCIcon from '../../../../../common/src/assets/image/hosting/Menu/UC.svg';
 import StoreIcon from '../../../../../common/src/assets/image/hosting/Menu/storefront.svg';
@@ -127,10 +128,7 @@ const Maindeskmenu1 = button => (
                   </Link>
                 </Box>
                 <Box className="featured_Menu_col featured_Menu_col2">
-                  <img
-                    src={imageFeatureMenu}
-                    alt="universal commerce features"
-                  />
+                  <img src={UCFeatureMenu} alt="universal commerce features" />
                 </Box>
               </Box>
             </MainNavbarDropUl>
@@ -258,7 +256,7 @@ const Maindeskmenu1 = button => (
                   </Link>
                 </Box>
                 <Box className="featured_Menu_col featured_Menu_col2">
-                  <img src={imageFeatureMenu} alte="dr commerce feature" />
+                  <img src={DrcFeatureMenu} alte="dr commerce feature" />
                 </Box>
               </Box>
             </MainNavbarDropUl>

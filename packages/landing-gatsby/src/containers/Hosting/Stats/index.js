@@ -9,6 +9,7 @@ import Container from 'common/src/components/UI/Container';
 
 // import CountUp from 'react-countup';
 import CountUp, { startAnimation } from 'react-countup';
+import VisibilitySensor from 'react-visibility-sensor';
 
 const StatsSection = ({
   sectionWrapper,
