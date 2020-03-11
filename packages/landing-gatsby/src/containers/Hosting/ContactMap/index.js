@@ -73,17 +73,17 @@ const ContactMap = ({
           </Box> */}
           <Box className="contact_location_list">
             <ul>
-              <li>Irvine, CA, USA</li>
-              <li>Austin, TX, USA</li>
-              <li>Toronto, ON, Canada</li>
-              <li>Buenos Aires, Argentina</li>
-              <li>Bogota, Colombia</li>
-              <li>Sydney, Australia</li>
-              <li>Bangalore, India</li>
-              <li>London, UK</li>
-              <li>Dubai, UAE</li>
-              <li>Milan, Italy</li>
-              <li>San Palo, Brazil</li>
+              <li>USA</li>
+              <li>Canada</li>
+              <li>Argentina</li>
+              <li>Colombia</li>
+              <li>Australia</li>
+              <li>India</li>
+              <li>UK</li>
+              <li>UAE</li>
+              <li>Italy</li>
+              <li>Brazil</li>
+              <li>Singapore</li>
             </ul>
           </Box>
           <div className="empty_space30" />
