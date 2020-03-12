@@ -7,7 +7,7 @@ import Heading from 'common/src/components/Heading';
 import Image from 'common/src/components/Image';
 import Container from 'common/src/components/UI/Container';
 
-import "./stats.css"
+import './stats.css';
 
 const StatsSection = ({
   sectionWrapper,
@@ -24,7 +24,6 @@ const StatsSection = ({
   contentStyle,
   props,
 }) => {
-
   return (
     <Box {...sectionWrapper}>
       <Container>
@@ -58,7 +57,6 @@ const StatsSection = ({
               </ul>
             </Box>
           </Box>
-
         </>
       </Container>
     </Box>
@@ -97,7 +95,6 @@ StatsSection.defaultProps = {
     textAlign: 'center',
     fontSize: ['30px', '30px', '35px', '40px', '45px'],
     fontWeight: '300',
-    textAlign: 'center',
     color: '#fff',
     mb: '25px',
     pt: '25px',

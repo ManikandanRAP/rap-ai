@@ -37,7 +37,6 @@ const MainMobilemenu1 = () => {
     document.getElementById('mainmobilemenu').style.display = 'none';
     document.getElementById('solutionsmenu').style.display = 'block';
     document.getElementById('Mobile_menu_container').classList.add('sub_Menu');
-
   };
   const SolutionsSubMenu = () => {
     document.getElementById('solutionssubmenu').classList.toggle('showmenu');
@@ -135,25 +134,25 @@ const MainMobilemenu1 = () => {
             className="scrollspy__menu mobile_menu mobile_sub_menu mobile_drop_menu"
             id="aboutsmenu"
           >
-            <Link to="/services/company">
+            <Link to="/company">
               <li>Company</li>
             </Link>
-            <Link to="/services/partners">
+            <Link to="/partners">
               <li>Partners</li>
             </Link>
-            <Link to="/services/customers">
+            <Link to="/customers">
               <li>Customers</li>
             </Link>
-            <Link to="/services/media-white-papers">
+            <Link to="/media-white-papers">
               <li>Media & White Papers</li>
             </Link>
           </ul>
           <Link to="/blog">
-              <li>Blog</li>
-            </Link>
+            <li>Blog</li>
+          </Link>
           <Link to="/contact">
-              <li>contact</li>
-            </Link>
+            <li>contact</li>
+          </Link>
         </ul>
         <ul
           className="scrollspy__menu mobile_menu mobile_sub_menu"
