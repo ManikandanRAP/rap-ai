@@ -2,12 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Box from 'common/src/components/Box';
 import Container from 'common/src/components/UI/Container';
-import GlideCarousel1 from 'common/src/components/GlideCarousel1';
-import GlideSlide1 from 'common/src/components/GlideCarousel1/glideSlide1';
+import GlideCarousel2 from 'common/src/components/GlideCarousel2';
+import GlideSlide2 from 'common/src/components/GlideCarousel2/glideSlide2';
 import Text from 'common/src/components/Text';
 import Heading from 'common/src/components/Heading';
 import Button from 'common/src/components/Button';
-import GliderSlider1Wrapper from './glideslider.style';
+import GliderSlider2Wrapper from './glideslider2.style';
 import { useStaticQuery, graphql } from 'gatsby';
 import Image from 'common/src/components/Image';
 
@@ -15,7 +15,7 @@ const GlideSlider1 = ({ secTitleWrapper, secText, secHeading }) => {
   const Data = useStaticQuery(graphql`
     query {
       hostingJson {
-        PARTNERS {
+        CUSTOMERS_S {
           avatar {
             childImageSharp {
               fluid(quality: 100) {
@@ -27,8 +27,7 @@ const GlideSlider1 = ({ secTitleWrapper, secText, secHeading }) => {
       }
     }
   `);
-
-  const glide1option = {
+  const glide2option = {
     type: 'carousel',
     autoplay: 1000,
     perView: 5,
@@ -58,13 +57,14 @@ const GlideSlider1 = ({ secTitleWrapper, secText, secHeading }) => {
   };
   return (
     <>
-      <GliderSlider1Wrapper className="section_background_color">
+      <GliderSlider2Wrapper className="section_background_color">
         <Container fullWidth noGutter>
           <Box {...secTitleWrapper}>
-            <Heading {...secHeading} content="Our Partners" />
+            {/* <Text {...secText} content="Our Customers" /> */}
+            <Heading {...secHeading} content="Some Of Our Happy Customers" />
           </Box>
-          <GlideCarousel1
-            options={glide1option}
+          <GlideCarousel2
+            options={glide2option}
             nextButton={
               <Button
                 icon={<i className="flaticon-next" />}
@@ -81,19 +81,19 @@ const GlideSlider1 = ({ secTitleWrapper, secText, secHeading }) => {
             }
           >
             <>
-              {Data.hostingJson.PARTNERS.map((slideItem, index) => (
-                <GlideSlide1 key={`partners-slide-${index}`}>
+              {Data.hostingJson.CUSTOMERS_S.map((cusslideItem, index) => (
+                <GlideSlide2 key={`customers-slide-${index}`}>
                   <Image
-                    src={slideItem.avatar.childImageSharp.fluid.src}
-                    alt={`partners-${index}`}
+                    src={cusslideItem.avatar.childImageSharp.fluid.src}
+                    alt={`customers-${index}`}
                   />
-                </GlideSlide1>
+                </GlideSlide2>
               ))}
             </>
-          </GlideCarousel1>
+          </GlideCarousel2>
           <div className="empty_space30" />
         </Container>
-      </GliderSlider1Wrapper>
+      </GliderSlider2Wrapper>
     </>
   );
 };

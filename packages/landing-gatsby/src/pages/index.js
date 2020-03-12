@@ -18,7 +18,8 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 import SEO from '../components/seo';
 
 import Fullslider1 from '../containers/Hosting/Fullslider1';
-import GlideSlider1 from "../containers/Hosting/GlideSlider1/index";
+import GlideSlider1 from '../containers/Hosting/GlideSlider1/index';
+import GlideSlider2 from '../containers/Hosting/GlideSlider2/index';
 import Ctasection from '../containers/Hosting/Ctasection';
 
 export default () => {
@@ -38,14 +39,17 @@ export default () => {
 
           <Fullslider1 />
           <InfoHomeSection />
-          <GlideSlider1 />
+          <GlideSlider2 />
           <TestimonialSection />
+          <GlideSlider1 />
           <ContactMap />
           <Ctasection />
-         <Footer />
+          <Footer />
         </ContentWrapper>
         <div id="footerWrapper" className="copyright">
-          <p style={{textAlign: 'center'}}>Copyright 2020 @Cnetric Global. All Rights Reserved.</p>
+          <p style={{ textAlign: 'center' }}>
+            Copyright 2020 @Cnetric Global. All Rights Reserved.
+          </p>
         </div>
       </ParallaxProvider>
     </ThemeProvider>

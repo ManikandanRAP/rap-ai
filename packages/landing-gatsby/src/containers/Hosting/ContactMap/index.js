@@ -39,10 +39,7 @@ const ContactMap = ({
   `);
 
   return (
-    <Box
-      {...sectionWrapper}
-      className="Contactmap_section section_background_color"
-    >
+    <Box {...sectionWrapper} className="Contactmap_section">
       <Heading {...title} content="10+ Branches Across The World" />
       <Container className="Contactmap_container1">
         <Box {...row} className="ContactMap_container_row">
