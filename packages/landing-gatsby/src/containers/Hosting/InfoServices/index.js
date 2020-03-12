@@ -24,7 +24,6 @@ import frictionlessshipping from 'common/src/assets/image/hosting/Pages/Social C
 import chatbots from 'common/src/assets/image/hosting/Pages/Social Commerce/Chatbots are Driving Social Commerce.svg';
 import risingsales from 'common/src/assets/image/hosting/Pages/Social Commerce/Rising Sales from Social Commerce.svg';
 
-
 import './infoservices.css';
 
 const InfoServiceSection = ({
@@ -121,7 +120,6 @@ const InfoServiceSection = ({
               <div className="empty_space30" />
             </Box>
           </Box>
-
         </Container>
 
         <Box className="section_background_color">
@@ -151,7 +149,6 @@ const InfoServiceSection = ({
               </Box>
             </Box>
           </Container>
-
         </Box>
 
         <Container>
@@ -278,7 +275,6 @@ const InfoServiceSection = ({
               <div className="empty_space30" />
             </Box>
           </Box>
-
         </Container>
 
         <Box className="section_background_color">
@@ -527,10 +523,7 @@ const InfoServiceSection = ({
             >
               <Box {...col} {...textArea} className="info_order_change">
                 <Fade bottom cascade>
-                  <Heading
-                    {...title}
-                    content="A Cloud That Works for You"
-                  />
+                  <Heading {...title} content="A Cloud That Works for You" />
                   <Text
                     {...description}
                     content="Cnetric can help you design a cloud suite that works the way you work. Whether it is a private, public, multi, or hybrid cloud with tightly integrated Red Hat technologies for cloud infrastructure, cloud-native apps, we can orchestrate deployment across hybrid IT environments."
@@ -553,17 +546,14 @@ const InfoServiceSection = ({
             <div className="empty_space30" />
           </Container>
         </Box>
-          <Container>
+        <Container>
           <Box
             {...row}
             style={{ alignItems: 'center', justifyContent: 'center' }}
           >
             <Box {...col} {...textArea}>
               <Fade bottom cascade>
-                <Heading
-                  {...title}
-                  content="Middleware and Runtimes"
-                />
+                <Heading {...title} content="Middleware and Runtimes" />
                 <Text
                   {...description}
                   content="Middleware and Runtimes
@@ -587,10 +577,7 @@ const InfoServiceSection = ({
             >
               <Box {...col} {...textArea} className="info_order_change">
                 <Fade bottom cascade>
-                  <Heading
-                    {...title}
-                    content="Living on the Edge"
-                  />
+                  <Heading {...title} content="Living on the Edge" />
                   <Text
                     {...description}
                     content="Edge computing is more important than ever with an explosion of IoT devices, virtual machines, AI/ML workloads in microservices architectures, and much more. Edge computing is an integral part of Red Hat’s open hybrid cloud strategy. It extends the goal of providing a consistent experience and works with any cloud architecture."
@@ -613,8 +600,6 @@ const InfoServiceSection = ({
             <div className="empty_space30" />
           </Container>
         </Box>
-          
-        
       </div>
       {/* end of IBM Redhat */}
       <div className="multi_sections_container Core_media_info_container">
@@ -625,7 +610,7 @@ const InfoServiceSection = ({
                 <Heading
                   {...title}
                   className="text_center"
-                  content="Core Media Overview"
+                  content="CoreMedia Overview"
                 />
                 <Text
                   {...description}
@@ -680,10 +665,7 @@ const InfoServiceSection = ({
           >
             <Box {...col} {...textArea}>
               <Fade bottom cascade>
-                <Heading
-                  {...title}
-                  content="CoreMedia Content Cloud"
-                />
+                <Heading {...title} content="CoreMedia Content Cloud" />
                 <Text
                   {...description}
                   content="The CoreMedia Content Cloud is an API-led approach that enables your brand to deliver highly personalized customer experiences to any digital channel. This system is more advanced than a CMS and more flexible than a closed DXP. If you are looking for agility and best-of-breed Content Management solution then CoreMedia is your choice."
@@ -707,10 +689,7 @@ const InfoServiceSection = ({
             >
               <Box {...col} {...textArea} className="info_order_change">
                 <Fade bottom cascade>
-                  <Heading
-                    {...title}
-                    content="Omnichannel Made Easy"
-                  />
+                  <Heading {...title} content="Omnichannel Made Easy" />
                   <Text
                     {...description}
                     content="True omnichannel capability is being able to create your content once and then easily re-use it across all your channels. Preview all channel variations in CoreMedia Studio. You can make variations as necessary for specific channels and localize the content as needed. Their smart content allows you to separate copy text from images which makes it easy to translate and localize your sites and campaigns."
@@ -917,10 +896,7 @@ const InfoServiceSection = ({
             >
               <Box {...col} {...textArea} className="info_order_change">
                 <Fade bottom cascade>
-                  <Heading
-                    {...title}
-                    content="Choreographed Microservices"
-                  />
+                  <Heading {...title} content="Choreographed Microservices" />
                   <Text
                     {...description}
                     content="Deliver digital experiences that are fully tailored to business requirements with a very flexible headless microservices architecture that can be consumed modularly. Combined with Elastic Path’s Cortex API Orchestration layer, Elastic Path provides businesses with the agility and control needed to deliver fit-for-purpose experiences across any digital channel."
@@ -943,7 +919,6 @@ const InfoServiceSection = ({
             <div className="empty_space30" />
           </Container>
         </Box>
-
       </div>
       {/* end of Elastic path */}
       <div className="multi_sections_container Analytics_insight_info_container">
@@ -1036,10 +1011,7 @@ const InfoServiceSection = ({
             >
               <Box {...col} {...textArea} className="info_order_change">
                 <Fade bottom cascade>
-                  <Heading
-                    {...title}
-                    content="Success through Insight"
-                  />
+                  <Heading {...title} content="Success through Insight" />
                   <Text
                     {...description}
                     content="If your organization excels in storing data, but suffers from understanding it, our big data practice can help – using cost effective and powerful tools to help you make sense of the data at hand. Whether planning marketing campaigns, looking to understand resource requirements, or seeking to further understand customer buying behaviors, our big data team can help you draw conclusions and make sense of the noise."

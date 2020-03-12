@@ -110,7 +110,7 @@ const BannerServicesSection = ({
       <Container className="banner_container Core_media_banner">
         <Box {...row}>
           <Box {...textArea}>
-            <Heading {...title} content="Core Media" />
+            <Heading {...title} content="CoreMedia" />
             <Text
               {...description}
               content="Cutting-edge content experience that delights users"

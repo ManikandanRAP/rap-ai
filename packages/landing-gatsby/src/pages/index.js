@@ -22,6 +22,8 @@ import GlideSlider1 from '../containers/Hosting/GlideSlider1/index';
 import GlideSlider2 from '../containers/Hosting/GlideSlider2/index';
 import Ctasection from '../containers/Hosting/Ctasection';
 
+import StatsSection from '../containers/Hosting/Stats';
+
 export default () => {
   return (
     <ThemeProvider theme={hostingTheme}>
@@ -29,19 +31,18 @@ export default () => {
         <SEO title="Cnetric Global Inc" />
         <ResetCSS />
         <GlobalStyle />
-
         <ContentWrapper className="Home_page">
           <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
             <DrawerProvider>
               <Navbar />
             </DrawerProvider>
           </Sticky>
-
           <Fullslider1 />
           <InfoHomeSection />
           <GlideSlider2 />
           <TestimonialSection />
           <GlideSlider1 />
+          <StatsSection />
           <ContactMap />
           <Ctasection />
           <Footer />

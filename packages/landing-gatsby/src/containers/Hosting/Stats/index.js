@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import Fade from 'react-reveal/Fade';
 import Box from 'common/src/components/Box';
@@ -6,6 +6,10 @@ import Text from 'common/src/components/Text';
 import Heading from 'common/src/components/Heading';
 import Image from 'common/src/components/Image';
 import Container from 'common/src/components/UI/Container';
+
+import CountUp, { startAnimation } from 'react-countup';
+// import CountUp, { useCountUp } from 'react-countup';
+import VisibilitySensor from 'react-visibility-sensor';
 
 import './stats.css';
 
@@ -37,26 +41,69 @@ const StatsSection = ({
               />
             </Fade>
           </Box>
-          <Box {...row} style={{ justifyContent: 'center' }}>
+
+          <Box {...row} className="cols">
             <Box {...col}>
-              <ul>
-                <li>100+</li>
-                <li>clients</li>
-              </ul>
+              <Box className="stats_box">
+                <Box>
+                  <span>
+                    <CountUp
+                      end={100}
+                      duration={1}
+                      redraw={true}
+                      preserveValue={true}
+                    >
+                      {({ countUpRef, start }) => (
+                        <VisibilitySensor onChange={start} delayedCall once>
+                          <span ref={countUpRef} />
+                        </VisibilitySensor>
+                      )}
+                    </CountUp>
+                    +
+                  </span>
+
+                  <Text content="Clients" />
+                </Box>
+              </Box>
             </Box>
+
             <Box {...col}>
-              <ul>
-                <li>16+</li>
-                <li>years of experience</li>
-              </ul>
+              <Box className="stats_box">
+                <Box>
+                  <span>
+                    <CountUp end={16} duration={1} redraw={true}>
+                      {({ countUpRef, start }) => (
+                        <VisibilitySensor onChange={start} delayedCall>
+                          <span ref={countUpRef} />
+                        </VisibilitySensor>
+                      )}
+                    </CountUp>
+                    +
+                  </span>
+                  <Text content="years of experience" />
+                </Box>
+              </Box>
             </Box>
+
             <Box {...col}>
-              <ul>
-                <li>150+</li>
-                <li>projects</li>
-              </ul>
+              <Box className="stats_box">
+                <Box>
+                  <span>
+                    <CountUp end={150} duration={1} redraw={true}>
+                      {({ countUpRef, start }) => (
+                        <VisibilitySensor onChange={start} delayedCall>
+                          <span ref={countUpRef} />
+                        </VisibilitySensor>
+                      )}
+                    </CountUp>
+                    +
+                  </span>
+                  <Text content="projects" />
+                </Box>
+              </Box>
             </Box>
           </Box>
+          <Box className="empty_space40" />
         </>
       </Container>
     </Box>
@@ -82,12 +129,12 @@ StatsSection.defaultProps = {
   sectionWrapper: {
     as: 'section',
     id: 'stats_section',
-    className: 'stats_section',
+    className: 'circles dark',
     pt: ['20px', '20px', '30px', '40px'],
     // pb: ['60px', '80px', '80px', '100px'],
   },
   secTitleWrapper: {
-    mb: ['50px', '60px', '60px', '75px'],
+    mb: ['20px', '20px', '30px', '35px'],
   },
   secText: {
     as: 'span',

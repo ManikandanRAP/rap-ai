@@ -99,7 +99,7 @@ const MainMobilemenu1 = () => {
             </span>
           </li>
           <li onClick={ProductsMenu}>
-            Product
+            Products
             <span className="Mobile_caret Mobile_caret_down">
               <li id="prod_arrow_down" className="fa fa-chevron-down" />
             </span>
@@ -120,9 +120,9 @@ const MainMobilemenu1 = () => {
             <Link to="/services/universal-automation-suite">
               <li>Universal Automation Suite</li>
             </Link>
-            <Link to="/services/store-fronts">
+            {/* <Link to="/services/store-fronts">
               <li>Store Fronts</li>
-            </Link>
+            </Link> */}
           </ul>
           <li onClick={AboutsMenu}>
             About
@@ -311,7 +311,7 @@ const MainMobilemenu1 = () => {
                 <li>HCL Commerce</li>
               </Link>
               <Link to="/services/core-media">
-                <li>Core Media</li>
+                <li>CoreMedia</li>
               </Link>
               <Link to="/services/ibm-redhat">
                 <li>IBM & Redhat</li>

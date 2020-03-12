@@ -215,7 +215,7 @@ const Maindeskmenu1 = button => (
               </MainNavbarDropLi>
               <MainNavbarDropLi>
                 <Link to="services/core-media">
-                  <span>Core Media</span>
+                  <span>CoreMedia</span>
                 </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
@@ -267,33 +267,33 @@ const Maindeskmenu1 = button => (
       </MainNavbarLi>
       <MainNavbarLi className="Menu_position_rel">
         <span className="main_menu_head">
-          Product <span className="desk_arrow_down">&#9660;</span>
+          Products <span className="desk_arrow_down">&#9660;</span>
         </span>
         <MainNavbarDropBox className="Menu_desktop_set desktop_menu_drop_effect">
           <MainNavFlexbox className="Menu_desktop_box Desktop_menu_shadow">
             <MainNavbarDropUl className="Desktop_Menu_stepped2">
               <MainNavbarDropLi>
                 <Link to="product/universal-commerce">
-                  <img src={UCIcon} />
-                  <div>Universal Commerce Suite</div>
+                  {/* <img src={UCIcon} /> */}
+                  Universal Commerce Suite
                 </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
                 <Link to="product/universal-retail-dashboard">
-                  <img src={UCIcon} />
-                  <div>Universal Retail Dashboard</div>
+                  {/* <img src={UCIcon} /> */}
+                  Universal Retail Dashboard
                 </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
                 <Link to="product/universal-virtual-agent">
-                  <img src={UCIcon} />
-                  <div>Universal Virtual Agent</div>
+                  {/* <img src={UCIcon} /> */}
+                  Universal Virtual Agent
                 </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
                 <Link to="product/universal-automation-suite">
-                  <img src={UCIcon} />
-                  <div>Universal Automation Suite</div>
+                  {/* <img src={UCIcon} /> */}
+                  Universal Automation Suite
                 </Link>
               </MainNavbarDropLi>
               {/* <MainNavbarDropLi>
@@ -302,12 +302,12 @@ const Maindeskmenu1 = button => (
                   <div>Dr. Commerce</div>
                 </Link>
               </MainNavbarDropLi> */}
-              <MainNavbarDropLi>
+              {/* <MainNavbarDropLi>
                 <Link to="product/store-fronts">
                   <img src={StoreIcon} alt="store fronts" />
                   <div>Store Fronts</div>
                 </Link>
-              </MainNavbarDropLi>
+              </MainNavbarDropLi> */}
             </MainNavbarDropUl>
           </MainNavFlexbox>
         </MainNavbarDropBox>
@@ -346,31 +346,31 @@ const Maindeskmenu1 = button => (
         {/* <Link to="/about">
                     <span>About</span>
                 </Link> */}
-        <MainNavbarDropBox className="Menu_desktop_set desktop_menu_drop_effect">
+        <MainNavbarDropBox className="Menu_desktop_set2 desktop_menu_drop_effect">
           <MainNavFlexbox className="Menu_desktop_box Desktop_menu_shadow">
             <MainNavbarDropUl className="Desktop_Menu_stepped2">
               <MainNavbarDropLi>
                 <Link to="about/company">
-                  <img src={CompanyIcon} alt="company" />
-                  <div>Company</div>
+                  {/* <img src={CompanyIcon} alt="company" /> */}
+                  Company
                 </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
                 <Link to="about/partners">
-                  <img src={PartnersIcon} alt="partners" />
-                  <div>Partners</div>
+                  {/* <img src={PartnersIcon} alt="partners" /> */}
+                  Partners
                 </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
                 <Link to="about/customers">
-                  <img src={CustomersIcon} alt="customers" />
-                  <div>Customers</div>
+                  {/* <img src={CustomersIcon} alt="customers" /> */}
+                  Customers
                 </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
                 <Link to="about/media&whitepapers">
-                  <img src={MediaIcon} alt="Media" />
-                  <div>Media & White Papers</div>
+                  {/* <img src={MediaIcon} alt="Media" /> */}
+                  Media & White Papers
                 </Link>
               </MainNavbarDropLi>
             </MainNavbarDropUl>
