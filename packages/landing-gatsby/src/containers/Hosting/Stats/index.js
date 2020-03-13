@@ -49,7 +49,7 @@ const StatsSection = ({
                   <span>
                     <CountUp
                       end={100}
-                      duration={1}
+                      duration={2}
                       redraw={true}
                       preserveValue={true}
                     >
@@ -71,7 +71,7 @@ const StatsSection = ({
               <Box className="stats_box">
                 <Box>
                   <span>
-                    <CountUp end={16} duration={1} redraw={true}>
+                    <CountUp end={16} duration={2} redraw={true}>
                       {({ countUpRef, start }) => (
                         <VisibilitySensor onChange={start} delayedCall>
                           <span ref={countUpRef} />
@@ -89,7 +89,7 @@ const StatsSection = ({
               <Box className="stats_box">
                 <Box>
                   <span>
-                    <CountUp end={150} duration={1} redraw={true}>
+                    <CountUp end={150} duration={2} redraw={true}>
                       {({ countUpRef, start }) => (
                         <VisibilitySensor onChange={start} delayedCall>
                           <span ref={countUpRef} />

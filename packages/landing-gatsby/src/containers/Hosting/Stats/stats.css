@@ -7,7 +7,7 @@ section.dark {
 }
 .circles .cols {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .circles .cols > div {
   flex: 1 0 auto;
@@ -52,4 +52,31 @@ section.dark {
 }
 .circles .cols > div:nth-child(3) {
   border-color: #ffa811;
+}
+
+@media only screen and (max-width: 991px) {
+  .circles .cols > div {
+    width: 180px;
+    max-width: 180px;
+    height: 180px;
+  }
+  .circles .cols > div span {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .circles .cols > div {
+    width: 240px;
+    max-width: 240px;
+    height: 240px;
+  }
+  .circles .cols > div span {
+    font-size: 40px;
+  }
+  .stats_col {
+    margin-bottom: 25px !important;
+  }
+  .empty_space40 {
+    height: 20px !important;
+  }
 }
