@@ -5,3 +5,12 @@
  */
 
 // You can delete this file if you're not using it
+
+exports.onClientEntry = () => {
+  window.addEventListener('load', pageload);
+  function pageload() {
+    setTimeout(function() {
+      document.getElementById('___gatsby').classList.add('page__loaded');
+    }, 3000);
+  }
+};

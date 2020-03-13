@@ -1,0 +1,41 @@
+#info_proudcts .InfoBanner_Image_container {
+  /* background-color: #ececec; */
+  background-color: transparent;
+}
+#info_proudcts .InfoBanner_Image_container img {
+  /* background-color: #ececec; */
+  padding: 15px;
+  width: 100%;
+  max-height: 350px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+#info_proudcts .multi_sections_container {
+  display: none;
+}
+
+.UniversalCom_suite_page
+  #info_proudcts
+  .multi_sections_container.Univcomsuite_info_container {
+  display: block;
+}
+
+.boxFill a {
+  width: 20%;
+  margin: 10px;
+}
+.boxFill button {
+  min-width: 100%;
+}
+
+@media only screen and (min-width: 992px) {
+  #info_proudcts .info_order_change {
+    order: 2;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #info_proudcts .InfoBanner_Image_container {
+    padding: 15px;
+  }
+}

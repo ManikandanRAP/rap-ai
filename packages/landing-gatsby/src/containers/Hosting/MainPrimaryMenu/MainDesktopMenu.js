@@ -273,25 +273,25 @@ const Maindeskmenu1 = button => (
           <MainNavFlexbox className="Menu_desktop_box Desktop_menu_shadow">
             <MainNavbarDropUl className="Desktop_Menu_stepped2">
               <MainNavbarDropLi>
-                <Link to="product/universal-commerce">
+                <Link to="products/universal-commerce-suite">
                   {/* <img src={UCIcon} /> */}
                   Universal Commerce Suite
                 </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
-                <Link to="product/universal-retail-dashboard">
+                <Link to="products/universal-retail-dashboard">
                   {/* <img src={UCIcon} /> */}
                   Universal Retail Dashboard
                 </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
-                <Link to="product/universal-virtual-agent">
+                <Link to="products/universal-virtual-agent">
                   {/* <img src={UCIcon} /> */}
                   Universal Virtual Agent
                 </Link>
               </MainNavbarDropLi>
               <MainNavbarDropLi>
-                <Link to="product/universal-automation-suite">
+                <Link to="products/universal-automation-suite">
                   {/* <img src={UCIcon} /> */}
                   Universal Automation Suite
                 </Link>

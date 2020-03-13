@@ -108,21 +108,18 @@ const MainMobilemenu1 = () => {
             className="scrollspy__menu mobile_menu mobile_sub_menu mobile_drop_menu"
             id="productsmenu"
           >
-            <Link to="/services/universal-commerce-suite">
+            <Link to="/products/universal-commerce-suite">
               <li>Universal Commerce Suite</li>
             </Link>
-            <Link to="/services/universal-retail-dashboard">
+            <Link to="/products/universal-retail-dashboard">
               <li>Universal Retail Dashboard</li>
             </Link>
-            <Link to="/services/universal-virtual-agent">
+            <Link to="/products/universal-virtual-agent">
               <li>Universal Virtual Agent</li>
             </Link>
-            <Link to="/services/universal-automation-suite">
+            <Link to="/products/universal-automation-suite">
               <li>Universal Automation Suite</li>
             </Link>
-            {/* <Link to="/services/store-fronts">
-              <li>Store Fronts</li>
-            </Link> */}
           </ul>
           <li onClick={AboutsMenu}>
             About

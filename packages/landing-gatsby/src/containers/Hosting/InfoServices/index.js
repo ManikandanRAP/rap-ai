@@ -24,6 +24,15 @@ import frictionlessshipping from 'common/src/assets/image/hosting/Pages/Social C
 import chatbots from 'common/src/assets/image/hosting/Pages/Social Commerce/Chatbots are Driving Social Commerce.svg';
 import risingsales from 'common/src/assets/image/hosting/Pages/Social Commerce/Rising Sales from Social Commerce.svg';
 
+import apigraphqlImage1 from 'common/src/assets/image/hosting/Pages/Social Commerce/Frictionless Shopping.svg';
+import apigraphqlImage2 from 'common/src/assets/image/hosting/Pages/Social Commerce/Frictionless Shopping.svg';
+
+import hclecommerce1 from 'common/src/assets/image/hosting/Pages/Social Commerce/Frictionless Shopping.svg';
+import hclecommerce2 from 'common/src/assets/image/hosting/Pages/Social Commerce/Frictionless Shopping.svg';
+import hclecommerce3 from 'common/src/assets/image/hosting/Pages/Social Commerce/Frictionless Shopping.svg';
+import hclecommerce4 from 'common/src/assets/image/hosting/Pages/Social Commerce/Frictionless Shopping.svg';
+import hclecommerce5 from 'common/src/assets/image/hosting/Pages/Social Commerce/Frictionless Shopping.svg';
+
 import './infoservices.css';
 
 const InfoServiceSection = ({
@@ -1453,6 +1462,261 @@ const InfoServiceSection = ({
         </Container>
       </div>
       {/* end of Social Commerce */}
+      <div className="multi_sections_container apigraphql_info_container">
+        <Container>
+          <Box>
+            <Box>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  className="text_center"
+                  content="APIs Are Indispensable for eCommerce Ecosystems"
+                />
+                <Text
+                  {...description}
+                  className="text_center intro_text_container"
+                  content="It’s no longer a question of if Application Programming Interfaces (APIs) should be incorporated or not. In this competitive landscape, brands are introducing API integration as a standard procedure to provide flawless customer experience. API can integrate various software components, extending the functionality of an application with new integrations. This is an absolute necessity in widening the range of transactions across various channels and devices such as IoT, mobile, etc. In ecommerce, APIs allow complete customizations with regard to “headless” solutions that are more robust and also allow you to evolve customer experience pushing it to new heights."
+                />
+                <br />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space20" />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading {...title} content="GraphQL Is Making Headlines" />
+                  <Text
+                    {...description}
+                    content="With a proven track record, GraphQL, the brainchild of Facebook, is what brands are obsessed with nowadays. GraphQL, with its enhanced efficiency and flexibility, is the API of choice for most brands as the better version of REST, an API to fetch data from a server. REST, with its various limitations has lost its lead to GraphQL in a highly competitive landscape. GraphQL, a Query Language for APIs, is the set standard for APIs, preferred for its efficient data transfer capability over network, providing customizations with regard to data access and a multitude of frontend frameworks, allowing rapid updates and iterations."
+                  />
+                </Fade>
+              </Box>
+              <Box
+                {...col}
+                {...textArea}
+                className="InfoBanner_Image_container"
+              >
+                <Fade bottom cascade>
+                  <Image
+                    src={apigraphqlImage1}
+                    alt="GraphQL Is Making Headlines"
+                  />
+                </Fade>
+              </Box>
+            </Box>
+            <div className="empty_space30" />
+          </Container>
+        </Box>
+
+        <Container>
+          <Box
+            {...row}
+            style={{ alignItems: 'center', justifyContent: 'center' }}
+          >
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  content="Implementing GraphQL the Cnetric Way"
+                />
+                <Text
+                  {...description}
+                  content="GraphQL is the revolutionary API with numerous advantages such as presence of auto-generated and strongly-typed schema, elimination of the problems of over-fetching and under-fetching of data from servers, faster product development, easy composition of GraphQL APIs through schema stitching, delivering enriched open-source platform along with growing community, etc."
+                />
+                <Text
+                  {...description}
+                  content="Cnetric provides robust ecommerce ecosystem embedded with GraphQL capabilities. In addition to availability of GraphQL specification in different languages and various GraphQL clients, with the presence of innumerable tooling, our GraphQL embedded platform bestows consistent workflows and refined experience for the developer. With our platform, clients benefit from customized functionalities that augment customers’’ experience."
+                />
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="InfoBanner_Image_container">
+              <Fade bottom cascade>
+                <Image
+                  src={apigraphqlImage2}
+                  alt="Implementing GraphQL the Cnetric Way"
+                />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space30" />
+        </Container>
+      </div>
+      {/* end of api grapql */}
+      <div className="multi_sections_container Hcl_commerce_info_container">
+        <Container>
+          <Box style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <Box>
+              <Fade bottom cascade>
+                <Heading
+                  {...title}
+                  className="text_center"
+                  content="Improve Targeted Marketing through HCL Commerce"
+                />
+                <Text
+                  {...description}
+                  className="intro_text_container"
+                  content="IBM Websphere is now HCL Commerce which delivers world-class performance at scale with no compromise on security and performance. It can be used by companies of all sizes, and for many different industries. It provides easy-to-use tools for business users to drive increased conversions. Business users can create and manage precision marketing campaigns, promotions, catalog, and merchandisinsg across all sales channels. HCL Commerce supports different business models, like B2C, & B2B. Cnetric has the expertise to help you leverage HCL Commerce to improve your eCommerce ecosystem and deliver seamless customer experiences that drive conversions."
+                />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space30" />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading {...title} content="Upgrade to V9" />
+                  <Text
+                    {...description}
+                    content="Version 9 of HCL Commerce is out and if you looking to upgrade from V7 or V8 Cnetric can help with the implementation of V9 on-premise or cloud. New technologies in V9 can minimize installation time. This affords a much faster deployment time from days to hours so you can run your marketing campaigns at a much faster pace with improved scalability. On holidays like Black Friday and Cyber Monday that see an exponential surge in traffic and sales, this technology can scale up with self-healing auto-scaling infrastructure. HCL commerce can help your website handle the traffic your brand demands."
+                  />
+                </Fade>
+              </Box>
+              <Box
+                {...col}
+                {...textArea}
+                className="InfoBanner_Image_container"
+              >
+                <Fade bottom cascade>
+                  <Image src={hclecommerce1} alt="Upgrade to V9" />
+                </Fade>
+              </Box>
+            </Box>
+            <div className="empty_space30" />
+          </Container>
+        </Box>
+
+        <Container>
+          <Box
+            {...row}
+            style={{ alignItems: 'center', justifyContent: 'center' }}
+          >
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading {...title} content="Support for Headless Commerce" />
+                <Text
+                  {...description}
+                  content="Excelling at omnichannel with best-in-class storefront supporting personalization is crucial to succeed in a highly competitive market. HCL Commerce can help you achieve this with a modern and simplified UI/UX for superior customer experience. This platform offers REST APIs to support microservices and commerce anywhere. Delight customers with a seamless omnichannel experience that drives sales."
+                />
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="InfoBanner_Image_container">
+              <Fade bottom cascade>
+                <Image
+                  src={hclecommerce2}
+                  alt="Support for Headless Commerce"
+                />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space30" />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading
+                    {...title}
+                    content="AI for Better Customer Experience"
+                  />
+                  <Text
+                    {...description}
+                    content="Personalization is critical to improving customer engagement and increasing conversions. The power of AI can take personalization to unprecedented heights by analyzing past customer behavior and gleaning insights from the data. In addition, it does this in an automated fashion and provides crucial insights that can drive your marketing efforts for greater success. Leveraging commerce insights also drives improved decision-making for business users."
+                  />
+                </Fade>
+              </Box>
+              <Box
+                {...col}
+                {...textArea}
+                className="InfoBanner_Image_container"
+              >
+                <Fade bottom cascade>
+                  <Image
+                    src={hclecommerce3}
+                    alt="AI for Better Customer Experience"
+                  />
+                </Fade>
+              </Box>
+            </Box>
+            <div className="empty_space30" />
+          </Container>
+        </Box>
+
+        <Container>
+          <Box
+            {...row}
+            style={{ alignItems: 'center', justifyContent: 'center' }}
+          >
+            <Box {...col} {...textArea}>
+              <Fade bottom cascade>
+                <Heading {...title} content="Cloud Capabilities & Innovation" />
+                <Text
+                  {...description}
+                  content="You can leverage the power  and advantages of cloud technology while retaining complete control of your eCommerce ecosystem. The platform enables the flexibility, convenience, speed and cost-effectiveness of cloud technology. It also provides modern tools for monitoring, management and application delivery. With HCL Commerce you can innovate and adapt your platform quickly based on microservices, while also reducing the total cost of ownership. Open source technology that facilitates continuous delivery is a powerful basis for faster upgrades and improvements."
+                />
+              </Fade>
+            </Box>
+            <Box {...col} {...textArea} className="InfoBanner_Image_container">
+              <Fade bottom cascade>
+                <Image
+                  src={hclecommerce4}
+                  alt="Cloud Capabilities & Innovation"
+                />
+              </Fade>
+            </Box>
+          </Box>
+          <div className="empty_space30" />
+        </Container>
+
+        <Box className="section_background_color">
+          <Container>
+            <Box
+              {...row}
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              <Box {...col} {...textArea} className="info_order_change">
+                <Fade bottom cascade>
+                  <Heading {...title} content="Seamless Extensibility" />
+                  <Text
+                    {...description}
+                    content="Extending the functionality of your platform can be a tricky business. Thanks to an API- based approach, you no longer have to struggle with upgrades and extensions. Enjoy powerful flexibility to augment your platform with HCL innovations and other commerce services from various third-party sources. You can even write your own extensions that help set your brand apart. Extend your platform with any of these possibilities through a smooth and seamless upgrade process."
+                  />
+                </Fade>
+              </Box>
+              <Box
+                {...col}
+                {...textArea}
+                className="InfoBanner_Image_container"
+              >
+                <Fade bottom cascade>
+                  <Image src={hclecommerce5} alt="Seamless Extensibility" />
+                </Fade>
+              </Box>
+            </Box>
+            <div className="empty_space30" />
+          </Container>
+        </Box>
+      </div>
+      {/* end of Hcl commerce*/}
     </Box>
   );
 };

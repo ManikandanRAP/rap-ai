@@ -275,6 +275,39 @@ const Ctasection = ({ button, box_size, cta_size_container }) => {
             </Link>
           </Box>
         </Box>
+        <Box className="Cta_container cta_Apis_graphql_page">
+          <Box {...box_size}>
+            <p>Build a stronger, future-proof eCommerce ecosystem with APIs.</p>
+          </Box>
+          <Box {...box_size}>
+            <Link to="/contact">
+              <Button {...button} title="Schedule A Consultation" />
+            </Link>
+          </Box>
+        </Box>
+        <Box className="Cta_container cta_Hcl_commerce_page">
+          <Box {...box_size}>
+            <p>Enhance your eCommerce ecosystem with HCL Commerce.</p>
+          </Box>
+          <Box {...box_size}>
+            <Link to="/contact">
+              <Button {...button} title="Schedule A Consultation" />
+            </Link>
+          </Box>
+        </Box>
+        <Box className="Cta_container cta_UniversalCom_suite_page">
+          <Box {...box_size}>
+            <p>
+              Accelerate integrations and extensions with Universal Commerce
+              Suite.
+            </p>
+          </Box>
+          <Box {...box_size}>
+            <Link to="/contact">
+              <Button {...button} title="Schedule A Consultation" />
+            </Link>
+          </Box>
+        </Box>
       </Container>
     </>
   );

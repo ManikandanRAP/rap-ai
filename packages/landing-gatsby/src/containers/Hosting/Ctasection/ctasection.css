@@ -57,6 +57,9 @@
 .Elatic_path_page .cta_Elatic_path_page,
 .Analytics_insight_page .cta_Analytics_insight_page,
 .FiveG_page .cta_FiveG_page,
+.Apis_graphql_page .cta_Apis_graphql_page,
+.Hcl_commerce_page .cta_Hcl_commerce_page,
+.UniversalCom_suite_page .cta_UniversalCom_suite_page,
 .Retail_page .cta_Retail_page {
   display: flex;
 }

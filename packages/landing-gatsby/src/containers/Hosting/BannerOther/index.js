@@ -95,6 +95,17 @@ const BannerOtherSection = ({
           </Box>
         </Box>
       </Container>
+      <Container className="banner_container universalcom_suite_banner">
+        <Box {...row}>
+          <Box {...textArea}>
+            <Heading {...title} content="Universal Commerce Suite" />
+            <Text
+              {...description}
+              content="Best of Breed Innovation and Disruption on a Single Platform"
+            />
+          </Box>
+        </Box>
+      </Container>
     </BannerWrapper4>
   );
 };

@@ -422,7 +422,7 @@ export const ContentWrapper = styled.div`
     }
   }
   .testimonial_button:after {
-    content: "";
+    content: '';
     display: none;
   }
   .reusecore__button:after {
@@ -703,6 +703,30 @@ export const ContentWrapper = styled.div`
   }
   &.FiveG_page {
     .container.banner_container.fiveG_banner {
+      display: block;
+    }
+    #banner_section {
+      background-image: url(${socialcommercebanner_image});
+    }
+  }
+  &.Apis_graphql_page {
+    .container.banner_container.apigraphql_banner {
+      display: block;
+    }
+    #banner_section {
+      background-image: url(${socialcommercebanner_image});
+    }
+  }
+  &.Hcl_commerce_page {
+    .container.banner_container.hcl_commerce_banner {
+      display: block;
+    }
+    #banner_section {
+      background-image: url(${socialcommercebanner_image});
+    }
+  }
+  &.UniversalCom_suite_page {
+    .container.banner_container.universalcom_suite_banner {
       display: block;
     }
     #banner_section {

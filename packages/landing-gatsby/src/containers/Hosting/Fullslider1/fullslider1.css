@@ -182,6 +182,7 @@
 .slick-slider .slick-list div img {
   width: 100%;
   margin: 0;
+  opacity: 0;
 }
 .slick-track:after {
   content: '';
@@ -258,6 +259,9 @@
   margin-bottom: 0;
 }
 /* customcss */
+.page__loaded .slick-slider .slick-list div img {
+  opacity: 1;
+}
 
 @media only screen and (max-width: 575px) {
   .site-Banner .Banner-details h1 {

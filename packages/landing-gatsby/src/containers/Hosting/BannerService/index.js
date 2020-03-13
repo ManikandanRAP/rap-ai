@@ -151,6 +151,28 @@ const BannerServicesSection = ({
           </Box>
         </Box>
       </Container>
+      <Container className="banner_container apigraphql_banner">
+        <Box {...row}>
+          <Box {...textArea}>
+            <Heading {...title} content="APIs & GraphQL" />
+            <Text
+              {...description}
+              content="Transform your eCommerce ecosystem with APIs"
+            />
+          </Box>
+        </Box>
+      </Container>
+      <Container className="banner_container hcl_commerce_banner">
+        <Box {...row}>
+          <Box {...textArea}>
+            <Heading {...title} content="HCL Commerce" />
+            <Text
+              {...description}
+              content="Enhance your eCommerce ecosystem through agile commerce"
+            />
+          </Box>
+        </Box>
+      </Container>
     </BannerWrapper1>
   );
 };
