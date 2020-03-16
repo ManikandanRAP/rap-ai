@@ -8,6 +8,7 @@ import Button from 'common/src/components/Button';
 import Card from 'common/src/components/Card';
 import Image from 'common/src/components/Image';
 import Container from 'common/src/components/UI/Container';
+import IconTextHoverSection from '../IconTextHover';
 
 import drcimg from 'common/src/assets/image/hosting/Home/drc.svg';
 import univcoming from 'common/src/assets/image/hosting/Home/uc.svg';
@@ -40,45 +41,20 @@ const InfoHomeSection = ({
   return (
     <Box {...sectionWrapper} id="info_home">
       <Container>
-        <Heading
-          {...title}
-          className="text_center"
-          content="eCommerce is Hard but Your Technology Shouldn’t Be"
-        />
-        <Box
-          {...row}
-          style={{ justifyContent: 'center', alignItems: 'center' }}
-        >
-          <Box
-            {...col1}
-            className="Home_Image_container"
-            style={{ paddingTop: 0 }}
-          >
-            <Fade bottom cascade>
-              <Image
-                src={illusting}
-                alt="eCommerce is hard but your technology shouldn’t be"
-              />
-            </Fade>
-          </Box>
-          <Box {...col2} className="info_order_change">
+        <Heading {...title} className="text_center" content="The Platform" />
+        <Box>
+          <Box className="info_order_change">
             <Fade bottom cascade>
               <Text
                 {...description}
-                content="Are you looking for a partner who can fix and modernize your eCommerce ecosystem, and at the same time will help you elevate your brand well beyond household and industry standards? Cnetric is successfully achieving these goals for our clients including retailers, bankers, insurers, grocers, educators, telecommunicators, and government agencies."
-              />
-              <Text
-                {...description}
-                content="Our online commerce expertise is based on the real-life experiences of our flourishing clients. Many of them had initial concerns about business objectives, restrictions and bottlenecks in their current platform. Some challenges even included missing or underperforming critical features, needed system integrations, and future-proofing. We will transfer all of our knowledge and experience to help you crush your obstacles."
-              />
-              <Text
-                {...description}
-                content="The people at Cnetric are experts in many of the cardinal platforms and have partnered up with the key innovative companies in the eCommerce space. With our collective know-how we can guide your business to prosperity at scale."
+                className="intro_text_container2"
+                content="The RAP AI platform with its core engines – EyeMagic and ResponseGenie automates a range of tasks and processes across various industries with extremely high efficiency and accuracy. IPA (Intelligent Process Automation) combines the power of business process automation, RPA and AI to extract structured content from a range of sources."
               />
             </Fade>
           </Box>
           <br />
         </Box>
+        <IconTextHoverSection />
         <div className="empty_space40" />
       </Container>
 

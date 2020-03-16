@@ -12,8 +12,7 @@ import socialcommercebanner_image from 'common/src/assets/image/hosting/Banner/S
 
 export const GlobalStyle = createGlobalStyle`
   body{
-    // font-family: 'Alegreyaregular', sans-serif;
-    font-family: 'Nunito-Regular', sans-serif;
+    font-family: 'Rubik-Regular', sans-serif;
     line-height: 1.66em;
   }
 
@@ -23,8 +22,7 @@ export const GlobalStyle = createGlobalStyle`
   h4,
   h5,
   h6 {
-    // font-family: 'Lorabold', sans-serif;
-    font-family: 'RobotoSlab-Bold', sans-serif;
+    font-family: 'Rubik-Regular', sans-serif;
     line-height: normal;
   }
 
@@ -374,6 +372,12 @@ export const ContentWrapper = styled.div`
     margin: 0 auto;
     text-align: justify;
   }
+  //intro container 2
+  .intro_text_container2 {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+  }
   // banner
   #banner_section::before {
     content: '';
@@ -419,6 +423,12 @@ export const ContentWrapper = styled.div`
       font-size: 16px;
       padding: 0;
       z-index: 1;
+    }
+  }
+  .reusecore__button.slider_button {
+    padding: 20px 30px;
+    .btn-text {
+      font-size: 18px;
     }
   }
   .testimonial_button:after {
@@ -749,7 +759,7 @@ export const FeatureItem = styled(FeatureBlock)`
   position: relative;
   padding: 50px 30px;
   border: 1px solid #f2f4f7;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: #fff;
   transition: 0.35s ease-in-out;
   @media (max-width: 768px) and (min-width: 768px) {
@@ -768,11 +778,7 @@ export const FeatureItem = styled(FeatureBlock)`
     left: 0;
     pointer-events: none;
     opacity: 0;
-    background: linear-gradient(
-      138deg,
-      rgb(249, 212, 35) 0%,
-      rgb(255, 78, 80) 100%
-    );
+    background: linear-gradient(138deg, #1e27d1 10%, #358afc 50%);
     transition: 0.35s ease-in-out;
   }
 
@@ -862,7 +868,7 @@ export const FeatureItem = styled(FeatureBlock)`
   }
 
   &:hover {
-    background-color: #eb4d4b;
+    background-color: #358afc;
     &:before {
       opacity: 0.37;
     }

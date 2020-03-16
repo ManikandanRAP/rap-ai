@@ -8,6 +8,30 @@
   height: 400px;
 }
 
+.slider-bar {
+  z-index: 8;
+  background-color: rgb(255, 255, 255);
+  visibility: visible;
+  overflow: hidden;
+  border-color: rgb(98, 119, 146);
+  border-style: none;
+  margin: 0px;
+  border-radius: 0px;
+  padding: 0px;
+  color: rgb(255, 255, 255);
+  width: 120px !important;
+  height: 5px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  min-height: 0px;
+  min-width: 0px;
+  max-height: none;
+  max-width: none;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transform-origin: 50% 50% 0px;
+}
+
 .slick-slider .slick-arrow {
   position: absolute;
   top: 50%;

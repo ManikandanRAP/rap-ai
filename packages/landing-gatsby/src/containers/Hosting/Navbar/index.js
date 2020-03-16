@@ -49,7 +49,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
             <img
               src={LogoImage}
               className="Image__ImageWrapper LogoImageSize"
-              style={{ maxWidth: '150px', width: '100%', height: '100%' }}
+              style={{ maxWidth: '90px', width: '100%', height: '100%' }}
             />
           </Link>
           {/* <Logo

@@ -28,7 +28,7 @@ export default () => {
   return (
     <ThemeProvider theme={hostingTheme}>
       <ParallaxProvider>
-        <SEO title="Rapid Acceleration Partners" />
+        <SEO title="Next-gen Content Intelligence Platform" />
         <ResetCSS />
         <GlobalStyle />
         <ContentWrapper className="Home_page">
@@ -49,7 +49,7 @@ export default () => {
         </ContentWrapper>
         <div id="footerWrapper" className="copyright">
           <p style={{ textAlign: 'center' }}>
-            Copyright 2020 @Cnetric Global. All Rights Reserved.
+            Copyright 2020 Rapid Acceleration Partners. All Rights Reserved.
           </p>
         </div>
       </ParallaxProvider>
