@@ -28,7 +28,7 @@ export default () => {
   return (
     <ThemeProvider theme={hostingTheme}>
       <ParallaxProvider>
-        <SEO title="Cnetric Global Inc" />
+        <SEO title="Rapid Acceleration Partners" />
         <ResetCSS />
         <GlobalStyle />
         <ContentWrapper className="Home_page">
