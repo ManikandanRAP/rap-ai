@@ -24,12 +24,13 @@
   padding: 20px 10px !important;
 }
 .feature_hover_section_container {
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .Icon_Hover_Container {
   display: none;
 }
-.Home_page .HomePlatform_IconHover {
+.HomeSection1 .HomePlatform_IconHover,
+.HomeSection2 .HomeMaximizeProcessEfficiency_IconHover {
   display: block;
 }

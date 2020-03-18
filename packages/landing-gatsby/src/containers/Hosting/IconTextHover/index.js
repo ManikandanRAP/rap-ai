@@ -64,6 +64,7 @@ const IconTextHoverSection = ({
   secText,
   featureItemHeading,
   featureItemDes,
+  featureItemSubHeading,
 }) => {
   return (
     <Box {...sectionWrapper}>
@@ -167,6 +168,210 @@ const IconTextHoverSection = ({
           </Box>
         </Box>
       </Container>
+
+      {/* Start of Home Page Maximize Process Efficiency */}
+
+      <Container className="Icon_Hover_Container HomeMaximizeProcessEfficiency_IconHover">
+        <Box {...row} className="feature_hover_section_container">
+          <Box {...col2}>
+            {FeatureItem.animation ? (
+              <Fade bottom delay={120}>
+                <FeatureItem className="feature_hover_sectionItem_container" />
+              </Fade>
+            ) : (
+              <FeatureItem
+                className="feature_hover_sectionItem_container text_center"
+                title={
+                  <Heading
+                    {...featureItemHeading}
+                    className="text_center"
+                    content="Accelerate Processes"
+                  />
+                }
+                description={
+                  <Text
+                    {...featureItemSubHeading}
+                    className="text_center"
+                    content="From days to minutes"
+                  />
+                }
+                description={
+                  <Text
+                    {...featureItemDes}
+                    className="text_center"
+                    content="Speed up document processing using computer vision capabilities including advanced handwriting recognition."
+                  />
+                }
+                icon={
+                  <Image
+                    src={AccelerateProcessIcon}
+                    alt="Accelerate Process"
+                    className="home_features_icon"
+                  />
+                }
+              />
+            )}
+          </Box>
+          <Box {...col2}>
+            {FeatureItem.animation ? (
+              <Fade bottom delay={120}>
+                <FeatureItem className="feature_hover_sectionItem_container" />
+              </Fade>
+            ) : (
+              <FeatureItem
+                className="feature_hover_sectionItem_container text_center"
+                title={
+                  <Heading
+                    {...featureItemHeading}
+                    className="text_center"
+                    content="Scale-up with Ease"
+                  />
+                }
+                description={
+                  <Text
+                    {...featureItemSubHeading}
+                    className="text_center"
+                    content="Unlimited Capacity"
+                  />
+                }
+                description={
+                  <Text
+                    {...featureItemDes}
+                    className="text_center"
+                    content="Augment capacity with automation and scale-up volumes with greater accuracy and efficiency."
+                  />
+                }
+                icon={
+                  <Image
+                    src={ScaleUpWithEaseIcon}
+                    alt="Scaleup with ease"
+                    className="home_features_icon"
+                  />
+                }
+              />
+            )}
+          </Box>
+          <Box {...col2}>
+            {FeatureItem.animation ? (
+              <Fade bottom delay={120}>
+                <FeatureItem className="feature_hover_sectionItem_container" />
+              </Fade>
+            ) : (
+              <FeatureItem
+                className="feature_hover_sectionItem_container text_center"
+                title={
+                  <Heading
+                    {...featureItemHeading}
+                    className="text_center"
+                    content="Reduce Operating Costs"
+                  />
+                }
+                description={
+                  <Text
+                    {...featureItemSubHeading}
+                    className="text_center"
+                    content="30% – 70% Reduction"
+                  />
+                }
+                description={
+                  <Text
+                    {...featureItemDes}
+                    className="text_center"
+                    content="Cut down Opex with automation powered by AI that provides accurate results faster at lesser cost."
+                  />
+                }
+                icon={
+                  <Image
+                    src={ReduceOperatingCostsIcon}
+                    alt="Reduce Operating Costs"
+                    className="home_features_icon"
+                  />
+                }
+              />
+            )}
+          </Box>
+          <Box {...col2}>
+            {FeatureItem.animation ? (
+              <Fade bottom delay={120}>
+                <FeatureItem className="feature_hover_sectionItem_container" />
+              </Fade>
+            ) : (
+              <FeatureItem
+                className="feature_hover_sectionItem_container text_center"
+                title={
+                  <Heading
+                    {...featureItemHeading}
+                    className="text_center"
+                    content="Enhance Accuracy"
+                  />
+                }
+                description={
+                  <Text
+                    {...featureItemSubHeading}
+                    className="text_center"
+                    content="Reduction in errors"
+                  />
+                }
+                description={
+                  <Text
+                    {...featureItemDes}
+                    className="text_center"
+                    content="Guaranteed accurate outputs and results through intelligent automation that minimizes errors."
+                  />
+                }
+                icon={
+                  <Image
+                    src={EnhanceAccuracyIcon}
+                    alt="Enhance Accuracy"
+                    className="home_features_icon"
+                  />
+                }
+              />
+            )}
+          </Box>
+          <Box {...col2}>
+            {FeatureItem.animation ? (
+              <Fade bottom delay={120}>
+                <FeatureItem className="feature_hover_sectionItem_container" />
+              </Fade>
+            ) : (
+              <FeatureItem
+                className="feature_hover_sectionItem_container text_center"
+                title={
+                  <Heading
+                    {...featureItemHeading}
+                    className="text_center"
+                    content="Free Up Critical Resources"
+                  />
+                }
+                description={
+                  <Text
+                    {...featureItemSubHeading}
+                    className="text_center"
+                    content="More man hours for critical tasks"
+                  />
+                }
+                description={
+                  <Text
+                    {...featureItemDes}
+                    className="text_center"
+                    content="Free up critical resources for higher value-add tasks rather than repetitive low-value ones."
+                  />
+                }
+                icon={
+                  <Image
+                    src={FreeUpCriticalResourcesIcon}
+                    alt="Free up critical resources"
+                    className="home_features_icon"
+                  />
+                }
+              />
+            )}
+          </Box>
+        </Box>
+      </Container>
+
+      {/* End of Home Page Maximize Process Effinciency */}
     </Box>
   );
 };
@@ -182,6 +387,7 @@ IconTextHoverSection.propTypes = {
   secText: PropTypes.object,
   featureItemHeading: PropTypes.object,
   featureItemDes: PropTypes.object,
+  featureItemSubHeading: PropTypes.object,
 };
 
 IconTextHoverSection.defaultProps = {
@@ -252,6 +458,13 @@ IconTextHoverSection.defaultProps = {
   },
   featureItemDes: {
     fontSize: ['14px', '14px', '15px', '15px'],
+    lineHeight: '1.75',
+    color: '#343d48cc',
+    mb: ['10px', '10px', '10px', '10px'],
+  },
+  featureItemSubHeading: {
+    fontSize: ['14px', '14px', '15px', '15px'],
+    fontWeight: '400',
     lineHeight: '1.75',
     color: '#343d48cc',
     mb: ['10px', '10px', '10px', '10px'],

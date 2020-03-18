@@ -42,7 +42,7 @@ const InfoHomeSection = ({
     <Box {...sectionWrapper} id="info_home">
       <Container>
         <Heading {...title} className="text_center" content="The Platform" />
-        <Box>
+        <Box className="HomeSection1">
           <Box className="info_order_change">
             <Fade bottom cascade>
               <Text
@@ -52,11 +52,39 @@ const InfoHomeSection = ({
               />
             </Fade>
           </Box>
-          <br />
+          <IconTextHoverSection />
         </Box>
-        <IconTextHoverSection />
-        <div className="empty_space40" />
+        <div className="empty_space30" />
       </Container>
+
+      {/* Start of Maximize Process Efficiency */}
+
+      <Box className="section_background_color">
+        <div className="empty_space10" />
+        <Container>
+          <Heading
+            {...title}
+            className="text_center"
+            content="Maximize Process Efficiency"
+          />
+          <Box className="HomeSection2">
+            <Box className="info_order_change">
+              <Fade bottom cascade>
+                <Text
+                  {...description}
+                  className="intro_text_container2"
+                  content="The RAP AI platform is a cutting-edge, AI-powered content intelligence platform that automates extraction of structured data from unstructured content – ranging from emails, images, support tickets, documents, contracts, checks, pretty much anything."
+                />
+              </Fade>
+            </Box>
+            <br />
+            <IconTextHoverSection />
+          </Box>
+          <div className="empty_space40" />
+        </Container>
+      </Box>
+
+      {/* End of Maximize Process Efficiency */}
 
       {/* <Box {...secTitleWrapper}>
         <Fade bottom cascade>
