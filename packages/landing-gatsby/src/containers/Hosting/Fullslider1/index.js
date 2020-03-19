@@ -3,6 +3,7 @@ import { Link } from 'gatsby';
 import Fade from 'react-reveal/Fade';
 import Button from 'common/src/components/Button';
 import Slider from 'react-slick';
+import ReactTypingEffect from 'react-typing-effect';
 import SliderImg1 from 'common/src/assets/image/hosting/Slider/sliderimage1.jpg';
 import SliderImg2 from 'common/src/assets/image/hosting/Slider/sliderimage2.jpg';
 import SliderImg3 from 'common/src/assets/image/hosting/Slider/sliderimage3.jpg';
@@ -22,6 +23,11 @@ var settings = {
   pauseOnHover: false,
   initialSlide: 0,
 };
+var settings2 = {
+  speed: 50,
+  eraseDelay: 1000,
+  typingDelay: 50,
+};
 
 const Fullslider1 = () => {
   return (
@@ -33,7 +39,17 @@ const Fullslider1 = () => {
             <div className="Banner-details">
               <div>
                 <h1>Practical AI that delivers</h1>
-                <h1>Customer Experience</h1>
+                <h1>
+                  <ReactTypingEffect
+                    {...settings2}
+                    text={[
+                      'Productivity',
+                      'Operational Efficiency',
+                      'Return on Investment',
+                      'Customer Experience',
+                    ]}
+                  />
+                </h1>
                 <p>
                   Automate extraction of structured data from unstructured
                   content

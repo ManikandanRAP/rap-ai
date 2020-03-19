@@ -69,6 +69,7 @@
     "google-map-react": "^1.1.6",
     "react-select": "^3.0.8",
     "react-slick": "^0.25.2",
+    "react-typing-effect": "^2.0.3",
     "react-visibility-sensor": "^5.1.1"
   }
 }
