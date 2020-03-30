@@ -3,12 +3,13 @@ import { Link } from 'gatsby';
 import Fade from 'react-reveal/Fade';
 import Button from 'common/src/components/Button';
 import Slider from 'react-slick';
-import ReactTypingEffect from 'react-typing-effect';
 import SliderImg1 from 'common/src/assets/image/hosting/Slider/sliderimage1.jpg';
 import SliderImg2 from 'common/src/assets/image/hosting/Slider/sliderimage2.jpg';
 import SliderImg3 from 'common/src/assets/image/hosting/Slider/sliderimage3.jpg';
 import SliderImg4 from 'common/src/assets/image/hosting/Slider/sliderimage4.jpg';
 import SliderImg5 from 'common/src/assets/image/hosting/Slider/sliderimage5.jpg';
+
+// import ReactTypingEffect from 'react-typing-effect';
 
 import './fullslider1.css';
 
@@ -40,7 +41,7 @@ const Fullslider1 = () => {
               <div>
                 <h1>Practical AI that delivers</h1>
                 <h1>
-                  <ReactTypingEffect
+                  {/* <ReactTypingEffect
                     {...settings2}
                     text={[
                       'Productivity',
@@ -48,7 +49,8 @@ const Fullslider1 = () => {
                       'Return on Investment',
                       'Customer Experience',
                     ]}
-                  />
+                  /> */}
+                  Productivity
                 </h1>
                 <p>
                   Automate extraction of structured data from unstructured
