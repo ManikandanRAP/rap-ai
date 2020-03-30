@@ -751,5 +751,42 @@
     {
       "avatar": "../../assets/image/hosting/Customers/yamaha-logo.png"
     }
+  ],
+  "Mainmenulist": [
+    {
+      "mainmenu" : "Platform",
+      "menuitems" : [
+        {
+          "submenu": "Engines",
+          "url": "#",
+          "description": ""
+        },
+        {
+          "submenu": "Robotic Process Automation",
+          "url": "#",
+          "description": ""
+        },
+        {
+          "submenu": "How It Works",
+          "url": "#",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "mainmenu" : "Applications",
+      "menuitems" : [
+        {
+          "submenu": "Form Recongition",
+          "url": "#",
+          "description": "Automate and Accelerate"
+        },
+        {
+          "submenu": "Intelligent",
+          "url": "#",
+          "description": "Expedite Email response"
+        }
+      ]
+    }
   ]
 }

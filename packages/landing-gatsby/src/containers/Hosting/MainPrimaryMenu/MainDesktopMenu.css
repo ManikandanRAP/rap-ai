@@ -1,0 +1,47 @@
+#desktopmenu .flexboxprops {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+#desktopmenu .flexalignstart {
+  align-items: flex-start;
+}
+#desktopmenu ul li,
+#desktopmenu ul span {
+  padding: 10px 20px;
+  color: #fff;
+}
+
+#desktopmenu .dropdownMenu {
+  position: absolute;
+  left: 0;
+  right: 0;
+  /* max-width: 1170px; */
+  max-width: 917px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-top: 2px solid red;
+  border-radius: 4px;
+}
+
+#desktopmenu .dropdownMenu * {
+  color: #212121;
+}
+
+#desktopmenu .dropdownMenu1,
+#desktopmenu .dropdownMenu2 {
+  display: none;
+}
+
+#desktopmenu .flexcolumnprops {
+  flex-direction: column;
+}
+
+#desktopmenu .dropdownMenu2 span {
+  text-align: center;
+  padding: 5px 2px;
+}
+#desktopmenu .text_size12 {
+  font-size: 12px;
+}
