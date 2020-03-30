@@ -137,6 +137,49 @@ export const GlobalStyle = createGlobalStyle`
   .section_background_color {
     background-color: #f9fbfd;
   }
+  .btn.btn_primary {
+    padding: 10px 20px;
+    min-height: auto;
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    .btn-text {
+      color: #fff !important;
+      font-size: 16px;
+      padding: 0;
+      z-index: 9;
+    }
+  }
+
+  .btn.btn_primary:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    transform: scaleY(0);
+    transform-origin: 50% 100%;
+    -webkit-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    -webkit-transform-origin: 50% 100%;
+    -ms-transform-origin: 50% 100%;
+    -webkit-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+    transition: all scaleY 0.4s ease-out 0s;
+  }
+  .btn.btn_primary:hover:after {
+    transform: scaleY(1);
+    // z-index: 1;
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    background-color: #73c2c2;
+    -webkit-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    -o-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  }
 `;
 
 export const ContentWrapper = styled.div`
